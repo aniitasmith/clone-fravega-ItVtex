@@ -1,6 +1,10 @@
 {
   "responsive-layout.desktop#home__section": {
     "title": "Comp responsive desktop",
-    "children": ["flex-layout.row#home__section"]
+    "children": [
+      "modal-trigger#codigo-postal",
+      "flex-layout.row#home__section"
+      
+    ]
   }
 }
