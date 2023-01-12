@@ -1,0 +1,29 @@
+{
+  "header": {
+  "title": "Header",
+  "blocks": [
+    "header-layout.desktop"
+  ]
+},
+  "header.full": {
+    "title": "Header",
+    "blocks": [
+      "header-layout.desktop"
+    ]
+  },
+  "header-layout.desktop":{
+    "children" : [
+      "header-row#header__top"
+    ]
+  },
+  "header-row#header__top" : {
+    "children": [
+      "rich-text#test"
+    ]
+  },
+  "rich-text#test":{
+    "props": {
+      "text": "prueba prueba"
+    }
+  }
+}
