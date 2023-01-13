@@ -1,0 +1,268 @@
+{
+  "header": {
+  "title": "Header",
+  "blocks": [
+    "header-layout.desktop"
+  ]
+},
+  "header.full": {
+    "title": "Header",
+    "blocks": [
+      "header-layout.desktop"
+    ]
+  },
+  "header-layout.desktop":{
+    "title": "comp Header desktop",
+    "children": [
+      "header-row#header__top",
+      "header-row#header__middle",
+      "header-row#header__bottom"
+    ],
+    "props":{
+      "fullWidth":true
+    }
+  },
+  "header-row#header__top" : {
+    "title": "Header top",
+    "children": [
+      "link#header__top--1",
+      "link#header__top--2",
+      "link#header__top--3",
+      "link#header__top--4",
+      "link#header__top--5",
+      "header-spacer",
+      "link#header__top--6"
+    ],
+    "props":{
+      "blockClass":"header__top",
+      "horizontalAlign": "center",
+      "verticalAlign": "center"
+    }
+  },
+  "link#header__top--1": {
+    "props": {
+      "label": "Sigue tu compra",
+      "href": "",
+      "blockClass":[
+        "link-header-top"
+      ]
+     }
+  },
+  "link#header__top--2": {
+    "props": {
+      "label": "Servicio tecnico",
+      "href": "",
+      "blockClass":[
+        "link-header-top"
+      ]
+     }
+  },
+  "link#header__top--3": {
+    "props": {
+      "label": "Sucursales",
+      "href": "",
+      "blockClass":[
+        "link-header-top"
+      ]
+     }
+  },
+  "link#header__top--4": {
+    "props": {
+      "label": "venta telefonica",
+      "href": "",
+      "blockClass":[
+        "link-header-top"
+      ]
+     }
+  },
+  "link#header__top--5": {
+    "props": {
+      "label": "Centro de ayuda",
+      "href": "",
+      "blockClass":[
+        "link-header-top"
+      ]
+     }
+  },
+  "link#header__top--6": {
+    "props": {
+      "label": "Creditos",
+      "href": "",
+      "blockClass":[
+        "link-header-top"
+      ]
+     }
+  },
+   "header-row#header__middle":{
+    "title":"Header Middle",
+    "children":[
+      "logo#header__middle--logo",
+      "header-spacer",
+      "login",
+      "minicart.v2",
+      "header-border"
+    ],
+    "props":{
+      "blockClass":"header__middle"
+    }
+  },
+  "logo#header__middle--logo":{
+    "title": "logo",
+    "props": {
+      "url":"assets/logo-fravega.png",
+      "width": 150,
+      "href": "/"
+    }
+  },
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "Login",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "contrasena",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "iconLabel":" Mi cuenta"
+    }
+  },
+  "header-row#header__bottom":{
+    "title":"header bottom",
+    "children":[
+      "sticky-layout#4-desktop",
+      "link#header__bottom-1",
+      "link#header__bottom--2",
+      "link#header__bottom--3",
+      "header-spacer",
+      "link#header__bottom--4"
+    ],
+    "props":{
+      "blockClass":"header__bottom"
+    }
+  },
+  "sticky-layout#4-desktop":{
+    "children":[
+      "flex-layout.row#4-desktop",
+      "flex-layout.row#mega-menu"
+    ]
+  },
+  "flex-layout.row#4-desktop": {
+    "children": [
+      "flex-layout.col#trigger-mega-menu"
+      ]
+  },
+
+  "flex-layout.row#mega-menu": {
+    "children": ["mega-menu#desktop"]
+  },
+  "mega-menu#desktop": {
+    "props": {
+      "openOnly": "horizontal"
+    }
+  },
+  "flex-layout.col#trigger-mega-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["mega-menu-trigger-btn"]
+  },
+  "mega-menu-trigger-btn": {
+    "props": {
+      "Drawer": "drawer"
+    }
+  },
+
+  
+  
+// "mega-menu#drawer__desktop":{
+//   "props": {
+//     "openOnly": "horizontal"
+//   }
+//   },
+  // "mega-menu#drawer":{
+  //   "children":[
+  //     "mega-menu#desktop"
+  //     "menu-item#category-1",
+  //     "menu-item#category-2",
+  //     "menu-item#category-3",
+  //     "menu-item#category-4",
+  //     "menu-item#category-5",
+  //     "menu-item#category-6",
+  //     "menu-item#category-7",
+  //     "menu-item#category-8"
+//   ]
+// },r
+  // "menu-item#category-1":{
+  //   "props": {
+  //     "type": "custom",
+  //     "text": "Tv, Audio y Video"
+  //   }
+  // },
+  //  "menu-item#category-2":{
+  //    "props": {
+  //      "type": "custom",
+  //     "text": "Celulares, Notebooks y Tecnología"
+  //   }
+  //  },
+  // "menu-item#category-3": {
+  //   "props": {
+  //     "type": "custom",
+  //     "text": "Electrodomésticos y Aires Ac."
+  //   }
+  // },
+  // "menu-item#category-4": {
+  //   "props": {
+  //     "type": "custom",
+  //     "text": "Hogar, Muebles y Jardín"
+  //   }
+  // },
+  // "menu-item#category-5": {
+  //   "props": {
+  //     "type": "custom",
+  //     "text": "Salud, Belleza y Fitness"
+  //   }
+  // },
+  // "menu-item#category-6": {
+  //   "props": {
+  //     "type": "custom",
+  //     "text": "Bebés y Niños"
+  //   }
+  // },
+  // "menu-item#category-7": {
+  //   "props": {
+  //     "type": "custom",
+  //     "text": "Más categorías"
+  //   }
+  // },
+  // "menu-item#category-8": {
+  //   "props": {
+  //     "type": "custom",
+  //     "text": "Tienda Samsung"
+  //   }
+  // },
+  
+
+  "link#header__bottom-1": {
+    "props": {
+      "label": "climatizacion",
+      "href": ""
+     }
+  },
+  "link#header__bottom--2": {
+    "props": {
+      "label": "aire libre",
+      "href": ""
+     }
+  },
+  "link#header__bottom--3": {
+    "props": {
+      "label": "hogar",
+      "href": ""
+     }
+  },
+  "link#header__bottom--4": {
+    "props": {
+      "label": "tienda samsung",
+      "href": ""
+     }
+  }
+}

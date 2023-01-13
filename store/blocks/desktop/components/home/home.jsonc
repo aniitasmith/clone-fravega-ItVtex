@@ -1,19 +1,17 @@
 {
-  "flex-layout.row#home__section-1": {
-    "title": "DESKTOP Row with text",
-    "children": [
-      "rich-text#section-1"
-    ]
+  "flex-layout.row#home__section": {
+    "title": "flex layout desktop",
+    "children": [ "rich-text#section"]
   },
 
-  "rich-text#section-1": {
-    "title": "Text Favorites at desktop",
+  "rich-text#section": {
+    "title": "Primer componente en cadena",
     "props": {
       "blockClass": "",
-      "text": "Favoritos en DESKTOP",
+      "text": "Primer componente en cadena 11",
       "font": "t-heading-2",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }
-  }
+  }  
 }
