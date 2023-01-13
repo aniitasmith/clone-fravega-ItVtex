@@ -324,21 +324,21 @@
     ],
     "styles": {
       "heading-1": {
-        "fontFamily": "work-sans, arial, sans-serif",
+        "fontFamily": "work-sans, sans-serif",
         "fontWeight": "normal",
         "fontSize": "3rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-2": {
-        "fontFamily": "work-sans, arial, sans-serif",
+        "fontFamily": " arial, sans-serif",
         "fontWeight": "normal",
         "fontSize": "2.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-3": {
-        "fontFamily": "work-sans, arial, sans-serif",
+        "fontFamily": "work-sans, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.75rem",
         "textTransform": "initial",
