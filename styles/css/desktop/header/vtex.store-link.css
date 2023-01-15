@@ -1,0 +1,15 @@
+
+.label--link-header-top{
+  /* cambiar la fuente */
+  font-family: sans-serif;  
+  padding: 10px;
+  text-transform: capitalize;
+  color: rgb(74, 74, 74);
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.link--link-header-top{
+  text-decoration: none; 
+}

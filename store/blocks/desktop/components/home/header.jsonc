@@ -25,19 +25,28 @@
   "header-row#header__top" : {
     "title": "Header top",
     "children": [
+      "image#compra",
       "link#header__top--1",
+      "image#servicio-tecnico",
       "link#header__top--2",
+      "image#sucursales",
       "link#header__top--3",
+      "image#venta-telefonica",
       "link#header__top--4",
+      "image#help-center",
       "link#header__top--5",
       "header-spacer",
-      "link#header__top--6"
+      "logo#header__top--creditos"
       
     ],
     "props":{
-      "blockClass":"header__top",
-      "horizontalAlign": "center",
-      "verticalAlign": "center"
+      "blockClass":"header__top"
+         }
+  },
+  "image#compra": {
+    "props": {
+      "src": "assets/icons-compra.svg",
+      "maxHeight": ""
     }
   },
   "link#header__top--1": {
@@ -49,6 +58,12 @@
       ]
      }
   },
+  "image#servicio-tecnico": {
+    "props": {
+      "src": "assets/icons-servicio-tecnico.svg",
+      "maxHeight": ""
+    }
+  },
   "link#header__top--2": {
     "props": {
       "label": "Servicio tecnico",
@@ -57,6 +72,12 @@
         "link-header-top"
       ]
      }
+  },
+  "image#sucursales": {
+    "props": {
+      "src": "assets/icons-sucursales.svg",
+      "maxHeight": ""
+    }
   },
   "link#header__top--3": {
     "props": {
@@ -67,6 +88,12 @@
       ]
      }
   },
+  "image#venta-telefonica": {
+    "props": {
+      "src": "assets/icons-venta-telefonica.svg",
+      "maxHeight": ""
+    }
+  },
   "link#header__top--4": {
     "props": {
       "label": "venta telefonica",
@@ -75,6 +102,12 @@
         "link-header-top"
       ]
      }
+  },
+  "image#help-center": {
+    "props": {
+      "src": "assets/icons-help-center.svg",
+      "maxHeight": ""
+    }
   },
   "link#header__top--5": {
     "props": {
@@ -85,14 +118,13 @@
       ]
      }
   },
-  "link#header__top--6": {
+  "logo#header__top--creditos": {
+    "title": "fravega-creditos",
     "props": {
-      "label": "Creditos",
-      "href": "",
-      "blockClass":[
-        "link-header-top"
-      ]
-     }
+      "url":"assets/fravega-creditos.svg",
+      "width": 110,
+      "href": "/"
+    }
   },
    "header-row#header__middle":{
     "title":"Header Middle",
@@ -129,7 +161,7 @@
   "header-row#header__bottom":{
     "title":"header bottom",
     "children":[
-      "sticky-layout#4-desktop",
+      "sticky-layout#menu",
       "link#header__bottom-1",
       "link#header__bottom--2",
       "link#header__bottom--3",
@@ -140,13 +172,13 @@
       "blockClass":"header__bottom"
     }
   },
-  "sticky-layout#4-desktop":{
+  "sticky-layout#menu":{
     "children":[
-      "flex-layout.row#4-desktop",
+      "flex-layout.row#menu",
       "flex-layout.row#mega-menu"
     ]
   },
-  "flex-layout.row#4-desktop": {
+  "flex-layout.row#menu": {
     "children": [
       "flex-layout.col#trigger-mega-menu"
       ]
@@ -171,77 +203,6 @@
       "Drawer": "drawer"
     }
   },
-
-  
-  
-// "mega-menu#drawer__desktop":{
-//   "props": {
-//     "openOnly": "horizontal"
-//   }
-//   },
-  // "mega-menu#drawer":{
-  //   "children":[
-  //     "mega-menu#desktop"
-  //     "menu-item#category-1",
-  //     "menu-item#category-2",
-  //     "menu-item#category-3",
-  //     "menu-item#category-4",
-  //     "menu-item#category-5",
-  //     "menu-item#category-6",
-  //     "menu-item#category-7",
-  //     "menu-item#category-8"
-//   ]
-// },r
-  // "menu-item#category-1":{
-  //   "props": {
-  //     "type": "custom",
-  //     "text": "Tv, Audio y Video"
-  //   }
-  // },
-  //  "menu-item#category-2":{
-  //    "props": {
-  //      "type": "custom",
-  //     "text": "Celulares, Notebooks y Tecnología"
-  //   }
-  //  },
-  // "menu-item#category-3": {
-  //   "props": {
-  //     "type": "custom",
-  //     "text": "Electrodomésticos y Aires Ac."
-  //   }
-  // },
-  // "menu-item#category-4": {
-  //   "props": {
-  //     "type": "custom",
-  //     "text": "Hogar, Muebles y Jardín"
-  //   }
-  // },
-  // "menu-item#category-5": {
-  //   "props": {
-  //     "type": "custom",
-  //     "text": "Salud, Belleza y Fitness"
-  //   }
-  // },
-  // "menu-item#category-6": {
-  //   "props": {
-  //     "type": "custom",
-  //     "text": "Bebés y Niños"
-  //   }
-  // },
-  // "menu-item#category-7": {
-  //   "props": {
-  //     "type": "custom",
-  //     "text": "Más categorías"
-  //   }
-  // },
-  // "menu-item#category-8": {
-  //   "props": {
-  //     "type": "custom",
-  //     "text": "Tienda Samsung"
-  //   }
-  // },
-  
-
   "link#header__bottom-1": {
     "props": {
       "label": "climatizacion",
