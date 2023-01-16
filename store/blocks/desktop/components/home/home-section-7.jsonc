@@ -1,0 +1,61 @@
+{
+  "flex-layout.row#home__section-7": {
+    "children": [
+      "flex-layout.col#section-7-fitness",
+      "flex-layout.col#section-7-electrodomesticos",
+      "flex-layout.col#section-7-electronicos"
+    ]
+  },
+  "flex-layout.col#section-7-fitness": {
+    "children": [
+      "image#section-7-fitness",
+      "rich-text#section-7-fitness"
+    ]
+  },
+  "image#section-7-fitness": {
+    "props": {
+      "src": "assets/img/electro-sale-50.png"
+    }
+  },
+  "rich-text#section-7-fitness": {
+    "props": {
+      "blockClass": "",
+      "text": "Hasta 6 sin intereses y envio gratis en Capital y Gba en seleccionados de fitness y movilidad"
+    }
+  },
+  "flex-layout.col#section-7-electrodomesticos": {
+    "children": [
+      "image#section-7-electrodomesticos",
+      "rich-text#section-7-electrodomesticos"
+    ]
+  },
+  "image#section-7-electrodomesticos": {
+    "props": {
+      "src": "assets/img/electro-sale-30.png"
+    }
+  },
+  "rich-text#section-7-electrodomesticos": {
+    "props": {
+      "blockClass": "",
+      "text": "Heladeras, cocinas, lavado y pequenos electrodomesticos en hasta 6 sin interes"
+    }
+  },
+
+  "flex-layout.col#section-7-electronicos": {
+    "children": [
+      "image#section-7-electronicos",
+      "rich-text#section-7-electronicos"
+    ]
+  },
+  "image#section-7-electronicos": {
+    "props": {
+      "src": "assets/img/electro-sale-20.png"
+    }
+  },
+  "rich-text#section-7-electronicos": {
+    "props": {
+      "blockClass": "",
+      "text": "Notebooks,tablets,smartwatches y mucho mas en hasta 6 sin interes."
+    }
+  }
+}

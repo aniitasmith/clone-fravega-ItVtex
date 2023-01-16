@@ -14,7 +14,8 @@
         "tablet": 6
       },
       "infinite": true,
-      "blockClass": "Carousel categorias"
+      "blockClass": "Carousel categorias",
+      "showPaginationDots": "never"
     },
     "children": [
       "image#categorias-1",
