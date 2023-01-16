@@ -1,0 +1,97 @@
+{
+  "flex-layout.row#home__section-3-phone": {
+    "title": "categorias",
+    "children": [
+      "slider-layout#categorias"
+    ]
+  },
+
+  "slider-layout#categorias": {
+    "title": "Slider categorias",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 6
+      },
+      "infinite": true,
+      "blockClass": "Carousel categorias",
+      "showPaginationDots": "never"
+    },
+    "children": [
+      "image#categorias-1",
+      "image#categorias-2",
+      "image#categorias-3",
+      "image#categorias-4",
+      "image#categorias-5",
+      "image#categorias-6",
+      "image#categorias-7",
+      "image#categorias-8",
+      "image#categorias-9",
+      "image#categorias-10",
+      "image#categorias-11",
+      "image#categorias-12"      
+    ]
+  },
+  "image#categorias-1": {
+    "props": {
+    "src": "assets/img/tv.png"
+    }
+  },
+  "image#categorias-2": {
+    "props": {
+      "src": "assets/img/phone.png"
+    }
+  },
+  "image#categorias-3": {
+    "props": {
+      "src": "assets/img/ac.png"
+    }
+  },
+  "image#categorias-4": {
+    "props": {
+      "src": "assets/img/mattress.png"
+    }
+  },
+  "image#categorias-5": {
+    "props": {
+      "src": "assets/img/fridge.png"
+    }
+  },
+  "image#categorias-6": {
+    "props": {
+      "src": "assets/img/laptop.png"
+    }
+  },
+  "image#categorias-7": {
+    "props": {
+      "src": "assets/img/washer.png"
+    }
+  },
+  "image#categorias-8": {
+    "props": {
+      "src": "assets/img/drill.png"
+    }
+  },
+  "image#categorias-9": {
+    "props": {
+      "src": "assets/img/kettle.png"
+    }
+  },
+
+  "image#categorias-10": {
+    "props": {
+      "src": "assets/img/oven.png"
+    }
+  },
+  "image#categorias-11": {
+    "props": {
+      "src": "assets/img/mixer.png"
+    }
+  },
+
+  "image#categorias-12": {
+    "props": {
+      "src": "assets/img/ipl.png"
+    }
+  }
+}

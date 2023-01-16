@@ -1,24 +1,24 @@
 {
-  "flex-layout.row#home__section--global": {
-    "title": "Global Row with text example",
-    "children": [
-      "rich-text#home__section--global"
-    ],
-    "props": {
-      "marginTop": 10,
-      "border": ["all"],
-      "borderWidth": 1,
-      "borderColor": "success"
-    }
-  },
+//   "flex-layout.row#home__section--global": {
+//     "title": "Global Row with text example",
+//     "children": [
+//       "rich-text#home__section--global"
+//     ],
+//     "props": {
+//       "marginTop": 10,
+//       "border": ["all"],
+//       "borderWidth": 1,
+//       "borderColor": "success"
+//     }
+//   },
 
-  "rich-text#home__section--global": {
-    "props": {
-      "blockClass": "",
-      "text": "Desktop, Tablet y Phone",
-      "font": "t-heading-1",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
-    }
-  }
+//   "rich-text#home__section--global": {
+//     "props": {
+//       "blockClass": "",
+//       "text": "Desktop, Tablet y Phone",
+//       "font": "t-heading-1",
+//       "textAlignment": "CENTER",
+//       "textPosition": "CENTER"
+//     }
+//   }
 }
