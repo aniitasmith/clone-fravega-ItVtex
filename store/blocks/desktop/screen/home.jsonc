@@ -1,5 +1,5 @@
 {
-  "responsive-layout.desktop#home__section": {
+  "responsive-layout.desktop#home": {
     "title": "Comp responsive desktop",
     "children": [
       "modal-trigger#codigo-postal",

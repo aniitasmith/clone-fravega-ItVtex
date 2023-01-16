@@ -8,7 +8,7 @@
     "title": "Primer componente en cadena",
     "props": {
       "blockClass": "",
-      "text": "Primer componente en cadena 11",
+      "text": "text",
       "font": "t-heading-2",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
