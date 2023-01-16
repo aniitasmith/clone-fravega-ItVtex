@@ -13,10 +13,9 @@
   },
 
   "rich-text#home__section--global": {
-    "title": "Text Favorites",
     "props": {
       "blockClass": "",
-      "text": "Soy un texto que vive en Desktop, Tablet y Phone :D",
+      "text": "Desktop, Tablet y Phone",
       "font": "t-heading-1",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"

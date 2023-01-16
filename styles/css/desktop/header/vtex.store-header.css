@@ -20,8 +20,12 @@
   margin-top: 0;
   margin-bottom: 0;
   max-width: 96rem;
+}
+
+.headerRow--header__middle{
   border-bottom: 1px #b9b9b9 solid;
 }
+
 
 .headerRowContainer--header__middle-row-logo{
   flex-direction: column;

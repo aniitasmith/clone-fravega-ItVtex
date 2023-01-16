@@ -1,0 +1,57 @@
+{
+//   "header-layout.tablet":{
+//   "title": "comp Header tablet",
+//   "children": [
+//     "header-row#header__top-tablet",
+//     "header-row#header__middle-tablet",
+//     "header-row#header__bottom-tablet"
+//   ]
+// },
+// "header-row#header__top-tablet" : {
+//   "title": "Header top tablet",
+//   "children": [
+//     "image#compra",
+//     "link#header__top--1",
+//     "image#servicio-tecnico",
+//     "link#header__top--2",
+//     "image#sucursales",
+//     "link#header__top--3",
+//     "image#venta-telefonica",
+//     "link#header__top--4",
+//     "image#help-center",
+//     "link#header__top--5",
+//     "logo#header__top--creditos"
+    
+//   ],
+//   "props":{
+//     "blockClass":"header__top"
+//        }
+// },
+
+//  "header-row#header__middle-tablet":{
+//   "title":"Header Middle tablet",
+//   "children":[
+//     "header-row#header__middle--logo",
+//     "header-row#header__middle--search",
+//     "header-row#header__middle--account"
+//      ],
+//   "props":{
+//     "blockClass":"header__middle",
+//     "fullWidth": true
+//   }
+// }, 
+
+// "header-row#header__bottom-tablet":{
+//   "title":"header bottom tablet",
+//   "children":[
+//     "sticky-layout#menu",
+//     "link#header__bottom-1",
+//     "link#header__bottom--2",
+//     "link#header__bottom--3",
+//     "link#header__bottom--4"
+//   ],
+//   "props":{
+//     "blockClass":"header__bottom"
+//   }
+// }
+}

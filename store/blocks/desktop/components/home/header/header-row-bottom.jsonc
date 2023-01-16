@@ -1,0 +1,75 @@
+{
+  "header-row#header__bottom":{
+    "title":"header bottom",
+    "children":[
+      "sticky-layout#menu",
+      "link#header__bottom-1",
+      "link#header__bottom--2",
+      "link#header__bottom--3",
+      "header-spacer",
+      "link#header__bottom--4"
+    ],
+    "props":{
+      "blockClass":"header__bottom"
+    }
+  },
+  "sticky-layout#menu":{
+    "children":[
+      "flex-layout.row#menu",
+      "flex-layout.row#mega-menu"
+    ]
+  },
+  "flex-layout.row#menu": {
+    "children": [
+      "flex-layout.col#trigger-mega-menu"
+      ]
+  },
+
+  "flex-layout.row#mega-menu": {
+    "children": ["mega-menu#desktop"]
+  },
+  "mega-menu#desktop": {
+    "props": {
+      "openOnly": "horizontal"
+    }
+  },
+  "flex-layout.col#trigger-mega-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["mega-menu-trigger-btn"]
+  },
+  "mega-menu-trigger-btn": {
+    "props": {
+      "Drawer": "drawer"
+    }
+  },
+  "link#header__bottom-1": {
+    "props": {
+      "label": "climatizacion",
+      "href": "",
+      "blockClass":"categoria-menu"
+    }
+  },
+  "link#header__bottom--2": {
+    "props": {
+      "label": "aire libre",
+      "href": "",
+      "blockClass":"categoria-menu"
+    }
+  },
+  "link#header__bottom--3": {
+    "props": {
+      "label": "hogar",
+      "href": "",
+      "blockClass":"categoria-menu"
+    }
+  },
+  "link#header__bottom--4": {
+    "props": {
+      "label": "tienda samsung",
+      "href": "",
+      "blockClass":"categoria-menu"
+    }
+  }
+}

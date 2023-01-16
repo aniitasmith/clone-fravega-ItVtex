@@ -7,7 +7,6 @@
   },
 
   "rich-text#phone__section-1": {
-    "title": "Text Favorites",
     "props": {
       "blockClass": "",
       "text": "Favoritos en PHONE",
