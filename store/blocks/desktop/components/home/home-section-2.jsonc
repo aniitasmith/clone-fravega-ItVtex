@@ -1,0 +1,88 @@
+{
+  "flex-layout.row#home__section-2": {
+    "title": "metodos de pagos",
+    "children": [
+      "flex-layout.row#metodos-pago"
+    ]
+  },
+  "flex-layout.row#metodos-pago":{
+    "title": "seccion metodos de pago",
+    "children":[
+      "image#metodos-pago",
+      "flex-layout.col#metodos-pago",
+      "image#coin",
+      "flex-layout.col#creditos",
+      "image#delivery",
+      "flex-layout.col#delivery"
+    ]
+  },
+  "image#metodos-pago": {
+    "props": {
+      "src": "assets/img/payment-methods.png"
+    }
+  },
+  "flex-layout.col#metodos-pago": {
+    "children": [
+      "rich-text#metodo-pago",
+      "link#promociones"
+    ]
+  },
+  "rich-text#metodo-pago": {
+    "props": {
+      "blockClass": "",
+      "text": "Paga con credito y debito"
+    }
+  },
+  "link#promociones": {
+    "props": {
+      "label": "ver promociones",
+      "href": "/promociones"
+      }
+  },
+  "image#coin":{
+    "props": {
+      "src": "assets/img/coin.png"
+    }
+  },
+  "flex-layout.col#creditos":{
+    "children": [
+      "rich-text#creditos-line-1",
+      "link#creditos-line-2"
+    ]
+  },
+  "rich-text#creditos-line-1": {
+    "props": {
+      "blockClass": "",
+      "text": "Fravega Creditos. Paga Online."
+    }
+  },
+  "link#creditos-line-2": {
+    "props": {
+      "label": "Conoce mas y accede al catalogo exclusivo.",
+      "href": "/creditos"
+    }
+  },
+  "image#delivery":{
+    "props": {
+      "src": "assets/img/delivery.png"
+    }
+  },
+  "flex-layout.col#delivery":{
+    "children": [
+      "rich-text#delivery",
+      "link#delivery"
+    ]
+  },
+  "rich-text#delivery":{
+    "props": {
+      "blockClass": "",
+      "text": "Envios a todo el pais y retiro gratis"
+    }
+  },
+  "link#delivery": {
+    "props": {
+      "label": "en mas de 100 sucursales.",
+      "href": "/sucursales"
+    }
+  }
+}
