@@ -7,11 +7,11 @@
   },
   "flex-layout.col#section-5-oferta-1": {
     "children": [
-      "flex-layout.col#oferta-1-image",
-      "flex-layout.col#oferta-1-text"
+      "flex-layout.col#sec-5-oferta-1-image",
+      "flex-layout.col#sec-5-oferta-1-text"
     ]
   },
-  "flex-layout.col#oferta-1-image":{
+  "flex-layout.col#sec-5-oferta-1-image":{
     "children": [
       "image#sec-5-oferta-1"
     ]
@@ -21,12 +21,12 @@
       "src": "assets/img/ofertas.png"      
     }
   },
-  "flex-layout.col#oferta-1-text":{
+  "flex-layout.col#sec-5-oferta-1-text":{
     "children": [
       "image#electro-sale",
       "image#descubrelas",
-      "rich-text#oferta-1",
-      "link#button-oferta-1"
+      "rich-text#sec-5-oferta-1",
+      "link#button-sec-5-oferta-1"
     ]
   },
   "image#electro-sale":{
@@ -39,13 +39,13 @@
       "src": ""      
     }
   },
-  "rich-text#oferta-1": {
+  "rich-text#sec-5-oferta-1": {
     "props": {
       "blockClass": "",
       "text": "No te pierdas las mejores ofertas al precio mas bajo."
     }
   },
-  "link#button-oferta-1": {
+  "link#button-sec-5-oferta-1": {
     "props": {
       "blockClass": "button-oferta",
       "label": "VER MAS",
@@ -54,11 +54,11 @@
   },
   "flex-layout.col#section-5-oferta-2": {
     "children": [
-      "flex-layout.col#oferta-2-image",
-      "flex-layout.col#oferta-2-text"
+      "flex-layout.col#-sec-5-oferta-2-image",
+      "flex-layout.col#-sec-5-oferta-2-text"
     ]
   },
-  "flex-layout.col#oferta-2-image":{
+  "flex-layout.col#-sec-5-oferta-2-image":{
     "children": [
       "image#sec-5-oferta-2"
     ]
@@ -68,12 +68,12 @@
       "src": "assets/img/ofertas-2.png"      
     }
   },
-  "flex-layout.col#oferta-2-text":{
+  "flex-layout.col#-sec-5-oferta-2-text":{
     "children": [
       "image#electro-sale",
       "image#fravega-casa",
-      "rich-text#oferta-2",
-      "link#button-oferta-2"
+      "rich-text#-sec-5-oferta-2",
+      "link#button-sec-5-oferta-2"
     ]
   },
    "image#fravega-casa":{
@@ -81,13 +81,13 @@
       "src": ""      
     }
   },
-  "rich-text#oferta-2": {
+  "rich-text#-sec-5-oferta-2": {
     "props": {
       "blockClass": "",
       "text": "Hasta 40%off en colchones, muebles y articulos de decoracion seleccionados."
     }
   },
-  "link#button-oferta-2": {
+  "link#button-sec-5-oferta-2": {
     "props": {
       "blockClass": "button-oferta",
       "label": "VER MAS",
