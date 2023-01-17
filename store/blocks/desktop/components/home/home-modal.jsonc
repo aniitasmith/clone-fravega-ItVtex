@@ -4,7 +4,7 @@
       "modal-layout#home__modal--event"
     ],
     "props": {
-      "trigger": "event",
+      "trigger": "load-session", //event
       "customPixelEventName": "pageView"
     }
   },

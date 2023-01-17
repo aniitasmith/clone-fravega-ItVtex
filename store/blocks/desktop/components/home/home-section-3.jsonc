@@ -5,13 +5,12 @@
       "slider-layout#categorias"
     ]
   },
-
-  "slider-layout#categorias": {
+"slider-layout#categorias": {
     "title": "Slider categorias",
     "props": {
       "itemsPerPage": {
         "desktop": 6,
-        "tablet": 6
+        "tablet": 3
       },
       "infinite": true,
       "blockClass": "Carousel categorias",

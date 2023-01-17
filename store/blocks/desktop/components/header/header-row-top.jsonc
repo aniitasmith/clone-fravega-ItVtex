@@ -2,91 +2,65 @@
   "header-row#header__top" : {
     "title": "Header top",
     "children": [
-      "image#compra",
       "link#header__top--1",
-      "image#servicio-tecnico",
       "link#header__top--2",
-      "image#sucursales",
       "link#header__top--3",
-      "image#venta-telefonica",
       "link#header__top--4",
-      "image#help-center",
       "link#header__top--5",
       "header-spacer",
-      "logo#header__top--creditos"
-      
+      "logo#header__top--creditos"      
     ],
     "props":{
       "blockClass":"header__top"
          }
-  },
-  "image#compra": {
-    "props": {
-      "src": "assets/img/icons-compra.svg"
-    }
   },
   "link#header__top--1": {
     "props": {
       "label": "Sigue tu compra",
       "href": "/tracking",
       "blockClass":[
-        "link-header-top"
+        "link-header-top",
+        "img-compra"
       ]
      }
-  },
-  "image#servicio-tecnico": {
-    "props": {
-      "src": "assets/img/icons-servicio-tecnico.svg"
-    }
   },
   "link#header__top--2": {
     "props": {
       "label": "Servicio tecnico",
       "href": "/servicio-tecnico",
       "blockClass":[
-        "link-header-top"
+        "link-header-top",
+        "img-servicio-tecnico"
       ]
      }
-  },
-  "image#sucursales": {
-    "props": {
-      "src": "assets/img/icons-sucursales.svg"
-    }
   },
   "link#header__top--3": {
     "props": {
       "label": "Sucursales",
       "href": "/sucursales",
       "blockClass":[
-        "link-header-top"
+        "link-header-top",
+        "img-sucursales"
       ]
      }
-  },
-  "image#venta-telefonica": {
-    "props": {
-      "src": "assets/img/icons-venta-telefonica.svg"
-    }
   },
   "link#header__top--4": {
     "props": {
       "label": "venta telefonica",
       "href": "/venta-telefonica",
       "blockClass":[
-        "link-header-top"
+        "link-header-top",
+        "img-venta-telefonica"
       ]
      }
-  },
-  "image#help-center": {
-    "props": {
-      "src": "assets/img/icons-help-center.svg"
-    }
   },
   "link#header__top--5": {
     "props": {
       "label": "Centro de ayuda",
       "href": "/help-center",
       "blockClass":[
-        "link-header-top"
+        "link-header-top",
+        "img-help-center"
       ]
      }
   },

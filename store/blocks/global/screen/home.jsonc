@@ -3,9 +3,7 @@
     "title": "Store home fravega",
     "blocks": [
       "responsive-layout.desktop#home",
-      "responsive-layout.tablet#home",
-      "responsive-layout.phone#home"
-      // "responsive-layout.mobile#phone__and__tablet"
+      "responsive-layout.mobile#home"
     ]
   }
 }
