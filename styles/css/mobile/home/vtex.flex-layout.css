@@ -20,3 +20,13 @@
     justify-content: space-between;
     margin: 10px 0;
 }
+
+.flexRowContent--container-section-3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+.flexCol--mobile-contenedor-categoria {
+    margin: 10px 8px;
+}
