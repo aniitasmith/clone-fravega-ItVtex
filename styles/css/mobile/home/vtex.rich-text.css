@@ -49,3 +49,13 @@
   text-align: center;
 }
 
+.strong--mobile-text-section-7{
+  padding: 10px 0 10px 0;
+  font-size: 15px;
+  line-height: 1.44;
+  letter-spacing: -0.5px;
+  color: black;
+  width: 374px;
+  overflow-wrap: break-word;
+  display: block;
+}
