@@ -1,0 +1,11 @@
+.imageElement--img-section-2 {
+  height: 28px;
+}
+
+.imageElement--img-categoria{
+  width: 200px;
+  height: 200px; 
+  border-radius: 100px;
+  border-color: black;
+  border: 2px;
+}
