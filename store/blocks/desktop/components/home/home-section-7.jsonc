@@ -4,40 +4,52 @@
       "flex-layout.col#section-7-fitness",
       "flex-layout.col#section-7-electrodomesticos",
       "flex-layout.col#section-7-electronicos"
-    ]
+    ],
+    "props": {
+      "blockClass": "container-section-7"
+    }
   },
   "flex-layout.col#section-7-fitness": {
     "children": [
       "image#section-7-fitness",
       "rich-text#section-7-fitness"
-    ]
+    ],
+    "props": {
+      "blockClass": "sale-section-7-fitness"
+
+    }
   },
   "image#section-7-fitness": {
     "props": {
-      "src": "assets/img/electro-sale-50.png"
+      "src": "assets/img/electro-sale-50.png",
+      "blockClass":"img-section-7"
     }
   },
   "rich-text#section-7-fitness": {
     "props": {
-      "blockClass": "",
-      "text": "Hasta 6 sin intereses y envio gratis en Capital y Gba en seleccionados de fitness y movilidad"
+      "blockClass": "text-section-7",
+      "text": "**Hasta 6 sin intereses y envio gratis en Capital y Gba en seleccionados de fitness y movilidad.**"
     }
   },
   "flex-layout.col#section-7-electrodomesticos": {
     "children": [
       "image#section-7-electrodomesticos",
       "rich-text#section-7-electrodomesticos"
-    ]
+    ],
+    "props": {
+      "blockClass": "sale-section-7-electrodomesticos"
+    }
   },
   "image#section-7-electrodomesticos": {
     "props": {
-      "src": "assets/img/electro-sale-30.png"
+      "src": "assets/img/electro-sale-30.png",
+      "blockClass":"img-section-7"
     }
   },
   "rich-text#section-7-electrodomesticos": {
     "props": {
-      "blockClass": "",
-      "text": "Heladeras, cocinas, lavado y pequenos electrodomesticos en hasta 6 sin interes"
+      "blockClass": "text-section-7",
+      "text": "**Heladeras, cocinas, lavado y pequenos electrodomesticos en hasta 6 sin interes.**"
     }
   },
 
@@ -45,17 +57,21 @@
     "children": [
       "image#section-7-electronicos",
       "rich-text#section-7-electronicos"
-    ]
+    ],
+    "props": {
+      "blockClass": "sale-section-7-electronicos"
+    }
   },
   "image#section-7-electronicos": {
     "props": {
-      "src": "assets/img/electro-sale-20.png"
+      "src": "assets/img/electro-sale-20.png",
+      "blockClass":"img-section-7"
     }
   },
   "rich-text#section-7-electronicos": {
     "props": {
-      "blockClass": "",
-      "text": "Notebooks,tablets,smartwatches y mucho mas en hasta 6 sin interes."
+      "blockClass": "text-section-7",
+      "text": "**Notebooks,tablets,smartwatches y mucho mas en hasta 6 sin interes.**"
     }
   }
 }

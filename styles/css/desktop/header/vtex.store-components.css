@@ -42,7 +42,7 @@
 .infoCardHeadline--info-card-oferta{
   display: inline-flex;
   padding: 6px 9px;
-  width: 180px;
+  width: 200px;
   margin: 0px;
   font-size: 22px;
   font-weight: 600;
@@ -66,6 +66,56 @@
 }
 
 .infoCardContainer--info-card-oferta{ 
+  margin: 0 28px 0 0;
+  padding: 20px;
+}
+
+.infoCardImageContainer--info-card-oferta-section-9{
+  width: 586px;
+  height: 238px;
+}
+.infoCardImage--info-card-oferta-section-9{
+  width: 240px;
+  height: 170px;
+  display: flex;
+  flex-direction: row;
+}
+
+.infoCardImageContainer--info-card-oferta-section-9{
+  /* background-color: #846FC7; */
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.infoCardHeadline--info-card-oferta-section-9{
+  display: inline-flex;
+  padding: 6px 9px;
+  width: auto;
+  margin: 0px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.7px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  background-color: rgb(101, 75, 185);
+}
+
+.infoCardSubhead--info-card-oferta-section-9{
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.27;
+  letter-spacing: -0.9px;
+  color: black;
+  width: 300px;
+  
+}
+
+.infoCardContainer--info-card-oferta-section-9{ 
   margin: 0 28px 0 0;
   padding: 20px;
 }
