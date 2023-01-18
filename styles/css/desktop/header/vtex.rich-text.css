@@ -5,35 +5,3 @@
   font-weight: 400;
   font-size: 14px;
 }
-
-.paragraph--text-section-2{
-  font-family: work-sans;  
-  padding: 10px;
-  color: #000000;
-  font-weight: 400;
-  font-size: 14px;
-}
-
-.container--text-section-2{
-  height: 50px;
-}
-
-.text-creditos-section-2{
-  height: 50px;
-}
-
-.container--text-creditos-section-2 {
-  height: 50px;
-}
-
-.link--txt-categoria{
-  text-decoration: none;
-  color: #000000;
-}
-
-.strong--text-section-7{
-  font-size: 16px;
-  line-height: 1.44;
-  letter-spacing: -0.5px;
-  color: black;
-}

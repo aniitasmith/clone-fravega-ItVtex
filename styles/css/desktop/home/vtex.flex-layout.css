@@ -1,5 +1,90 @@
-/* Example desktop:
-.flexRow--home__section-2 {
-    margin: 50px auto;
-    max-width: 1200px;
+.flexRow--container-section-2{
+  width: 70%;
+  margin: 8px auto;
+}
+
+.flexCol--container-metodos-pago {
+  border-right: #dadada solid 1px;
+}
+
+.flexCol--container-creditos {
+  border-right: #dadada solid 1px;
+}
+
+.flexRow--container-section-3{
+  margin: 0px auto;
+  background-color: #f5f5f5;
+}
+
+.flexRowContent--container-section-3{
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.flexRow--container-section-5{
+  background-color: #f5f5f5; 
+  padding: auto 164px;
+  margin: 0px auto;
+  
+}
+
+.flexRowContent--container-section-5{
+  width: 90%;
+  margin: 0px auto;
+}
+
+.flexRow--container-section-7{
+  background-color: #f5f5f5; 
+  padding: auto 164px;
+  margin: 0px auto; 
+}
+
+.flexRowContent--container-section-7{
+  width: 90%;
+  padding-top: 60px;
+  margin: 0px auto;
+}
+
+.imageElement--img-section-7{
+  width: 20%;
+  height: 162px;
+}
+
+.flexColChild--sale-section-7-fitness{
+  box-shadow: rgb(0 0 0 / 8%) 0px 2px 4px 0px;
+  margin: 0 28px 0 0;
+  background-color:#ffffff ;
+}
+.flexColChild--sale-section-7-electrodomesticos{
+  box-shadow: rgb(0 0 0 / 8%) 0px 2px 4px 0px;
+  background-color:#ffffff ;
+}
+.flexColChild--sale-section-7-electronicos{
+  box-shadow: rgb(0 0 0 / 8%) 0px 2px 4px 0px;
+  margin: 0 0 0 28px;
+  background-color:#ffffff ;
+}
+
+.flexRow--container-section-9{
+  background-color: #f5f5f5; 
+  padding-top: 60px;
+  padding-bottom: 30px;
+  margin: 0px auto;
+}
+
+.flexRowContent--container-creditos {
+  min-width: 346.85px;
+}
+  
+.flexRowContent--container-section-9{
+  width: 90%;
+  margin: 0px auto;
+}
+
+/* @media only screen and (max-width: 768px) and (min-width: 368px) {
+  .flexRowContent--container-creditos {
+    background-color: aqua;
+  }
 } */

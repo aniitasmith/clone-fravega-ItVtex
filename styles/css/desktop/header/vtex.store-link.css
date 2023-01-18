@@ -1,7 +1,6 @@
 
 .label--link-header-top{
-  /* cambiar la fuente */
-  font-family: sans-serif;  
+  font-family: "work-sans";  
   padding: 10px;
   text-transform: capitalize;
   color: rgb(74, 74, 74);
@@ -39,8 +38,7 @@
 }
 
 .label--categoria-menu{
-  /* cambiar la fuente */
-  font-family: sans-serif;  
+  font-family: "work-sans";  
   padding: 12px;
   text-transform: capitalize;
   color: rgb(51, 51, 51);

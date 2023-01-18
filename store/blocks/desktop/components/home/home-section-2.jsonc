@@ -58,6 +58,7 @@
       "rich-text#creditos"
     ],
     "props": {
+      "blockClass": "container-creditos",
       "preventHorizontalStretch": true
     }
   },
