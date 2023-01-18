@@ -1,0 +1,13 @@
+.flexRowContent--mobile-container-metodos-pago {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexRowContent--mobile-container-creditos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

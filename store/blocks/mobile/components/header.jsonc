@@ -2,30 +2,28 @@
   "header-layout.mobile#mobile__header": {
     "title": "comp Header mobile",
     "children": [
-      "header-row#header__top-mobile"
-       // "header-row#header__middle-mobile",
-      // "header-row#header__bottom-mobile"
+      "header-row#header__top-mobile",
+      "header-row#header__middle-mobile",
+      "header-row#header__bottom-mobile"
     ],
     "props":{
       "fullWidth":true
     }
   },
-"header-row#header__top-mobile":{
-      "title":"Header top Mobile",
+  "header-row#header__top-mobile":{
+    "title":"Header top Mobile",
     "children":[
       "flex-layout.row#mega-menu-mobile",
-      "header-row#header__middle--logo",
+      "logo#header__top",
       "header-spacer",
-      "header-row#header__middle--search",
-      "header-spacer",
-      "header-row#header__middle--account"
-       ],
+      "login",
+      "minicart.v2"
+    ],
     "props":{
-      "blockClass":["header__top", "header__top-mobile"],
       "fullWidth": true
     }
-},
-"flex-layout.row#mega-menu-mobile": {
+  },
+  "flex-layout.row#mega-menu-mobile": {
     "children": [
       "flex-layout.col#trigger-mega-menu"
     ],
@@ -33,7 +31,6 @@
       "blockClass": "mega-menu-mobile"
     }
   },
-
   "drawer": {
     "children": ["mega-menu#mobile"],
     "blocks": ["drawer-header#my-drawer"]
@@ -75,6 +72,26 @@
       "horizontalAlign": "left",
       "paddingLeft": 4
     }
+  },
+  "logo#header__top":{
+    "title": "fravega-logo-mobile",
+    "props": {
+      "url":"assets/img/logo-mobile.svg",
+      // "width": 110,
+      "href": "/"
+    }
+  },
+  "header-row#header__middle-mobile":{
+    "children":[
+      "search-bar"
+    ],
+    "props":{
+      "blockClass":""
+    }
+  },
+  "header-row#header__bottom-mobile":{
+    "children":[
+      "header-row#logo-location"
+    ]
   }
-
 }

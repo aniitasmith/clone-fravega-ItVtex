@@ -16,7 +16,7 @@
       "flex-layout.col#mobile__categoria-12"
     ],
     "props": {
-      "blockClass": "container-section-3",
+      "blockClass": "mobile-container-section-3",
       "preventHorizontalStretch": true
     }
   },
