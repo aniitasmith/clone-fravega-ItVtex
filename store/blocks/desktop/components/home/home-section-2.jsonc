@@ -2,87 +2,77 @@
   "flex-layout.row#home__section-2": {
     "title": "metodos de pagos",
     "children": [
-      "flex-layout.row#metodos-pago"
-    ]
+      "flex-layout.row#metodos-pago",      
+      "flex-layout.row#creditos",
+      "flex-layout.row#delivery"
+    ],
+    "props": {
+      "blockClass": "container-section-2"
+    }
   },
-  "flex-layout.row#metodos-pago":{
-    "title": "seccion metodos de pago",
-    "children":[
+  "flex-layout.row#metodos-pago": {
+    "children": [
       "image#metodos-pago",
-      "flex-layout.col#metodos-pago",
-      "image#coin",
-      "flex-layout.col#creditos",
-      "image#delivery",
-      "flex-layout.col#delivery"
-    ]
+      "rich-text#metodo-pago"
+    ],
+    "props": {
+      "blockClass": "container-metodos-pago"
+    }
   },
   "image#metodos-pago": {
     "props": {
-      "src": "assets/img/payment-methods.png"
+      "src": "assets/img/payment-methods.png",
+      "blockClass":"img-section-2"
     }
-  },
-  "flex-layout.col#metodos-pago": {
-    "children": [
-      "rich-text#metodo-pago",
-      "link#promociones"
-    ]
   },
   "rich-text#metodo-pago": {
     "props": {
-      "blockClass": "",
-      "text": "Paga con credito y debito"
+      "text": "Pagá con crédito y débito \n [Ver promociones](/)",
+      "blockClass":"text-section-2"
     }
   },
-  "link#promociones": {
+  "flex-layout.row#creditos": {
+    "children": [
+      "image#coin",
+      "rich-text#creditos"
+    ],
     "props": {
-      "label": "ver promociones",
-      "href": "/promociones"
-      }
+      "blockClass": "container-creditos"
+    }
   },
   "image#coin":{
     "props": {
-      "src": "assets/img/coin.png"
+      "src": "assets/img/coin.png",
+      "blockClass":[
+        "img-section-2"
+      ]
     }
   },
-  "flex-layout.col#creditos":{
+  "rich-text#creditos": {
+    "props": {
+      "blockClass": "text-section-2",
+      "text": "Frávega Créditos.[Pagá Online.](/)\n[Conocé más](/) y accedé al [catálogo exclusivo.](/)"
+    }
+  },
+  "flex-layout.row#delivery": {
     "children": [
-      "rich-text#creditos-line-1",
-      "link#creditos-line-2"
-    ]
-  },
-  "rich-text#creditos-line-1": {
+      "image#delivery",
+      "rich-text#delivery"
+    ],
     "props": {
-      "blockClass": "",
-      "text": "Fravega Creditos. Paga Online."
-    }
-  },
-  "link#creditos-line-2": {
-    "props": {
-      "label": "Conoce mas y accede al catalogo exclusivo.",
-      "href": "/creditos"
+      "blockClass": "container-delivery"
     }
   },
   "image#delivery":{
     "props": {
-      "src": "assets/img/delivery.png"
+      "src": "assets/img/delivery.png",
+      "blockClass":"img-section-2"
     }
-  },
-  "flex-layout.col#delivery":{
-    "children": [
-      "rich-text#delivery",
-      "link#delivery"
-    ]
   },
   "rich-text#delivery":{
     "props": {
-      "blockClass": "",
-      "text": "Envios a todo el pais y retiro gratis"
-    }
-  },
-  "link#delivery": {
-    "props": {
-      "label": "en mas de 100 sucursales.",
-      "href": "/sucursales"
+      "blockClass": "text-section-2",
+      "text": "Envíos a todo el país y retiro gratis \n [en más de 100 sucursales](/sucursales/)"
     }
   }
 }

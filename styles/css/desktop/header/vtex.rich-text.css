@@ -1,7 +1,34 @@
 .paragraph--text-location{
-  font-family: sans-serif;  
+  font-family: work-sans;  
   padding: 10px;
   color: #000000;
   font-weight: 400;
   font-size: 14px;
 }
+
+.paragraph--text-section-2{
+  font-family: work-sans;  
+  padding: 10px;
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.container--text-section-2{
+  height: 50px;
+  width: 220px !important;
+  border-right: #000000 solid 1px;
+}
+
+.text-creditos-section-2{
+  height: 50px;
+  width: 100px !important;
+  border-right: #000000 solid 1px;
+}
+
+.container--text-creditos-section-2 {
+  height: 50px;
+  width: 400px !important;
+  border-right: #000000 solid 1px;
+}
+

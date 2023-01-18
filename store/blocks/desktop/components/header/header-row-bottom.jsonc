@@ -2,7 +2,7 @@
   "header-row#header__bottom":{
     "title":"header bottom",
     "children":[
-      "sticky-layout#menu",
+      "flex-layout.row#menu-container",
       "link#header__bottom-1",
       "link#header__bottom--2",
       "link#header__bottom--3",
@@ -13,7 +13,7 @@
       "blockClass":"header__bottom"
     }
   },
-  "sticky-layout#menu":{
+  "flex-layout.row#menu-container":{
     "children":[
       "flex-layout.row#menu",
       "flex-layout.row#mega-menu"

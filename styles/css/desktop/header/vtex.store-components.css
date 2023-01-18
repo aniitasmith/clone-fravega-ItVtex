@@ -1,0 +1,19 @@
+.imageElement--img-section-2 {
+  height: 28px;
+  align-items: center;
+  align-self: center;
+}
+
+.imageElement--img-coin-section-2{
+  height: 28px;
+  align-items: center;
+  align-self: center;
+}
+
+.imageElement--img-categoria{
+  width: 200px;
+  height: 200px; 
+  border-radius: 100px;
+  border-color: black;
+  border: 2px;
+}

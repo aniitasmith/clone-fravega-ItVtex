@@ -3,7 +3,10 @@
     "title": "categorias",
     "children": [
       "slider-layout#categorias"
-    ]
+    ],
+    "props": {
+      "blockClass": "container-section-3"
+    }
   },
 "slider-layout#categorias": {
     "title": "Slider categorias",
@@ -17,80 +20,270 @@
       "showPaginationDots": "never"
     },
     "children": [
-      "image#categorias-1",
-      "image#categorias-2",
-      "image#categorias-3",
-      "image#categorias-4",
-      "image#categorias-5",
-      "image#categorias-6",
-      "image#categorias-7",
-      "image#categorias-8",
-      "image#categorias-9",
-      "image#categorias-10",
-      "image#categorias-11",
-      "image#categorias-12"      
+      "flex-layout.row#categoria-1",
+      "flex-layout.row#categoria-2",
+      "flex-layout.row#categoria-3",
+      "flex-layout.row#categoria-4",
+      "flex-layout.row#categoria-5",
+      "flex-layout.row#categoria-6",
+      "flex-layout.row#categoria-7",
+      "flex-layout.row#categoria-8",
+      "flex-layout.row#categoria-9",
+      "flex-layout.row#categoria-10",
+      "flex-layout.row#categoria-11",
+      "flex-layout.row#categoria-12"
     ]
   },
-  "image#categorias-1": {
+  "flex-layout.row#categoria-1": {
+    "children": [
+      "image#categoria-1",
+      "rich-text#categoria-1"
+    ],
     "props": {
-    "src": "assets/img/tv.png"
+      "blockClass":"contenedor-categoria"
     }
   },
-  "image#categorias-2": {
+  "flex-layout.row#categoria-2": {
+    "children": [
+      "image#categoria-2",
+      "rich-text#categoria-2"
+    ],
     "props": {
-      "src": "assets/img/phone.png"
+      "blockClass":"contenedor-categoria"
     }
   },
-  "image#categorias-3": {
+  "flex-layout.row#categoria-3": {
+    "children": [
+      "image#categoria-3",
+      "rich-text#categoria-3"
+    ],
     "props": {
-      "src": "assets/img/ac.png"
+      "blockClass":"contenedor-categoria"
     }
   },
-  "image#categorias-4": {
+  "flex-layout.row#categoria-4": {
+    "children": [
+      "image#categoria-4",
+      "rich-text#categoria-4"
+    ],
     "props": {
-      "src": "assets/img/mattress.png"
+      "blockClass":"contenedor-categoria"
     }
   },
-  "image#categorias-5": {
+  "flex-layout.row#categoria-5": {
+    "children": [
+      "image#categoria-5",
+      "rich-text#categoria-5"
+    ],
     "props": {
-      "src": "assets/img/fridge.png"
+      "blockClass":"contenedor-categoria"
     }
   },
-  "image#categorias-6": {
+  "flex-layout.row#categoria-6": {
+    "children": [
+      "image#categoria-6",
+      "rich-text#categoria-6"
+    ],
     "props": {
-      "src": "assets/img/laptop.png"
+      "blockClass":"contenedor-categoria"
     }
   },
-  "image#categorias-7": {
+  "flex-layout.row#categoria-7": {
+    "children": [
+      "image#categoria-7",
+      "rich-text#categoria-7"
+    ],
     "props": {
-      "src": "assets/img/washer.png"
+      "blockClass":"contenedor-categoria"
     }
   },
-  "image#categorias-8": {
+  "flex-layout.row#categoria-8": {
+    "children": [
+      "image#categoria-8",
+      "rich-text#categoria-8"
+    ],
     "props": {
-      "src": "assets/img/drill.png"
+      "blockClass":"contenedor-categoria"
     }
   },
-  "image#categorias-9": {
+  "flex-layout.row#categoria-9": {
+    "children": [
+      "image#categoria-9",
+      "rich-text#categoria-9"
+    ],
     "props": {
-      "src": "assets/img/kettle.png"
+      "blockClass":"contenedor-categoria"
     }
   },
-
-  "image#categorias-10": {
+  "flex-layout.row#categoria-10": {
+    "children": [
+      "image#categoria-10",
+      "rich-text#categoria-10"
+    ],
     "props": {
-      "src": "assets/img/oven.png"
+      "blockClass":"contenedor-categoria"
     }
   },
-  "image#categorias-11": {
+  "flex-layout.row#categoria-11": {
+    "children": [
+      "image#categoria-11",
+      "rich-text#categoria-11"
+    ],
     "props": {
-      "src": "assets/img/mixer.png"
+      "blockClass":"contenedor-categoria"
     }
   },
-
-  "image#categorias-12": {
+  "flex-layout.row#categoria-12": {
+    "children": [
+      "image#categoria-12",
+      "rich-text#categoria-12"
+    ],
     "props": {
-      "src": "assets/img/ipl.png"
+      "blockClass":"contenedor-categoria"
     }
-  }
+  },
+  "image#categoria-1": {
+    "props": {
+    "src": "assets/img/tv.png",
+    "blockClass":"img-categoria"
+    }
+  },
+  "image#categoria-2": {
+    "props": {
+      "src": "assets/img/phone.png",
+    "blockClass":"img-categoria"
+    }
+  },
+  "image#categoria-3": {
+    "props": {
+      "src": "assets/img/ac.png",
+    "blockClass":"img-categoria"
+    }
+  },
+  "image#categoria-4": {
+    "props": {
+      "src": "assets/img/mattress.png",
+    "blockClass":"img-categoria"
+    }
+  },
+  "image#categoria-5": {
+    "props": {
+      "src": "assets/img/fridge.png",
+    "blockClass":"img-categoria"
+    }
+  },
+  "image#categoria-6": {
+    "props": {
+      "src": "assets/img/laptop.png",
+    "blockClass":"img-categoria"
+    }
+  },
+  "image#categoria-7": {
+    "props": {
+      "src": "assets/img/washer.png",
+    "blockClass":"img-categoria"
+    }
+  },
+  "image#categoria-8": {
+    "props": {
+      "src": "assets/img/drill.png",
+    "blockClass":"img-categoria"
+    }
+  },
+  "image#categoria-9": {
+    "props": {
+      "src": "assets/img/kettle.png",
+    "blockClass":"img-categoria"
+    }
+  },
+  "image#categoria-10": {
+    "props": {
+      "src": "assets/img/oven.png",
+    "blockClass":"img-categoria"
+    }
+  },
+  "image#categoria-11": {
+    "props": {
+      "src": "assets/img/mixer.png",
+    "blockClass":"img-categoria"
+    }
+  },
+  "image#categoria-12": {
+    "props": {
+      "src": "assets/img/ipl.png",
+    "blockClass":"img-categoria"
+    }
+  },
+  "rich-text#categoria-1": {
+    "props": {
+      "blockClass": "txt-categoria",
+      "text": "Televisores"
+    }
+   },
+   "rich-text#categoria-2": {
+    "props": {
+      "blockClass": "txt-categoria",
+      "text": "Celulares"
+    }
+   },
+   "rich-text#categoria-3": {
+    "props": {
+      "blockClass": "txt-categoria",
+      "text": "Climatizacion"
+    }
+   },
+   "rich-text#categoria-4": {
+    "props": {
+      "blockClass": "txt-categoria",
+      "text": "Colchones y Sommiers"
+    }
+   },
+   "rich-text#categoria-5": {
+    "props": {
+      "blockClass": "txt-categoria",
+      "text": "Heladeras, Freezers y Cavas"
+    }
+   },
+   "rich-text#categoria-6": {
+    "props": {
+      "blockClass": "txt-categoria",
+      "text": "Notebools"
+    }
+   },
+   "rich-text#categoria-7": {
+    "props": {
+      "blockClass": "txt-categoria",
+      "text": "Lavarropas y Lavavajillas"
+    }
+   },
+   "rich-text#categoria-8": {
+    "props": {
+      "blockClass": "txt-categoria",
+      "text": "Herramientas Electricas"
+    }
+   },
+   "rich-text#categoria-9": {
+    "props": {
+      "blockClass": "txt-categoria",
+      "text": "Agua Caliente"
+    }
+   },
+   "rich-text#categoria-10": {
+    "props": {
+      "blockClass": "txt-categoria",
+      "text": "Cocinas y Hornos"
+    }
+   },
+   "rich-text#categoria-11": {
+    "props": {
+      "blockClass": "txt-categoria",
+      "text": "Pequenos Electrodomesticos"
+    }
+   },
+   "rich-text#categoria-12": {
+    "props": {
+      "blockClass": "txt-categoria",
+      "text": "Cuidado Personal"
+    }
+   }
 }
