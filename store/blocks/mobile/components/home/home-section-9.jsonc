@@ -1,90 +1,35 @@
 {
   "flex-layout.row#home-mobile__section-9": {
     "children": [
-      "flex-layout.col#mobile__section-9-oferta-1",
-      "flex-layout.col#mobile__section-9-oferta-2"
-    ]
-  },
-    "flex-layout.col#mobile__section-9-oferta-1": {
-      "children": [
-        "flex-layout.col#mobile__sec-9-oferta-1-image",
-        "flex-layout.col#mobile__sec-9-oferta-1-text"
-      ]
-    },
-    "flex-layout.col#mobile__sec-9-oferta-1-image":{
-      "children": [
-        "image#mobile__sec-9-oferta-1"
-      ]
-    },
-    "image#mobile__sec-9-oferta-1": {
-      "props": {
-        "src": "assets/img/electro-sale-tools.png"      
-      }
-    },
-    "flex-layout.col#mobile__sec-9-oferta-1-text":{
-      "children": [
-        "image#mobile__sale-tools",
-        "rich-text#mobile__sec-9-oferta-1",
-        "link#mobile__button-sec-9-oferta-1"
-      ]
-    },
-    "image#mobile__sale-tools":{
-      "props": {
-        "src": ""      
-      }
-    },
-    "rich-text#mobile__sec-9-oferta-1": {
-      "props": {
-        "blockClass": "",
-        "text": "Hasta 3 sin interes y envio gratis en Capital y GBA en seleccionados."
-      }
-    },
-    "link#mobile__button-sec-9-oferta-1": {
-      "props": {
-        "blockClass": "button-oferta",
-        "label": "VER MAS",
-        "href": "/"
-       }
-    },
-    "flex-layout.col#mobile__section-9-oferta-2": {
-      "children": [
-        "flex-layout.col#mobile__sec-9-oferta-2-image",
-        "flex-layout.col#mobile__sec-9-oferta-2-text"
-      ]
-    },
-    "flex-layout.col#mobile__sec-9-oferta-2-image":{
-      "children": [
-        "image#mobile__sec-9-oferta-2"
-      ]
-    },
-    "image#mobile__sec-9-oferta-2": {
-      "props": {
-        "src": "assets/img/electro-sale-pillow.png"      
-      }
-    },
-    "flex-layout.col#mobile__sec-9-oferta-2-text":{
-      "children": [
-        "image#mobile__tienda-sda",
-        "rich-text#mobile__sec-9-oferta-2",
-        "link#mobile__button-sec-9-oferta-2"
-      ]
-    },
-    "image#mobile__tienda-sda":{
-      "props": {
-        "src": ""      
-      }
-    },
-    "rich-text#mobile__sec-9-oferta-2": {
-      "props": {
-        "blockClass": "",
-        "text": "hasta 60% off y envio gratis en Capital y GBA en seleccionados."
-      }
-    },
-    "link#mobile__button-sec-9-oferta-2": {
-      "props": {
-        "blockClass": "button-oferta",
-        "label": "VER MAS",
-        "href": "/"
-       }
+      "info-card#mobile-section-9-oferta-1",
+      "info-card#mobile-section-9-oferta-2"
+    ],
+    "props": {
+      "blockClass": "mobile-container-section-9"
     }
-  } 
+  },
+  "info-card#mobile-section-9-oferta-1":{
+    "props":{
+      "textPosition": "right",
+      "imageUrl": "assets/img/electro-sale-tools.png",
+      "headline": "FRAVEGA HERRAMIENTAS",
+      "subhead": "Hasta 3 sin interes y envio gratis en Capital y GBA en seleccionados.",
+      "callToActionText": "VER MAS",
+      "callToActionUrl": "/sale-3",
+      "blockClass": "mobile-info-card-oferta-section-9",
+      "textAlignment": "rigth"
+    }
+  },
+  "info-card#mobile-section-9-oferta-2":{
+    "props":{
+      "textPosition": "right",
+      "imageUrl": "assets/img/electro-sale-pillow.png",
+      "headline": "TIENDA SDA",
+      "subhead": "Hasta 60% off y envio gratis en Capital y GBA en seleccionados.",
+      "callToActionText": "VER MAS",
+      "callToActionUrl": "/sale-2",
+      "blockClass": "mobile-info-card-oferta-section-9",
+      "textAlignment": "rigth"
+    }
+  }  
+} 
