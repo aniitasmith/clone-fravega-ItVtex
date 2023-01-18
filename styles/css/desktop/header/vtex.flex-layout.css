@@ -1,0 +1,12 @@
+.flexRow--container-section-2{
+  width: 1101px;
+  margin: 8px auto;
+}
+
+.flexCol--container-metodos-pago {
+  border-right: #dadada solid 1px;
+}
+
+.flexCol--container-creditos {
+  border-right: #dadada solid 1px;
+}

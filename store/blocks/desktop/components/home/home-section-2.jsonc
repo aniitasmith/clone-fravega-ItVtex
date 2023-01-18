@@ -2,12 +2,22 @@
   "flex-layout.row#home__section-2": {
     "title": "metodos de pagos",
     "children": [
-      "flex-layout.row#metodos-pago",      
-      "flex-layout.row#creditos",
-      "flex-layout.row#delivery"
+      "flex-layout.col#metodos-pago",      
+      "flex-layout.col#creditos",
+      "flex-layout.col#delivery"
     ],
     "props": {
       "blockClass": "container-section-2"
+    }
+  },
+  "flex-layout.col#metodos-pago": {
+    "children": [
+      "flex-layout.row#metodos-pago"
+    ],
+    "props": {
+      "blockClass": "container-metodos-pago",
+      "width": "33%",
+      "horizontalAlign": "center"
     }
   },
   "flex-layout.row#metodos-pago": {
@@ -16,13 +26,14 @@
       "rich-text#metodo-pago"
     ],
     "props": {
-      "blockClass": "container-metodos-pago"
+      "preventHorizontalStretch": true
     }
   },
   "image#metodos-pago": {
     "props": {
       "src": "assets/img/payment-methods.png",
-      "blockClass":"img-section-2"
+      "blockClass":"img-section-2",
+      "maxWidth": "120px"
     }
   },
   "rich-text#metodo-pago": {
@@ -31,13 +42,23 @@
       "blockClass":"text-section-2"
     }
   },
+  "flex-layout.col#creditos": {
+    "children": [
+      "flex-layout.row#creditos"
+    ],
+    "props": {
+      "blockClass": "container-creditos",
+      "width": "33%",
+      "horizontalAlign": "center"
+    }
+  },
   "flex-layout.row#creditos": {
     "children": [
       "image#coin",
       "rich-text#creditos"
     ],
     "props": {
-      "blockClass": "container-creditos"
+      "preventHorizontalStretch": true
     }
   },
   "image#coin":{
@@ -45,7 +66,8 @@
       "src": "assets/img/coin.png",
       "blockClass":[
         "img-section-2"
-      ]
+      ],
+      "maxWidth": "28px"
     }
   },
   "rich-text#creditos": {
@@ -54,19 +76,30 @@
       "text": "Frávega Créditos.[Pagá Online.](/)\n[Conocé más](/) y accedé al [catálogo exclusivo.](/)"
     }
   },
+  "flex-layout.col#delivery": {
+    "children": [
+      "flex-layout.row#delivery"
+    ],
+    "props": {
+      "blockClass": "container-delivery",
+      "width": "33%",
+      "horizontalAlign": "center"
+    }
+  },
   "flex-layout.row#delivery": {
     "children": [
       "image#delivery",
       "rich-text#delivery"
     ],
     "props": {
-      "blockClass": "container-delivery"
+      "preventHorizontalStretch": true
     }
   },
   "image#delivery":{
     "props": {
       "src": "assets/img/delivery.png",
-      "blockClass":"img-section-2"
+      "blockClass":"img-section-2",
+      "maxWidth": "28px"
     }
   },
   "rich-text#delivery":{
