@@ -13,7 +13,7 @@
     "props": {
       "itemsPerPage": {
         "desktop": 6,
-        "tablet": 3
+        "tablet": 4
       },
       "infinite": false,
       "blockClass": "Carousel categorias",

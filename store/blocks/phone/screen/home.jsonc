@@ -1,8 +1,8 @@
 {
-  "responsive-layout.mobile#home": {
-    "title": "Home mobile",
+  "responsive-layout.phone#phone__home": {
+    "title": "Home phone",
     "children": [
-      "modal-trigger#mobile__codigo-postal",
+      "modal-trigger#codigo-postal",
       "flex-layout.row#home-mobile__section-1",
       "flex-layout.row#home-mobile__section-2",
       "flex-layout.row#home-mobile__section-3",
@@ -14,5 +14,4 @@
       "flex-layout.row#home-mobile__section-9"
     ]
   }
-
 }

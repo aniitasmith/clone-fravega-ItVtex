@@ -1,5 +1,75 @@
-/* Example Phone:
-.flexRow--home__section-2 {
-    margin: 50px auto;
-    max-width: 1200px;
-} */
+.flexRowContent--mobile-container-section-2 {
+    width: 374px;
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.flexRowContent--mobile-container-section-3{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+.flexCol--mobile-contenedor-categoria {
+    margin: 10px 8px;
+}
+
+.flexRowContent--mobile-container-section-5 {
+    width: 374px;
+}
+
+.flexRowContent--mobile-container-section-9 {
+    width: 374px;
+}
+
+.flexRow--mobile-container-section-5{
+    background-color: #f5f5f5; 
+    padding: auto 164px;
+    margin: 0px auto;
+}
+
+.flexRow--mobile-container-section-7{
+    background-color: #f5f5f5; 
+    padding: auto 164px !important;
+    margin: 0px auto; 
+}
+
+.flexRow--mobile-container-section-9{
+    background-color: #f5f5f5; 
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin: 0px auto;
+}
+  
+.flexRowContent--mobile-container-section-7{
+width: 374px;
+padding-top: 60px;
+margin: 0px auto;
+}
+
+.flexCol--mobile-sale-section-7-fitness {
+box-shadow: rgb(0 0 0 / 8%) 0px 2px 4px 0px;
+margin-bottom: 20px;
+}
+.flexCol--mobile-sale-section-7-electrodomesticos {
+box-shadow: rgb(0 0 0 / 8%) 0px 2px 4px 0px;
+margin-bottom: 20px;
+}
+.flexCol--mobile-sale-section-7-electronicos {
+box-shadow: rgb(0 0 0 / 8%) 0px 2px 4px 0px;
+margin-bottom: 20px;
+}
+
+.flexColChild--mobile-sale-section-7-fitness{
+background-color:#ffffff ;
+}
+.flexColChild--mobile-sale-section-7-electrodomesticos{
+background-color:#ffffff ;
+}
+.flexColChild--mobile-sale-section-7-electronicos{
+background-color:#ffffff ;
+}

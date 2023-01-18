@@ -1,10 +1,10 @@
 {
-  "responsive-layout.desktop#desktop__home": {
-    "title": "Home Desktop",
+  "responsive-layout.tablet#tablet__home": {
+    "title": "Home mobile",
     "children": [
       "modal-trigger#codigo-postal",
       "flex-layout.row#home__section-1",
-      "flex-layout.row#home__section-2",
+      "flex-layout.row#home-mobile__section-2",
       "flex-layout.row#home__section-3",
       // "flex-layout.row#home__section-4"
       "flex-layout.row#home__section-5",

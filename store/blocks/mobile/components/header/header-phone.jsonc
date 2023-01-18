@@ -11,7 +11,7 @@
     }
   },
   "header-row#header__top-mobile":{
-    "title":"Header top Mobile",
+    "title":"Header top mobile",
     "children":[
       "flex-layout.row#mega-menu-mobile",
       "logo#header__top",
