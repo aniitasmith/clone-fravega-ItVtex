@@ -20,8 +20,7 @@
       "image#oferta-1",
       "image#oferta-2",
       "image#oferta-3",
-      "image#oferta-4",
-      "image#oferta-5"
+      "image#oferta-4"
     ]
   },
   "image#oferta-1": {
@@ -51,14 +50,6 @@
   "image#oferta-4": {
     "props": {
       "src": "assets/img/banner-004.png",
-      "link":{
-        "url": "/"
-      }
-    }
-  },
-  "image#oferta-5": {
-    "props": {
-      "src": "assets/img/banner-005.png",
       "link":{
         "url": "/"
       }

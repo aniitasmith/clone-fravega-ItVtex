@@ -2,16 +2,16 @@
   "responsive-layout.mobile#home": {
     "title": "Home mobile",
     "children": [
-      "modal-trigger#codigo-postal",
-      "flex-layout.row#home__section-1",
-      "flex-layout.row#home__section-2",
-      "flex-layout.row#home__section-3",
+      "modal-trigger#mobile__codigo-postal",
+      "flex-layout.row#home-mobile__section-1",
+      "flex-layout.row#home-mobile__section-2",
+      "flex-layout.row#home-mobile__section-3",
       // "flex-layout.row#home__section-4"
-      "flex-layout.row#home__section-5",
+      "flex-layout.row#home-mobile__section-5",
       // "flex-layout.row#home__section-6"
-      "flex-layout.row#home__section-7",
+      "flex-layout.row#home-mobile__section-7",
       // "flex-layout.row#home__section-8",
-      "flex-layout.row#home__section-9"
+      "flex-layout.row#home-mobile__section-9"
     ]
   }
 

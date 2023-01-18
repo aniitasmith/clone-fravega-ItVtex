@@ -1,0 +1,78 @@
+{
+  "flex-layout.row#home-mobile__section-2": {
+    "title": "metodos de pagos",
+    "children": [
+      "flex-layout.row#mobile__metodos-pago",      
+      "flex-layout.row#mobile__creditos",
+      "flex-layout.row#mobile__delivery"
+    ],
+    "props": {
+      "blockClass": "container-section-2"
+    }
+  },
+  "flex-layout.row#mobile__metodos-pago": {
+    "children": [
+      "image#mobile__metodos-pago",
+      "rich-text#mobile__metodo-pago"
+    ],
+    "props": {
+      "blockClass": "container-metodos-pago"
+    }
+  },
+  "image#mobile__metodos-pago": {
+    "props": {
+      "src": "assets/img/payment-methods.png",
+      "blockClass":"mobile-img-section-2"
+    }
+  },
+  "rich-text#mobile__metodo-pago": {
+    "props": {
+      "text": "Pagá con crédito y débito \n [Ver promociones](/)",
+      "blockClass":"text-section-2"
+    }
+  },
+  "flex-layout.row#mobile__creditos": {
+    "children": [
+      "image#mobile__coin",
+      "rich-text#mobile__creditos"
+    ],
+    "props": {
+      "blockClass": "container-creditos"
+    }
+  },
+  "image#mobile__coin":{
+    "props": {
+      "src": "assets/img/coin.png",
+      "blockClass":[
+        "mobile-img-section-2"
+      ]
+    }
+  },
+  "rich-text#mobile__creditos": {
+    "props": {
+      "blockClass": "text-section-2",
+      "text": "Frávega Créditos.[Pagá Online.](/)\n[Conocé más](/) y accedé al [catálogo exclusivo.](/)"
+    }
+  },
+  "flex-layout.row#mobile__delivery": {
+    "children": [
+      "image#mobile__delivery",
+      "rich-text#mobile__delivery"
+    ],
+    "props": {
+      "blockClass": "container-delivery"
+    }
+  },
+  "image#mobile__delivery":{
+    "props": {
+      "src": "assets/img/delivery.png",
+      "blockClass":"mobile-img-section-2"
+    }
+  },
+  "rich-text#mobile__delivery":{
+    "props": {
+      "blockClass": "text-section-2",
+      "text": "Envíos a todo el país y retiro gratis \n [en más de 100 sucursales](/sucursales/)"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "modal-trigger#mobile__codigo-postal": {
+    "children": [
+      "modal-layout#home-mobile__modal--event"
+    ],
+    "props": {
+      "trigger": "load-session", //event
+      "customPixelEventName": "pageView"
+    }
+  },
+  "modal-layout#home-mobile__modal--event": {
+    "children": [
+      "modal-header#home-mobile__modal--event",
+      "rich-text#home-mobile__modal--event--title",
+      "rich-text#home-mobile__modal--event--content"
+      
+    ]
+  },
+  "modal-header#home-mobile__modal--event": {
+    "props": {
+      "showCloseButton": true
+    }
+  },
+  "rich-text#home-mobile__modal--event--title": {
+    "props": {
+      "text": "Ingresá tu código postal"
+    }
+  },
+  "rich-text#home-mobile__modal--event--content": {
+    "props": {
+      "text": "para ver las mejores opciones de envío y retiro."
+    }
+  }
+}
