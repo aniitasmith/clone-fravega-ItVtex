@@ -51,20 +51,6 @@
   overflow: overlay;
 }
 
-.menuContainer {
-  width: 300px !important;
-  height: max-content;
-  max-height: max-content;
-  border-right: none;
-}
-
-.submenuContainer {
-  width: 100% !important;
-  overflow: initial;
-  max-height: max-content;
-  border-left: 2px solid #e3e4e6;
-}
-
 .styledLinkText--mega-menu {
   color: #222;
   font-family: "work-sans";
@@ -86,7 +72,7 @@
   color: rgb(149, 149, 149);
 }
 /* LAPTOP */
-@media screen and (min-width: 1300px) and (max-width: 1500px) {
+@media only screen and (min-width: 1300px) and (max-width: 1500px) {
   .menuContainerNav--mega-menu {
     left: 1.5rem;
     max-width: 80rem;

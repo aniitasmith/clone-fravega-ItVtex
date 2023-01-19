@@ -39,8 +39,8 @@
   "mega-menu#desktop": {
     "props": {
       "openOnly": "horizontal",
-      "title": "",
-      "blockClass": "mega-menu"
+      "blockClass": "mega-menu",
+      "goBackButton": true
     }
   },
   "flex-layout.col#trigger-mega-menu": {

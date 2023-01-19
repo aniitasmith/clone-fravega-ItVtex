@@ -13,7 +13,10 @@
   "flex-layout.col#mobile__metodos-pago": {
     "children": [
       "flex-layout.row#mobile__metodos-pago"
-    ]
+    ],
+    "props": {
+      "blockClass":"mobile-metodos-pago"
+    }
   },
   "flex-layout.row#mobile__metodos-pago": {
     "children": [
@@ -40,7 +43,10 @@
   "flex-layout.col#mobile__creditos": {
     "children": [
       "flex-layout.row#mobile__creditos"
-    ]
+    ],
+    "props": {
+      "blockClass":"mobile-creditos"
+    }
   },
   "flex-layout.row#mobile__creditos": {
     "children": [

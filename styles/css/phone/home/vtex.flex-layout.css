@@ -2,8 +2,8 @@
     width: 374px;
     display: flex;
     flex-direction: row;
-    align-items: space-between;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
     margin: 10px 0;
 }
 
@@ -72,4 +72,26 @@ background-color:#ffffff ;
 }
 .flexColChild--mobile-sale-section-7-electronicos{
 background-color:#ffffff ;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .flexRowContent--mobile-container-section-2 {
+        width: 100vw;
+    }
+
+    .flexColChild--mobile-metodos-pago {
+        width: 50vw;
+    }
+
+    .flexColChild--mobile-creditos {
+        width: 50vw;
+    }
+
+    .paragraph--mobile-text-metodos-pago {
+        width: 100%;
+    }
+
+    .flexColChild--mobile-metodos-pago {
+        border-right: rgb(218,218,218) solid 1px;
+    }
 }
