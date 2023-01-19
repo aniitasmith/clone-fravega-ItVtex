@@ -11,3 +11,22 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .flexRow--mobile-container-section-2{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+/* .flexRowContent--mobile-container-metodos-pago{
+  ;
+}
+
+.flexRowContent--mobile-container--creditos{
+  ;
+} */
+
+}

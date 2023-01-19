@@ -14,34 +14,47 @@
     }
   },
   "flex-layout.row#menu-container":{
+    "title": "Menu hamburguesa",
+    "props": {
+      "blockClass": ["desktop__menu", "desktop__menu-all-categories"]
+    },
     "children":[
-      "flex-layout.row#menu",
+      "flex-layout.row#4-desktop",
       "flex-layout.row#mega-menu"
     ]
   },
-  "flex-layout.row#menu": {
+  "flex-layout.row#4-desktop": {
     "children": [
       "flex-layout.col#trigger-mega-menu"
       ]
   },
 
   "flex-layout.row#mega-menu": {
-    "children": ["mega-menu#desktop"]
+    "children": ["mega-menu#desktop"],
+    "props": {
+      "blockClass": "menu-container",
+      "fullWidth": true
+    }
   },
   "mega-menu#desktop": {
     "props": {
-      "openOnly": "horizontal"
+      "openOnly": "horizontal",
+      "title": "",
+      "blockClass": "mega-menu"
     }
   },
   "flex-layout.col#trigger-mega-menu": {
     "props": {
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "blockClass": "trigger-menu"
     },
     "children": ["mega-menu-trigger-btn"]
   },
   "mega-menu-trigger-btn": {
     "props": {
-      "Drawer": "drawer"
+      "Drawer": "drawer",
+      "blockClass": "trigger-btn-menu"
+
     }
   },
   "link#header__bottom-1": {

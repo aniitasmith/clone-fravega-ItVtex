@@ -86,12 +86,15 @@
       "search-bar"
     ],
     "props":{
-      "blockClass":""
+      "blockClass":"search-bar-mobile"
     }
   },
   "header-row#header__bottom-mobile":{
     "children":[
       "header-row#logo-location"
-    ]
+    ],
+    "props":{
+      "blockClass":"location-mobile"
+    }
   }
 }
