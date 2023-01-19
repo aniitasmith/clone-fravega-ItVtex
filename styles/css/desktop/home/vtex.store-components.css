@@ -121,3 +121,27 @@
   padding: 20px;
   box-shadow: rgb(0 0 0 / 8%) 0px 2px 4px 0px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .infoCardTextContainer--info-card-oferta, .infoCardTextContainer--info-card-oferta-section-9 {
+    width: 60%;
+  }
+
+  .infoCardHeadline--info-card-oferta, .infoCardHeadline--info-card-oferta-section-9 {
+    font-size: 16px;
+    width: fit-content;
+  }
+
+  .infoCardSubhead--info-card-oferta, .infoCardSubhead--info-card-oferta-section-9 {
+    font-size: 16px;
+  }
+
+  .infoCardImageContainer--info-card-oferta, .infoCardImageContainer--info-card-oferta-section-9 {
+    width: 40%;
+  }
+
+  .infoCardImage--info-card-oferta, .infoCardImage--info-card-oferta-section-9 {
+    width: auto;
+    height: auto;
+  }
+}

@@ -39,7 +39,7 @@
 
 .menuContainerNav--mega-menu {
   max-width: 100rem;
-  height: 77vh;
+  height: auto !important;
   left: 16rem;
   top: 10rem;
   border: 1px solid #c2c2c2;

@@ -28,7 +28,7 @@
   "rich-text#section-7-fitness": {
     "props": {
       "blockClass": "text-section-7",
-      "text": "**Hasta 6 sin intereses y envio gratis en Capital y Gba en seleccionados de fitness y movilidad.**"
+      "text": "**Hasta 6 sin intereses y envio gratis en seleccionados de fitness.**"
     }
   },
   "flex-layout.col#section-7-electrodomesticos": {
@@ -49,7 +49,7 @@
   "rich-text#section-7-electrodomesticos": {
     "props": {
       "blockClass": "text-section-7",
-      "text": "**Heladeras, cocinas, lavado y pequenos electrodomesticos en hasta 6 sin interes.**"
+      "text": "**Heladeras y pequenos electrodomesticos en hasta 6 sin interes.**"
     }
   },
 
