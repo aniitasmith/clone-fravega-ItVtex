@@ -1,0 +1,22 @@
+.paragraph--text-location{
+  font-family: work-sans;  
+  padding: 10px;
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.container--mobile-text-metodo-pago{
+  font-size: 13px;
+  height: 50px;
+  width: 135px !important;
+  margin: 0 8px;
+  border-right: rgb(218, 218, 218) solid 1px;
+}
+
+.container--mobile-text-creditos{
+  font-size: 13px;
+  height: 50px;
+  margin: 0 8px;
+  width: 130px !important;
+}

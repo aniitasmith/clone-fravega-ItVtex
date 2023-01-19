@@ -1,0 +1,81 @@
+.menuContainerNav {
+  width: 70%!important;
+}
+
+.triggerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.triggerContainer::after {
+  font-family: "work-sans" !important; 
+  content: "Categorias";
+  margin-left: 5px;
+  padding-left: 5px;
+  font-family: sans-serif;  
+  color: #333333 !important;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.triggerContainer::after:hover {
+  color: #846FC7;
+}
+
+.triggerContainer:hover {
+  color: #846FC7;
+}
+
+.triggerButtonIcon {
+  width: 22px;
+  height: 22px;
+  color: #222;
+}
+
+.triggerButtonIcon:hover {
+  color: #846FC7;
+}
+
+.menuContainerNav--mega-menu {
+  max-width: 100rem;
+  height: auto !important;
+  left: 16rem;
+  top: 10rem;
+  border: 1px solid #c2c2c2;
+  border-top: none;
+  box-shadow: 0 0 transparent, 0 0 transparent, 0 1px 6px 0 rgba(0, 0, 0, 0.14),
+    0 2px 3px 0 rgba(0, 0, 0, 0.06), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+  font-family: "work-sans";
+  z-index: 9;
+  overflow: overlay;
+}
+
+.styledLinkText--mega-menu {
+  color: #222;
+  font-family: "work-sans";
+}
+
+.styledLinkText--mega-menu:hover {
+  color: #846FC7;
+}
+.seeAllLink--mega-menu {
+  text-decoration: none;
+  color: #846FC7;
+  font-weight: 500;
+  font-family: "work-sans";
+}
+.seeAllLink--mega-menu:hover {
+  text-decoration: underline;
+}
+.caretIcon--mega-menu {
+  color: rgb(149, 149, 149);
+}
+/* LAPTOP */
+@media only screen and (min-width: 1300px) and (max-width: 1500px) {
+  .menuContainerNav--mega-menu {
+    left: 1.5rem;
+    max-width: 80rem;
+    height: 65vh;
+  }
+}

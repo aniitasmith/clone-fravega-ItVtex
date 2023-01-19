@@ -1,0 +1,51 @@
+
+.label--link-header-top{
+  font-family: "work-sans";  
+  padding: 10px;
+  text-transform: capitalize;
+  color: rgb(74, 74, 74);
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.label--img-compra::before{
+  content: url(assets/img/icons-compra.svg);
+}
+
+.label--img-servicio-tecnico::before{
+  content: url(assets/img/icons-servicio-tecnico.svg);
+}
+
+.label--img-sucursales::before{
+  content: url(assets/img/icons-sucursales.svg);
+}
+
+.label--img-venta-telefonica::before{
+  content: url(assets/img/icons-venta-telefonica.svg);
+}
+.label--img-help-center::before{
+  content: url(assets/img/icons-help-center.svg);
+}
+
+.link--link-header-top{
+  text-decoration: none; 
+}
+
+.label--categoria-menu{
+  font-family: "work-sans";  
+  padding: 12px;
+  text-transform: capitalize;
+  color: rgb(51, 51, 51);
+  cursor: pointer;
+  font-weight:500;
+  font-size: 13px;
+}
+.link--categoria-menu{
+  text-decoration: none; 
+}

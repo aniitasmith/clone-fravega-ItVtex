@@ -1,0 +1,58 @@
+{
+  "flex-layout.row#home__section-1": {
+    "title": "Slider ofertas",
+    "children": [
+      "slider-layout#home__ofertas"
+    ]
+  },
+  "slider-layout#home__ofertas": {
+    "title": "Slider ofertas",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "Carousel ofertas"
+    },
+    "children": [
+      "image#oferta-1",
+      "image#oferta-2",
+      "image#oferta-3",
+      "image#oferta-4"
+    ]
+  },
+  "image#oferta-1": {
+    "props": {
+      "src": "assets/img/banner-001.png",
+      "link":{
+        "url": ""
+      }
+    }
+  },
+  "image#oferta-2": {
+    "props": {
+      "src": "assets/img/banner-002.png",
+      "link":{
+        "url": ""
+      }
+    }
+  },
+  "image#oferta-3": {
+    "props": {
+      "src": "assets/img/banner-003.png",
+      "link":{
+        "url": "/"
+      }
+    }
+  },
+  "image#oferta-4": {
+    "props": {
+      "src": "assets/img/banner-004.png",
+      "link":{
+        "url": "/"
+      }
+    }
+  }
+}

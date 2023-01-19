@@ -1,12 +1,10 @@
 {
   "store.home": {
-    "title": "Store home",
+    "title": "Store home fravega",
     "blocks": [
-      "responsive-layout.desktop#home__section-1",
-      "responsive-layout.tablet#home__section-1",
-      "responsive-layout.phone#home__section-1",
-      "responsive-layout.mobile#phone__and__tablet",
-      "flex-layout.row#home__section--global"
+      "responsive-layout.desktop#desktop__home",
+      "responsive-layout.tablet#tablet__home",
+      "responsive-layout.phone#phone__home"
     ]
   }
 }

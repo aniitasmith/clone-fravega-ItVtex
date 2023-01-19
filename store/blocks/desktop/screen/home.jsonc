@@ -1,6 +1,17 @@
 {
-  "responsive-layout.desktop#home__section-1": {
-    "title": "Home Section 1 Desktop",
-    "children": ["flex-layout.row#home__section-1"]
+  "responsive-layout.desktop#desktop__home": {
+    "title": "Home Desktop",
+    "children": [
+      "modal-trigger#codigo-postal",
+      "flex-layout.row#home__section-1",
+      "flex-layout.row#home__section-2",
+      "flex-layout.row#home__section-3",
+      // "flex-layout.row#home__section-4"
+      "flex-layout.row#home__section-5",
+      // "flex-layout.row#home__section-6"
+      "flex-layout.row#home__section-7",
+      // "flex-layout.row#home__section-8",
+      "flex-layout.row#home__section-9"
+    ]
   }
 }
