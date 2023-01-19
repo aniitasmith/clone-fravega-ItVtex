@@ -1,0 +1,75 @@
+{
+  "header-row#header__top" : {
+    "title": "Header top",
+    "children": [
+      "link#header__top--1",
+      "link#header__top--2",
+      "link#header__top--3",
+      "link#header__top--4",
+      "link#header__top--5",
+      "header-spacer",
+      "logo#header__top--creditos"      
+    ],
+    "props":{
+      "blockClass":"header__top"
+         }
+  },
+  "link#header__top--1": {
+    "props": {
+      "label": "Sigue tu compra",
+      "href": "/tracking",
+      "blockClass":[
+        "link-header-top",
+        "img-compra"
+      ]
+     }
+  },
+  "link#header__top--2": {
+    "props": {
+      "label": "Servicio tecnico",
+      "href": "/servicio-tecnico",
+      "blockClass":[
+        "link-header-top",
+        "img-servicio-tecnico"
+      ]
+     }
+  },
+  "link#header__top--3": {
+    "props": {
+      "label": "Sucursales",
+      "href": "/sucursales",
+      "blockClass":[
+        "link-header-top",
+        "img-sucursales"
+      ]
+     }
+  },
+  "link#header__top--4": {
+    "props": {
+      "label": "venta telefonica",
+      "href": "/venta-telefonica",
+      "blockClass":[
+        "link-header-top",
+        "img-venta-telefonica"
+      ]
+     }
+  },
+  "link#header__top--5": {
+    "props": {
+      "label": "Centro de ayuda",
+      "href": "/help-center",
+      "blockClass":[
+        "link-header-top",
+        "img-help-center"
+      ]
+     }
+  },
+  "logo#header__top--creditos": {
+    "title": "fravega-creditos",
+    "props": {
+      "url":"assets/img/fravega-creditos.svg",
+      "width": 110,
+      "href": "/creditos"
+    }
+  }
+}

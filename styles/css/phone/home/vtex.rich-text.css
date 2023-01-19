@@ -1,0 +1,44 @@
+.paragraph--text-section-2{
+  font-family: work-sans;  
+  padding: 10px;
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.text-creditos-section-2{
+  height: 50px;
+  width: 120px !important;
+  border-right: #000000 solid 1px;
+}
+
+.container--text-creditos-section-2 {
+  height: 50px;
+  width: 120px !important;
+  border-right: #000000 solid 1px;
+}
+
+.paragraph--mobile-txt-categoria {
+  font-size: 13px;
+  width: 106px;
+  color: #000000;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+.strong--mobile-text-section-7{
+  padding: 10px;
+  font-size: 15px;
+  line-height: 1.44;
+  letter-spacing: -0.5px;
+  color: black;
+  width: 374px;
+  overflow-wrap: break-word;
+  display: block;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container--mobile-text-metodo-pago {
+    border-right: none
+  }
+}

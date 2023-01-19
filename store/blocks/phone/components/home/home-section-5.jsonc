@@ -1,0 +1,35 @@
+{
+  "flex-layout.row#home-mobile__section-5": {
+    "children": [
+      "info-card#mobile-section-5-oferta-1",
+      "info-card#mobile-section-5-oferta-2"
+    ],
+    "props": {
+      "blockClass": "mobile-container-section-5"
+    }
+  },
+  "info-card#mobile-section-5-oferta-1":{
+    "props":{
+      "textPosition": "right",
+      "imageUrl": "assets/img/ofertas.png",
+      "headline": "DESCUBRILAS",
+      "subhead": "No te pierdas las mejores ofertas al precio mas bajo.",
+      "callToActionText": "VER MAS",
+      "callToActionUrl": "/sale-1",
+      "blockClass": "mobile-info-card-oferta",
+      "textAlignment": "right"
+    }
+  },
+  "info-card#mobile-section-5-oferta-2":{
+    "props":{
+      "textPosition": "right",
+      "imageUrl": "assets/img/ofertas-2.png",
+      "headline": "FRAVEGA CASA",
+      "subhead": "Hasta 40% off en colchones, muebles y articulos de decoracion seleccionados.",
+      "callToActionText": "VER MAS",
+      "callToActionUrl": "/sale-2",
+      "blockClass": "mobile-info-card-oferta",
+      "textAlignment": "right"
+    }
+  }  
+} 

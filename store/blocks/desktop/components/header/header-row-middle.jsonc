@@ -1,0 +1,82 @@
+{
+  "header-row#header__middle":{
+    "title":"Header Middle",
+    "children":[
+      "header-row#header__middle--logo",
+      "header-spacer",
+      "header-row#header__middle--search",
+      "header-spacer",
+      "header-row#header__middle--account"
+       ],
+    "props":{
+      "blockClass":"header__middle",
+      "fullWidth": true
+    }
+  },
+  "header-row#header__middle--logo": {
+    "children": [
+      "logo#header__middle--logo",
+      "header-row#logo-location"
+    ],
+    "props": {
+      "blockClass": "header__middle-row-logo"}
+  },
+  "logo#header__middle--logo":{
+    "title": "logo",
+    "props": {
+      "url":"assets/img/fravega-logo.svg",
+      "width": 150,
+      "href": "/"
+    }
+  },
+  "header-row#logo-location": {
+    "children": [
+      "image#location",
+      "rich-text#location"
+    ],
+    "props": {
+      "blockClass": "header__middle-row-location"
+    }
+  },
+  "image#location": {
+    "props": {
+      "blockClass": "Location",
+      "src": "assets/img/icons-location.svg",
+      "maxHeight": ""
+    }
+  },
+  "rich-text#location": {
+    "props": {
+      "text": "Estás en Capital Federal",
+      "blockClass": "text-location"
+    }
+  },
+  "header-row#header__middle--search": {
+    "children": [
+      "search-bar"
+    ],
+    "props": {
+      "blockClass": "header__middle-row-search"
+    }
+  },
+  "header-row#header__middle--account": {
+    "children": [
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "header__middle-row-account"
+    }
+    },
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "Login",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "contrasena",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "iconLabel":" Mi cuenta"
+    }
+  }
+}

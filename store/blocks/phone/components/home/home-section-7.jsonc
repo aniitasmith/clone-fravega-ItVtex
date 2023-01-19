@@ -1,0 +1,77 @@
+{
+  "flex-layout.row#home-mobile__section-7": {
+    "children": [
+      "flex-layout.col#mobile-section-7-fitness",
+      "flex-layout.col#mobile-section-7-electrodomesticos",
+      "flex-layout.col#mobile-section-7-electronicos"
+    ],
+    "props": {
+      "blockClass": "mobile-container-section-7"
+    }
+  },
+  "flex-layout.col#mobile-section-7-fitness": {
+    "children": [
+      "image#mobile-section-7-fitness",
+      "rich-text#mobile-section-7-fitness"
+    ],
+    "props": {
+      "blockClass": "mobile-sale-section-7-fitness"
+
+    }
+  },
+  "image#mobile-section-7-fitness": {
+    "props": {
+      "src": "assets/img/electro-sale-50.png",
+      "blockClass":"mobile-img-section-7"
+    }
+  },
+  "rich-text#mobile-section-7-fitness": {
+    "props": {
+      "blockClass": "mobile-text-section-7",
+      "text": "**Hasta 6 sin intereses y envio gratis en Capital y Gba en seleccionados de fitness y movilidad.**"
+    }
+  },
+  "flex-layout.col#mobile-section-7-electrodomesticos": {
+    "children": [
+      "image#mobile-section-7-electrodomesticos",
+      "rich-text#mobile-section-7-electrodomesticos"
+    ],
+    "props": {
+      "blockClass": "mobile-sale-section-7-electrodomesticos"
+    }
+  },
+  "image#mobile-section-7-electrodomesticos": {
+    "props": {
+      "src": "assets/img/electro-sale-30.png",
+      "blockClass":"mobile-img-section-7"
+    }
+  },
+  "rich-text#mobile-section-7-electrodomesticos": {
+    "props": {
+      "blockClass": "mobile-text-section-7",
+      "text": "**Heladeras, cocinas, lavado y pequenos electrodomesticos en hasta 6 sin interes.**"
+    }
+  },
+
+  "flex-layout.col#mobile-section-7-electronicos": {
+    "children": [
+      "image#mobile-section-7-electronicos",
+      "rich-text#mobile-section-7-electronicos"
+    ],
+    "props": {
+      "blockClass": "mobile-sale-section-7-electronicos"
+    }
+  },
+  "image#mobile-section-7-electronicos": {
+    "props": {
+      "src": "assets/img/electro-sale-20.png",
+      "blockClass":"mobile-img-section-7"
+    }
+  },
+  "rich-text#mobile-section-7-electronicos": {
+    "props": {
+      "blockClass": "mobile-text-section-7",
+      "text": "**Notebooks,tablets,smartwatches y mucho mas en hasta 6 sin interes.**"
+    }
+  }
+}

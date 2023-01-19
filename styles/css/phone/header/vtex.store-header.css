@@ -1,0 +1,12 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .headerRowContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;      
+  }
+
+  .headerRowContainer--location-mobile{
+    justify-content:start;
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "flex-layout.row#home-mobile__section-2": {
+    "title": "metodos de pagos",
+    "children": [
+      "flex-layout.col#mobile__metodos-pago",      
+      "flex-layout.col#mobile__creditos"
+    ],
+    "props": {
+      "blockClass": "mobile-container-section-2",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.col#mobile__metodos-pago": {
+    "children": [
+      "flex-layout.row#mobile__metodos-pago"
+    ],
+    "props": {
+      "blockClass":"mobile-metodos-pago"
+    }
+  },
+  "flex-layout.row#mobile__metodos-pago": {
+    "children": [
+      "image#mobile__metodos-pago",
+      "rich-text#mobile__metodo-pago"
+    ],
+    "props": {
+      "blockClass": "mobile-container-metodos-pago",
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#mobile__metodos-pago": {
+    "props": {
+      "src": "assets/img/credit-card.png",
+      "blockClass":"img-section-2"
+    }
+  },
+  "rich-text#mobile__metodo-pago": {
+    "props": {
+      "text": "Medios de pago \n [Ver promociones](/)",
+      "blockClass":"mobile-text-metodo-pago"
+    }
+  },
+  "flex-layout.col#mobile__creditos": {
+    "children": [
+      "flex-layout.row#mobile__creditos"
+    ],
+    "props": {
+      "blockClass":"mobile-creditos"
+    }
+  },
+  "flex-layout.row#mobile__creditos": {
+    "children": [
+      "image#mobile__coin",
+      "rich-text#mobile__creditos"
+    ],
+    "props": {
+      "blockClass": "mobile-container-creditos",
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#mobile__coin":{
+    "props": {
+      "src": "assets/img/coin.png",
+      "blockClass":[
+        "img-section-2"
+      ]
+    }
+  },
+  "rich-text#mobile__creditos": {
+    "props": {
+      "blockClass": "mobile-text-creditos",
+      "text": "Frávega Créditos\n[pagá online](/)"
+    }
+  }
+}
