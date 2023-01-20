@@ -59,20 +59,6 @@
       "blockClass": "header__middle-row-search"
     }
   },
-  "search-bar": {
-    "blocks": ["autocomplete-result-list.v2"],
-    "props": {
-      "openAutocompleteOnFocus": true
-    }
-  },
-  
-    "autocomplete-result-list.v2": {
-      "blocks": ["product-summary"]
-    },
-
-
-
-
   "header-row#header__middle--account": {
     "children": [
       "login",
@@ -91,18 +77,6 @@
       "showPasswordVerificationIntoTooltip": true,
       "showIconProfile": true,
       "iconLabel":" Mi cuenta"
-    }
-  },
-  "minicart.v2": {
-    "props": {
-    "MinicartIcon": "icon#home__account--fravega"
-    }
-  },
-  "icon#home__account--fravega": {
-    "props": {
-      "id": "hpa-shopping",
-      "size": 16,
-      "viewBox":"0 0 25 25"
     }
   }
 }
