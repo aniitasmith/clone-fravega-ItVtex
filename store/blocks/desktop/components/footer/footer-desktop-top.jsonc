@@ -1,0 +1,187 @@
+{
+  "flex-layout.row#desktop__footer-top":{
+    "props":{
+      "blockClass":"container-footer-top-desktop"
+    },
+    "children":[
+      "flex-layout.col#social-menu",
+      "flex-layout.col#costume-support",
+      "flex-layout.col#credits-support",
+      "flex-layout.col#sales-support",
+      "flex-layout.col#business-support"
+    ]
+  },
+  "flex-layout.col#social-menu":{
+    "children": [
+      "logo#header__middle--logo",
+      "flex-layout.row#social-media"
+    ],
+    "props":{
+      "blockClass":"container-social-media"
+    }
+  },
+  "flex-layout.row#social-media":{
+    "children": [
+      "image#facebook",
+      "image#instagram",
+      "image#youtube",
+      "image#twitter",
+      "image#linkedin"
+    ],
+    "props": {
+      "blockClass":"container-img-social-media"
+    }
+  },
+   "image#facebook": {
+    "props": {
+      "src": "assets/img/facebook.svg",
+      "blockClass":"img-social-media"
+    }
+  },
+  "image#instagram": {
+    "props": {
+      "src": "assets/img/instagram.svg",
+      "blockClass":"img-social-media"
+    }
+  },
+  "image#youtube": {
+    "props": {
+      "src": "assets/img/youtube.svg",
+      "blockClass":"img-social-media"
+    }
+  },
+  "image#twitter": {
+    "props": {
+      "src": "assets/img/twitter.svg",
+      "blockClass":"img-social-media"
+    }
+  },
+  "image#linkedin": {
+    "props": {
+      "src": "assets/img/linkedin.svg",
+      "blockClass":"img-social-media"
+    }
+  },
+  "flex-layout.col#costume-support":{
+    "children": [
+      "rich-text#costume-support-line-1",
+      "rich-text#costume-support-line-2",
+      "rich-text#costume-support-line-3",
+      "rich-text#costume-support-line-4",
+      "rich-text#costume-support-line-5"     
+    ],
+    "props": {
+      "blockClass":"container-text-footer-top"
+    }
+  },
+  "rich-text#costume-support-line-1":{
+    "props":{
+      "text":"Atencion al cliente",
+      "blockClass": "text-footer-top"
+    }
+  },
+   "rich-text#costume-support-line-2":{
+    "props":{
+      "text":"**0800 122 0338**",
+      "blockClass": "text-footer-top"
+    }
+  },
+  "rich-text#costume-support-line-3":{
+    "props":{
+      "text":"**0810 999 3728**",
+      "blockClass": "text-footer-top"
+    }
+  },
+  "rich-text#costume-support-line-4":{
+    "props":{
+      "text":"LU-VI de 09:00 a 18:00",
+      "blockClass": "text-footer-top"
+    }
+  },
+  "rich-text#costume-support-line-5":{
+    "props":{
+      "text":"SA de 9:00 a 13:00",
+      "blockClass": "text-footer-top"
+    }
+  },
+  "flex-layout.col#credits-support":{
+    "children": [
+      "rich-text#credits-support-line-1",
+      "rich-text#credits-support-line-2"      
+    ],
+    "props": {
+      "blockClass":"container-text-footer-top"
+    }
+  },
+  "rich-text#credits-support-line-1":{
+    "props":{
+      "text":"Cobranza de créditos:",
+      "blockClass": "text-footer-top"
+    }
+  },
+  "rich-text#credits-support-line-2":{
+    "props":{
+      "text":"**cobranzas@fravega.com.ar**",
+      "blockClass": "text-footer-top"
+    }
+  },
+  "flex-layout.col#sales-support":{
+    "children": [
+      "rich-text#sales-support-line-1",
+      "rich-text#sales-support-line-2",
+      "rich-text#sales-support-line-3",
+      "rich-text#sales-support-line-4"        
+    ],
+    "props": {
+      "blockClass":"container-text-footer-top"
+    }
+  },
+  "rich-text#sales-support-line-1":{
+    "props":{
+      "text":"Venta telefónica:",
+      "blockClass": "text-footer-top"
+    }
+  },
+  "rich-text#sales-support-line-2":{
+    "props":{
+      "text":"**0810 333 8700**",
+      "blockClass": "text-footer-top"
+    }
+  },
+  "rich-text#sales-support-line-3":{
+    "props":{
+      "text":"LU-VI de 8:00 a 20:00",
+      "blockClass": "text-footer-top"
+    }
+  },
+  "rich-text#sales-support-line-4":{
+    "props":{
+      "text":"SA-DO-Feriados 9:00 a 21:00",
+      "blockClass": "text-footer-top"
+    }
+  },
+  "flex-layout.col#business-support":{
+    "children": [
+      "rich-text#business-support-line-1",
+      "link#business-support-line-2"       
+    ],
+    "props": {
+      "blockClass":"container-text-footer-top"
+    }
+  },
+  "rich-text#business-support-line-1":{
+    "props":{
+      "text":"Servicio a empresas",
+      "blockClass": "text-footer-top"
+    }
+  },
+  "link#business-support-line-2":{
+    "props": {
+      "label": "Venta corporativas",
+      "href": "/",
+      "blockClass":[
+        "text-footer-top"
+      ]
+     }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "flex-layout.row#footer-mobile": {
+    "children": [
+       "flex-layout.col#container__footer-mobile"
+      ],
+    "props": {
+      "blockClass": "footer-mobile"
+    }
+  },
+  "flex-layout.col#container__footer-mobile":{
+    "children": [ 
+      "flex-layout.row#footer-top",
+      "flex-layout.row#footer-middle",
+      "flex-layout.row#footer-bottom"
+    ],
+    "props": {
+      "blockClass":"container-footer-mobile"
+    }
+  },
+  "flex-layout.row#footer-top":{
+    "children": [
+      "logo#header__middle--logo",
+      "flex-layout.col#costume-support",
+      "flex-layout.col#credits-support",
+      "flex-layout.col#sales-support",
+      "flex-layout.col#business-support",
+      "link#footer__middle--bm2",
+      "link#footer__middle--bm3",
+      "link#footer__middle--bm4"
+    ],
+    "props": {
+      "blockClass": "container-footer-top-mobile"
+    }
+  },
+  "flex-layout.row#footer-middle":{
+    "children": [
+      "rich-text#promotions"
+    ],
+    "props": {
+      "blockClass": "container-footer-middle-mobile"
+    }
+  },
+  "flex-layout.row#footer-bottom":{
+    "children": [
+      "rich-text#copyright-mobile"
+    ],
+    "props": {
+      "blockClass": "container-footer-bottom-mobile"
+    }
+  },
+  "rich-text#copyright-mobile":{
+    "props": {
+      "text": "Copyright 2021 | Todos los derechos reservados Fravega.com.",
+      "blockClass": "text-footer-mobile"
+    }
+  }
+}

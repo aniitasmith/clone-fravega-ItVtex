@@ -1,0 +1,267 @@
+{
+  "flex-layout.row#desktop__footer-middle":{
+    "props":{
+      "blockClass":"container-footer-middle-desktop"
+    },
+    "children":[
+      "flex-layout.col#promotions",
+      "flex-layout.col#basic-menu",
+      "flex-layout.col#credit-menu",
+      "flex-layout.col#recomendations",
+      "flex-layout.col#help",
+      "flex-layout.col#benefits"
+    ]
+  },
+  "flex-layout.col#promotions":{
+    "children":[
+      "rich-text#promotions"
+    ],
+    "props": {
+      "blockClass":"container-text-footer-middle"
+    }
+  },
+  "rich-text#promotions":{
+    "props":{
+      "text":"Recibi ofertas y promociones",
+      "blockClass": "text-footer-middle"
+    }
+  },
+  "flex-layout.col#basic-menu":{
+    "children": [
+      "rich-text#basic-menu",
+      "link#footer__middle--bm1",
+      "link#footer__middle--bm2",
+      "link#footer__middle--bm3",
+      "link#footer__middle--bm4"
+    ],
+    "props": {
+      "blockClass":"container-text-footer-middle"
+    }
+  },
+  "rich-text#basic-menu":{
+    "props":{
+      "text":"Comprar en Fravega.com",
+      "blockClass": "text-footer-middle"
+    }
+  },
+  "link#footer__middle--bm1": {
+    "props": {
+      "label": "servicio tecnico",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#footer__middle--bm2": {
+    "props": {
+      "label": "Informacion legal",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#footer__middle--bm3": {
+    "props": {
+      "label": "Boton de arrepentimiento",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#footer__middle--bm4": {
+    "props": {
+      "label": "Proteccion de Usuarios Financieros",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "flex-layout.col#credit-menu":{
+    "children":[
+      "rich-text#credit-menu",
+      "link#footer__middle--cm1",
+      "link#footer__middle--cm2",
+      "link#footer__middle--cm3"
+    ],
+    "props": {
+      "blockClass":"container-text-footer-middle"
+    }
+  },
+  "rich-text#credit-menu":{
+    "props":{
+      "text":"Fravega Creditos",
+      "blockClass": "text-footer-middle"
+    }
+  },
+  "link#footer__middle--cm1": {
+    "props": {
+      "label": "Paga Online",
+      "href": "/",      
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#footer__middle--cm2": {
+    "props": {
+      "label": "Catalogo exclusivo",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#footer__middle--cm3": {
+    "props": {
+      "label": "Condiciones",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "flex-layout.col#recomendations":{
+    "children": [
+      "rich-text#recomendations",
+      "link#footer__middle--rec1",
+      "link#footer__middle--rec2",
+      "link#footer__middle--rec3",
+      "link#footer__middle--rec4",
+      "link#footer__middle--rec5"
+    ],
+    "props": {
+      "blockClass":"container-text-footer-middle"
+    }
+  },
+  "rich-text#recomendations":{
+    "props":{
+      "text":"Recomendados",
+      "blockClass": "text-footer-middle"
+    }
+  },
+  "link#footer__middle--rec1": {
+    "props": {
+      "label": "Smart TV",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#footer__middle--rec2": {
+    "props": {
+      "label": "Celulares",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#footer__middle--rec3": {
+    "props": {
+      "label": "Aire acondicionado",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#footer__middle--rec4": {
+    "props": {
+      "label": "Novedades",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#footer__middle--rec5": {
+    "props": {
+      "label": "Mas vendidos Marketplace",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "flex-layout.col#help":{
+    "children": [
+      "rich-text#help",
+      "link#footer__middle--h1",
+      "link#footer__middle--h2",
+      "link#footer__middle--h3",
+      "link#footer__middle--h4",
+      "link#footer__middle--h5"
+    ],
+    "props": {
+      "blockClass":"container-text-footer-middle"
+    }
+  },
+  "rich-text#help":{
+    "props":{
+      "text":"Ayuda",
+      "blockClass": "text-footer-middle"
+    }
+  },
+  "link#footer__middle--h1": {
+    "props": {
+      "label": "Centro de ayuda",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#footer__middle--h2": {
+    "props": {
+      "label": "Contactanos",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#footer__middle--h3": {
+    "props": {
+      "label": "Sucursales",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#footer__middle--h4": {
+    "props": {
+      "label": "Vende en Fravega",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#footer__middle--h5": {
+    "props": {
+      "label": "Trabaja con nosotros",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "flex-layout.col#benefits":{
+    "children": [
+      "rich-text#benefits",
+      "link#footer__middle--b1",
+      "link#footer__middle--b2",
+      "link#footer__middle--b3",
+      "link#footer__middle--b4"
+    ],
+    "props": {
+      "blockClass":"container-text-footer-middle"
+    }
+  },
+  "rich-text#benefits":{
+    "props":{
+      "text":"Beneficios",
+      "blockClass": "text-footer-middle"
+    }
+  },
+  "link#footer__middle--b1": {
+    "props": {
+      "label": "Club Personal",
+      "href": "/",      
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#footer__middle--b2": {
+    "props": {
+      "label": "YPF",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#footer__middle--b3": {
+    "props": {
+      "label": "365",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#footer__middle--b4": {
+    "props": {
+      "label": "Club Movistar",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  }
+}
