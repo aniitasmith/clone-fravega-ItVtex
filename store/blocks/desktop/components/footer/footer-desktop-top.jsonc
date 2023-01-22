@@ -95,13 +95,13 @@
   "rich-text#costume-support-line-4":{
     "props":{
       "text":"LU-VI de 09:00 a 18:00",
-      "blockClass": "text-footer-top"
+      "blockClass": "text-footer-top-small"
     }
   },
   "rich-text#costume-support-line-5":{
     "props":{
       "text":"SA de 9:00 a 13:00",
-      "blockClass": "text-footer-top"
+      "blockClass": "text-footer-top-small"
     }
   },
   "flex-layout.col#credits-support":{
@@ -151,13 +151,13 @@
   "rich-text#sales-support-line-3":{
     "props":{
       "text":"LU-VI de 8:00 a 20:00",
-      "blockClass": "text-footer-top"
+      "blockClass": "text-footer-top-small"
     }
   },
   "rich-text#sales-support-line-4":{
     "props":{
       "text":"SA-DO-Feriados 9:00 a 21:00",
-      "blockClass": "text-footer-top"
+      "blockClass": "text-footer-top-small"
     }
   },
   "flex-layout.col#business-support":{

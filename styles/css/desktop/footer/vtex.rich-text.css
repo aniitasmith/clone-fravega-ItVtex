@@ -1,0 +1,18 @@
+.paragraph--text-footer-top{
+  font-size: 15px;
+}
+
+.strong--text-footer-top{
+  font-size: 16px ;
+}
+
+.paragraph--text-footer-top-small{
+  font-size: 13px;
+}
+
+.link--text-footer-top{
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+

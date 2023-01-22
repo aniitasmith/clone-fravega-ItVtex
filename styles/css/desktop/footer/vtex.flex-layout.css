@@ -1,0 +1,23 @@
+.flexCol--container-footer-desktop  {
+  box-sizing: content-box;
+  background-color: rgb(255, 255, 255);
+  border-top: 1px solid rgb(218, 218, 218);
+  padding-top: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.flexColChild--container-footer-desktop{  
+  width: 100%;
+  display: grid;
+  column-gap: 28px;
+  padding: 20px 0px;
+}
+
+.flexColChild--container-text-footer-top{
+  height: auto !important;
+}
+
+.flexRow--container-footer-top-desktop  {
+  border-bottom: 1px rgb(218, 218, 218) solid;
+}
