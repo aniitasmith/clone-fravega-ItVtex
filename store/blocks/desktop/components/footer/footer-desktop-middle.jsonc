@@ -22,7 +22,7 @@
   },
   "rich-text#promotions":{
     "props":{
-      "text":"Recibi ofertas y promociones",
+      "text":"**Recibi ofertas y promociones**",
       "blockClass": "text-footer-middle"
     }
   },
@@ -40,7 +40,7 @@
   },
   "rich-text#basic-menu":{
     "props":{
-      "text":"Comprar en Fravega.com",
+      "text":"**Comprar en Fravega.com**",
       "blockClass": "text-footer-middle"
     }
   },
@@ -85,7 +85,7 @@
   },
   "rich-text#credit-menu":{
     "props":{
-      "text":"Fravega Creditos",
+      "text":"**Fravega Creditos**",
       "blockClass": "text-footer-middle"
     }
   },
@@ -125,7 +125,7 @@
   },
   "rich-text#recomendations":{
     "props":{
-      "text":"Recomendados",
+      "text":"**Recomendados**",
       "blockClass": "text-footer-middle"
     }
   },
@@ -179,7 +179,7 @@
   },
   "rich-text#help":{
     "props":{
-      "text":"Ayuda",
+      "text":"**Ayuda**",
       "blockClass": "text-footer-middle"
     }
   },
@@ -232,7 +232,7 @@
   },
   "rich-text#benefits":{
     "props":{
-      "text":"Beneficios",
+      "text":"**Beneficios**",
       "blockClass": "text-footer-middle"
     }
   },

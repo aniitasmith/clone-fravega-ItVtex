@@ -11,13 +11,21 @@
   width: 100%;
   display: grid;
   column-gap: 28px;
-  padding: 20px 0px;
+  padding: 20px 15px;
 }
 
 .flexColChild--container-text-footer-top{
   height: auto !important;
 }
 
-.flexRow--container-footer-top-desktop  {
+.flexRow--container-footer-top-desktop, .flexRow--container-footer-middle-desktop {
   border-bottom: 1px rgb(218, 218, 218) solid;
+}
+
+.flexRow--container-footer-middle-desktop {
+  padding-bottom: 30px;
+}
+
+.flexColChild--container-text-footer-middle {
+  margin: 5px 0;
 }
