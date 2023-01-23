@@ -59,20 +59,6 @@
       "blockClass": "header__middle-row-search"
     }
   },
-  "search-bar": {
-    "blocks": ["autocomplete-result-list.v2"],
-    "props": {
-      "openAutocompleteOnFocus": true
-    }
-  },
-  
-    "autocomplete-result-list.v2": {
-      "blocks": ["product-summary"]
-    },
-
-
-
-
   "header-row#header__middle--account": {
     "children": [
       "login",
