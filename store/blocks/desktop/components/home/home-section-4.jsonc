@@ -50,7 +50,8 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "blockClass": "slider-products-section-4"
+      "blockClass": "slider-products-section-4",
+      "showPaginationDots":"never"
     }
  },
  "stack-layout#summary-image":{

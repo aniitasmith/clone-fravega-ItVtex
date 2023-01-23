@@ -4,7 +4,7 @@
       "flex-layout.col#home-container-section-6"
     ],
     "props": {
-      "blockClass": "home__section-6"
+      "blockClass": "container-section-6"
     }
   },
   "flex-layout.col#home-container-section-6":{
@@ -16,7 +16,6 @@
       "blockClass": "home-container-section-6"
     }
   },
-
   "rich-text#home__section-6": {
     "props":{
       "text":"**Aprovechá las ofertas destacadas**",
@@ -36,17 +35,13 @@
   },
   "product-summary.shelf#home__section-6":{
     "children": [
-      "stack-layout#img-delivery",
-      "product-summary-image",
+      "stack-layout#summary-image",      
       "product-summary-name",
-      "product-rating-inline",
-      // "product-summary-space",
-      "product-summary-price",
-      "product-summary-buy-button"
+      "product-summary-price"
   ],
-  "props": {
-    "blockClass":"product-summary-shelf-section-6"
-  }
+    "props": {
+      "blockClass":"product-summary-shelf-section-6"
+    }
   },
   "slider-layout#products-section-6": {
     "props": {
@@ -55,7 +50,8 @@
       },
       "infinite": false,
       "showNavigationArrows": "desktopOnly",
-      "blockClass": "slider-products-section-6"
+      "blockClass": "slider-products-section-6",
+      "showPaginationDots":"never"
     }
  }
 }
