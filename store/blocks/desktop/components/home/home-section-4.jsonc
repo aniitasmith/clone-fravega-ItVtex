@@ -4,7 +4,7 @@
       "flex-layout.col#home-container-section-4"
     ],
     "props": {
-      "blockClass": "home__section-4"
+      "blockClass": "container-section-4"
     }
   },
   "flex-layout.col#home-container-section-4":{
@@ -16,7 +16,6 @@
       "blockClass": "home-container-section-4"
     }
   },
-
   "rich-text#home__section-4": {
     "props":{
       "text":"**OFERTAS POR TIEMPO LIMITADO**",
@@ -36,13 +35,9 @@
   },
   "product-summary.shelf#home__section-4":{
     "children": [
-      "stack-layout#img-delivery",
-      "product-summary-image",
+      "stack-layout#summary-image",      
       "product-summary-name",
-      "product-rating-inline",
-      // "product-summary-space",
-      "product-summary-price",
-      "product-summary-buy-button"
+      "product-summary-price"
   ],
   "props": {
     "blockClass":"product-summary-shelf-section-4"
@@ -58,27 +53,20 @@
       "blockClass": "slider-products-section-4"
     }
  },
- "stack-layout#img-delivery":{
+ "stack-layout#summary-image":{
     "children": [
-      "flex-layout.row#delivery-free"
-    ],
-    "props": {
-      "blockClass":"stack-delivery-free",
-      "zIndexOffset": 0
-    }
- },
-  "flex-layout.row#delivery-free":{
-    "children": [
+      "product-summary-image",
       "image#delivery-free"
     ],
     "props": {
-      "blockClass": "container-delivery-free"
+      "blockClass":"stack-delivery-free"
     }
-  },
-  "image#delivery-free":{
+ },
+    "image#delivery-free":{
     "props": {
       "src": "assets/img/delivery-free.png",
-      "blockClass": "img-delivery-free"
+      "blockClass": "img-delivery-free",
+      "maxWidth": "85px"
     }
   }
 }
