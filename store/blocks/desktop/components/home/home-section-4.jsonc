@@ -4,13 +4,13 @@
       "flex-layout.col#home-container-section-4"
     ],
     "props": {
-      "blockClass": "home__sesction-4"
+      "blockClass": "home__section-4"
     }
   },
   "flex-layout.col#home-container-section-4":{
     "children": [
       "rich-text#home__section-4",
-      "list-context.product-list#demo1"
+      "list-context.product-list#section-4"
     ],
     "props": {
       "blockClass": "home-container-section-4"
@@ -23,12 +23,12 @@
       "blockClass": "text-section-4"
     }
   },
-  "list-context.product-list#demo1": {
+  "list-context.product-list#section-4": {
     "blocks": [
       "product-summary.shelf#home__section-4"
     ],
     "children": [
-      "slider-layout#demo-products"
+      "slider-layout#products-section-4"
     ],
     "props": {
       "blockClass":"list-context-section-4"
@@ -48,7 +48,7 @@
     "blockClass":"product-summary-shelf-section-4"
   }
   },
-  "slider-layout#demo-products": {
+  "slider-layout#products-section-4": {
     "props": {
       "itemsPerPage": {
         "desktop": 4
@@ -81,5 +81,4 @@
       "blockClass": "img-delivery-free"
     }
   }
-
 }
