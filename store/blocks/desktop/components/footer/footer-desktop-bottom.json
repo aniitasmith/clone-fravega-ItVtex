@@ -1,0 +1,78 @@
+{
+  "flex-layout.row#desktop__footer-bottom":{
+    "props":{
+      "blockClass":"container-footer-bottom-desktop",
+      "preventHorizontalStretch":true
+    },
+    "children":[
+      "flex-layout.col#container-copyrigth",
+      "flex-layout.col#container-logos-footer"
+    ]
+  },
+  "flex-layout.col#container-copyrigth":{
+    "children": [
+      "rich-text#copyright",
+      "rich-text#disclaimer"       
+    ],
+    "props": {
+      "blockClass":"container-text-footer-bottom"
+    }
+  },
+  "rich-text#copyright": {
+    "props": {
+      "text": "Copyright 2021 | Todos los derechos reservados Fravega.com. Frávega S.A.C.I. e I. Valentín Gómez 2813 (1191) | Capital Federal | Argentina",
+      "blockClass": "text-footer-bottom"
+    }
+  },
+  "rich-text#disclaimer": {
+    "props": {
+      "text": "Las fotos son a modo ilustrativo. La venta de cualquiera de los productos publicados está sujeta a la verificación de stock. Los precios online y los planes de financiación para los productos presentados/publicados en www.fravega.com.ar y/o www.fravega.com son válidos exclusivamente para la compra vía internet en las páginas antes mencionadas. Las especificaciones técnicas y descripciones están sujetas a cambios sin previo aviso.",
+      "blockClass": "text-footer-bottom-small"
+    }
+  },
+  "flex-layout.col#container-logos-footer":{
+    "children": [
+      "flex-layout.row#container-logos-footer"
+    ],
+    "props": {
+      "blockClass":"container-col-img-footer-bottom"
+    }
+  },
+
+  "flex-layout.row#container-logos-footer":{
+    "children": [
+      "image#premio",
+      "image#cace",
+      "image#data-fiscal"
+    ],
+    "props": {
+      "blockClass":"container-row-img-footer-bottom",
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#premio": {
+    "props": {
+      "src": "assets/img/img-premio.png",
+      "blockClass":"img-footer-bottom",
+      "maxHeight": "61px",
+      "maxWidth": "64px"
+    }
+  },
+  "image#cace": {
+    "props": {
+      "src": "assets/img/img-sello-cace.png",
+      "blockClass":"img-footer-bottom",
+      "maxHeight": "42px",
+      "maxWidth": "125px"
+      
+    }
+  },
+  "image#data-fiscal": {
+    "props": {
+      "src": "assets/img/img-data-fiscal.png",
+      "blockClass":"img-footer-bottom",
+      "maxHeight": "55px",
+      "maxWidth": "40px"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.paragraph--text-footer-top{
+  font-size: 15px;
+}
+
+.strong--text-footer-top{
+  font-size: 16px ;
+}
+
+.paragraph--text-footer-top-small{
+  font-size: 13px;
+}
+
+.link--text-footer-top{
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.paragraph--text-footer-bottom{
+  font-size: 13px;
+  color: rgb(74, 74, 74);
+  margin-bottom: 20px;
+}
+
+.paragraph--text-footer-bottom-small{
+  font-size: 11px;
+  line-height: 1.33;
+  letter-spacing: -0.2px;
+  color: rgb(136, 136, 136);
+}
+
+
+.link--text-footer-bottom-small{
+  text-decoration: none;
+  color: rgb(136, 136, 136);
+
+  
+  
+}

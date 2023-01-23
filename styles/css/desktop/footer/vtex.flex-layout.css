@@ -1,0 +1,41 @@
+.flexCol--container-footer-desktop  {
+  box-sizing: content-box;
+  background-color: rgb(255, 255, 255);
+  border-top: 1px solid rgb(218, 218, 218);
+  padding: 30px 15px 10px 15px;
+ 
+}
+
+.flexColChild--container-footer-desktop{  
+  width: 100%;
+  padding: 10px 15px;
+}
+
+.flexColChild--container-text-footer-top{
+  height: auto !important;
+}
+
+.flexRow--container-footer-top-desktop, .flexRow--container-footer-middle-desktop {
+  padding-bottom: 20px;
+  border-bottom: 1px rgb(218, 218, 218) solid;
+}
+
+.flexRow--container-footer-middle-desktop {
+  padding-bottom: 30px;
+}
+
+.flexColChild--container-text-footer-middle {
+  margin: 5px 0;
+}
+
+.flexCol--container-text-footer-bottom {
+  width: 100%
+}
+
+.flexCol--container-col-img-footer-bottom {
+  min-width: 374px;
+}
+
+.flexRowContent--container-row-img-footer-bottom {
+  justify-content: space-around;
+}

@@ -1,0 +1,15 @@
+{
+  "flex-layout.row#footer-desktop": {
+    "children": [ "flex-layout.col#container__footer-desktop"]
+  },
+  "flex-layout.col#container__footer-desktop":{
+    "children": [ 
+      "flex-layout.row#desktop__footer-top",
+      "flex-layout.row#desktop__footer-middle",
+      "flex-layout.row#desktop__footer-bottom"
+   ],
+    "props": {
+    "blockClass": "container-footer-desktop"
+    }
+  }
+}
