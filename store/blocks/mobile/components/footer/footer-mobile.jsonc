@@ -4,7 +4,7 @@
        "flex-layout.col#container__footer-mobile"
       ],
     "props": {
-      "blockClass": "footer-mobile"
+      "blockClass": "container-footer-mobile"
     }
   },
   "flex-layout.col#container__footer-mobile":{
@@ -19,7 +19,7 @@
   },
   "flex-layout.row#footer-top":{
     "children": [
-      "logo#header__middle--logo",
+      "logo#footer__mobile--logo",
       "flex-layout.col#costume-support",
       "flex-layout.col#credits-support",
       "flex-layout.col#sales-support",
@@ -32,6 +32,15 @@
       "blockClass": "container-footer-top-mobile"
     }
   },
+  "logo#footer__mobile--logo":{
+    "title": "logo mobile",
+    "props": {
+      "url":"assets/img/fravega-logo.svg",
+      "width": 150,
+      "href": "/",
+      "blockClass": "logo-mobile"
+  }
+},
   "flex-layout.row#footer-middle":{
     "children": [
       "rich-text#promotions"

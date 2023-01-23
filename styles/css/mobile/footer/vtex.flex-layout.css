@@ -1,0 +1,21 @@
+.flexRow--container-footer-mobile {
+  box-sizing: content-box;
+  background-color: rgb(255, 255, 255);
+  border-top: 1px solid rgb(218, 218, 218);
+  padding: 30px 15px 10px 15px;
+ 
+}
+
+.flexCol--container-text-footer-top{
+  padding-bottom: 20px;
+}
+
+.flexRow--container-footer-top-mobile, .flexRow--container-footer-middle-mobile  {
+  border-bottom: 1px rgb(218, 218, 218) solid;
+  padding-bottom: 20px;
+}
+
+.flexRowContent--container-footer-bottom-mobile {
+padding: 10px 0;
+  
+}
