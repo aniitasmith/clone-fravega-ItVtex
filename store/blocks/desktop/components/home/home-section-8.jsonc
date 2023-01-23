@@ -35,8 +35,7 @@
   },
   "product-summary.shelf#home__section-8":{
     "children": [
-     
-      "product-summary-image",
+      "stack-layout#summary-image",
       "product-summary-name",
       "product-summary-price"
   ],
