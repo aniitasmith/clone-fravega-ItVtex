@@ -1,0 +1,61 @@
+{
+  "flex-layout.row#home__section-8":{
+    "children": [
+      "flex-layout.col#home-container-section-8"
+    ],
+    "props": {
+      "blockClass": "home__section-8"
+    }
+  },
+  "flex-layout.col#home-container-section-8":{
+    "children": [
+      "rich-text#home__section-8",
+      "list-context.product-list#section-8"
+    ],
+    "props": {
+      "blockClass": "home-container-section-8"
+    }
+  },
+
+  "rich-text#home__section-8": {
+    "props":{
+      "text":"**Todo lo Nuevo en Frávega**",
+      "blockClass": "text-section-8"
+    }
+  },
+  "list-context.product-list#section-8": {
+    "blocks": [
+      "product-summary.shelf#home__section-8"
+    ],
+    "children": [
+      "slider-layout#products-section-8"
+    ],
+    "props": {
+      "blockClass":"list-context-section-8"
+    }      
+  },
+  "product-summary.shelf#home__section-8":{
+    "children": [
+      "stack-layout#img-delivery",
+      "product-summary-image",
+      "product-summary-name",
+      "product-rating-inline",
+      // "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+  ],
+  "props": {
+    "blockClass":"product-summary-shelf-section-8"
+  }
+  },
+  "slider-layout#products-section-8": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5
+      },
+      "infinite": false,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "slider-products-section-8"
+    }
+ }
+}
