@@ -17,11 +17,22 @@
       "logo#header__top",
       "header-spacer",
       "login",
-      "minicart.v2"
+      "minicart.v2#home-mobile"
     ],
     "props":{
       "fullWidth": true
     }
+  },
+  "minicart.v2#home-mobile": {
+    "props": {
+      "MinicartIcon": "icon#home__account--fravega",
+      "variation": "popup",
+      "itemCountMode": "total",
+      "quantityDisplay": "always"
+    },
+    "children": [
+      "minicart-base-content"
+    ]
   },
   "flex-layout.row#mega-menu-mobile": {
     "children": [
