@@ -51,9 +51,14 @@
     }
   },
   "flex-layout.row#quantity-selector.mobile": {
-    "children": ["quantity-selector"],
+    "children": ["quantity-selector#minicart.mobile"],
     "props": {
       "preventHorizontalStretch": true
+    }
+  },
+  "quantity-selector#minicart.mobile":{
+    "props":{
+      "mode":"stepper"
     }
   },
   "flex-layout.row#unit-price.mobile": {

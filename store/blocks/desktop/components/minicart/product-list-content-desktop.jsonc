@@ -55,9 +55,14 @@
     }
   },
   "flex-layout.row#quantity-selector.desktop": {
-    "children": ["quantity-selector"],
+    "children": ["quantity-selector#minicart.desktop"],
     "props": {
       "preventHorizontalStretch": true
+    }
+  },
+  "quantity-selector#minicart.desktop":{
+    "props":{
+      "mode":"stepper"
     }
   },
   "flex-layout.row#unit-price.desktop": {

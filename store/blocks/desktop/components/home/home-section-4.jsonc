@@ -38,7 +38,7 @@
       "stack-layout#summary-image",      
       "product-summary-name",
       "product-summary-price",
-      "product-summary-buy-button"
+      "product-summary-buy-button"    
     ],
   "props": {
     "blockClass":"product-summary-shelf-section-4"
