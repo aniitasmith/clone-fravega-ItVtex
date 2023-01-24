@@ -10,3 +10,12 @@
   line-height: 20px;
 }
 
+.paragraph--message-delivery {
+  background-color: rgb(239, 247, 242);
+  color: rgb(32, 128, 65);
+  list-style: none;
+  font-family: Arial;
+  font-size: 14px;
+  margin-top: 5px;
+}
+

@@ -14,3 +14,12 @@
     border-top: rgb(218, 218, 218) 1px solid;
     padding: 24px 8px;
 }
+
+.minicartTitle--minicart-base-content::before{
+    content: "Ir a mi ";
+    color: rgb(0, 106, 253) ;
+}
+
+.minicartTitle--minicart-base-content{
+    color: rgb(0, 106, 253)
+}
