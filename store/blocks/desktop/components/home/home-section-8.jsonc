@@ -46,7 +46,9 @@
   "slider-layout#products-section-8": {
     "props": {
       "itemsPerPage": {
-        "desktop": 5
+        "desktop": 5,
+        "tablet": 4,
+        "phone": 2
       },
       "infinite": false,
       "showNavigationArrows": "desktopOnly",
