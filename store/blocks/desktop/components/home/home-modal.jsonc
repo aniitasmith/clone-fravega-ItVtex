@@ -13,7 +13,6 @@
       "modal-header#home__modal--event",
       "rich-text#home__modal--event--title",
       "rich-text#home__modal--event--content"
-      
     ]
   },
   "modal-header#home__modal--event": {
