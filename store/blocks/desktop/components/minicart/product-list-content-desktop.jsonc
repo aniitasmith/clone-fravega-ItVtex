@@ -1,0 +1,103 @@
+{
+  "product-list-content-desktop": {
+    "children": ["flex-layout.row#list-row.desktop"]
+  },
+  "flex-layout.row#list-row.desktop": {
+    "children": [
+      "flex-layout.col#image.desktop",
+      "flex-layout.col#main-container.desktop"
+    ],
+    "props": {
+      "fullWidth": true,
+      "paddingBottom": 7,
+      "paddingTop": 6,
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#image.desktop": {
+    "children": ["product-list-image"]
+  },
+  "flex-layout.col#main-container.desktop": {
+    "children": [
+      "flex-layout.row#product-description",
+      "flex-layout.row#price-remove",
+      "flex-layout.row#quantity.desktop",
+      "flex-layout.row#message.desktop"
+    ],
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.row#product-description": {
+    "children": [
+      "vtex.product-list:product-name#desktop"
+    ]
+  },
+  "vtex.product-list:product-name#desktop": {
+    "props": {
+      "blockClass": "product-list--product-name"
+    }
+  },
+    "flex-layout.row#quantity.desktop": {
+    "children": [
+      "flex-layout.row#quantity-selector.desktop",
+      "flex-layout.row#unit-price.desktop"
+    ]
+  },
+  "flex-layout.row#price-remove": {
+    "children": [
+      "flex-layout.col#price.desktop",
+      "flex-layout.col#remove-button.desktop"
+    ],
+    "props": {
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#quantity-selector.desktop": {
+    "children": ["quantity-selector"],
+    "props": {
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#unit-price.desktop": {
+    "children": ["unit-price#desktop"],
+    "props": {
+      "marginTop": 3,
+      "preventHorizontalStretch": true
+    }
+  },
+  "unit-price#desktop": {
+    "props": {
+      "textAlign": "LEFT"
+    }
+  },
+  "flex-layout.col#price.desktop": {
+    "children": ["price#desktop"],
+    "props": {
+      "blockClass": "priceWrapper",
+      "preventHorizontalStretch": "true",
+      "verticalAlign": "middle"
+    }
+  },
+  "price#desktop": {
+    "props": {
+      "textAlign": "LEFT"
+    }
+  },
+  "flex-layout.col#remove-button.desktop": {
+    "children": ["remove-button"],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.row#message.desktop": {
+    "children": ["rich-text#mesagge-desktop"]
+  },
+  "rich-text#mesagge-desktop":{
+    "props": {
+      "text": "LLega **GRATIS** mañana",
+      "blockClass": "message-delivery"
+    }
+  }
+}

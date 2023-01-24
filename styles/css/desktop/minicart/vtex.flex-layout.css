@@ -7,3 +7,7 @@
   max-width: 282px;
   margin-left: 16px;
 }
+
+.flexRowContent--content-row-empty-state {
+  display: flex;
+}
