@@ -15,7 +15,28 @@
   padding-bottom: 20px;
 }
 
+.flexRowContent--container-footer-top-mobile {
+  flex-wrap: wrap;
+}
+
 .flexRowContent--container-footer-bottom-mobile {
 padding: 10px 0;
-  
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .flexCol--container-text-footer-top{
+    min-width: 150px;
+  }
+
+  .flexRowContent--container-footer-top-mobile {
+    justify-content: space-around;
+  }
+
+  .flexCol--container-text-footer-top-mobile {
+    padding-left: 10px;
+  }
+
+  .flexCol--container-text-footer-top-mobile {
+    height: fit-content;
+  }
 }

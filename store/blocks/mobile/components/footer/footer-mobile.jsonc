@@ -20,16 +20,134 @@
   "flex-layout.row#footer-top":{
     "children": [
       "logo#footer__mobile--logo",
-      "flex-layout.col#costume-support",
-      "flex-layout.col#credits-support",
-      "flex-layout.col#sales-support",
-      "flex-layout.col#business-support",
-      "link#footer__middle--bm2",
-      "link#footer__middle--bm3",
-      "link#footer__middle--bm4"
+      "flex-layout.row#footer-info"
     ],
     "props": {
-      "blockClass": "container-footer-top-mobile"
+      "blockClass": "container-footer-top-mobile",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#footer-info": {
+    "children": [
+      "flex-layout.col#customer-support-mobile",
+      "flex-layout.col#credits-support-mobile",
+      "flex-layout.col#sales-support-mobile"
+    ],
+    "props": {
+      "blockClass": "container-footer-info",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.col#customer-support-mobile": {
+    "children": [
+      "rich-text#customer-support-line-1-mobile",
+      "rich-text#customer-support-line-2-mobile",
+      "rich-text#customer-support-line-3-mobile",
+      "rich-text#customer-support-line-4-mobile",
+      "rich-text#customer-support-line-5-mobile",    
+      "rich-text#customer-support-line-6-mobile",     
+      "rich-text#customer-support-line-7-mobile"     
+    ],
+    "props": {
+      "blockClass":"container-text-footer-top-mobile"
+    }
+  },
+  "rich-text#customer-support-line-1-mobile":{
+    "props":{
+      "text":"Atencion al cliente",
+      "blockClass": "text-footer-top"
+    }
+  },
+   "rich-text#customer-support-line-2-mobile":{
+    "props":{
+      "text":"**0800 122 0338**",
+      "blockClass": "text-footer-top"
+    }
+  },
+  "rich-text#customer-support-line-3-mobile":{
+    "props":{
+      "text":"**0810 999 3728**",
+      "blockClass": "text-footer-top"
+    }
+  },
+  "rich-text#customer-support-line-4-mobile":{
+    "props":{
+      "text":"LU-VI de 09:00 a 18:00",
+      "blockClass": "text-footer-top-small"
+    }
+  },
+  "rich-text#customer-support-line-5-mobile":{
+    "props":{
+      "text":"SA de 9:00 a 13:00",
+      "blockClass": "text-footer-top-small"
+    }
+  },
+  "rich-text#customer-support-line-6-mobile":{
+    "props":{
+      "text":"**Servicio a empresas**",
+      "blockClass": "text-footer-top"
+    }
+  },
+  "rich-text#customer-support-line-7-mobile":{
+    "props":{
+      "text":"Venta corporativas",
+      "blockClass": "text-footer-top"
+    }
+  },
+  "flex-layout.col#credits-support-mobile":{
+    "children": [
+      "rich-text#credits-support-line-1-mobile",
+      "rich-text#credits-support-line-2-mobile"      
+    ],
+    "props": {
+      "blockClass":"container-text-footer-top-mobile"
+    }
+  },
+  "rich-text#credits-support-line-1-mobile":{
+    "props":{
+      "text":"Cobranza de créditos:",
+      "blockClass": "text-footer-top"
+    }
+  },
+  "rich-text#credits-support-line-2-mobile":{
+    "props":{
+      "text":"**cobranzas@fravega.com.ar**",
+      "blockClass": "text-footer-top"
+    }
+  },
+  "flex-layout.col#sales-support-mobile":{
+    "children": [
+      "rich-text#sales-support-line-1-mobile",
+      "rich-text#sales-support-line-2-mobile",
+      "rich-text#sales-support-line-3-mobile",
+      "rich-text#sales-support-line-4-mobile"        
+    ],
+    "props": {
+      "blockClass":"container-text-footer-top-mobile"
+    }
+  },
+  "rich-text#sales-support-line-1-mobile":{
+    "props":{
+      "text":"Venta telefónica:",
+      "blockClass": "text-footer-top"
+    }
+  },
+  "rich-text#sales-support-line-2-mobile":{
+    "props":{
+      "text":"**0810 333 8700**",
+      "blockClass": "text-footer-top"
+    }
+  },
+  "rich-text#sales-support-line-3-mobile":{
+    "props":{
+      "text":"LU-VI de 8:00 a 20:00",
+      "blockClass": "text-footer-top-small"
+    }
+  },
+  "rich-text#sales-support-line-4-mobile":{
+    "props":{
+      "text":"SA-DO-Feriados 9:00 a 21:00",
+      "blockClass": "text-footer-top-small"
     }
   },
   "logo#footer__mobile--logo":{
