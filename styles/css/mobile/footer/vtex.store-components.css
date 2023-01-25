@@ -11,4 +11,12 @@
   .emailInputContainer--email-newsletter {
     padding: 10px;
   }
+
+  .logoLink--logo-mobile {
+    padding-left: 0;
+  }
+}
+
+.logoContainer--logo-mobile {
+  padding-left: 0;
 }

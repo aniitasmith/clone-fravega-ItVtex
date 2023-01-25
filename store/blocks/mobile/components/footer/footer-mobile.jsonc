@@ -231,28 +231,28 @@
     "props": {
       "label": "servicio tecnico",
       "href": "/",
-      "blockClass":"link-footer-middle"
+      "blockClass":"link-footer-middle-mobile"
     }
   },
   "link#mobile__footer__middle--bm2": {
     "props": {
       "label": "Informacion legal",
       "href": "/",
-      "blockClass":"link-footer-middle"
+      "blockClass":"link-footer-middle-mobile"
     }
   },
   "link#mobile__footer__middle--bm3": {
     "props": {
       "label": "Boton de arrepentimiento",
       "href": "/",
-      "blockClass":"link-footer-middle"
+      "blockClass":"link-footer-middle-mobile"
     }
   },
   "link#mobile__footer__middle--bm4": {
     "props": {
       "label": "Proteccion de Usuarios Financieros",
       "href": "/",
-      "blockClass":"link-footer-middle"
+      "blockClass":"link-footer-middle-mobile"
     }
   },
   "flex-layout.col#mobile__credit-menu":{
@@ -276,21 +276,21 @@
     "props": {
       "label": "Paga Online",
       "href": "/",      
-      "blockClass":"link-footer-middle"
+      "blockClass":"link-footer-middle-mobile"
     }
   },
   "link#mobile__footer__middle--cm2": {
     "props": {
       "label": "Catalogo exclusivo",
       "href": "/",
-      "blockClass":"link-footer-middle"
+      "blockClass":"link-footer-middle-mobile"
     }
   },
   "link#mobile__footer__middle--cm3": {
     "props": {
       "label": "Condiciones",
       "href": "/",
-      "blockClass":"link-footer-middle"
+      "blockClass":"link-footer-middle-mobile"
     }
   },
   "flex-layout.col#mobile__recomendations":{
@@ -316,35 +316,35 @@
     "props": {
       "label": "Smart TV",
       "href": "/",
-      "blockClass":"link-footer-middle"
+      "blockClass":"link-footer-middle-mobile"
     }
   },
   "link#mobile__footer__middle--rec2": {
     "props": {
       "label": "Celulares",
       "href": "/",
-      "blockClass":"link-footer-middle"
+      "blockClass":"link-footer-middle-mobile"
     }
   },
   "link#mobile__footer__middle--rec3": {
     "props": {
       "label": "Aire acondicionado",
       "href": "/",
-      "blockClass":"link-footer-middle"
+      "blockClass":"link-footer-middle-mobile"
     }
   },
   "link#mobile__footer__middle--rec4": {
     "props": {
       "label": "Novedades",
       "href": "/",
-      "blockClass":"link-footer-middle"
+      "blockClass":"link-footer-middle-mobile"
     }
   },
   "link#mobile__footer__middle--rec5": {
     "props": {
       "label": "Mas vendidos Marketplace",
       "href": "/",
-      "blockClass":"link-footer-middle"
+      "blockClass":"link-footer-middle-mobile"
     }
   },
   "flex-layout.col#mobile__help":{
@@ -370,35 +370,35 @@
     "props": {
       "label": "Centro de ayuda",
       "href": "/",
-      "blockClass":"link-footer-middle"
+      "blockClass":"link-footer-middle-mobile"
     }
   },
   "link#mobile__footer__middle--h2": {
     "props": {
       "label": "Contactanos",
       "href": "/",
-      "blockClass":"link-footer-middle"
+      "blockClass":"link-footer-middle-mobile"
     }
   },
   "link#mobile__footer__middle--h3": {
     "props": {
       "label": "Sucursales",
       "href": "/",
-      "blockClass":"link-footer-middle"
+      "blockClass":"link-footer-middle-mobile"
     }
   },
   "link#mobile__footer__middle--h4": {
     "props": {
       "label": "Vende en Fravega",
       "href": "/",
-      "blockClass":"link-footer-middle"
+      "blockClass":"link-footer-middle-mobile"
     }
   },
   "link#mobile__footer__middle--h5": {
     "props": {
       "label": "Trabaja con nosotros",
       "href": "/",
-      "blockClass":"link-footer-middle"
+      "blockClass":"link-footer-middle-mobile"
     }
   },
   "flex-layout.col#mobile__benefits":{
@@ -423,28 +423,28 @@
     "props": {
       "label": "Club Personal",
       "href": "/",      
-      "blockClass":"link-footer-middle"
+      "blockClass":"link-footer-middle-mobile"
     }
   },
   "link#mobile__footer__middle--b2": {
     "props": {
       "label": "YPF",
       "href": "/",
-      "blockClass":"link-footer-middle"
+      "blockClass":"link-footer-middle-mobile"
     }
   },
   "link#mobile__footer__middle--b3": {
     "props": {
       "label": "365",
       "href": "/",
-      "blockClass":"link-footer-middle"
+      "blockClass":"link-footer-middle-mobile"
     }
   },
   "link#mobile__footer__middle--b4": {
     "props": {
       "label": "Club Movistar",
       "href": "/",
-      "blockClass":"link-footer-middle"
+      "blockClass":"link-footer-middle-mobile"
     }
   },
   "flex-layout.row#footer-bottom":{

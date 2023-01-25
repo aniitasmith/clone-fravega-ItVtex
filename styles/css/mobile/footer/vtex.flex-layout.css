@@ -29,7 +29,7 @@ padding: 10px 0;
   }
 
   .flexRowContent--container-footer-top-mobile {
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .flexCol--container-text-footer-top-mobile {
@@ -61,5 +61,9 @@ padding: 10px 0;
 
   .flexRow--container-footer-middle-mobile {
     padding-top: 0;
+  }
+
+  .flexCol--container-text-footer-top-mobile {
+    margin: 10px 0;
   }
 }
