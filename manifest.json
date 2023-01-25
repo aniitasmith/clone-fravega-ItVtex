@@ -47,6 +47,7 @@
     "vtex.tab-layout": "0.x",
     "vtex.responsive-layout": "0.x",
     "vtex.slider-layout": "0.x",
+    "vtex.store-newsletter": "1.x",
     "vtex.iframe": "0.x",
     "vtex.breadcrumb": "1.x",
     "vtex.sticky-layout": "0.x",

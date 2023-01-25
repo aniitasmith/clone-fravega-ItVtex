@@ -22,7 +22,7 @@
   },
   "rich-text#promotions":{
     "props":{
-      "text":"**Recibi ofertas y promociones**",
+      "text":"Recibi ofertas y promociones",
       "blockClass": "text-footer-middle"
     }
   },

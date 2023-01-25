@@ -1,0 +1,5 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .emailInputContainer--email-newsletter, .formSubmitContainer--email-newsletter-submit {
+    max-width: 150px;
+  }
+}

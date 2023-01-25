@@ -7,4 +7,8 @@
   .logoContainer--logo-mobile {
     padding: 0;
   }
+
+  .emailInputContainer--email-newsletter {
+    padding: 10px;
+  }
 }
