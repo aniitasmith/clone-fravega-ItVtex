@@ -179,7 +179,7 @@
       "newsletter-form"
     ],
     "props": {
-      "blockClass":["container-text-footer-middle-mobile", "bigger"]
+      "blockClass":["container-text-footer-middle-mobile", "bigger-mobile"]
     }
   },
   "rich-text#mobile__promotions":{

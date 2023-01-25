@@ -45,7 +45,7 @@ padding: 10px 0;
     margin-bottom: 6px;
   }
   
-  .bigger {
+  .flexCol--bigger-mobile {
     min-width: 170px;
   }
 }
@@ -53,5 +53,13 @@ padding: 10px 0;
 @media screen and (max-width: 767px) {
   .flexCol--tablet-only {
     display: none;
+  }
+
+  .flexColChild--container-text-footer-middle-mobile {
+    margin-top: 15px;
+  }
+
+  .flexRow--container-footer-middle-mobile {
+    padding-top: 0;
   }
 }

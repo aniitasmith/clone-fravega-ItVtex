@@ -39,3 +39,15 @@
 .flexRowContent--container-row-img-footer-bottom {
   justify-content: space-around;
 }
+
+.flexCol--container-text-footer-middle {
+  min-width: 15rem;
+}
+
+.flexCol--bigger {
+  min-width: 300px;
+}
+
+.flexColChild--bigger {
+  height: fit-content !important;
+}
