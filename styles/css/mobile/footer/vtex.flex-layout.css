@@ -12,7 +12,7 @@
 
 .flexRow--container-footer-top-mobile, .flexRow--container-footer-middle-mobile  {
   border-bottom: 1px rgb(218, 218, 218) solid;
-  padding-bottom: 20px;
+  padding: 20px 0;
 }
 
 .flexRowContent--container-footer-top-mobile {
@@ -38,5 +38,16 @@ padding: 10px 0;
 
   .flexCol--container-text-footer-top-mobile {
     height: fit-content;
+  }
+
+  .flexColChild--container-text-footer-middle-mobile {
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .flexCol--tablet-only {
+    display: none;
   }
 }

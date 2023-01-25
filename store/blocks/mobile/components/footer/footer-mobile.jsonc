@@ -9,15 +9,15 @@
   },
   "flex-layout.col#container__footer-mobile":{
     "children": [ 
-      "flex-layout.row#footer-top",
-      "flex-layout.row#footer-middle",
+      "flex-layout.row#mobile__footer-top",
+      "flex-layout.row#mobile__footer-middle",
       "flex-layout.row#footer-bottom"
     ],
     "props": {
       "blockClass":"container-footer-mobile"
     }
   },
-  "flex-layout.row#footer-top":{
+  "flex-layout.row#mobile__footer-top":{
     "children": [
       "logo#footer__mobile--logo",
       "flex-layout.row#footer-info"
@@ -159,12 +159,270 @@
       "blockClass": "logo-mobile"
   }
 },
-  "flex-layout.row#footer-middle":{
+  "flex-layout.row#mobile__footer-middle":{
     "children": [
-      "rich-text#promotions"
+      "flex-layout.col#mobile__promotions",
+      "flex-layout.col#mobile__basic-menu",
+      "flex-layout.col#mobile__credit-menu",
+      "flex-layout.col#mobile__recomendations",
+      "flex-layout.col#mobile__help",
+      "flex-layout.col#mobile__benefits"
     ],
     "props": {
-      "blockClass": "container-footer-middle-mobile"
+      "blockClass": "container-footer-middle-mobile",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.col#mobile__promotions":{
+    "children":[
+      "rich-text#mobile__promotions"
+    ],
+    "props": {
+      "blockClass":"container-text-footer-middle-mobile"
+    }
+  },
+  "rich-text#mobile__promotions":{
+    "props":{
+      "text":"**Recibi ofertas y promociones**",
+      "blockClass": "text-footer-middle"
+    }
+  },
+  "flex-layout.col#mobile__basic-menu":{
+    "children": [
+      "rich-text#mobile__basic-menu",
+      "link#mobile__footer__middle--bm1",
+      "link#mobile__footer__middle--bm2",
+      "link#mobile__footer__middle--bm3",
+      "link#mobile__footer__middle--bm4"
+    ],
+    "props": {
+      "blockClass":["container-text-footer-middle-mobile", "tablet-only"]
+    }
+  },
+  "rich-text#mobile__basic-menu":{
+    "props":{
+      "text":"**Comprar en Fravega.com**",
+      "blockClass": "text-footer-middle"
+    }
+  },
+  "link#mobile__footer__middle--bm1": {
+    "props": {
+      "label": "servicio tecnico",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#mobile__footer__middle--bm2": {
+    "props": {
+      "label": "Informacion legal",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#mobile__footer__middle--bm3": {
+    "props": {
+      "label": "Boton de arrepentimiento",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#mobile__footer__middle--bm4": {
+    "props": {
+      "label": "Proteccion de Usuarios Financieros",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "flex-layout.col#mobile__credit-menu":{
+    "children":[
+      "rich-text#mobile__credit-menu",
+      "link#mobile__footer__middle--cm1",
+      "link#mobile__footer__middle--cm2",
+      "link#mobile__footer__middle--cm3"
+    ],
+    "props": {
+      "blockClass":["container-text-footer-middle-mobile", "tablet-only"]
+    }
+  },
+  "rich-text#mobile__credit-menu":{
+    "props":{
+      "text":"**Fravega Creditos**",
+      "blockClass": "text-footer-middle"
+    }
+  },
+  "link#mobile__footer__middle--cm1": {
+    "props": {
+      "label": "Paga Online",
+      "href": "/",      
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#mobile__footer__middle--cm2": {
+    "props": {
+      "label": "Catalogo exclusivo",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#mobile__footer__middle--cm3": {
+    "props": {
+      "label": "Condiciones",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "flex-layout.col#mobile__recomendations":{
+    "children": [
+      "rich-text#mobile__recomendations",
+      "link#mobile__footer__middle--rec1",
+      "link#mobile__footer__middle--rec2",
+      "link#mobile__footer__middle--rec3",
+      "link#mobile__footer__middle--rec4",
+      "link#mobile__footer__middle--rec5"
+    ],
+    "props": {
+      "blockClass":["container-text-footer-middle-mobile", "tablet-only"]
+    }
+  },
+  "rich-text#mobile__recomendations":{
+    "props":{
+      "text":"**Recomendados**",
+      "blockClass": "text-footer-middle"
+    }
+  },
+  "link#mobile__footer__middle--rec1": {
+    "props": {
+      "label": "Smart TV",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#mobile__footer__middle--rec2": {
+    "props": {
+      "label": "Celulares",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#mobile__footer__middle--rec3": {
+    "props": {
+      "label": "Aire acondicionado",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#mobile__footer__middle--rec4": {
+    "props": {
+      "label": "Novedades",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#mobile__footer__middle--rec5": {
+    "props": {
+      "label": "Mas vendidos Marketplace",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "flex-layout.col#mobile__help":{
+    "children": [
+      "rich-text#mobile__help",
+      "link#mobile__footer__middle--h1",
+      "link#mobile__footer__middle--h2",
+      "link#mobile__footer__middle--h3",
+      "link#mobile__footer__middle--h4",
+      "link#mobile__footer__middle--h5"
+    ],
+    "props": {
+      "blockClass":["container-text-footer-middle-mobile", "tablet-only"]
+    }
+  },
+  "rich-text#mobile__help":{
+    "props":{
+      "text":"**Ayuda**",
+      "blockClass": "text-footer-middle"
+    }
+  },
+  "link#mobile__footer__middle--h1": {
+    "props": {
+      "label": "Centro de ayuda",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#mobile__footer__middle--h2": {
+    "props": {
+      "label": "Contactanos",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#mobile__footer__middle--h3": {
+    "props": {
+      "label": "Sucursales",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#mobile__footer__middle--h4": {
+    "props": {
+      "label": "Vende en Fravega",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#mobile__footer__middle--h5": {
+    "props": {
+      "label": "Trabaja con nosotros",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "flex-layout.col#mobile__benefits":{
+    "children": [
+      "rich-text#mobile__benefits",
+      "link#mobile__footer__middle--b1",
+      "link#mobile__footer__middle--b2",
+      "link#mobile__footer__middle--b3",
+      "link#mobile__footer__middle--b4"
+    ],
+    "props": {
+      "blockClass": ["container-text-footer-middle-mobile", "tablet-only"]
+    }
+  },
+  "rich-text#mobile__benefits":{
+    "props":{
+      "text":"**Beneficios**",
+      "blockClass": "text-footer-middle"
+    }
+  },
+  "link#mobile__footer__middle--b1": {
+    "props": {
+      "label": "Club Personal",
+      "href": "/",      
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#mobile__footer__middle--b2": {
+    "props": {
+      "label": "YPF",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#mobile__footer__middle--b3": {
+    "props": {
+      "label": "365",
+      "href": "/",
+      "blockClass":"link-footer-middle"
+    }
+  },
+  "link#mobile__footer__middle--b4": {
+    "props": {
+      "label": "Club Movistar",
+      "href": "/",
+      "blockClass":"link-footer-middle"
     }
   },
   "flex-layout.row#footer-bottom":{
