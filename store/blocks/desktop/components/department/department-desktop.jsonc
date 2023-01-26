@@ -1,0 +1,75 @@
+{
+    "search-result-layout.desktop#department": {
+    "children": [
+      "search-title.v2",
+      "flex-layout.row#department-breadcrumb-desktop",
+      "flex-layout.row#department-search-title-desktop",
+      "flex-layout.row#department-category-results-desktop"
+    ],
+    "props": {
+      "showFacetQuantity":true,
+      "defaultGalleryLayout": "gallery",
+      "blockClass": "container-search"
+    }
+  },
+   "flex-layout.row#department-breadcrumb-desktop": {
+    "children": [
+      "flex-layout.col#department-breadcrumb-desktop"
+    ],
+    "props": {
+      "blockClass": "container-row"
+    }
+  },
+  "flex-layout.col#department-breadcrumb-desktop": {
+    "children": [
+      "breadcrumb.search"
+    ],
+    "props": {
+      "blockClass":"breadcrumb"
+    }
+ },
+ "flex-layout.row#department-search-title-desktop":{
+  "children": [
+    "rich-text#title-department-desktop"
+  ],
+  "props": {
+    "blockClass": "container-title"
+  }
+ },
+ "rich-text#title-department-desktop":{
+  "props": {
+    "text": "Departamento ?? "
+  }
+ },
+ "flex-layout.row#department-category-results-desktop": {
+    "children": [
+      "flex-layout.col#category-results-filter-department-desktop",
+      "flex-layout.col#category-results-content-department-desktop"
+    ],
+    "props": {
+      "blockClass": "container-category-results"
+    }
+  },
+  "flex-layout.col#category-results-filter-department-desktop": {
+    "children": [
+      "filter-navigator.v3"
+    ],
+    "props": {
+      "blockClass":"container-category-filter"
+    }
+  },  
+  "flex-layout.col#category-results-content-department-desktop": {
+    "children": [
+      "search-content#results-content-products-department-desktop"
+    ],
+    "props": {
+      "blockClass":"container-results-content-products-department-desktop"
+    }
+  },
+  "search-content#results-content-products-department-desktop": {
+    "blocks": [
+      "gallery#department",
+      "not-found"
+    ]
+  } 
+}

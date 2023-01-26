@@ -1,0 +1,116 @@
+{
+  "store.search": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#category": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#subcategory": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  // "store.search#brand": {
+  //   "blocks": ["search-result-layout"],
+  //   "props": {
+  //     "context": {
+  //       "skusFilter": "ALL_AVAILABLE",
+  //       "simulationBehavior": "default"
+  //     }
+  //   }
+  // },
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop": {
+    "children": ["rich-text#desktop-response"]
+  },
+  "search-result-layout.mobile": {
+    "children": [
+      "rich-text#mobile-response"
+    ]
+  },
+  "rich-text#desktop-response": {
+    "props": {
+      "text": "Desktop response"
+    }
+  },
+  "rich-text#mobile-response": {
+    "props": {
+      "text": "Mobile response"
+    }
+  },
+  "filter-navigator.v3":{
+    "props": {
+      "navigationTypeOnMobile":"collapsible"
+    }
+      },
+      "gallery-layout-switcher": {
+        "children": [
+          "gallery-layout-option#grid__two-columns",
+          "gallery-layout-option#grid__one-columns"
+        ]
+      },
+      "gallery-layout-option#grid__two-columns":{
+        "props":{
+          "name":"grid-two-columns",
+          "blockClass":"grid__selector--two-columns"
+        },
+        "children": [
+          "icon-single-grid",
+          "rich-text#option-whole"
+        ]
+      },
+      "gallery-layout-option#grid__one-columns":{
+        "props":{
+          "name":"grid-onecolumns",
+          "blockClass":"grid__selector--one-columns"
+        },
+        "children": [
+          "icon-single-grid",
+          "rich-text#option-whole"
+        ]
+      },
+      "rich-text#option-whole":{
+        "props": {
+          "text": "pruebaa",
+          "blockClass": "option-whole"
+        }
+      },
+      "gallery#department": {
+        "props": {
+          "layouts": [
+            {
+              "name": "general-grid",
+              "component": "GeneralGrid",
+              "itemsPerRow": {
+                "desktop": 4,
+                "tablet": 4,
+                "phone": 4
+              }
+            }
+          ],
+          "GeneralGrid": "product-summary.shelf"
+        }
+      }
+}

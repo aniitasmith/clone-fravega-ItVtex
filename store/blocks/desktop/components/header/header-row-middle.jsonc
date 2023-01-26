@@ -86,7 +86,8 @@
       "passwordPlaceholder": "contrasena",
       "showPasswordVerificationIntoTooltip": true,
       "showIconProfile": true,
-      "iconLabel":" Mi cuenta"
+      "iconLabel":" Mi cuenta",
+      "blockClass":"header-login"
     }
   },
     "minicart.v2#home": {
