@@ -1,0 +1,91 @@
+{
+  "search-result-layout.desktop#category": {
+  "children": [
+    "search-title.v2",
+    "flex-layout.row#category-breadcrumb-desktop",
+    "flex-layout.row#category-search-title-desktop",
+    "flex-layout.row#category-category-results-desktop"
+  ],
+  "props": {
+    "showFacetQuantity":true,
+    "defaultGalleryLayout": "gallery",
+    "blockClass": "container-search"
+  }
+},
+ "flex-layout.row#category-breadcrumb-desktop": {
+  "children": [
+    "flex-layout.col#category-breadcrumb-desktop"
+  ],
+  "props": {
+    "blockClass": "container-row"
+  }
+},
+"flex-layout.col#category-breadcrumb-desktop": {
+  "children": [
+    "breadcrumb.search"
+  ],
+  "props": {
+    "blockClass":"breadcrumb"
+  }
+},
+"flex-layout.row#category-search-title-desktop":{
+"children": [
+  "rich-text#title-category-desktop"
+],
+"props": {
+  "blockClass": "container-title"
+}
+},
+"rich-text#title-category-desktop":{
+"props": {
+  "text": "Departamento ?? "
+}
+},
+"flex-layout.row#category-category-results-desktop": {
+  "children": [
+    "flex-layout.col#category-results-filter-category-desktop",
+    "flex-layout.col#category-results-content-category-desktop"
+  ],
+  "props": {
+    "blockClass": "container-category-results"
+  }
+},
+"flex-layout.col#category-results-filter-category-desktop": {
+  "children": [
+    "filter-navigator.v3"
+  ],
+  "props": {
+    "blockClass":"container-category-filter"
+  }
+},  
+"flex-layout.col#category-results-content-category-desktop": {
+  "children": [
+    "search-content#results-content-products-category-desktop"
+  ],
+  "props": {
+    "blockClass":"container-results-content-products-category-desktop"
+  }
+},
+"search-content#results-content-products-category-desktop": {
+  "blocks": [
+    "gallery#category",
+    "not-found"
+  ]
+},
+"gallery#category": {
+  "props": {
+    "layouts": [
+      {
+        "name": "general-grid",
+        "component": "GeneralGrid",
+        "itemsPerRow": {
+          "desktop": 4,
+          "tablet": 4,
+          "phone": 4
+        }
+      }
+    ],
+    "GeneralGrid": "product-summary.shelf"
+  }
+}
+}
