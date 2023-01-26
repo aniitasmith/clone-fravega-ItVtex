@@ -19,11 +19,39 @@
   },
   "flex-layout.row#mobile__footer-top":{
     "children": [
-      "logo#footer__mobile--logo",
+      "flex-layout.col#logo-and-social-media-mobile",
       "flex-layout.row#footer-info"
     ],
     "props": {
       "blockClass": "container-footer-top-mobile",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.col#logo-and-social-media-mobile": {
+    "children": [
+      "logo#footer__mobile--logo",
+      "flex-layout.col#social-media-mobile"
+    ],
+    "props": {
+      "blockClass": "container-logo-and-social-media",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.col#social-media-mobile": {
+    "children": [
+      "flex-layout.row#social-media-mobile"
+    ]
+  },
+  "flex-layout.row#social-media-mobile": {
+    "children": [
+      "image#facebook",
+      "image#instagram",
+      "image#youtube",
+      "image#twitter",
+      "image#linkedin"
+    ],
+    "props": {
+      "blockClass":"container-img-social-media-mobile",
       "preventHorizontalStretch": true
     }
   },

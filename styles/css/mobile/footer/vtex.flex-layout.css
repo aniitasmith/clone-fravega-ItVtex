@@ -23,6 +23,11 @@
 padding: 10px 0;
 }
 
+.flexRowContent--container-img-social-media-mobile {
+  display: flex;
+  margin-top: 10px;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .flexCol--container-text-footer-top{
     min-width: 150px;
@@ -36,7 +41,7 @@ padding: 10px 0;
     padding-left: 10px;
   }
 
-  .flexCol--container-text-footer-top-mobile {
+  .flexCol--container-text-footer-top-mobile, .flexCol--container-logo-and-social-media {
     height: fit-content;
   }
 

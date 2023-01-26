@@ -51,3 +51,11 @@
 .flexColChild--bigger {
   height: fit-content !important;
 }
+
+.flexCol--container-social-media {
+  height: fit-content;
+}
+
+.flexRowContent--container-img-social-media {
+  margin-top: 10px
+}
