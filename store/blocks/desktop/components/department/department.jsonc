@@ -1,14 +1,14 @@
 {
   "store.search#department": {
+    "blocks": [
+      "search-result-layout#department"
+    ],
     "props": {
       "context": {
         "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "default"
       }
-    },
-    "blocks": [
-      "search-result-layout#department"
-    ]
+    }
   },
   "search-result-layout#department": {
     "blocks": [
@@ -19,31 +19,65 @@
   },
   "search-result-layout.desktop#department": {
     "children": [
-      "flex-layout.row#categoryresults"
+      "flex-layout.row##department-breadcrumb",
+      "flex-layout.row#category-results"
     ]
   },
-  "flex-layout.row#categoryresults": {
+   "flex-layout.row##department-breadcrumb": {
     "children": [
-      "flex-layout.col#categoryresults--filter",
-      "flex-layout.col#categoryresults--content"
+      "flex-layout.col#department-breadcrumb"
     ]
   },
-  "flex-layout.col#categoryresults--filter": {
+  "flex-layout.col#department-breadcrumb": {
+    "children": [
+      "breadcrumb.search"
+    ]
+ },
+   "flex-layout.row#category-results": {
+    "children": [
+      "flex-layout.col#category-results-filter",
+      "flex-layout.col#category-results-content"
+    ]
+  },
+  "flex-layout.col#category-results-filter": {
     "children": [
       "filter-navigator.v3"
     ]
   },
-  "flex-layout.col#categoryresults--content": {
+  "flex-layout.col#category-results-content": {
     "children": [
-      "search-content#resultscontent--products"
+      "search-content#results-content-products"
     ]
   },
-  "search-content#resultscontent--products": {
+  "search-content#results-content-products": {
     "blocks": [
       "gallery#department",
+      // "gallery-layout-switcher",
       "not-found"
     ]
   },
+  // "gallery-layout-switcher": {
+  //   "children": [
+  //     "gallery-layout-option#grid__two-columns",
+  //     "gallery-layout-option#grid__one-columns"
+  //   ]
+  // },
+  // "gallery-layout-option#grid__two-columns":{
+  //   "props":{
+  //     "name":"grid-two-columns",
+  //     "blockClass":"grid__selector--two-columns"
+  //   }
+  // },
+  // "gallery-layout-option#grid__one-columns":{
+  //   "props":{
+  //     "name":"grid-onecolumns",
+  //     "blockClass":"grid__selector--one-columns"
+  //   }
+  // },
+
+
+
+
   "gallery#department": {
     "props": {
       "layouts": [
@@ -59,20 +93,10 @@
       ],
       "GeneralGrid": "product-summary.shelf"
     }
-  },
-  // "flex-layout.row#departmentbreadcrumb": {
-  //   "children": [
-  //     "flex-layout.col#departmentbreadcrumb"
-  //   ]
-  // },
-  // "flex-layout.col#departmentbreadcrumb": {
-  //   "children": [
-  //     "breadcrumb.search"
-  //   ]
-  // },
+  }, 
   "search-result-layout.mobile#department": {
     "children": [
-      "flex-layout.row#categoryresults"
+      "flex-layout.row#category-results"
     ]
   }
 }
