@@ -1,0 +1,21 @@
+.searchResultContainer{
+  background-color: #f5f5f5;
+}
+
+.galleryTitle--layout{
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+}
+
+
+.gallery--general-grid{
+  justify-content: center;
+}
+
+.orderByButton{
+  background-color: #f5f5f5;
+  max-width: 35%;
+  align-self: end;
+}
+

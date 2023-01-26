@@ -1,0 +1,23 @@
+.flexRowContent--container-category-results {
+  justify-content: space-between;
+}
+
+.flexCol--container-category-filter {
+  min-width: 20vw;
+  height   : auto;
+}
+
+
+.flexCol--container-results-content-products-department-desktop {
+  min-width: 70vw;
+  height   : auto;
+}
+
+.flexColChild--container-results-content-products-department-desktop {
+  margin: 25px 0;
+}
+
+.flexRow--buy-button {
+  margin: 15px 0;
+  width : 50%;
+}

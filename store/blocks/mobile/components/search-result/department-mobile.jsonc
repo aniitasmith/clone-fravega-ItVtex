@@ -1,42 +1,26 @@
 {
   "search-result-layout.mobile#department": {
     "children": [
-      "search-title.v2",
-      "flex-layout.row#department-breadcrumb-mobile",
-      "flex-layout.row#department-category-results-mobile"
+      "flex-layout.row#department-title-mobile",
+      "flex-layout.row#category-results-filter-department-mobile",
+      "flex-layout.row#department-results-mobile"
     ],
     "props": {
       "showFacetQuantity": true,
       "defaultGalleryLayout": "gallery",
-      "blockClass": "container-search"
+      "blockClass": "container-search-mobile"
     }
   },
-  "flex-layout.row#department-breadcrumb-mobile": {
+  "flex-layout.row#department-title-mobile": {
     "children": [
-      "flex-layout.col#department-breadcrumb-mobile"
+      "search-title.v2",
+      "gallery-layout-switcher"
     ],
     "props": {
-      "blockClass": "container-row"
+      "blockClass": "container-row-title-mobile"
     }
   },
-  "flex-layout.col#department-breadcrumb-mobile": {
-    "children": [
-      "breadcrumb.search"
-    ],
-    "props": {
-      "blockClass": "breadcrumb"
-    }
-  },
-  "flex-layout.row#department-category-results-mobile": {
-    "children": [
-      "flex-layout.col#category-results-filter-department-mobile",
-      "flex-layout.col#category-results-content-department-mobile"
-    ],
-    "props": {
-      "blockClass": "container-category-results"
-    }
-  },
-  "flex-layout.col#category-results-filter-department-mobile": {
+  "flex-layout.row#category-results-filter-department-mobile": {
     "children": [
       "filter-navigator.v3"
     ],
@@ -44,13 +28,10 @@
       "blockClass": "container-category-filter"
     }
   },
-  "flex-layout.col#category-results-content-department-mobile": {
+  "flex-layout.row#department-results-mobile":{
     "children": [
       "search-content#results-content-products-department-mobile"
-    ],
-    "props": {
-      "blockClass": "container-results-content-products-department-mobile"
-    }
+    ]
   },
   "search-content#results-content-products-department-mobile": {
     "blocks": [
