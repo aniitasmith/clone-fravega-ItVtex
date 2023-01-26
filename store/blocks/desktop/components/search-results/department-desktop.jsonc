@@ -3,7 +3,6 @@
     "children": [
       "search-title.v2",
       "flex-layout.row#department-breadcrumb-desktop",
-      "flex-layout.row#department-search-title-desktop",
       "flex-layout.row#department-category-results-desktop"
     ],
     "props": {
@@ -26,19 +25,6 @@
     ],
     "props": {
       "blockClass": "breadcrumb"
-    }
-  },
-  "flex-layout.row#department-search-title-desktop": {
-    "children": [
-      "rich-text#title-department-desktop"
-    ],
-    "props": {
-      "blockClass": "container-title"
-    }
-  },
-  "rich-text#title-department-desktop": {
-    "props": {
-      "text": "Departamento ?? "
     }
   },
   "flex-layout.row#department-category-results-desktop": {
