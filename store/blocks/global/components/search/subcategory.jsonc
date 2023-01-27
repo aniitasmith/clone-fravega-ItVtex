@@ -1,0 +1,20 @@
+{
+  "store.search#subcategory": {
+    "blocks": [
+      "search-result-layout#subcategory"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "search-result-layout#subcategory": {
+    "blocks": [
+      "search-result-layout.desktop#subcategory",
+      "search-result-layout.mobile#subcategory",
+      "search-not-found-layout"
+    ]
+  }
+}
