@@ -1,0 +1,50 @@
+{
+  "store.not-found": {
+    "children": [
+      "flex-layout.row#text-not-found",
+      "rich-text#text-avaliable",
+      "flex-layout.row#products-avaliable"          
+    ],
+    "props": {
+      "showFacetQuantity": true,
+      "defaultGalleryLayout": "gallery",
+      "blockClass":"container-not-found"
+    }
+  },
+  "flex-layout.row#text-not-found": {
+    "children": [
+      "rich-text#text-not-found",
+      "image#not-found"
+    ],
+    "props": {
+      "blockClass": "container-text-not-found"
+    }
+  },
+  "rich-text#text-not-found": {
+    "props": {
+      "text": "**No se han encontrado resultados**",
+      "textAlignment": "LEFT",
+      "blockClass": "text-not-found"
+    }
+  },
+  "image#not-found": {
+    "props": {
+      "src": "assets/img/not-found.png",
+      "blockClass": "img-not-found"
+    }
+  },
+  "rich-text#text-avaliable": {
+    "props": {
+      "text": "**Tal vez te interesen los siguientes productos**",
+      "textAlignment": "CENTER",
+      "blockClass": "text-more-products"
+    }
+  },
+  "flex-layout.row#products-avaliable":{
+    "children": ["list-context.product-list#section-6"],
+    "props": {
+      "blockClass": "container-section-6"
+    }
+  }
+  
+}
