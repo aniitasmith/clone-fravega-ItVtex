@@ -45,3 +45,17 @@
   padding-right: 30px;
   padding-bottom: 0;
 }
+
+.filterPopupTitle {
+  color: #440099;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.filterPopupArrowIcon {
+  fill: #440099;
+}
+
+.searchResultContainer--container-search-mobile {
+  padding-bottom: 25px;
+}

@@ -22,15 +22,15 @@
   },
   "flex-layout.row#category-results-filter-department-mobile": {
     "children": [
-      "filter-navigator.v3"
+      "filter-navigator.v3"      
     ],
     "props": {
       "blockClass": "container-category-filter"
     }
   },
   "flex-layout.row#department-results-mobile":{
-    "children": [
-      "search-content#results-content-products-department-mobile"
+      "children": [
+    "search-content#results-content-products-department-mobile"
     ]
   },
   "search-content#results-content-products-department-mobile": {

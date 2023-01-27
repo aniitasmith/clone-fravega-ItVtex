@@ -25,3 +25,14 @@
 .flexRow--buy-button-list {
   align-self: center;
 }
+
+.flexRowContent--container-row-title-mobile{
+  margin: 20px 
+}
+  
+.flexRowContent--container-category-filter{
+  background-color: #ffffff;
+  box-shadow: rgb(0 0 0 / 8%) 0px 2px 8px 0px;
+  margin-bottom: 25px;
+  
+}
