@@ -1,0 +1,82 @@
+{
+  "store.search": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop": {
+    "children": [
+      "rich-text#desktop-response"
+    ]
+  },
+  "search-result-layout.mobile": {
+    "children": [
+      "rich-text#mobile-response"
+    ]
+  },
+  "rich-text#desktop-response": {
+    "props": {
+      "text": "Desktop response"
+    }
+  },
+  "rich-text#mobile-response": {
+    "props": {
+      "text": "Mobile response"
+    }
+  },
+  "filter-navigator.v3": {
+    "props": {
+      "navigationTypeOnMobile": "collapsible"
+    }
+  },
+
+  "gallery-layout-switcher": {
+    "children": [
+      "gallery-layout-option#grid",
+      "gallery-layout-option#list"
+    ]
+  },
+  "gallery-layout-option#grid": {
+    "props": {
+      "name": "grid",
+      "blockClass": "grid__selector-grid"
+    },
+    "children": [
+      "icon-single-grid",
+      "rich-text#option-grid"
+    ]
+  },
+  "gallery-layout-option#list": {
+    "props": {
+      "name": "list",
+      "blockClass": "grid__selector-list"
+    },
+    "children": [
+      "icon-inline-grid",
+      "rich-text#option-list"
+    ]
+  },
+  "rich-text#option-grid": {
+    "props": {
+      "text": "grid"
+    }
+  },
+  "rich-text#option-list": {
+    "props": {
+      "text": "list"
+    }
+  }
+}

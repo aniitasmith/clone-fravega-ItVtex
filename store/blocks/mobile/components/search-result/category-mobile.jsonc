@@ -1,0 +1,14 @@
+{
+  "search-result-layout.mobile#category": {
+    "children": [
+      "flex-layout.row#department-title-mobile",
+      "flex-layout.row#category-results-filter-department-mobile",
+      "flex-layout.row#department-results-mobile"
+    ],
+    "props": {
+      "showFacetQuantity": true,
+      "defaultGalleryLayout": "gallery",
+      "blockClass": "container-search-mobile"
+    }
+  }
+}

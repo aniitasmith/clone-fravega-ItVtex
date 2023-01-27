@@ -31,6 +31,7 @@
     "vtex.product-details": "1.x",
     "vtex.product-kit": "1.x",
     "vtex.search-result": "3.x",
+    "vtex.search": "2.x",
     "vtex.login": "2.x",
     "vtex.my-account": "1.x",
     "vtex.flex-layout": "0.x",
@@ -47,10 +48,12 @@
     "vtex.tab-layout": "0.x",
     "vtex.responsive-layout": "0.x",
     "vtex.slider-layout": "0.x",
+    "vtex.store-newsletter": "1.x",
     "vtex.iframe": "0.x",
     "vtex.breadcrumb": "1.x",
     "vtex.sticky-layout": "0.x",
-    "vtex.add-to-cart-button": "0.x"
+    "vtex.add-to-cart-button": "0.x",
+    "vtex.product-price": "1.x"
   },
   "peerDependencies": {
     "vtex.mega-menu": "2.x"

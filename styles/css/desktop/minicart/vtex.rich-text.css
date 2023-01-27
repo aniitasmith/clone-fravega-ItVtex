@@ -1,0 +1,21 @@
+.paragraph--minicart-line-1{
+  font-weight: 600;
+  color: rgb(214, 130, 39);
+  font-size: 17px;
+  margin: 0px;
+  line-height: 20px;
+}
+
+.paragraph--minicart-line-2 {
+  line-height: 20px;
+}
+
+.paragraph--message-delivery {
+  background-color: rgb(239, 247, 242);
+  color: rgb(32, 128, 65);
+  list-style: none;
+  font-family: Arial;
+  font-size: 14px;
+  margin-top: 5px;
+}
+

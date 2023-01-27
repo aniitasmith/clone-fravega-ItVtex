@@ -1,0 +1,42 @@
+{
+  "search-result-layout.mobile#department": {
+    "children": [
+      "flex-layout.row#department-title-mobile",
+      "flex-layout.row#category-results-filter-department-mobile",
+      "flex-layout.row#department-results-mobile"
+    ],
+    "props": {
+      "showFacetQuantity": true,
+      "defaultGalleryLayout": "gallery",
+      "blockClass": "container-search-mobile"
+    }
+  },
+  "flex-layout.row#department-title-mobile": {
+    "children": [
+      "search-title.v2",
+      "gallery-layout-switcher"
+    ],
+    "props": {
+      "blockClass": "container-row-title-mobile"
+    }
+  },
+  "flex-layout.row#category-results-filter-department-mobile": {
+    "children": [
+      "filter-navigator.v3"      
+    ],
+    "props": {
+      "blockClass": "container-category-filter"
+    }
+  },
+  "flex-layout.row#department-results-mobile":{
+      "children": [
+    "search-content#results-content-products-department-mobile"
+    ]
+  },
+  "search-content#results-content-products-department-mobile": {
+    "blocks": [
+      "gallery#department",
+      "not-found"
+    ]
+  }
+}

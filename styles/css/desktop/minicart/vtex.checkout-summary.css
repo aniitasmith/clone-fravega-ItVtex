@@ -1,0 +1,3 @@
+.summaryItemContainer:first-child, .summarySmallDisclaimer {
+  display: none;
+}

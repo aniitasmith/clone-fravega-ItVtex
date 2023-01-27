@@ -9,27 +9,173 @@
   },
   "flex-layout.col#container__footer-mobile":{
     "children": [ 
-      "flex-layout.row#footer-top",
-      "flex-layout.row#footer-middle",
+      "flex-layout.row#mobile__footer-top",
+      "flex-layout.row#mobile__footer-middle",
       "flex-layout.row#footer-bottom"
     ],
     "props": {
       "blockClass":"container-footer-mobile"
     }
   },
-  "flex-layout.row#footer-top":{
+  "flex-layout.row#mobile__footer-top":{
     "children": [
-      "logo#footer__mobile--logo",
-      "flex-layout.col#costume-support",
-      "flex-layout.col#credits-support",
-      "flex-layout.col#sales-support",
-      "flex-layout.col#business-support",
-      "link#footer__middle--bm2",
-      "link#footer__middle--bm3",
-      "link#footer__middle--bm4"
+      "flex-layout.col#logo-and-social-media-mobile",
+      "flex-layout.row#footer-info"
     ],
     "props": {
-      "blockClass": "container-footer-top-mobile"
+      "blockClass": "container-footer-top-mobile",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.col#logo-and-social-media-mobile": {
+    "children": [
+      "logo#footer__mobile--logo",
+      "flex-layout.col#social-media-mobile"
+    ],
+    "props": {
+      "blockClass": "container-logo-and-social-media",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.col#social-media-mobile": {
+    "children": [
+      "flex-layout.row#social-media-mobile"
+    ]
+  },
+  "flex-layout.row#social-media-mobile": {
+    "children": [
+      "image#facebook",
+      "image#instagram",
+      "image#youtube",
+      "image#twitter",
+      "image#linkedin"
+    ],
+    "props": {
+      "blockClass":"container-img-social-media-mobile",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#footer-info": {
+    "children": [
+      "flex-layout.col#customer-support-mobile",
+      "flex-layout.col#credits-support-mobile",
+      "flex-layout.col#sales-support-mobile"
+    ],
+    "props": {
+      "blockClass": "container-footer-info",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.col#customer-support-mobile": {
+    "children": [
+      "rich-text#customer-support-line-1-mobile",
+      "rich-text#customer-support-line-2-mobile",
+      "rich-text#customer-support-line-3-mobile",
+      "rich-text#customer-support-line-4-mobile",
+      "rich-text#customer-support-line-5-mobile",    
+      "rich-text#customer-support-line-6-mobile",     
+      "rich-text#customer-support-line-7-mobile"     
+    ],
+    "props": {
+      "blockClass":"container-text-footer-top-mobile"
+    }
+  },
+  "rich-text#customer-support-line-1-mobile":{
+    "props":{
+      "text":"Atencion al cliente",
+      "blockClass": "text-footer-top"
+    }
+  },
+   "rich-text#customer-support-line-2-mobile":{
+    "props":{
+      "text":"**0800 122 0338**",
+      "blockClass": "text-footer-top"
+    }
+  },
+  "rich-text#customer-support-line-3-mobile":{
+    "props":{
+      "text":"**0810 999 3728**",
+      "blockClass": "text-footer-top"
+    }
+  },
+  "rich-text#customer-support-line-4-mobile":{
+    "props":{
+      "text":"LU-VI de 09:00 a 18:00",
+      "blockClass": "text-footer-top-small"
+    }
+  },
+  "rich-text#customer-support-line-5-mobile":{
+    "props":{
+      "text":"SA de 9:00 a 13:00",
+      "blockClass": "text-footer-top-small"
+    }
+  },
+  "rich-text#customer-support-line-6-mobile":{
+    "props":{
+      "text":"**Servicio a empresas**",
+      "blockClass": "text-footer-top"
+    }
+  },
+  "rich-text#customer-support-line-7-mobile":{
+    "props":{
+      "text":"Venta corporativas",
+      "blockClass": "text-footer-top"
+    }
+  },
+  "flex-layout.col#credits-support-mobile":{
+    "children": [
+      "rich-text#credits-support-line-1-mobile",
+      "rich-text#credits-support-line-2-mobile"      
+    ],
+    "props": {
+      "blockClass":"container-text-footer-top-mobile"
+    }
+  },
+  "rich-text#credits-support-line-1-mobile":{
+    "props":{
+      "text":"Cobranza de créditos:",
+      "blockClass": "text-footer-top"
+    }
+  },
+  "rich-text#credits-support-line-2-mobile":{
+    "props":{
+      "text":"**cobranzas@fravega.com.ar**",
+      "blockClass": "text-footer-top"
+    }
+  },
+  "flex-layout.col#sales-support-mobile":{
+    "children": [
+      "rich-text#sales-support-line-1-mobile",
+      "rich-text#sales-support-line-2-mobile",
+      "rich-text#sales-support-line-3-mobile",
+      "rich-text#sales-support-line-4-mobile"        
+    ],
+    "props": {
+      "blockClass":"container-text-footer-top-mobile"
+    }
+  },
+  "rich-text#sales-support-line-1-mobile":{
+    "props":{
+      "text":"Venta telefónica:",
+      "blockClass": "text-footer-top"
+    }
+  },
+  "rich-text#sales-support-line-2-mobile":{
+    "props":{
+      "text":"**0810 333 8700**",
+      "blockClass": "text-footer-top"
+    }
+  },
+  "rich-text#sales-support-line-3-mobile":{
+    "props":{
+      "text":"LU-VI de 8:00 a 20:00",
+      "blockClass": "text-footer-top-small"
+    }
+  },
+  "rich-text#sales-support-line-4-mobile":{
+    "props":{
+      "text":"SA-DO-Feriados 9:00 a 21:00",
+      "blockClass": "text-footer-top-small"
     }
   },
   "logo#footer__mobile--logo":{
@@ -41,12 +187,292 @@
       "blockClass": "logo-mobile"
   }
 },
-  "flex-layout.row#footer-middle":{
+  "flex-layout.row#mobile__footer-middle":{
     "children": [
-      "rich-text#promotions"
+      "flex-layout.col#mobile__promotions",
+      "flex-layout.col#mobile__basic-menu",
+      "flex-layout.col#mobile__credit-menu",
+      "flex-layout.col#mobile__recomendations",
+      "flex-layout.col#mobile__help",
+      "flex-layout.col#mobile__benefits"
     ],
     "props": {
-      "blockClass": "container-footer-middle-mobile"
+      "blockClass": "container-footer-middle-mobile",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.col#mobile__promotions":{
+    "children":[
+      "rich-text#mobile__promotions",
+      "newsletter-form"
+    ],
+    "props": {
+      "blockClass":["container-text-footer-middle-mobile", "bigger-mobile"]
+    }
+  },
+  "rich-text#mobile__promotions":{
+    "props":{
+      "text":"Recibi ofertas y promociones",
+      "blockClass": "text-footer-middle"
+    }
+  },
+  "newsletter-form": {
+    "children": [
+      "newsletter-input-email",
+      "newsletter-submit"
+    ],
+     "props": {
+      "blockClass": "newsletter-subscribe-mobile"
+    }
+  },
+  "newsletter-input-email": {
+    "props": {
+      "blockClass": "email-newsletter",
+      "placeholderText": "Ingresá tu email"
+    }
+  },
+  "newsletter-submit": {
+    "props": {
+      "blockClass": "email-newsletter-submit",
+      "submitButtonLabel": "SUSCRIBIRME"
+    }
+  },
+  "flex-layout.col#mobile__basic-menu":{
+    "children": [
+      "rich-text#mobile__basic-menu",
+      "link#mobile__footer__middle--bm1",
+      "link#mobile__footer__middle--bm2",
+      "link#mobile__footer__middle--bm3",
+      "link#mobile__footer__middle--bm4"
+    ],
+    "props": {
+      "blockClass":["container-text-footer-middle-mobile", "tablet-only"]
+    }
+  },
+  "rich-text#mobile__basic-menu":{
+    "props":{
+      "text":"**Comprar en Fravega.com**",
+      "blockClass": "text-footer-middle"
+    }
+  },
+  "link#mobile__footer__middle--bm1": {
+    "props": {
+      "label": "servicio tecnico",
+      "href": "/",
+      "blockClass":"link-footer-middle-mobile"
+    }
+  },
+  "link#mobile__footer__middle--bm2": {
+    "props": {
+      "label": "Informacion legal",
+      "href": "/",
+      "blockClass":"link-footer-middle-mobile"
+    }
+  },
+  "link#mobile__footer__middle--bm3": {
+    "props": {
+      "label": "Boton de arrepentimiento",
+      "href": "/",
+      "blockClass":"link-footer-middle-mobile"
+    }
+  },
+  "link#mobile__footer__middle--bm4": {
+    "props": {
+      "label": "Proteccion de Usuarios Financieros",
+      "href": "/",
+      "blockClass":"link-footer-middle-mobile"
+    }
+  },
+  "flex-layout.col#mobile__credit-menu":{
+    "children":[
+      "rich-text#mobile__credit-menu",
+      "link#mobile__footer__middle--cm1",
+      "link#mobile__footer__middle--cm2",
+      "link#mobile__footer__middle--cm3"
+    ],
+    "props": {
+      "blockClass":["container-text-footer-middle-mobile", "tablet-only"]
+    }
+  },
+  "rich-text#mobile__credit-menu":{
+    "props":{
+      "text":"**Fravega Creditos**",
+      "blockClass": "text-footer-middle"
+    }
+  },
+  "link#mobile__footer__middle--cm1": {
+    "props": {
+      "label": "Paga Online",
+      "href": "/",      
+      "blockClass":"link-footer-middle-mobile"
+    }
+  },
+  "link#mobile__footer__middle--cm2": {
+    "props": {
+      "label": "Catalogo exclusivo",
+      "href": "/",
+      "blockClass":"link-footer-middle-mobile"
+    }
+  },
+  "link#mobile__footer__middle--cm3": {
+    "props": {
+      "label": "Condiciones",
+      "href": "/",
+      "blockClass":"link-footer-middle-mobile"
+    }
+  },
+  "flex-layout.col#mobile__recomendations":{
+    "children": [
+      "rich-text#mobile__recomendations",
+      "link#mobile__footer__middle--rec1",
+      "link#mobile__footer__middle--rec2",
+      "link#mobile__footer__middle--rec3",
+      "link#mobile__footer__middle--rec4",
+      "link#mobile__footer__middle--rec5"
+    ],
+    "props": {
+      "blockClass":["container-text-footer-middle-mobile", "tablet-only"]
+    }
+  },
+  "rich-text#mobile__recomendations":{
+    "props":{
+      "text":"**Recomendados**",
+      "blockClass": "text-footer-middle"
+    }
+  },
+  "link#mobile__footer__middle--rec1": {
+    "props": {
+      "label": "Smart TV",
+      "href": "/",
+      "blockClass":"link-footer-middle-mobile"
+    }
+  },
+  "link#mobile__footer__middle--rec2": {
+    "props": {
+      "label": "Celulares",
+      "href": "/",
+      "blockClass":"link-footer-middle-mobile"
+    }
+  },
+  "link#mobile__footer__middle--rec3": {
+    "props": {
+      "label": "Aire acondicionado",
+      "href": "/",
+      "blockClass":"link-footer-middle-mobile"
+    }
+  },
+  "link#mobile__footer__middle--rec4": {
+    "props": {
+      "label": "Novedades",
+      "href": "/",
+      "blockClass":"link-footer-middle-mobile"
+    }
+  },
+  "link#mobile__footer__middle--rec5": {
+    "props": {
+      "label": "Mas vendidos Marketplace",
+      "href": "/",
+      "blockClass":"link-footer-middle-mobile"
+    }
+  },
+  "flex-layout.col#mobile__help":{
+    "children": [
+      "rich-text#mobile__help",
+      "link#mobile__footer__middle--h1",
+      "link#mobile__footer__middle--h2",
+      "link#mobile__footer__middle--h3",
+      "link#mobile__footer__middle--h4",
+      "link#mobile__footer__middle--h5"
+    ],
+    "props": {
+      "blockClass":["container-text-footer-middle-mobile", "tablet-only"]
+    }
+  },
+  "rich-text#mobile__help":{
+    "props":{
+      "text":"**Ayuda**",
+      "blockClass": "text-footer-middle"
+    }
+  },
+  "link#mobile__footer__middle--h1": {
+    "props": {
+      "label": "Centro de ayuda",
+      "href": "/",
+      "blockClass":"link-footer-middle-mobile"
+    }
+  },
+  "link#mobile__footer__middle--h2": {
+    "props": {
+      "label": "Contactanos",
+      "href": "/",
+      "blockClass":"link-footer-middle-mobile"
+    }
+  },
+  "link#mobile__footer__middle--h3": {
+    "props": {
+      "label": "Sucursales",
+      "href": "/",
+      "blockClass":"link-footer-middle-mobile"
+    }
+  },
+  "link#mobile__footer__middle--h4": {
+    "props": {
+      "label": "Vende en Fravega",
+      "href": "/",
+      "blockClass":"link-footer-middle-mobile"
+    }
+  },
+  "link#mobile__footer__middle--h5": {
+    "props": {
+      "label": "Trabaja con nosotros",
+      "href": "/",
+      "blockClass":"link-footer-middle-mobile"
+    }
+  },
+  "flex-layout.col#mobile__benefits":{
+    "children": [
+      "rich-text#mobile__benefits",
+      "link#mobile__footer__middle--b1",
+      "link#mobile__footer__middle--b2",
+      "link#mobile__footer__middle--b3",
+      "link#mobile__footer__middle--b4"
+    ],
+    "props": {
+      "blockClass": ["container-text-footer-middle-mobile", "tablet-only"]
+    }
+  },
+  "rich-text#mobile__benefits":{
+    "props":{
+      "text":"**Beneficios**",
+      "blockClass": "text-footer-middle"
+    }
+  },
+  "link#mobile__footer__middle--b1": {
+    "props": {
+      "label": "Club Personal",
+      "href": "/",      
+      "blockClass":"link-footer-middle-mobile"
+    }
+  },
+  "link#mobile__footer__middle--b2": {
+    "props": {
+      "label": "YPF",
+      "href": "/",
+      "blockClass":"link-footer-middle-mobile"
+    }
+  },
+  "link#mobile__footer__middle--b3": {
+    "props": {
+      "label": "365",
+      "href": "/",
+      "blockClass":"link-footer-middle-mobile"
+    }
+  },
+  "link#mobile__footer__middle--b4": {
+    "props": {
+      "label": "Club Movistar",
+      "href": "/",
+      "blockClass":"link-footer-middle-mobile"
     }
   },
   "flex-layout.row#footer-bottom":{

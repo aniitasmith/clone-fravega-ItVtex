@@ -37,8 +37,9 @@
     "children": [
       "stack-layout#summary-image",      
       "product-summary-name",
-      "product-summary-price"
-  ],
+      "product-summary-price",
+      "product-summary-buy-button"    
+    ],
   "props": {
     "blockClass":"product-summary-shelf-section-4"
   }
@@ -46,7 +47,9 @@
   "slider-layout#products-section-4": {
     "props": {
       "itemsPerPage": {
-        "desktop": 4
+        "desktop": 4,
+        "tablet": 4,
+        "phone": 2
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",

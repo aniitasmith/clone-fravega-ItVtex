@@ -1,0 +1,9 @@
+.container--modal-quick-view{
+  box-shadow: rgb(0 0 0 / 8%) 0px 2px 4px 0px;
+  height: auto;
+}
+
+.paperScrollContent{
+  justify-content: center;
+  align-items: center;
+}
