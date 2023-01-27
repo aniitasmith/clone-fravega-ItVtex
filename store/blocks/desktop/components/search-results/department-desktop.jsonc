@@ -13,8 +13,7 @@
   "flex-layout.row#department-breadcrumb": {
     "children": [
       "breadcrumb.search",
-      "gallery-layout-switcher",
-      "order-by.v2"
+      "gallery-layout-switcher"
     ],
     "props": {
       "blockClass": "container-row"
@@ -40,12 +39,18 @@
   },
   "flex-layout.col#category-results-content-department-desktop": {
     "children": [
-      "search-title.v2",
+      "flex-layout.row#title-order",
       "search-content#results-content-products-department-desktop"
     ],
     "props": {
       "blockClass": "container-results-content-products-department-desktop"
     }
+  },
+  "flex-layout.row#title-order": {
+    "children": [
+      "search-title.v2",
+      "order-by.v2"
+    ]
   },
   "search-content#results-content-products-department-desktop": {
     "blocks": [
@@ -116,15 +121,45 @@
   },
   "product-summary.shelf#department-list":{
     "children": [
-      "stack-layout#summary-image",
-      "product-summary-name",
-      "product-list-price",
-      "product-selling-price",
-      "product-summary-sku-selector",
-      "flex-layout.row#buy-button"
+      "flex-layout.row#department-list"
     ],
     "props": {
-      "blockClass": "product-summary-self-department-grid-desktop"
+      "blockClass": "container-product-summary-self-department-list-desktop"
+    }
+  },
+  "flex-layout.row#department-list":{
+    "props": {
+      "blockClass": "department-list-desktop",
+      "colSizing": "auto"
+    },
+    "children": [
+      "stack-layout#summary-image",
+      "flex-layout.col#details-list",
+      "flex-layout.row#buy-button-list"
+    ]
+  },
+  "flex-layout.col#details-list":{
+    "children": [
+      "product-summary-name#list",
+      "product-list-price",
+      "product-selling-price",
+      "product-summary-sku-selector"
+    ],
+    "props": {
+      "blockClass":"department-shelf-list-desktop"
+    }
+  },
+  "product-summary-name#list": {
+    "props": {
+      "tag": "h3"
+    }
+  },
+  "flex-layout.row#buy-button-list": {
+    "children": [
+      "add-to-cart-button"
+    ],
+    "props": {
+      "blockClass": "buy-button-list"
     }
   }
 }

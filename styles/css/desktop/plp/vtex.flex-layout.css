@@ -17,7 +17,11 @@
   margin: 25px 0;
 }
 
-.flexRow--buy-button {
+.flexRow--buy-button, .flexRow--buy-button-list {
   margin: 15px 0;
   width : 50%;
+}
+
+.flexRow--buy-button-list {
+  align-self: center;
 }

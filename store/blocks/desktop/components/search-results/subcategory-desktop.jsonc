@@ -1,77 +1,13 @@
 {
   "search-result-layout.desktop#subcategory": {
     "children": [
-      "search-title.v2",
-      "flex-layout.row#subcategory-breadcrumb-desktop",
-      "flex-layout.row#subcategory-category-results-desktop"
+      "flex-layout.row#department-breadcrumb",
+      "flex-layout.row#department-category-results-desktop"
     ],
     "props": {
       "showFacetQuantity": true,
       "defaultGalleryLayout": "gallery",
       "blockClass": "container-search"
-    }
-  },
-  "flex-layout.row#subcategory-breadcrumb-desktop": {
-    "children": [
-      "flex-layout.col#subcategory-breadcrumb-desktop"
-    ],
-    "props": {
-      "blockClass": "container-row"
-    }
-  },
-  "flex-layout.col#subcategory-breadcrumb-desktop": {
-    "children": [
-      "breadcrumb.search"
-    ],
-    "props": {
-      "blockClass": "breadcrumb"
-    }
-  },
-  "flex-layout.row#subcategory-category-results-desktop": {
-    "children": [
-      "flex-layout.col#category-results-filter-subcategory-desktop",
-      "flex-layout.col#category-results-content-subcategory-desktop"
-    ],
-    "props": {
-      "blockClass": "container-category-results"
-    }
-  },
-  "flex-layout.col#category-results-filter-subcategory-desktop": {
-    "children": [
-      "filter-navigator.v3"
-    ],
-    "props": {
-      "blockClass": "container-category-filter"
-    }
-  },
-  "flex-layout.col#category-results-content-subcategory-desktop": {
-    "children": [
-      "search-content#results-content-products-subcategory-desktop"
-    ],
-    "props": {
-      "blockClass": "container-results-content-products-subcategory-desktop"
-    }
-  },
-  "search-content#results-content-products-subcategory-desktop": {
-    "blocks": [
-      "gallery#subcategory",
-      "not-found"
-    ]
-  },
-  "gallery#subcategory": {
-    "props": {
-      "layouts": [
-        {
-          "name": "general-grid",
-          "component": "GeneralGrid",
-          "itemsPerRow": {
-            "desktop": 4,
-            "tablet": 4,
-            "phone": 4
-          }
-        }
-      ],
-      "GeneralGrid": "product-summary.shelf"
     }
   }
 }

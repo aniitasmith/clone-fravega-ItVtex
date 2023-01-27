@@ -42,36 +42,41 @@
       "navigationTypeOnMobile": "collapsible"
     }
   },
+
   "gallery-layout-switcher": {
     "children": [
-      "gallery-layout-option#grid__two-columns",
-      "gallery-layout-option#grid__one-columns"
+      "gallery-layout-option#grid",
+      "gallery-layout-option#list"
     ]
   },
-  "gallery-layout-option#grid__two-columns": {
+  "gallery-layout-option#grid": {
     "props": {
-      "name": "grid-two-columns",
-      "blockClass": "grid__selector--two-columns"
+      "name": "grid",
+      "blockClass": "grid__selector-grid"
     },
     "children": [
       "icon-single-grid",
-      "rich-text#option-whole"
+      "rich-text#option-grid"
     ]
   },
-  "gallery-layout-option#grid__one-columns": {
+  "gallery-layout-option#list": {
     "props": {
-      "name": "grid-onecolumns",
-      "blockClass": "grid__selector--one-columns"
+      "name": "list",
+      "blockClass": "grid__selector-list"
     },
     "children": [
-      "icon-single-grid",
-      "rich-text#option-whole"
+      "icon-inline-grid",
+      "rich-text#option-list"
     ]
   },
-  "rich-text#option-whole": {
+  "rich-text#option-grid": {
     "props": {
-      "text": "pruebaa",
-      "blockClass": "option-whole"
+      "text": "grid"
+    }
+  },
+  "rich-text#option-list": {
+    "props": {
+      "text": "list"
     }
   }
 }
