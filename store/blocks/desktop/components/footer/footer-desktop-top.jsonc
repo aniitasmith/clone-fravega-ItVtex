@@ -1,11 +1,12 @@
 {
   "flex-layout.row#desktop__footer-top":{
     "props":{
-      "blockClass":"container-footer-top-desktop"
+      "blockClass":"container-footer-top-desktop",
+      "fullWidth": true
     },
     "children":[
       "flex-layout.col#social-menu",
-      "flex-layout.col#costume-support",
+      "flex-layout.col#customer-support",
       "flex-layout.col#credits-support",
       "flex-layout.col#sales-support",
       "flex-layout.col#business-support"
@@ -13,11 +14,19 @@
   },
   "flex-layout.col#social-menu":{
     "children": [
-      "logo#header__middle--logo",
+      "logo#footer-top--logo",
       "flex-layout.row#social-media"
     ],
     "props":{
       "blockClass":"container-social-media"
+    }
+  },
+  "logo#footer-top--logo": {
+    "title": "logo",
+    "props": {
+      "url":"assets/img/fravega-logo.svg",
+      "width": 197,
+      "href": "/"
     }
   },
   "flex-layout.row#social-media":{
@@ -29,7 +38,8 @@
       "image#linkedin"
     ],
     "props": {
-      "blockClass":"container-img-social-media"
+      "blockClass":"container-img-social-media",
+      "preventHorizontalStretch": true
     }
   },
    "image#facebook": {
@@ -62,43 +72,43 @@
       "blockClass":"img-social-media"
     }
   },
-  "flex-layout.col#costume-support":{
+  "flex-layout.col#customer-support":{
     "children": [
-      "rich-text#costume-support-line-1",
-      "rich-text#costume-support-line-2",
-      "rich-text#costume-support-line-3",
-      "rich-text#costume-support-line-4",
-      "rich-text#costume-support-line-5"     
+      "rich-text#customer-support-line-1",
+      "rich-text#customer-support-line-2",
+      "rich-text#customer-support-line-3",
+      "rich-text#customer-support-line-4",
+      "rich-text#customer-support-line-5"     
     ],
     "props": {
       "blockClass":"container-text-footer-top"
     }
   },
-  "rich-text#costume-support-line-1":{
+  "rich-text#customer-support-line-1":{
     "props":{
       "text":"Atencion al cliente",
       "blockClass": "text-footer-top"
     }
   },
-   "rich-text#costume-support-line-2":{
+   "rich-text#customer-support-line-2":{
     "props":{
       "text":"**0800 122 0338**",
       "blockClass": "text-footer-top"
     }
   },
-  "rich-text#costume-support-line-3":{
+  "rich-text#customer-support-line-3":{
     "props":{
       "text":"**0810 999 3728**",
       "blockClass": "text-footer-top"
     }
   },
-  "rich-text#costume-support-line-4":{
+  "rich-text#customer-support-line-4":{
     "props":{
       "text":"LU-VI de 09:00 a 18:00",
       "blockClass": "text-footer-top-small"
     }
   },
-  "rich-text#costume-support-line-5":{
+  "rich-text#customer-support-line-5":{
     "props":{
       "text":"SA de 9:00 a 13:00",
       "blockClass": "text-footer-top-small"
