@@ -87,7 +87,8 @@
       "product-list-price",
       "product-selling-price",
       "product-summary-sku-selector",
-      "flex-layout.row#buy-button"
+      "flex-layout.row#buy-button",
+      "modal-trigger#global__quick-view"
     ],
     "props": {
       "blockClass": "product-summary-self-department-grid-desktop"
@@ -160,6 +161,31 @@
     ],
     "props": {
       "blockClass": "buy-button-list"
+    }
+  },
+  "modal-trigger#global__quick-view":{
+    "children":[
+      "rich-text#global__quick-view",
+      "modal-layout#global__quick-view"
+    ]
+  },
+  "rich-text#global__quick-view":{
+    "props": {
+      "blockClass": "text-modal-quick-view",
+      "text": "Vista Previa"
+    }
+  },
+  "modal-layout#global__quick-view":{
+    "children":[
+      "stack-layout#summary-image",
+      "product-summary-name",
+      "product-list-price",
+      "product-selling-price",
+      "product-summary-sku-selector",
+      "flex-layout.row#buy-button"
+    ],
+    "props": {
+      "blockClass": "modal-quick-view"
     }
   }
 }
