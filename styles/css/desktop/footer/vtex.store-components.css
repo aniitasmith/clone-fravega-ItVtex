@@ -1,0 +1,12 @@
+.imageElement--img-social-media {
+  background-color: rgb(204, 204, 204);
+  border-radius: 50%;
+  padding: 6px;
+  margin-right: 10px;
+  width: 16px;
+  height: auto;
+}
+
+.logoContainer {
+  padding: 0;
+}
