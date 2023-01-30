@@ -1,0 +1,108 @@
+{
+  "flex-layout.row#product__section-3": {
+    "children": [
+      "tab-layout#product__tabs"
+    ]
+  },
+  "tab-layout#product__tabs": {
+    "children": [
+      "tab-list#product__tabs-list",
+      "tab-content#product__tabs-content"
+    ]
+  },
+  "tab-list#product__tabs-list": {
+    "children": [
+      "tab-list.item#tabs__list-product-specifications",
+      "tab-list.item#tabs__list-description",
+      "tab-list.item#tabs__list-info-manufacturer",
+      "tab-list.item#tabs__list-compare",
+      "tab-list.item#tabs__list-questions"
+    ]
+  },
+  "tab-list.item#tabs__list-product-specifications": {
+    "props": {
+      "tabId": "product-specifications",
+      "label": "Especificiones del producto",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#tabs__list-description": {
+    "props": {
+      "tabId": "description",
+      "label": "Descripcion",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#tabs__list-info-manufacturer": {
+    "props": {
+      "tabId": "info-manufacturer",
+      "label": "Info del fabricante",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#tabs__list-compare": {
+    "props": {
+      "tabId": "compare",
+      "label": "Comparar",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#tabs__list-questions": {
+    "props": {
+      "tabId": "list-questions",
+      "label": "Preguntas y respuestas",
+      "defaultActiveTab": true
+    }
+  },
+
+  "tab-content#product__tabs-content": {
+    "children": [
+      "tab-content.item#tabs__content-product-specifications",
+      "tab-content.item#tabs__content-description",
+      "tab-content.item#tabs__content-info-manufacturer",
+      "tab-content.item#tabs__content-compare",
+      "tab-content.item#tabs__content-questions"     
+
+    ]
+  },
+  "tab-content.item#tabs__content-product-specifications":{ 
+    "props": {
+      "tabId": "reviews-and-ratings"
+    },
+    "children": [
+      "product-description"
+    ]
+  },
+  "tab-content.item#tabs__content-description":{ 
+    "props": {
+      "tabId": "product-specifications"
+    },
+    "children": [
+
+    ] 
+  },
+  "tab-content.item#tabs__content-info-manufacturer":{
+    "props": {
+      "tabId": "info-manufacturer"
+    },
+    "children": [
+
+    ]    
+  },
+  "tab-content.item#tabs__content-compare":{
+    "props": {
+      "tabId": "compare"
+    },
+    "children": [
+
+    ]    
+  },
+  "tab-content.item#tabs__content-questions" :{
+    "props": {
+      "tabId": "list-questions"
+    },
+    "children": [
+      "questions-and-answers"
+    ]    
+  }
+}

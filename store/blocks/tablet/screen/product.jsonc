@@ -1,0 +1,9 @@
+{
+  "responsive-layout.tablet#product__tablet":{
+    "children": [
+      "flex-layout.row#product__section-1",
+      "flex-layout.row#product__section-2",
+      "flex-layout.row#product__section-3" 
+      ]
+  }
+}

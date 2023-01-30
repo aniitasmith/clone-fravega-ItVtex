@@ -1,0 +1,18 @@
+{
+  "flex-layout.row#product__section-2": {
+    "children": [
+      "flex-layout.col#product__section-2"
+    ]
+  },
+  "flex-layout.col#product__section-2":{
+    "children": [
+      "rich-text#more-offers",      
+      "list-context.product-list#section-6"
+    ]
+  },
+  "rich-text#more-offers": {
+    "props": {
+      "text": " **Personas interesadas en este producto tambien vieron**"
+    }
+  }
+}
