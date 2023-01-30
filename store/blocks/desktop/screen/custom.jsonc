@@ -1,0 +1,21 @@
+{
+  "responsive-layout.desktop#desktop__novedades":{
+    "title": "Custom Desktop",
+    "children": [
+      "flex-layout.row#novedades__section-1"
+      // "flex-layout.row#novedades__section-2",
+      // "flex-layout.row#novedades__section-3",
+      
+    ]
+  },
+  "flex-layout.row#novedades__section-1":{
+    "children": [
+      "rich-text#prueba"
+    ]
+  },
+  "rich-text#prueba":{
+    "props": {
+      "text": "prueba custom"
+    }
+  }
+}

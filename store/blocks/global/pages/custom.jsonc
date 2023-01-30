@@ -1,0 +1,11 @@
+{
+  "store.custom#novedades": {
+    "title": "Custom page fravega",
+    "blocks": [
+      "responsive-layout.desktop#desktop__novedades"
+      // "responsive-layout.tablet#tablet_novedades",
+      // "responsive-layout.phone#phone_novedades"
+
+    ]
+  }
+}
