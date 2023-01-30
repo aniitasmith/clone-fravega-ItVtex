@@ -1,15 +1,15 @@
 .paragraph--text-not-found {
   font-weight: 600;
-  font-size: 35px;
-  margin: 100px 70px;
+  font-size  : 35px;
+  margin     : 100px 70px;
 }
 
-.paragraph--text-more-products{
+.paragraph--text-more-products {
   font-weight: 600;
-  font-size: 35px;
-  margin: 20px 70px 30px 70px;
+  font-size  : 35px;
+  margin     : 20px 70px 30px 70px;
 }
 
-.container--text-more-products{
+.container--text-more-products {
   background-color: #f5f5f5;
 }

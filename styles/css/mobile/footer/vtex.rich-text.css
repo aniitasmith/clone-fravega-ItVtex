@@ -1,13 +1,13 @@
-.paragraph--text-footer-mobile{
+.paragraph--text-footer-mobile {
   font-size: 13px;
-  color: rgb(74, 74, 74);
+  color    : rgb(74, 74, 74);
 }
 
 @media screen and (min-width:768px) and (max-width: 1024px) {
   .paragraph--text-footer-mobile::after {
     content: " Frávega S.A.C.I. e I. Valentín Gómez 2813 (1191) | Capital Federal | Argentina";
   }
-  
+
   .paragraph--text-footer-mobile {
     margin: 13px 0 40px 0;
   }

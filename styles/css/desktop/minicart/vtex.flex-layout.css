@@ -1,10 +1,10 @@
-.flexCol--content-img-empty-state{
+.flexCol--content-img-empty-state {
   max-width: 100px;
 }
 
 .flexCol--content-col-empty-state {
-  width: 100%;
-  max-width: 282px;
+  width      : 100%;
+  max-width  : 282px;
   margin-left: 16px;
 }
 

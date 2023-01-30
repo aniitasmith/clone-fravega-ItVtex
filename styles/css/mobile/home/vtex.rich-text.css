@@ -37,8 +37,44 @@
   display: block;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+/* tablet */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .container--mobile-text-metodo-pago {
     border-right: none
+  }
+  
+  .strong--text-section-7 {
+    font-size: 14px;
+  }
+
+  .container--text-section-4 {
+    background: linear-gradient(-90deg, rgb(211, 0, 152), rgb(68, 0, 153));
+    width     : 75%;
+    height    : auto;
+  }
+}
+
+/* phone */
+
+@media only screen and (max-width: 768px) {
+  .container--text-section-4 {
+    background: linear-gradient(-90deg, rgb(211, 0, 152), rgb(68, 0, 153));
+    width     : 100%;
+  }
+
+  .strong--text-section-4 {
+    color      : #ffffff;
+    font-weight: 600;
+    font-size  : 22px;
+    margin     : 5px 10px;
+  }
+
+  .paragraph--text-section-6,
+  .paragraph--text-section-8 {
+    color      : #000000;
+    font-weight: 600;
+    font-size  : 22px;
+    margin     : 5px 10px;
   }
 }
