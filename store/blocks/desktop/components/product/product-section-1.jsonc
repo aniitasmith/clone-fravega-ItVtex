@@ -1,23 +1,34 @@
 {
   "flex-layout.row#product__section-1": {
+
     "children": [
       "flex-layout.col#product__section-1"
-    ]
+    ],
+    "props": {
+      "blockClass": "product__row-section-1"
+    }
   },
   "flex-layout.col#product__section-1": {
     "children": [
       "flex-layout.row#product__section-1-breadcrumb",
       "flex-layout.row#product__section-1-main"
-    ]
+    ],
+    "props": {
+      "blockClass": "product__col-section-1"
+    }
   },
   "flex-layout.row#product__section-1-breadcrumb": {
     "children": [
       "breadcrumb"
-    ]
+    ],
+    "props": {
+      "blockClass": "container-breadcrumb"
+    }
   },
   "breadcrumb": {
     "props": {
       "showOnMobile": false
+      // "blockClass": "breadcrumb"
     }
   },
   "flex-layout.row#product__section-1-main": {
@@ -27,7 +38,8 @@
       "marginTop": 4,
       "marginBottom": 7,
       "paddingTop": 7,
-      "paddingBottom": 7
+      "paddingBottom": 7,
+      "blockClass": "container-product-main"
     },
     "children": [
       "flex-layout.col#product-image",
@@ -37,7 +49,8 @@
   "flex-layout.col#product-image": {
     "props": {
       "width": "60%",
-      "rowGap": 0
+      "rowGap": 0,
+      "blockClass": "container-col-images"
     },
     "children": [
       "product-images"
@@ -52,7 +65,8 @@
   "flex-layout.col#right-col": {
     "props": {
       "preventVerticalStretch": true,
-      "rowGap": 0
+      "rowGap": 0,
+      "blockClass": "col-product-details"
     },
     "children": [
       "vtex.store-components:product-brand",
@@ -75,13 +89,17 @@
   "product-price#product-details": {
     "props": {
       "showInstallments": false,
-      "showSavings": true
+      "showSavings": true,
+      "blockClass": "product-price"
     }
   },
   "flex-layout.row#bank-promotions": {
     "children": [
       "flex-layout.col#bank-promotions"
-    ]
+    ],
+    "props": {
+      "blockClass": "container-row-bank-promotions"
+    }
   },
   "flex-layout.col#bank-promotions": {
     "children": [
@@ -89,11 +107,15 @@
       "product-installments",
       "image#bank-promotions",
       "link#promotions"
-    ]
+    ],
+    "props": {
+      "blockClass": "container-col-bank-promotions"
+    }
   },
   "rich-text#text-promotions": {
     "props": {
-      "text": " **¡Nuestras promociones bancarias!**"
+      "text": " **¡Nuestras promociones bancarias!**",
+      "blockClass": "text-promotions"
     }
   },
   "image#bank-promotions": {
@@ -114,10 +136,11 @@
   "flex-layout.row#buy-button-pdp": {
     "props": {
       "marginTop": 4,
-      "marginBottom": 7
+      "marginBottom": 7,
+      "blockClass": "contaner-buy-button"
     },
     "children": [
-      "buy-button"
+      "add-to-cart-button"
     ]
   },
   "share#default": {
@@ -126,7 +149,8 @@
         "Facebook": true,
         "WhatsApp": true,
         "Twitter": true
-      }
+      },
+    "blockClass":"container-social-media"
     }
   }
 }
