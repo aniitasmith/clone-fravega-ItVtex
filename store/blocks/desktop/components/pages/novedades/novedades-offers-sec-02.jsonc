@@ -1,0 +1,221 @@
+{
+  "flex-layout.row#novedades__offers-sec-2": {
+    "children": [
+      "link#section-2-offer-5",
+      "link#section-2-offer-6",
+      "link#section-2-offer-7",
+      "link#section-2-offer-8"
+    ],
+    "props": {
+      "blockClass": "desktop__offers-section-novedades"
+    }
+  },
+  "link#section-2-offer-5": {
+    "children": [
+      "flex-layout.col#offer-5"
+    ],
+    "props": {
+      "href": "/celulares",
+      "blockClass": "desktop__link-col-offers-section"
+    }
+  },
+  "flex-layout.col#offer-5": {
+    "children": [
+      "image#image-offer-5",
+      "rich-text#text-month-5",
+      "rich-text#text-title-offer-5",
+      "rich-text#description-offer-5",
+      "link#offer-5"
+    ],
+    "props": {
+      "blockClass": "desktop__container-col-offers-section"
+    }
+  },
+  "image#image-offer-5": {
+    "props": {
+      "src": "assets/img/info-novedades-5.png",
+      "blockClass": "desktop__img-offers-section"
+    }
+  },
+  "rich-text#text-month-5": {
+    "props": {
+      "text": "Junio",
+      "blockClass": "desktop__month-offers-section"
+    }
+  },
+  "rich-text#text-title-offer-5": {
+    "props": {
+      "text": "**Ofertas exclusivas para el Día del Padre.**",
+      "blockClass": "desktop__title-offers-section"
+    }
+  },
+  "rich-text#description-offer-5": {
+    "props": {
+      "text": "Conseguí los mejores regalos para el Día del Padre con promociones exclusivas.",
+      "blockClass": "desktop__description-offers-section"
+    }
+  },
+  "link#offer-5": {
+    "props": {
+      "href": "/celulares",
+      "label": "Mirá las ofertas del Día del Padre",
+      "blockClass": "desktop-link-offers"
+    }
+  },
+  "link#section-2-offer-6": {
+    "children": [
+      "flex-layout.col#offer-6"
+    ],
+    "props": {
+      "href": "/celulares",
+      "blockClass": "desktop__link-col-offers-section"
+    }
+  },
+  "flex-layout.col#offer-6": {
+    "children": [
+      "image#image-offer-6",
+      "rich-text#text-month-6",
+      "rich-text#text-title-offer-6",
+      "rich-text#description-offer-6",
+      "link#offer-6"
+    ],
+    "props": {
+      "blockClass": "desktop__container-col-offers-section"
+    }
+  },
+  "image#image-offer-6": {
+    "props": {
+      "src": "assets/img/info-novedades-6.png",
+      "blockClass": "desktop__img-offers-section"
+    }
+  },
+  "rich-text#text-month-6": {
+    "props": {
+      "text": "Mayo",
+      "blockClass": "desktop__month-offers-section"
+    }
+  },
+  "rich-text#text-title-offer-6": {
+    "props": {
+      "text": "**¡Viví el Hotsale con nosotros!**",
+      "blockClass": "desktop__title-offers-section"
+    }
+  },
+  "rich-text#description-offer-6": {
+    "props": {
+      "text": "Aprovechá las mejores ofertas y los descuentos exclusivos. En este Hotsale conseguí los mejores precios en Frávega.",
+      "blockClass": "desktop__description-offers-section"
+    }
+  },
+  "link#offer-6": {
+    "props": {
+      "href": "/celulares",
+      "label": "Navegá por el Hot Sale",
+      "blockClass": "desktop-link-offers"
+    }
+  },
+  "link#section-2-offer-7": {
+    "children": [
+      "flex-layout.col#offer-7"
+    ],
+    "props": {
+      "href": "/celulares",
+      "blockClass": "desktop__link-col-offers-section"
+    }
+  },
+  "flex-layout.col#offer-7": {
+    "children": [
+      "image#image-offer-7",
+      "rich-text#text-month-7",
+      "rich-text#text-title-offer-7",
+      "rich-text#description-offer-7",
+      "link#offer-7"
+    ],
+    "props": {
+      "blockClass": "desktop__container-col-offers-section"
+    }
+  },
+  "image#image-offer-7": {
+    "props": {
+      "src": "assets/img/info-novedades-7.png",
+      "blockClass": "desktop__img-offers-section"
+    }
+  },
+  "rich-text#text-month-7": {
+    "props": {
+      "text": "Marzo / Septiembre",
+      "blockClass": "desktop__month-offers-section"
+    }
+  },
+  "rich-text#text-title-offer-7": {
+    "props": {
+      "text": "**¡Viví el Electro Fest con nosotros!**",
+      "blockClass": "desktop__title-offers-section"
+    }
+  },
+  "rich-text#description-offer-7": {
+    "props": {
+      "text": "Aprovechá las mejores ofertas y los descuentos exclusivos. En este Electro Fest conseguí los mejores precios en Frávega.",
+      "blockClass": "desktop__description-offers-section"
+    }
+  },
+  "link#offer-7": {
+    "props": {
+      "href": "/celulares",
+      "label": "Navegá por el Electro Fest",
+      "blockClass": "desktop-link-offers"
+    }
+  },
+  "link#section-2-offer-8": {
+    "children": [
+      "flex-layout.col#offer-8"
+    ],
+    "props": {
+      "href": "/celulares",
+      "blockClass": "desktop__link-col-offers-section"
+    }
+  },
+  "flex-layout.col#offer-8": {
+    "children": [
+      "image#image-offer-8",
+      "rich-text#text-month-8",
+      "rich-text#text-title-offer-8",
+      "rich-text#description-offer-8",
+      "link#offer-8"
+    ],
+    "props": {
+      "blockClass": "desktop__container-col-offers-section"
+    }
+  },
+  "image#image-offer-8": {
+    "props": {
+      "src": "assets/img/info-novedades-8.png",
+      "blockClass": "desktop__img-offers-section"
+    }
+  },
+  "rich-text#text-month-8": {
+    "props": {
+      "text": "Diciembre",
+      "blockClass": "desktop__month-offers-section"
+    }
+  },
+  "rich-text#text-title-offer-8": {
+    "props": {
+      "text": "**Esta Navidad aprovechá los mejores precios.**",
+      "blockClass": "desktop__title-offers-section"
+    }
+  },
+  "rich-text#description-offer-8": {
+    "props": {
+      "text": "Comprá todos los regalos de navidad con los descuentos exclusivos online de Frávega.",
+      "blockClass": "desktop__description-offers-section"
+    }
+  },
+  "link#offer-8": {
+    "props": {
+      "href": "",
+      "label": "Ver ofertas de Navidad",
+      "blockClass": "desktop-link-offers"
+    }
+  }
+}
