@@ -4,7 +4,17 @@
       "flex-layout.row#product__section-1-phone",
       "flex-layout.row#product__section-2-phone",
       "flex-layout.row#product__section-3-phone",
-      "flex-layout.row#product__section-4-phone" 
+      "flex-layout.row#product__buy-button-pdp-phone"
       ]
-  } 
-}
+  } ,
+  "flex-layout.row#product__buy-button-pdp-phone":{
+      "props": {
+        "marginTop": 4,
+        "marginBottom": 7,
+        "blockClass": "contaner-buy-button-phone"
+      },
+      "children": [
+        "add-to-cart-button"
+      ]
+    }
+  }

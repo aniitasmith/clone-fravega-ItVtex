@@ -17,8 +17,12 @@
       "product-separator",
       "shipping-simulator",
       "product-separator",
-      "flex-layout.row#buy-button-pdp",
       "share#default"
     ]
   }
 }
+
+
+// .vtex-flex-layout-0-x-flexRow--global__product__row2 {
+//   
+//   }
