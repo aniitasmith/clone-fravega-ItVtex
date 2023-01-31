@@ -1,0 +1,68 @@
+.paragraph--desktop__breadcrumb-novedades {
+  font-size  : 13px;
+  font-weight: 400;
+  text-align : left;
+  color      : rgb(255, 255, 255);
+  font-family: "work-sans";
+  padding    : 40px;
+}
+
+.strong--desktop__text-banner {
+  font-size     : 38px;
+  font-weight   : 600;
+  line-height   : 42px;
+  letter-spacing: -0.7px;
+  text-align    : left;
+  color         : rgb(255, 255, 255);
+  margin-top    : 21px;
+  font-family   : "work-sans";
+  margin-left   : 40px;
+}
+
+.container--desktop__title-offers {
+  font-size     : 28px;
+  padding-bottom: 47px;
+  padding-top   : 67px;
+  font-weight   : 500;
+  text-align    : center;
+  font-family   : "work-sans";
+  color         : rgb(0, 0, 0);
+}
+
+.container--desktop__month-offers-section {
+  font-size      : 14px;
+  line-height    : 1.5;
+  letter-spacing : -0.2px;
+  color          : rgb(155, 155, 155);
+  padding-top    : 13px;
+  padding-bottom : 17px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.container--desktop__title-offers-section {
+  justify-content: center;
+}
+
+.wrapper--desktop__description-offers-section {
+  text-align: center;
+}
+
+.strong--desktop__title-offers-section {
+  font-size     : 18px;
+  font-weight   : 700;
+  line-height   : 1.33;
+  letter-spacing: -0.3px;
+  text-align    : center;
+  color         : rgb(58, 64, 91);
+  font-family   : "work-sans";
+}
+
+.paragraph--desktop__title-offers-section {
+  padding: 15px 0;
+}
+
+.paragraph--desktop__description-offers-section {
+  font-size: 14px;
+  padding  : 20px 0;
+}

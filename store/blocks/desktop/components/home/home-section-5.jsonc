@@ -15,7 +15,7 @@
       "headline": "DESCUBRILAS",
       "subhead": "No te pierdas las mejores ofertas al precio mas bajo.",
       "callToActionText": "VER MAS",
-      "callToActionUrl": "/sale-1",
+      "callToActionUrl": "/novedades",
       "blockClass": "info-card-oferta",
       "textAlignment": "rigth"
     }
@@ -27,7 +27,7 @@
       "headline": "FRAVEGA CASA",
       "subhead": "Hasta 40% off en colchones, muebles y articulos de decoracion seleccionados.",
       "callToActionText": "VER MAS",
-      "callToActionUrl": "/sale-2",
+      "callToActionUrl": "/novedades",
       "blockClass": "info-card-oferta",
       "textAlignment": "rigth"
     }

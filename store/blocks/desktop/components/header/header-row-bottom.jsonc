@@ -60,21 +60,21 @@
   "link#header__bottom-1": {
     "props": {
       "label": "climatizacion",
-      "href": "",
+      "href": "/electrodomesticos",
       "blockClass":"categoria-menu"
     }
   },
   "link#header__bottom--2": {
     "props": {
       "label": "aire libre",
-      "href": "",
+      "href": "/electrodomesticos",
       "blockClass":"categoria-menu"
     }
   },
   "link#header__bottom--3": {
     "props": {
       "label": "hogar",
-      "href": "",
+      "href": "/celulares",
       "blockClass":"categoria-menu"
     }
   },

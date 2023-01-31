@@ -1,0 +1,193 @@
+{
+  "flex-layout.row#novedades__phone--offers": {
+    "children": [
+      "flex-layout.col#novedades__phone--offers"
+    ],
+    "props": {
+      "blockClass": "novedades__phone--main-offers"
+    }
+  },
+  "flex-layout.col#novedades__phone--offers": {
+    "children": [
+      "flex-layout.row#container-offer-1",
+      "flex-layout.row#container-offer-2",
+      "flex-layout.row#container-offer-3",
+      "flex-layout.row#container-offer-4",
+      "flex-layout.row#container-offer-5",
+      "flex-layout.row#container-offer-6",
+      "flex-layout.row#container-offer-7",
+      "flex-layout.row#container-offer-8"
+    ],
+    "props": {
+      "blockClass": "novedades__phone--col-offers"
+    }
+  },
+  "flex-layout.row#container-offer-1": {
+    "children": [
+      "flex-layout.row#-offer-1"
+    ],
+    "props": {
+      "blockClass": "novedades__phone--row-offer",
+      "href": "/celulares"
+    }
+  },
+  "flex-layout.row#-offer-1": {
+    "children": [
+      "image#image-offer-1",
+      "rich-text#text-month-1",
+      "rich-text#text-title-offer-1",
+      "rich-text#description-offer-1",
+      "link#offer-1"
+    ],
+    "props": {
+      "blockClass": "novedades__phone--offer"
+    }
+  },
+  "flex-layout.row#container-offer-2": {
+    "children": [
+      "flex-layout.row#-offer-2"
+    ],
+    "props": {
+      "blockClass": "novedades__phone--row-offer",
+      "href": "/celulares"
+    }
+  },
+  "flex-layout.row#-offer-2": {
+    "children": [
+      "image#image-offer-2",
+      "rich-text#text-month-2",
+      "rich-text#text-title-offer-2",
+      "rich-text#description-offer-2",
+      "link#offer-1"
+    ],
+    "props": {
+      "blockClass": "novedades__phone--offer"
+    }
+  },
+  "flex-layout.row#container-offer-3": {
+    "children": [
+      "flex-layout.row#-offer-3"
+    ],
+    "props": {
+      "blockClass": "novedades__phone--row-offer",
+      "href": "/celulares"
+    }
+  },
+  "flex-layout.row#-offer-3": {
+    "children": [
+      "image#image-offer-3",
+      "rich-text#text-month-3",
+      "rich-text#text-title-offer-3",
+      "rich-text#description-offer-3",
+      "link#offer-3"
+    ],
+    "props": {
+      "blockClass": "novedades__phone--offer"
+    }
+  },
+  "flex-layout.row#container-offer-4": {
+    "children": [
+      "flex-layout.row#-offer-4"
+    ],
+    "props": {
+      "blockClass": "novedades__phone--row-offer",
+      "href": "/celulares"
+    }
+  },
+  "flex-layout.row#-offer-4": {
+    "children": [
+      "image#image-offer-4",
+      "rich-text#text-month-4",
+      "rich-text#text-title-offer-4",
+      "rich-text#description-offer-4",
+      "link#offer-4"
+    ],
+    "props": {
+      "blockClass": "novedades__phone--offer"
+    }
+  },
+  "flex-layout.row#container-offer-5": {
+    "children": [
+      "flex-layout.row#-offer-5"
+    ],
+    "props": {
+      "blockClass": "novedades__phone--row-offer",
+      "href": "/celulares"
+    }
+  },
+  "flex-layout.row#-offer-5": {
+    "children": [
+      "image#image-offer-5",
+      "rich-text#text-month-5",
+      "rich-text#text-title-offer-5",
+      "rich-text#description-offer-5",
+      "link#offer-5"
+    ],
+    "props": {
+      "blockClass": "novedades__phone--offer"
+    }
+  },
+  "flex-layout.row#container-offer-6": {
+    "children": [
+      "flex-layout.row#-offer-6"
+    ],
+    "props": {
+      "blockClass": "novedades__phone--row-offer",
+      "href": "/celulares"
+    }
+  },
+  "flex-layout.row#-offer-6": {
+    "children": [
+      "image#image-offer-6",
+      "rich-text#text-month-6",
+      "rich-text#text-title-offer-6",
+      "rich-text#description-offer-6",
+      "link#offer-6"
+    ],
+    "props": {
+      "blockClass": "novedades__phone--offer"
+    }
+  },
+  "flex-layout.row#container-offer-7": {
+    "children": [
+      "flex-layout.row#-offer-7"
+    ],
+    "props": {
+      "blockClass": "novedades__phone--row-offer",
+      "href": "/celulares"
+    }
+  },
+  "flex-layout.row#-offer-7": {
+    "children": [
+      "image#image-offer-7",
+      "rich-text#text-month-7",
+      "rich-text#text-title-offer-7",
+      "rich-text#description-offer-7",
+      "link#offer-7"
+    ],
+    "props": {
+      "blockClass": "novedades__phone--offer"
+    }
+  },
+  "flex-layout.row#container-offer-8": {
+    "children": [
+      "flex-layout.row#-offer-8"
+    ],
+    "props": {
+      "blockClass": "novedades__phone--row-offer",
+      "href": "/celulares"
+    }
+  },
+  "flex-layout.row#-offer-8": {
+    "children": [
+      "image#image-offer-8",
+      "rich-text#text-month-8",
+      "rich-text#text-title-offer-8",
+      "rich-text#description-offer-8",
+      "link#offer-8"
+    ],
+    "props": {
+      "blockClass": "novedades__phone--offer"
+    }
+  }
+}

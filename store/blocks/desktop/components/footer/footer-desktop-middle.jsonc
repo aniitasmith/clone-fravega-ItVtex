@@ -122,7 +122,7 @@
   "link#footer__middle--cm2": {
     "props": {
       "label": "Catalogo exclusivo",
-      "href": "/",
+      "href": "/novedades",
       "blockClass":"link-footer-middle"
     }
   },
@@ -155,35 +155,35 @@
   "link#footer__middle--rec1": {
     "props": {
       "label": "Smart TV",
-      "href": "/",
+      "href": "/electrodomesticos",
       "blockClass":"link-footer-middle"
     }
   },
   "link#footer__middle--rec2": {
     "props": {
       "label": "Celulares",
-      "href": "/",
+      "href": "/celulares",
       "blockClass":"link-footer-middle"
     }
   },
   "link#footer__middle--rec3": {
     "props": {
       "label": "Aire acondicionado",
-      "href": "/",
+      "href": "/electrodomesticos",
       "blockClass":"link-footer-middle"
     }
   },
   "link#footer__middle--rec4": {
     "props": {
       "label": "Novedades",
-      "href": "/",
+      "href": "/novedades",
       "blockClass":"link-footer-middle"
     }
   },
   "link#footer__middle--rec5": {
     "props": {
       "label": "Mas vendidos Marketplace",
-      "href": "/",
+      "href": "/novedades",
       "blockClass":"link-footer-middle"
     }
   },

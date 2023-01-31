@@ -87,9 +87,7 @@
   "logo#header__top":{
     "title": "fravega-logo-mobile",
     "props": {
-      "url":"assets/img/logo-mobile.svg",
-      // "width": 110,
-      "href": "/"
+      "url":"assets/img/logo-mobile.svg"
     }
   },
   "header-row#header__middle-mobile":{
