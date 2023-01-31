@@ -1,14 +1,13 @@
-.label--text-footer-top{
-  font-size: 15px;
+.label--text-footer-top {
+  font-size      : 15px;
   text-decoration: none;
-  color: black;
+  color          : black;
 }
 
-.link--link-footer-middle{
-  font-size: 15px;
+.link--link-footer-middle {
+  font-size      : 15px;
   text-decoration: none;
-  color: black;
-  margin: 20px 0;
+  color          : black;
+  margin         : 20px 0;
 
 }
-

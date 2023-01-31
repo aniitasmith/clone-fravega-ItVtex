@@ -1,0 +1,10 @@
+{
+  "responsive-layout.phone#phone__product": {
+    "children": [
+      "flex-layout.row#product__section-1-phone",
+      "flex-layout.row#product__section-2-phone",
+      "flex-layout.row#product__section-3-phone",
+      "flex-layout.row#product__section-4-phone" 
+      ]
+  } 
+}

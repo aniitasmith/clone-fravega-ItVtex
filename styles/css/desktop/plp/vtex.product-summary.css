@@ -1,12 +1,12 @@
-.element--product-summary-self-department-grid-desktop{
+.element--product-summary-self-department-grid-desktop {
   background-color: #ffffff;
-  box-shadow: rgb(0 0 0 / 8%) 0px 2px 4px 0px;
-  margin: 10px;
-  justify-content: center;
-  align-items: center;
+  box-shadow      : rgb(0 0 0 / 8%) 0px 2px 4px 0px;
+  margin          : 10px;
+  justify-content : center;
+  align-items     : center;
 }
 
-.productBrand{
-  font-size: 14px;
+.productBrand {
+  font-size  : 14px;
   font-weight: 400;
 }

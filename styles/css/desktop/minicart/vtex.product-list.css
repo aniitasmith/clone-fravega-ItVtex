@@ -1,19 +1,14 @@
-.productBrandName{
+.productBrandName {
   display: none;
 }
 
-/* .productName{
-  font-size: 15px;
-  text-transform: capitalize;
-} */
-
-.deleteIcon{
-  color:blue;
+.deleteIcon {
+  color: blue;
 }
 
-.price{
-  font-size: 19px;
-  font-weight: 600;
-  line-height: 1;
+.price {
+  font-size     : 19px;
+  font-weight   : 600;
+  line-height   : 1;
   letter-spacing: -0.32px;
 }

@@ -1,0 +1,10 @@
+{
+  "responsive-layout.desktop#product__desktop": {
+    "title": "PDP Desktop",
+    "children": [
+      "flex-layout.row#product__section-1",
+      "flex-layout.row#product__section-2",
+      "flex-layout.row#product__section-3" 
+      ]
+  } 
+}

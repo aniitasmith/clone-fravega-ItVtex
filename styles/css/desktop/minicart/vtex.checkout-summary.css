@@ -1,3 +1,4 @@
-.summaryItemContainer:first-child, .summarySmallDisclaimer {
+.summaryItemContainer:first-child,
+.summarySmallDisclaimer {
   display: none;
 }

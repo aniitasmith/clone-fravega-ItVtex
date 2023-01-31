@@ -1,17 +1,17 @@
-.paragraph--text-section-2{
-  font-family: work-sans;  
-  padding: 10px;
-  color: #000000;
+.paragraph--text-section-2 {
+  font-family: work-sans;
+  padding    : 10px;
+  color      : #000000;
   font-weight: 400;
-  font-size: 14px;  
-  min-width: 300px;
+  font-size  : 14px;
+  min-width  : 300px;
 }
 
-.container--text-section-2{
+.container--text-section-2 {
   height: 50px;
 }
 
-.text-creditos-section-2{
+.text-creditos-section-2 {
   height: 50px;
 }
 
@@ -19,73 +19,39 @@
   height: 50px;
 }
 
-.link--txt-categoria{
+.link--txt-categoria {
   text-decoration: none;
-  color: #000000;
+  color          : #000000;
 }
 
-.strong--text-section-4{
-  color: #ffffff; 
+.strong--text-section-4 {
+  color      : #ffffff;
   font-weight: 600;
-  font-size: 32px;
-  margin: 10px 10px;  
-} 
-
-.container--text-section-4{
-  background: linear-gradient(-90deg, rgb(211, 0, 152), rgb(68, 0, 153)); 
-  width: 60%;
-  height: auto; 
+  font-size  : 32px;
+  margin     : 10px 10px;
 }
 
-.flexColChild--home-container-section-4{
+.container--text-section-4 {
+  background: linear-gradient(-90deg, rgb(211, 0, 152), rgb(68, 0, 153));
+  width     : 60%;
+  height    : auto;
+}
+
+.flexColChild--home-container-section-4 {
   padding-left: 20px;
 }
 
-.paragraph--text-section-6, .paragraph--text-section-8{
-  color: #000000; 
+.paragraph--text-section-6,
+.paragraph--text-section-8 {
+  color      : #000000;
   font-weight: 600;
-  font-size: 26px;
-  margin: 10px 10px;  
-} 
+  font-size  : 26px;
+  margin     : 10px 10px;
+}
 
-.strong--text-section-7{
-  font-size: 16px;
-  line-height: 1.44;
+.strong--text-section-7 {
+  font-size     : 16px;
+  line-height   : 1.44;
   letter-spacing: -0.5px;
-  color: black;
-}
-/* tablet */
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .strong--text-section-7{
-    font-size: 14px;
-  }
-
-  .container--text-section-4{
-    background: linear-gradient(-90deg, rgb(211, 0, 152), rgb(68, 0, 153)); 
-    width: 75%;
-    height: auto; 
-  }
-}
-/* phone */
-
-@media only screen and (max-width: 768px) {
-  .container--text-section-4 {
-    background: linear-gradient(-90deg, rgb(211, 0, 152), rgb(68, 0, 153));
-    width: 100%;  
-  }
-
-  .strong--text-section-4{
-    color: #ffffff; 
-    font-weight: 600;
-    font-size: 22px;
-    margin: 5px 10px;  
-  }
-
-  .paragraph--text-section-6, .paragraph--text-section-8{
-    color: #000000; 
-    font-weight: 600;
-    font-size: 22px;
-    margin: 5px 10px;  
-  } 
+  color         : black;
 }
