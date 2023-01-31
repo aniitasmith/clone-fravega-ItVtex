@@ -1,0 +1,7 @@
+{
+  "flex-layout.row#product__section-1-phone":{
+    "children": [
+      "product-images"
+       ]
+  }
+}

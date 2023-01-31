@@ -1,7 +1,7 @@
-.paragraph--text-location{
-  font-family: work-sans;  
-  padding: 10px;
-  color: #000000;
+.paragraph--text-location {
+  font-family: work-sans;
+  padding    : 10px;
+  color      : #000000;
   font-weight: 400;
-  font-size: 14px;
+  font-size  : 14px;
 }

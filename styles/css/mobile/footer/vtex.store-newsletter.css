@@ -1,13 +1,17 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .emailInputContainer--email-newsletter, .formSubmitContainer--email-newsletter-submit {
-    max-width: 150px;
+
+  .emailInputContainer--email-newsletter,
+  .formSubmitContainer--email-newsletter-submit {
+    max-width    : 150px;
     margin-bottom: 13px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .emailInputContainer--email-newsletter, .formSubmitContainer--email-newsletter-submit {
-    max-width: 220px;
+
+  .emailInputContainer--email-newsletter,
+  .formSubmitContainer--email-newsletter-submit {
+    max-width   : 220px;
     margin-right: 10px;
   }
 

@@ -1,12 +1,13 @@
 .menuContainer {
-    width: 300px !important;
-    height: max-content;
-    max-height: max-content;
-    border-right: none;
-  }
-  .submenuContainer {
-    width: 100% !important;
-    overflow: initial;
-    max-height: max-content;
-    border-left: 2px solid #e3e4e6;
-  }
+  width       : 300px !important;
+  height      : max-content;
+  max-height  : max-content;
+  border-right: none;
+}
+
+.submenuContainer {
+  width      : 100% !important;
+  overflow   : initial;
+  max-height : max-content;
+  border-left: 2px solid #e3e4e6;
+}
