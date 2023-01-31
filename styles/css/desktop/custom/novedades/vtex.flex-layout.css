@@ -14,8 +14,8 @@
 .flexRowContent--desktop__offers-section-novedades {
   display    : flex;
   align-items: center;
-  margin     : 20px auto;
-  max-width  : 1120px;
+  margin     : 20px auto 30px;
+  max-width  : 90%;
 }
 
 .flexCol--desktop__container-col-offers-section {

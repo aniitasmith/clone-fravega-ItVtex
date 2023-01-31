@@ -1,0 +1,19 @@
+{
+  "flex-layout.row#novedades__phone--banner": {
+    "children": [
+      "flex-layout.col#novedades__phone-banner"
+    ],
+    "props": {
+      "blockClass": "phone__container-row-banner"
+    }
+  },
+  "flex-layout.col#novedades__phone-banner": {
+    "children": [
+      "rich-text#breadcrumb",
+      "rich-text#title-recommended"
+    ],
+    "props": {
+      "blockClass": "phone__container-col-banner"
+    }
+  }
+}

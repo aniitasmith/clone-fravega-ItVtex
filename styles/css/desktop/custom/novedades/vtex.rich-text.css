@@ -30,16 +30,20 @@
 }
 
 .container--desktop__month-offers-section {
-  font-size     : 14px;
-  line-height   : 1.5;
-  letter-spacing: -0.2px;
+  font-size      : 14px;
+  line-height    : 1.5;
+  letter-spacing : -0.2px;
   color          : rgb(155, 155, 155);
   padding-top    : 13px;
   padding-bottom : 17px;
   text-decoration: none;
+  justify-content: center;
 }
 
-.container--desktop__title-offers-section,
+.container--desktop__title-offers-section {
+  justify-content: center;
+}
+
 .wrapper--desktop__description-offers-section {
   text-align: center;
 }
