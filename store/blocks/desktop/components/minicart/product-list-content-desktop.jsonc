@@ -100,6 +100,7 @@
     "children": ["rich-text#mesagge-desktop"]
   },
   "rich-text#mesagge-desktop":{
+    "title": "Text adicional- delivery",
     "props": {
       "text": "LLega **GRATIS** mañana",
       "blockClass": "message-delivery"

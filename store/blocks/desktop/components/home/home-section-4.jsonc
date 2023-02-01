@@ -36,7 +36,6 @@
     }      
   },
   "product-summary.shelf#home__section-4":{
-    "title": "Product Summary",
     "children": [
       "stack-layout#summary-image",      
       "product-summary-name",
