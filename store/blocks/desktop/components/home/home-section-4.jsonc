@@ -8,6 +8,7 @@
     }
   },
   "flex-layout.col#home-container-section-4":{
+    "title": "Container Vitrina tiempo Limitado",
     "children": [
       "rich-text#home__section-4",
       "list-context.product-list#section-4"
@@ -17,6 +18,7 @@
     }
   },
   "rich-text#home__section-4": {
+    "title": "Text Vitrina 1 Home",
     "props":{
       "text":"**OFERTAS POR TIEMPO LIMITADO**",
       "blockClass": "text-section-4"
@@ -34,6 +36,7 @@
     }      
   },
   "product-summary.shelf#home__section-4":{
+    "title": "Product Summary",
     "children": [
       "stack-layout#summary-image",      
       "product-summary-name",
@@ -45,6 +48,7 @@
   }
   },
   "slider-layout#products-section-4": {
+    "title": "Slider Productos",
     "props": {
       "itemsPerPage": {
         "desktop": 4,
@@ -58,6 +62,7 @@
     }
  },
  "stack-layout#summary-image":{
+  "title": "Product Image with stack",
     "children": [
       "product-summary-image",
       "image#delivery-free"
@@ -67,6 +72,7 @@
     }
  },
     "image#delivery-free":{
+      "title": "Stack Image",
     "props": {
       "src": "assets/img/delivery-free.png",
       "blockClass": "img-delivery-free",

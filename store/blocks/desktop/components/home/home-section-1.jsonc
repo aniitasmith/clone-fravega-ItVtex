@@ -1,6 +1,5 @@
 {
   "flex-layout.row#home__section-1": {
-    "title": "Slider ofertas",
     "children": [
       "slider-layout#home__ofertas"
     ]
@@ -24,6 +23,7 @@
     ]
   },
   "image#oferta-1": {
+    "title": "Imagen oferta 1",
     "props": {
       "src": "assets/img/banner-001.png",
       "link":{
@@ -32,6 +32,7 @@
     }
   },
   "image#oferta-2": {
+    "title": "Imagen oferta 2",
     "props": {
       "src": "assets/img/banner-002.png",
       "link":{
@@ -40,6 +41,7 @@
     }
   },
   "image#oferta-3": {
+    "title": "Imagen oferta 3",
     "props": {
       "src": "assets/img/banner-003.png",
       "link":{
@@ -48,6 +50,7 @@
     }
   },
   "image#oferta-4": {
+    "title": "Imagen oferta 4",
     "props": {
       "src": "assets/img/banner-004.png",
       "link":{

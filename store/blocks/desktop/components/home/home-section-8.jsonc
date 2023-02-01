@@ -8,6 +8,7 @@
     }
   },
   "flex-layout.col#home-container-section-8":{
+    "title": "Slider: Todo lo nuevo",
     "children": [
       "rich-text#home__section-8",
       "list-context.product-list#section-8"
@@ -17,6 +18,7 @@
     }
   },
   "rich-text#home__section-8": {
+    "title": "Text Slider",
     "props":{
       "text":"**Todo lo Nuevo en Frávega**",
       "blockClass": "text-section-8"
