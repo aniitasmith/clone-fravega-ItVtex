@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#home__section-6":{
+  "flex-layout.row#home__section-6": {
     "children": [
       "flex-layout.col#home-container-section-6"
     ],
@@ -7,7 +7,8 @@
       "blockClass": "container-section-6"
     }
   },
-  "flex-layout.col#home-container-section-6":{
+  "flex-layout.col#home-container-section-6": {
+    "title": "List Context Ofertas",
     "children": [
       "rich-text#home__section-6",
       "list-context.product-list#section-6"
@@ -17,8 +18,9 @@
     }
   },
   "rich-text#home__section-6": {
-    "props":{
-      "text":"**Aprovechá las ofertas destacadas**",
+    "title": "Text ofertas destacadas",
+    "props": {
+      "text": "**Aprovechá las ofertas destacadas**",
       "blockClass": "text-section-6"
     }
   },
@@ -30,20 +32,21 @@
       "slider-layout#products-section-6"
     ],
     "props": {
-      "blockClass":"list-context-section-6"
-    }      
+      "blockClass": "list-context-section-6"
+    }
   },
-  "product-summary.shelf#home__section-6":{
+  "product-summary.shelf#home__section-6": {
     "children": [
-      "stack-layout#summary-image",      
+      "stack-layout#summary-image",
       "product-summary-name",
       "product-summary-price"
-  ],
+    ],
     "props": {
-      "blockClass":"product-summary-shelf-section-6"
+      "blockClass": "product-summary-shelf-section-6"
     }
   },
   "slider-layout#products-section-6": {
+    "title": "Slider ofertas",
     "props": {
       "itemsPerPage": {
         "desktop": 5,
@@ -53,7 +56,7 @@
       "infinite": false,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "slider-products-section-6",
-      "showPaginationDots":"never"
+      "showPaginationDots": "never"
     }
- }
+  }
 }

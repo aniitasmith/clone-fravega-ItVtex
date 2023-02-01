@@ -15,6 +15,7 @@
          }
   },
   "link#header__top--1": {
+    "title": "Link: Sigue tu Compra",
     "props": {
       "label": "Sigue tu compra",
       "href": "/tracking",
@@ -25,6 +26,7 @@
      }
   },
   "link#header__top--2": {
+    "title": "Link: Servicio tecnico",
     "props": {
       "label": "Servicio tecnico",
       "href": "/servicio-tecnico",
@@ -35,6 +37,7 @@
      }
   },
   "link#header__top--3": {
+    "title": "Link: Surcusal",
     "props": {
       "label": "Sucursales",
       "href": "/sucursales",
@@ -45,6 +48,7 @@
      }
   },
   "link#header__top--4": {
+    "title": "Link: Venta telefonica",
     "props": {
       "label": "venta telefonica",
       "href": "/venta-telefonica",
@@ -55,6 +59,7 @@
      }
   },
   "link#header__top--5": {
+    "title": "Link: Centro de ayuda",
     "props": {
       "label": "Centro de ayuda",
       "href": "/help-center",
@@ -65,7 +70,7 @@
      }
   },
   "logo#header__top--creditos": {
-    "title": "fravega-creditos",
+    "title": "Fravega creditos",
     "props": {
       "url":"assets/img/fravega-creditos.svg",
       "width": 110,

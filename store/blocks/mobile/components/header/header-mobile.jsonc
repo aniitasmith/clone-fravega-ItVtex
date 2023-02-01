@@ -1,6 +1,6 @@
 {
   "header-layout.mobile#mobile__header": {
-    "title": "comp Header mobile",
+    "title": "Header mobile",
     "children": [
       "header-row#header__top-mobile",
       "header-row#header__middle-mobile",
@@ -24,6 +24,7 @@
     }
   },
   "minicart.v2#home-mobile": {
+    "title":"Minicart",
     "props": {
       "MinicartIcon": "icon#home__account--fravega",
       "variation": "popup",
@@ -54,6 +55,7 @@
     }
   },
   "drawer-header#my-drawer": {
+    "title":"Megamenu",
     "children": ["flex-layout.row#drawer-header"]
   },
   "flex-layout.row#drawer-header": {
@@ -85,7 +87,7 @@
     }
   },
   "logo#header__top":{
-    "title": "fravega-logo-mobile",
+    "title": "Logo fravega mobile",
     "props": {
       "url":"assets/img/logo-mobile.svg"
     }
@@ -99,6 +101,7 @@
     }
   },
   "header-row#header__bottom-mobile":{
+    "title":"Container location",
     "children":[
       "header-row#logo-location"
     ],

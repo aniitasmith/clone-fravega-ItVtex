@@ -10,6 +10,7 @@
     ]
   },
   "flex-layout.col#container-copyrigth":{
+    "title": "Container Copyright",
     "children": [
       "rich-text#copyright",
       "rich-text#disclaimer"       
@@ -19,12 +20,14 @@
     }
   },
   "rich-text#copyright": {
+    "title": "Text Copyright",
     "props": {
       "text": "Copyright 2021 | Todos los derechos reservados Fravega.com. Frávega S.A.C.I. e I. Valentín Gómez 2813 (1191) | Capital Federal | Argentina",
       "blockClass": "text-footer-bottom"
     }
   },
   "rich-text#disclaimer": {
+    "title": "Text disclaimer",
     "props": {
       "text": "Las fotos son a modo ilustrativo. La venta de cualquiera de los productos publicados está sujeta a la verificación de stock. Los precios online y los planes de financiación para los productos presentados/publicados en www.fravega.com.ar y/o www.fravega.com son válidos exclusivamente para la compra vía internet en las páginas antes mencionadas. Las especificaciones técnicas y descripciones están sujetas a cambios sin previo aviso.",
       "blockClass": "text-footer-bottom-small"
@@ -40,6 +43,7 @@
   },
 
   "flex-layout.row#container-logos-footer":{
+    "title": "Container cerficaciones",
     "children": [
       "image#premio",
       "image#cace",
@@ -51,6 +55,7 @@
     }
   },
   "image#premio": {
+    "title": "Image Premio",
     "props": {
       "src": "assets/img/img-premio.png",
       "blockClass":"img-footer-bottom",
@@ -59,6 +64,7 @@
     }
   },
   "image#cace": {
+    "title": "Image CACE",
     "props": {
       "src": "assets/img/img-sello-cace.png",
       "blockClass":"img-footer-bottom",
@@ -68,6 +74,7 @@
     }
   },
   "image#data-fiscal": {
+    "title": "Image Data fiscal",
     "props": {
       "src": "assets/img/img-data-fiscal.png",
       "blockClass":"img-footer-bottom",

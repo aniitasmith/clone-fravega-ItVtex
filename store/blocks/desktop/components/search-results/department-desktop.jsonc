@@ -1,5 +1,6 @@
 {
   "search-result-layout.desktop#department": {
+    "title": "department page",
     "children": [
       "flex-layout.row#department-breadcrumb",
       "flex-layout.row#department-category-results-desktop"
@@ -11,6 +12,7 @@
     }
   },
   "flex-layout.row#department-breadcrumb": {
+    "title": "Container Breadcrumb",
     "children": [
       "breadcrumb.search",
       "gallery-layout-switcher"
@@ -20,6 +22,7 @@
     }
   },
   "flex-layout.row#department-category-results-desktop": {
+    "title": "Container results",
     "children": [
       "flex-layout.col#category-results-filter-department-desktop",
       "flex-layout.col#category-results-content-department-desktop"
@@ -31,6 +34,7 @@
     }
   },
   "flex-layout.col#category-results-filter-department-desktop": {
+    "title": "Container-Filter-navigator",
     "children": [
       "filter-navigator.v3"
     ],
@@ -39,6 +43,7 @@
     }
   },
   "flex-layout.col#category-results-content-department-desktop": {
+    "title": "Container result content",
     "children": [
       "flex-layout.row#title-order",
       "search-content#results-content-products-department-desktop"
@@ -83,6 +88,7 @@
     }
   },
   "product-summary.shelf#department": {
+    "title": "Product Sumarry Grid",
     "children": [
       "stack-layout#summary-image",
       "product-summary-name",
@@ -98,17 +104,20 @@
   },
 
   "product-summary-name": {
+    "title": "Product name Grid PLP",
     "props": {
       "tag": "h3"
     }
   },
   "product-summary-sku-selector": {
+    "title": "Product sku Grid PLP",
     "props": {
       "hideImpossibleCombinations": false,
       "visibility": "more-than-one"
     }
   },
   "flex-layout.row#buy-button": {
+    "title": "Add to cart PLP",
     "children": [
       "add-to-cart-button"
     ],
@@ -117,12 +126,14 @@
     }
   },
   "add-to-cart-button": {
+    "title": "Buy button",
     "props": {
       "text": "COMPRAR",
       "blockClass": "buy-button"
     }
   },
   "product-summary.shelf#department-list":{
+    "title": "Product summary List",
     "children": [
       "flex-layout.row#department-list"
     ],
@@ -153,11 +164,13 @@
     }
   },
   "product-summary-name#list": {
+    "title": "Product name List PLP",
     "props": {
       "tag": "h3"
     }
   },
   "flex-layout.row#buy-button-list": {
+    "title": "buy button List PLP",
     "children": [
       "add-to-cart-button"
     ],
@@ -166,18 +179,22 @@
     }
   },
   "modal-trigger#global__quick-view":{
+    "title": "Modal Vista Previa",
     "children":[
       "rich-text#global__quick-view",
       "modal-layout#global__quick-view"
     ]
   },
   "rich-text#global__quick-view":{
+    "title": "Text Vista Previa",
     "props": {
       "blockClass": "text-modal-quick-view",
       "text": "Vista Previa"
     }
   },
   "modal-layout#global__quick-view":{
+    "title": "Content modal Vista Previa",
+
     "children":[
       "stack-layout#summary-image",
       "product-summary-name",

@@ -1,6 +1,6 @@
 {
   "flex-layout.row#home__section-2": {
-    "title": "metodos de pagos",
+    "title": "Container info de venta",
     "children": [
       "flex-layout.col#metodos-pago",      
       "flex-layout.col#creditos",
@@ -21,6 +21,7 @@
     }
   },
   "flex-layout.row#metodos-pago": {
+    "title": "Metodos de pago",
     "children": [
       "image#metodos-pago",
       "rich-text#metodo-pago"
@@ -30,6 +31,7 @@
     }
   },
   "image#metodos-pago": {
+    "title": "imagen metodos de pagos",
     "props": {
       "src": "assets/img/payment-methods.png",
       "blockClass":"img-section-2",
@@ -37,6 +39,7 @@
     }
   },
   "rich-text#metodo-pago": {
+    "title": "Text metodos de pagos",
     "props": {
       "text": "Pagá con crédito y débito \n [Ver promociones](/)",
       "blockClass":"text-section-2"
@@ -53,6 +56,7 @@
     }
   },
   "flex-layout.row#creditos": {
+    "title": "Creditos",
     "children": [
       "image#coin",
       "rich-text#creditos"
@@ -63,6 +67,7 @@
     }
   },
   "image#coin":{
+    "title": "Image creditos",
     "props": {
       "src": "assets/img/coin.png",
       "blockClass":[
@@ -72,6 +77,7 @@
     }
   },
   "rich-text#creditos": {
+    "title": "Text creditos",
     "props": {
       "blockClass": "text-section-2",
       "text": "Frávega Créditos.[Pagá Online.](/)\n[Conocé más](/) y accedé al [catálogo exclusivo.](/)"
@@ -88,6 +94,7 @@
     }
   },
   "flex-layout.row#delivery": {
+    "title": "Delivery",
     "children": [
       "image#delivery",
       "rich-text#delivery"
@@ -97,6 +104,7 @@
     }
   },
   "image#delivery":{
+    "title": "Image delivery",
     "props": {
       "src": "assets/img/delivery.png",
       "blockClass":"img-section-2",
@@ -104,6 +112,7 @@
     }
   },
   "rich-text#delivery":{
+    "title": "Text delivery",
     "props": {
       "blockClass": "text-section-2",
       "text": "Envíos a todo el país y retiro gratis \n [en más de 100 sucursales](/sucursales/)"

@@ -1,5 +1,6 @@
 {
   "store.search": {
+    "title": "Search page",
     "blocks": [
       "search-result-layout"
     ],
@@ -55,6 +56,7 @@
     ]
   },
   "gallery-layout-option#grid": {
+    "title": "Switcher Grid",
     "props": {
       "name": "grid",
       "blockClass": "grid__selector-grid"
@@ -65,6 +67,7 @@
     ]
   },
   "gallery-layout-option#list": {
+    "title": "Switcher List",
     "props": {
       "name": "list",
       "blockClass": "grid__selector-list"
@@ -75,12 +78,14 @@
     ]
   },
   "rich-text#option-grid": {
+    "title": "Text Grid",
     "props": {
       "text": "grid",
       "blockClass": "option-grid"
     }
   },
   "rich-text#option-list": {
+    "title": "Text List",
     "props": {
       "text": "list",
       "blockClass": "option-list"

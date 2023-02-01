@@ -14,6 +14,7 @@
     ]
   },
   "flex-layout.col#promotions":{
+    "title": "Container promotions",
     "children":[
       "rich-text#promotions",
       "newsletter-form#desktop"
@@ -23,12 +24,14 @@
     }
   },
   "rich-text#promotions":{
+    "title": "text Promotions",
     "props":{
       "text":"Recibi ofertas y promociones",
       "blockClass": "text-footer-middle"
     }
   },
   "newsletter-form#desktop": {
+    "title": "Container newsletter",
     "children": [
       "newsletter-input-email#desktop",
       "newsletter-submit#desktop"
@@ -50,6 +53,7 @@
     }
   },
   "flex-layout.col#basic-menu":{
+    "title": "Container basic menu",
     "children": [
       "rich-text#basic-menu",
       "link#footer__middle--bm1",
@@ -62,12 +66,14 @@
     }
   },
   "rich-text#basic-menu":{
+    "title": "Text Donde comprar",
     "props":{
       "text":"**Comprar en Fravega.com**",
       "blockClass": "text-footer-middle"
     }
   },
   "link#footer__middle--bm1": {
+    "title": "Text servicio tecnico",
     "props": {
       "label": "servicio tecnico",
       "href": "/",
@@ -75,6 +81,7 @@
     }
   },
   "link#footer__middle--bm2": {
+    "title": "Text Informacion legal",
     "props": {
       "label": "Informacion legal",
       "href": "/",
@@ -82,6 +89,7 @@
     }
   },
   "link#footer__middle--bm3": {
+    "title": "Text Boton de arrepentimiento",
     "props": {
       "label": "Boton de arrepentimiento",
       "href": "/",
@@ -89,6 +97,7 @@
     }
   },
   "link#footer__middle--bm4": {
+    "title": "Text Proteccion de Usuarios Financieros",
     "props": {
       "label": "Proteccion de Usuarios Financieros",
       "href": "/",
@@ -96,6 +105,7 @@
     }
   },
   "flex-layout.col#credit-menu":{
+    "title": "Container credit menu",
     "children":[
       "rich-text#credit-menu",
       "link#footer__middle--cm1",
@@ -107,12 +117,14 @@
     }
   },
   "rich-text#credit-menu":{
+    "title": "Text Creditos",
     "props":{
       "text":"**Fravega Creditos**",
       "blockClass": "text-footer-middle"
     }
   },
   "link#footer__middle--cm1": {
+    "title": "Text Pago Online",
     "props": {
       "label": "Paga Online",
       "href": "/",      
@@ -120,6 +132,7 @@
     }
   },
   "link#footer__middle--cm2": {
+    "title": "Text Catalogo exclusivo",
     "props": {
       "label": "Catalogo exclusivo",
       "href": "/novedades",
@@ -127,6 +140,7 @@
     }
   },
   "link#footer__middle--cm3": {
+    "title": "Text Condiciones",
     "props": {
       "label": "Condiciones",
       "href": "/",
@@ -134,6 +148,7 @@
     }
   },
   "flex-layout.col#recomendations":{
+    "title": "Container recomendaciones",
     "children": [
       "rich-text#recomendations",
       "link#footer__middle--rec1",
@@ -147,12 +162,14 @@
     }
   },
   "rich-text#recomendations":{
+    "title": "text Recomendados",
     "props":{
       "text":"**Recomendados**",
       "blockClass": "text-footer-middle"
     }
   },
   "link#footer__middle--rec1": {
+    "title": "link Smart TV",
     "props": {
       "label": "Smart TV",
       "href": "/electrodomesticos",
@@ -160,6 +177,7 @@
     }
   },
   "link#footer__middle--rec2": {
+    "title": "link Celulares",
     "props": {
       "label": "Celulares",
       "href": "/celulares",
@@ -167,6 +185,7 @@
     }
   },
   "link#footer__middle--rec3": {
+    "title": "link Aire acondicionado",
     "props": {
       "label": "Aire acondicionado",
       "href": "/electrodomesticos",
@@ -174,6 +193,7 @@
     }
   },
   "link#footer__middle--rec4": {
+    "title": "link Novedades",
     "props": {
       "label": "Novedades",
       "href": "/novedades",
@@ -181,6 +201,7 @@
     }
   },
   "link#footer__middle--rec5": {
+    "title": "link Mas vendidos",
     "props": {
       "label": "Mas vendidos Marketplace",
       "href": "/novedades",
@@ -188,6 +209,7 @@
     }
   },
   "flex-layout.col#help":{
+    "title": "Container help",
     "children": [
       "rich-text#help",
       "link#footer__middle--h1",
@@ -201,12 +223,14 @@
     }
   },
   "rich-text#help":{
+    "title": "text help",
     "props":{
       "text":"**Ayuda**",
       "blockClass": "text-footer-middle"
     }
   },
   "link#footer__middle--h1": {
+    "title": "Link centro de ayuda",
     "props": {
       "label": "Centro de ayuda",
       "href": "/",
@@ -214,6 +238,7 @@
     }
   },
   "link#footer__middle--h2": {
+    "title": "Link Contactanos",
     "props": {
       "label": "Contactanos",
       "href": "/",
@@ -221,6 +246,7 @@
     }
   },
   "link#footer__middle--h3": {
+    "title": "Link Sucursales",
     "props": {
       "label": "Sucursales",
       "href": "/",
@@ -228,6 +254,7 @@
     }
   },
   "link#footer__middle--h4": {
+    "title": "Link Vende en fravega",
     "props": {
       "label": "Vende en Fravega",
       "href": "/",
@@ -235,6 +262,7 @@
     }
   },
   "link#footer__middle--h5": {
+    "title": "Link Trabaja con nosotros",
     "props": {
       "label": "Trabaja con nosotros",
       "href": "/",
@@ -242,6 +270,7 @@
     }
   },
   "flex-layout.col#benefits":{
+    "title": "Container Beneficios",
     "children": [
       "rich-text#benefits",
       "link#footer__middle--b1",
@@ -254,12 +283,14 @@
     }
   },
   "rich-text#benefits":{
+    "title": "Text Beneficios",
     "props":{
       "text":"**Beneficios**",
       "blockClass": "text-footer-middle"
     }
   },
   "link#footer__middle--b1": {
+    "title": "Link Club Personal",
     "props": {
       "label": "Club Personal",
       "href": "/",      
@@ -267,6 +298,7 @@
     }
   },
   "link#footer__middle--b2": {
+    "title": "Link YPF",
     "props": {
       "label": "YPF",
       "href": "/",
@@ -274,6 +306,7 @@
     }
   },
   "link#footer__middle--b3": {
+    "title": "Link 365",
     "props": {
       "label": "365",
       "href": "/",
@@ -281,6 +314,7 @@
     }
   },
   "link#footer__middle--b4": {
+    "title": "Link Club Movistar",
     "props": {
       "label": "Club Movistar",
       "href": "/",

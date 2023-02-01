@@ -9,6 +9,7 @@
     }
   },
   "info-card#section-5-oferta-1":{
+    "title": "Info Card Section 5 Izquierda",
     "props":{
       "textPosition": "right",
       "imageUrl": "assets/img/ofertas.png",
@@ -21,6 +22,7 @@
     }
   },
   "info-card#section-5-oferta-2":{
+    "title": "Info Card Section 5 Derecha",
     "props":{
       "textPosition": "right",
       "imageUrl": "assets/img/ofertas-2.png",
