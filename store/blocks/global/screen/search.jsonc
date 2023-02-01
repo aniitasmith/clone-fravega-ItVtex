@@ -55,7 +55,7 @@
       "blockClass": "grid__selector-grid"
     },
     "children": [
-      "icon-single-grid",
+      "icon-grid",
       "rich-text#option-grid"
     ]
   },
@@ -71,12 +71,14 @@
   },
   "rich-text#option-grid": {
     "props": {
-      "text": "grid"
+      "text": "grid",
+      "blockClass": "option-grid"
     }
   },
   "rich-text#option-list": {
     "props": {
-      "text": "list"
+      "text": "list",
+      "blockClass": "option-list"
     }
   }
 }

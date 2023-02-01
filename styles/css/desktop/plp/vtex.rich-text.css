@@ -13,3 +13,7 @@
 .container--text-more-products {
   background-color: #f5f5f5;
 }
+
+.paragraph--option-grid, .paragraph--option-list {
+  margin-left: 10px;
+}

@@ -59,3 +59,13 @@
 .searchResultContainer--container-search-mobile {
   padding-bottom: 25px;
 }
+
+.galleryLayoutOptionButton--selected {
+  border: #0f3e99 2px solid;
+  border-radius: 0.25rem;
+}
+
+.galleryLayoutOptionButton--grid__selector-list, .galleryLayoutOptionButton--grid__selector-grid {
+  height: fit-content;
+  padding: 5px;
+}
