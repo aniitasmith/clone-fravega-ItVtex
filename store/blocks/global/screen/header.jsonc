@@ -1,13 +1,11 @@
 {
   "header":{
-    "title":"Header global",
     "blocks":[
       "header-layout.desktop#desktop__header",
       "header-layout.mobile#mobile__header"
     ]
   },
   "header.full":{
-    "title":"Header global",
     "blocks":[
       "header-layout.desktop#desktop__header",
       "header-layout.mobile#mobile__header"

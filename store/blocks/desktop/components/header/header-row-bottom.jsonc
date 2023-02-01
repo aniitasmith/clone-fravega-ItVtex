@@ -28,7 +28,6 @@
       "flex-layout.col#trigger-mega-menu"
       ]
   },
-
   "flex-layout.row#mega-menu": {
     "children": ["mega-menu#desktop"],
     "props": {
@@ -54,10 +53,10 @@
     "props": {
       "Drawer": "drawer",
       "blockClass": "trigger-btn-menu"
-
     }
   },
   "link#header__bottom-1": {
+    "title": "Link: Climatizacion",
     "props": {
       "label": "climatizacion",
       "href": "/electrodomesticos",
@@ -65,6 +64,7 @@
     }
   },
   "link#header__bottom--2": {
+    "title": "Link: Aire Libre",
     "props": {
       "label": "aire libre",
       "href": "/electrodomesticos",
@@ -72,6 +72,7 @@
     }
   },
   "link#header__bottom--3": {
+    "title": "Link: Hogar",
     "props": {
       "label": "hogar",
       "href": "/celulares",
@@ -79,6 +80,7 @@
     }
   },
   "link#header__bottom--4": {
+    "title": "Link: Tienda samsung",
     "props": {
       "label": "tienda samsung",
       "href": "",
