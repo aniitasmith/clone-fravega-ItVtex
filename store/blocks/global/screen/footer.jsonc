@@ -6,9 +6,11 @@
     ]
   },
   "footer-layout.desktop": {
+    "title": "Footer desktop",
     "children": ["flex-layout.row#footer-desktop"]
   },
   "footer-layout.mobile": {
+    "title": "Footer Mobile",
     "children": ["flex-layout.row#footer-mobile"]
   }
 }
