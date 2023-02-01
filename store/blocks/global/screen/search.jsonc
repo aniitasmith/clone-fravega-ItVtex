@@ -17,6 +17,11 @@
       "search-not-found-layout"
     ]
   },
+  "search-not-found-layout": {
+    "children": [
+      "not-found"
+    ]
+  },
   "search-result-layout.desktop": {
     "children": [
       "rich-text#desktop-response"
