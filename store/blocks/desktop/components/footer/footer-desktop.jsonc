@@ -1,5 +1,6 @@
 {
   "flex-layout.row#footer-desktop": {
+    "title": "Footer desktop",
     "children": [ "flex-layout.col#container__footer-desktop"]
   },
   "flex-layout.col#container__footer-desktop":{
