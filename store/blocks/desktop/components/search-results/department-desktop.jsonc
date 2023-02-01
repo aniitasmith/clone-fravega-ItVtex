@@ -26,6 +26,7 @@
     ],
     "props": {
       "blockClass": "container-category-results",
+      "colGap": 7,
       "preventHorizontalStretch": true
     }
   },
@@ -43,7 +44,8 @@
       "search-content#results-content-products-department-desktop"
     ],
     "props": {
-      "blockClass": "container-results-content-products-department-desktop"
+      "blockClass": "container-results-content-products-department-desktop",
+      "width":"grow"
     }
   },
   "flex-layout.row#title-order": {
