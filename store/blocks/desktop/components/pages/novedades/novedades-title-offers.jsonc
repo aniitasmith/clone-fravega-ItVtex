@@ -1,5 +1,6 @@
 {
   "flex-layout.row#novedades__title-offers": {
+    "title": "Novedades Title",
     "children": [
       "rich-text#title-offers"
     ],
@@ -8,6 +9,7 @@
     }
   },
   "rich-text#title-offers": {
+    "title": "Text Title",
     "props": {
       "text": "**Descubrí las últimas ofertas y promociones Frávega**",
       "blockClass": "desktop__title-offers"
