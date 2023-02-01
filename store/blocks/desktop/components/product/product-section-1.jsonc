@@ -1,6 +1,5 @@
 {
   "flex-layout.row#product__section-1": {
-
     "children": [
       "flex-layout.col#product__section-1"
     ],
@@ -9,6 +8,7 @@
     }
   },
   "flex-layout.col#product__section-1": {
+    "title": "Container breadcrumb/main",
     "children": [
       "flex-layout.row#product__section-1-breadcrumb",
       "flex-layout.row#product__section-1-main"
@@ -26,12 +26,14 @@
     }
   },
   "breadcrumb": {
+    "title": "Breadcrumb",
     "props": {
       "showOnMobile": false
       // "blockClass": "breadcrumb"
     }
   },
   "flex-layout.row#product__section-1-main": {
+    "title": "Container Main",
     "props": {
       "colGap": 7,
       "rowGap": 7,
@@ -57,12 +59,14 @@
     ]
   },
   "product-images": {
+    "title": "Images PDP",
     "props": {
       // "displayThumbnailsArrows": true,
       "thumbnailsOrientation": "horizontal"
     }
   },
   "flex-layout.col#right-col": {
+    "title": "Details PDP",
     "props": {
       "preventVerticalStretch": true,
       "rowGap": 0,
@@ -87,6 +91,7 @@
     ]
   },
   "product-price#product-details": {
+    "title":"Product Price PDP",
     "props": {
       "showInstallments": false,
       "showSavings": true,
@@ -102,6 +107,7 @@
     }
   },
   "flex-layout.col#bank-promotions": {
+    "title":"Bank Promotions PDP",
     "children": [
       "rich-text#text-promotions",
       "product-installments",
@@ -113,12 +119,14 @@
     }
   },
   "rich-text#text-promotions": {
+    "title":"text Bank Promotions",
     "props": {
       "text": " **¡Nuestras promociones bancarias!**",
       "blockClass": "text-promotions"
     }
   },
   "image#bank-promotions": {
+    "title":"Img Bank Promotions",
     "props": {
       "src": "assets/img/payment-methods.png",
       "blockClass": "img-payment-methods",
@@ -126,6 +134,7 @@
     }
   },
   "link#promotions": {
+    "title":"Link Promotions",
     "props": {
       "label": "Ver todos los medios de pago",
       "href": "/",
@@ -134,6 +143,7 @@
   },
 
   "flex-layout.row#buy-button-pdp": {
+    "title":"Container buy button",
     "props": {
       "marginTop": 4,
       "marginBottom": 7,
@@ -144,13 +154,14 @@
     ]
   },
   "share#default": {
+    "title":"Container share",
     "props": {
       "social": {
         "Facebook": true,
         "WhatsApp": true,
         "Twitter": true
       },
-    "blockClass":"container-social-media"
+      "blockClass": "container-social-media"
     }
   }
 }
