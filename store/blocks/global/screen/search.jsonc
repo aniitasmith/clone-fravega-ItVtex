@@ -22,7 +22,9 @@
   "search-not-found-layout": {
     "title": "PLP not found",
     "children": [
-      "not-found"
+      "flex-layout.row#text-not-found",
+      "rich-text#text-avaliable",
+      "flex-layout.row#products-avaliable"
     ]
   },
   "filter-navigator.v3": {
