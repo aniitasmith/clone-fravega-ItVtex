@@ -1,6 +1,6 @@
 {
   "flex-layout.row#product__section-2": {
-    "title": "Container more offers",
+    "title": "Section 2 PDP",
     "children": [
       "flex-layout.col#product__section-2"
     ],

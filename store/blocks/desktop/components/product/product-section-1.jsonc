@@ -1,5 +1,6 @@
 {
   "flex-layout.row#product__section-1": {
+    "title": "Section 1 PDP",
     "children": [
       "flex-layout.col#product__section-1"
     ],

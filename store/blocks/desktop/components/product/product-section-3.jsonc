@@ -1,6 +1,6 @@
 {
   "flex-layout.row#product__section-3": {
-    "title":"Container Tabs",
+    "title": "Section 3 PDP",
     "children": [
       "tab-layout#product__tabs"
     ],
