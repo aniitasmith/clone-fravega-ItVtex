@@ -9,6 +9,7 @@
 
 .flexRowContent--mobile-container-section-3 {
   width         : 100vw;
+  justify-content: space-evenly;
   display       : flex;
   flex-direction: row;
   flex-wrap     : wrap;
@@ -42,7 +43,7 @@
   background-color: #f5f5f5;
   padding-top     : 60px;
   padding-bottom  : 15px;
-  margin          : 0px auto;
+  padding-left:    25px;
 }
 
 .flexRowContent--mobile-container-section-7 {

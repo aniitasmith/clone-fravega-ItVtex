@@ -301,7 +301,7 @@
     "title": "Text Categoria 1",
     "props": {
       "blockClass": "txt-categoria",
-      "text": "[**Televisores**](/televisores)",
+      "text": "[**Televisores**](/electrodomesticos)",
       "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
@@ -319,7 +319,7 @@
     "title": "Text Categoria 3",
     "props": {
       "blockClass": "txt-categoria",
-      "text": "[**Climatizacion**](/climatizacion)",
+      "text": "[**Climatizacion**](/madera)",
       "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
@@ -328,7 +328,7 @@
     "title": "Text Categoria 4",
     "props": {
       "blockClass": "txt-categoria",
-      "text": "[**Colchones y Sommiers**](/Colchones-sommiers)",
+      "text": "[**Colchones y Sommiers**](/mujer)",
       "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
@@ -337,7 +337,7 @@
     "title": "Text Categoria 5",
     "props": {
       "blockClass": "txt-categoria",
-      "text": "[**Heladeras, Freezers y Cavas**](/heladeras)",
+      "text": "[**Heladeras, Freezers y Cavas**](/queso)",
       "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
@@ -346,7 +346,7 @@
     "title": "Text Categoria 6",
     "props": {
       "blockClass": "txt-categoria",
-      "text": "[**Notebooks**](/notebooks)",
+      "text": "[**Notebooks**](/notebook)",
       "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
@@ -355,7 +355,7 @@
     "title": "Text Categoria 7",
     "props": {
       "blockClass": "txt-categoria",
-      "text": "[**Lavarropas y Lavavajillas**](/lavarropas-lavavajillas)",
+      "text": "[**Lavarropas y Lavavajillas**](/techo)",
       "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }

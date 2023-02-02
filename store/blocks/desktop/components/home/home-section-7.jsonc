@@ -1,30 +1,56 @@
 {
   "flex-layout.row#home__section-7": {
     "children": [
-      "flex-layout.col#section-7-fitness",
-      "flex-layout.col#section-7-electrodomesticos",
-      "flex-layout.col#section-7-electronicos"
+      "link#section-7-fitness",
+      "link#section-7-electrodomesticos",
+      "link#section-7-electronicos"
     ],
     "props": {
       "blockClass": "container-section-7"
     }
   },
+  "link#section-7-fitness": {
+    "children": [
+      "flex-layout.col#section-7-fitness"
+    ],
+    "props": {
+      "href": "/novedades",
+      "blockClass": "card-section-7"
+    }
+  },
+  "link#section-7-electrodomesticos": {
+    "children": [
+      "flex-layout.col#section-7-electrodomesticos"
+    ],
+    "props": {
+      "href": "/novedades",
+      "blockClass": "card-section-7"
+    }
+  },
+  "link#section-7-electronicos": {
+    "children": [
+      "flex-layout.col#section-7-electronicos"
+    ],
+    "props": {
+      "href": "/novedades",
+      "blockClass": "card-section-7"
+    }
+  },
   "flex-layout.col#section-7-fitness": {
-    "title": "Info card: Fitness",
+    "title": "Card: Fitness",
     "children": [
       "image#section-7-fitness",
       "rich-text#section-7-fitness"
     ],
     "props": {
-      "blockClass": "sale-section-7-fitness",
-      "href":"/novedades"
+      "blockClass": "sale-section-7-fitness"
     }
   },
   "image#section-7-fitness": {
     "title": "Img: Fitness",
     "props": {
       "src": "assets/img/electro-sale-50.png",
-      "blockClass":"img-section-7"
+      "blockClass": "img-section-7"
     }
   },
   "rich-text#section-7-fitness": {
@@ -35,7 +61,7 @@
     }
   },
   "flex-layout.col#section-7-electrodomesticos": {
-    "title": "Info card: Electrodomesticos",
+    "title": "Card: Electrodomesticos",
     "children": [
       "image#section-7-electrodomesticos",
       "rich-text#section-7-electrodomesticos"
@@ -48,7 +74,7 @@
     "title": "Image: Electrodomesticos",
     "props": {
       "src": "assets/img/electro-sale-30.png",
-      "blockClass":"img-section-7"
+      "blockClass": "img-section-7"
     }
   },
   "rich-text#section-7-electrodomesticos": {
@@ -60,7 +86,7 @@
   },
 
   "flex-layout.col#section-7-electronicos": {
-    "title": "Info card: electronicos",
+    "title": "Card: electronicos",
     "children": [
       "image#section-7-electronicos",
       "rich-text#section-7-electronicos"
@@ -73,7 +99,7 @@
     "title": "Image: electronicos",
     "props": {
       "src": "assets/img/electro-sale-20.png",
-      "blockClass":"img-section-7"
+      "blockClass": "img-section-7"
     }
   },
   "rich-text#section-7-electronicos": {
