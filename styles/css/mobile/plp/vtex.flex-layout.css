@@ -1,0 +1,9 @@
+.flexRow--container-row-title-mobile{
+  padding: 25px 0 25px 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .flexRow--buy-button {
+    width: 70% !important;
+  }
+}
