@@ -1,5 +1,6 @@
 {
   "flex-layout.row#product__section-1": {
+    "title": "Section 1 PDP",
     "children": [
       "flex-layout.col#product__section-1"
     ],
@@ -29,7 +30,6 @@
     "title": "Breadcrumb",
     "props": {
       "showOnMobile": false
-      // "blockClass": "breadcrumb"
     }
   },
   "flex-layout.row#product__section-1-main": {
@@ -61,7 +61,6 @@
   "product-images": {
     "title": "Images PDP",
     "props": {
-      // "displayThumbnailsArrows": true,
       "thumbnailsOrientation": "horizontal"
     }
   },
@@ -86,8 +85,6 @@
       "product-separator",
       "flex-layout.row#buy-button-pdp",
       "share#default"
-      // "product-identifier.product",
-      // "availability-subscriber",
     ]
   },
   "product-price#product-details": {

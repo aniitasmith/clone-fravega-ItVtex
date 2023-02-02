@@ -2,7 +2,7 @@
   "responsive-layout.tablet#tablet__home": {
     "title": "Home tablet",
     "children": [
-      // "modal-trigger#codigo-postal",
+      "modal-trigger#codigo-postal",
       "flex-layout.row#home__section-1",
       "flex-layout.row#home-mobile__section-2",
       "flex-layout.row#home__section-3",

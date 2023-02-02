@@ -1,6 +1,6 @@
 {
   "search-result-layout.desktop#department": {
-    "title": "department page",
+    "title":"PLP department Page",
     "children": [
       "flex-layout.row#department-breadcrumb",
       "flex-layout.row#department-category-results-desktop"

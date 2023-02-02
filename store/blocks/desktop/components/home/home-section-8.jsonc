@@ -1,5 +1,6 @@
 {
   "flex-layout.row#home__section-8":{
+    "title": "Section 8 Slider",
     "children": [
       "flex-layout.col#home-container-section-8"
     ],
@@ -8,7 +9,6 @@
     }
   },
   "flex-layout.col#home-container-section-8":{
-    "title": "Slider: Todo lo nuevo",
     "children": [
       "rich-text#home__section-8",
       "list-context.product-list#section-8"
@@ -36,6 +36,7 @@
     }      
   },
   "product-summary.shelf#home__section-8":{
+    "title": "Product Card",
     "children": [
       "stack-layout#summary-image",
       "product-summary-name",

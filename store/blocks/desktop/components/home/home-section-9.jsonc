@@ -1,5 +1,6 @@
 {
   "flex-layout.row#home__section-9": {
+    "title": "Section 9 Info card",
     "children": [
       "info-card#section-9-oferta-1",
       "info-card#section-9-oferta-2"
@@ -10,7 +11,6 @@
   },
   "info-card#section-9-oferta-1":{
     "title": "Info card: Herramientas",
-
     "props":{
       "textPosition": "right",
       "imageUrl": "assets/img/electro-sale-tools.png",

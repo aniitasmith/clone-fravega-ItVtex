@@ -17,6 +17,7 @@
 
 .flexRowContent--container-footer-top-mobile {
   flex-wrap: wrap;
+  padding-left: 15px;
 }
 
 .flexRowContent--container-footer-bottom-mobile {

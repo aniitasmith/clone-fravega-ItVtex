@@ -1,6 +1,6 @@
 {
   "flex-layout.row#home-mobile__section-2": {
-    "title": "Container info de ventas",
+    "title": "Section 2 MOBILE",
     "children": [
       "flex-layout.col#mobile__metodos-pago",      
       "flex-layout.col#mobile__creditos"

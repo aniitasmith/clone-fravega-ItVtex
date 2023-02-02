@@ -1,5 +1,6 @@
 {
   "flex-layout.row#home__section-6": {
+    "title": "Section 6 Slider",
     "children": [
       "flex-layout.col#home-container-section-6"
     ],
@@ -8,7 +9,6 @@
     }
   },
   "flex-layout.col#home-container-section-6": {
-    "title": "List Context Ofertas",
     "children": [
       "rich-text#home__section-6",
       "list-context.product-list#section-6"
@@ -36,6 +36,7 @@
     }
   },
   "product-summary.shelf#home__section-6": {
+    "title": "Product Card",
     "children": [
       "stack-layout#summary-image",
       "product-summary-name",

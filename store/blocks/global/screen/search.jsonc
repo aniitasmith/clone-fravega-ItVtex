@@ -1,6 +1,6 @@
 {
   "store.search": {
-    "title": "Search page",
+    "title": "PLP",
     "blocks": [
       "search-result-layout"
     ],
@@ -12,6 +12,7 @@
     }
   },
   "search-result-layout": {
+    "title": "PLP",
     "blocks": [
       "search-result-layout.desktop",
       "search-result-layout.mobile",
@@ -19,29 +20,22 @@
     ]
   },
   "search-not-found-layout": {
+    "title": "PLP not found",
     "children": [
       "not-found"
     ]
   },
   "search-result-layout.desktop": {
+    "title": "PLP Desktop",
     "children": [
       "rich-text#desktop-response"
     ]
   },
   "search-result-layout.mobile": {
+    "title": "PLP Desktop",
     "children": [
       "rich-text#mobile-response"
     ]
-  },
-  "rich-text#desktop-response": {
-    "props": {
-      "text": "Desktop response"
-    }
-  },
-  "rich-text#mobile-response": {
-    "props": {
-      "text": "Mobile response"
-    }
   },
   "filter-navigator.v3": {
     "props": {

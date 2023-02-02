@@ -1,6 +1,6 @@
 {
   "flex-layout.row#home-mobile__section-1": {
-    "title": "Slider ofertas",
+    "title": "Section 1 MOBILE",
     "children": [
       "slider-layout#home-mobile__ofertas"
     ]

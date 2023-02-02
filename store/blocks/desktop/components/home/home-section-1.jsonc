@@ -1,11 +1,11 @@
 {
   "flex-layout.row#home__section-1": {
+    "title": "Section 1 Slider",
     "children": [
       "slider-layout#home__ofertas"
     ]
   },
   "slider-layout#home__ofertas": {
-    "title": "Slider ofertas",
     "props": {
       "itemsPerPage": {
         "desktop": 1,

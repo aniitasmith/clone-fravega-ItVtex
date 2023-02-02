@@ -37,6 +37,18 @@
   display: block;
 }
 
+.paragraph--text-modal-bottom{
+  margin: 4px 0px 3px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(32, 128, 65);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: rgb(239, 247, 242);
+}
+
 /* tablet */
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
