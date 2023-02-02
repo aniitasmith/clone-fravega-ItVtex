@@ -22,7 +22,7 @@
     "children": [
       "tab-list.item#tabs__list-product-specifications",
       "tab-list.item#tabs__list-description",
-      "tab-list.item#tabs__list-info-manufacturer",
+      "tab-list.item#tabs__list-comentarios",
       "tab-list.item#tabs__list-compare",
       "tab-list.item#tabs__list-questions"
     ],
@@ -48,11 +48,11 @@
       "blockClass":"tab-list"
     }
   },
-  "tab-list.item#tabs__list-info-manufacturer": {
-    "title": "List tabs Info del fabricante",
+  "tab-list.item#tabs__list-comentarios": {
+    "title": "List tabs comentarios",
     "props": {
-      "tabId": "info-manufacturer",
-      "label": "Info del fabricante",
+      "tabId": "comentarios",
+      "label": "comentarios",
       "defaultActiveTab": true,
       "blockClass":"tab-list"
     }
@@ -81,7 +81,7 @@
     "children": [
       "tab-content.item#tabs__content-product-specifications",
       "tab-content.item#tabs__content-description",
-      "tab-content.item#tabs__content-info-manufacturer",
+      "tab-content.item#tabs__content-comentarios",
       "tab-content.item#tabs__content-compare",
       "tab-content.item#tabs__content-questions"   
     ],
@@ -115,14 +115,14 @@
       "product-description"
     ] 
   },
-  "tab-content.item#tabs__content-info-manufacturer":{
-    "title": "tabs content info manufacturer",
+  "tab-content.item#tabs__content-comentarios":{
+    "title": "tabs content comentarios",
     "props": {
-      "tabId": "info-manufacturer",
+      "tabId": "comentarios",
       "blockClass":"tab-content"
     },
     "children": [
-      "vtex.store-components:product-brand"
+      "product-reviews"
     ]    
   },
   "tab-content.item#tabs__content-compare":{

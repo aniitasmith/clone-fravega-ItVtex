@@ -44,3 +44,20 @@
   background-color: #f9f9f9;
   padding-bottom: 30px;
 }
+
+.flexRowContent--contaner-buy-button :global(.vtex-button) {
+  background-color: #440099;
+  color: white;
+  font-weight: 700;
+  border: #440099;
+}
+
+@media only screen and (max-width: 767px) {
+  .flexRowContent--contaner-buy-button-phone :global(.vtex-button) {
+    background-color: #440099;
+    color: white;
+    font-weight: 700;
+    border: #440099;
+  }
+  
+}
