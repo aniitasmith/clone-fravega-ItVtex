@@ -3,6 +3,7 @@
     "children": ["flex-layout.row#list-row.desktop"]
   },
   "flex-layout.row#list-row.desktop": {
+    "title": "Minicart",
     "children": [
       "flex-layout.col#image.desktop",
       "flex-layout.col#main-container.desktop"
@@ -16,9 +17,11 @@
     }
   },
   "flex-layout.col#image.desktop": {
+    "title": "Container Image",
     "children": ["product-list-image"]
   },
   "flex-layout.col#main-container.desktop": {
+    "title": "Container Main ",
     "children": [
       "flex-layout.row#product-description",
       "flex-layout.row#price-remove",
