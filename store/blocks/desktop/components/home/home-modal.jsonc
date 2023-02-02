@@ -9,25 +9,148 @@
     }
   },
   "modal-layout#home__modal--event": {
+    "title": "Modal home",
     "children": [
-      "modal-header#home__modal--event",
-      "rich-text#home__modal--event--title",
-      "rich-text#home__modal--event--content"
-    ]
+      "flex-layout.row#home__modal__icon-close",
+      "flex-layout.row#home__modal__text",
+      "flex-layout.row#home__modal__image-info"
+    ],
+    "props": {
+      "blockClass":"container-modal-layout"
+    }
+  },
+  "flex-layout.row#home__modal__icon-close":{
+    "title": "Container Top modal",
+    "children": [
+      "modal-header#home__modal--event"  
+    ],
+    "props": {
+      "horizontalAlign":"right",
+      "blockClass": "home__modal__icon-close"
+    }
   },
   "modal-header#home__modal--event": {
     "props": {
       "showCloseButton": true
     }
   },
-  "rich-text#home__modal--event--title": {
+  "flex-layout.row#home__modal__text":{
+    "children": [
+      "flex-layout.col#home__modal__text"
+    ],
     "props": {
-      "text": "Ingresá tu código postal"
+      "blockClass": "row-modal-top"
+    }
+  },
+  "flex-layout.col#home__modal__text":{
+    "title": "Container middle Modal",
+    "children": [
+      "rich-text#home__modal--event--title",
+      "rich-text#home__modal--event--content"   
+    ],
+    "props": {
+      "blockClass": "row-modal-middle"      
+    }
+  },
+  "rich-text#home__modal--event--title": {
+    "title": "Line 1",
+    "props": {
+      "text": "**Ingresá tu código postal**",
+      "blockClass": "text-middle-bold"
     }
   },
   "rich-text#home__modal--event--content": {
+    "title": "Line 2",
     "props": {
-      "text": "para ver las mejores opciones de envío y retiro."
+      "text": "para ver las mejores opciones de envío y retiro.",
+      "blockClass": "text-middle-bold"
+    }
+  },
+  "flex-layout.row#home__modal__image-info":{
+    "title": "Container botton modal",
+    "children": [
+      "flex-layout.col#envio-gratis",
+      "flex-layout.col#llega-manana",
+      "flex-layout.col#retiralo-ya"
+    ],
+    "props": {
+      "blockClass": "row-modal-bottom",
+      "preventHorizontalStretch": true      
+    }
+  },
+  "flex-layout.col#envio-gratis":{
+    "children": [
+      "image#envio-gratis",
+      "rich-text#envio-gratis"
+    ],
+    "props": {
+      "blockClass":"col-green-modal-bottom"
+    }
+  },
+  "flex-layout.col#llega-manana":{
+    "children": [
+      "image#llega-manana",
+      "rich-text#llega-manana"
+    ],
+    "props": {
+      "blockClass":"col-green-modal-bottom"
+    }
+  },
+  "flex-layout.col#retiralo-ya":{
+    "children": [
+      "image#retiralo-ya",
+      "rich-text#retiralo-ya"
+    ],
+    "props": {
+      "blockClass":"col-green-modal-bottom"
+    }
+  },
+  "image#envio-gratis":{
+    "title": "Image envio gratis",
+    "props": {
+      "src": "assets/img/img-envio-gratis.svg",
+      "blockClass":"img-modal-bottom",
+      "maxHeight": "100px",
+      "maxWidth": "100px"
+  }
+},
+  "rich-text#envio-gratis":{
+    "title": "text envio gratis",
+    "props": {
+      "text": "Envio gratis",
+      "blockClass": "text-modal-bottom"
+    }
+  },
+  "image#llega-manana":{
+    "title": "Image llega manana",
+    "props": {
+      "src": "assets/img/img-envio.svg",
+      "blockClass":"img-modal-bottom",
+      "maxHeight": "100px",
+      "maxWidth": "100px"
+    }
+  },
+  "rich-text#llega-manana":{
+    "title": "text llega manana",
+    "props": {
+      "text": "Llega mañana",
+      "blockClass": "text-modal-bottom"
+    }
+  },
+  "image#retiralo-ya":{
+    "title": "Image Retiralo ya",
+    "props": {
+      "src": "assets/img/img-retiro.svg",
+      "blockClass":"img-modal-bottom",
+      "maxHeight": "100px",
+      "maxWidth": "100px"
+    }
+  },
+  "rich-text#retiralo-ya":{
+    "title": "text retiralo ya",
+    "props": {
+      "text": "Retiralo YA",
+      "blockClass": "text-modal-bottom"
     }
   }
 }

@@ -79,6 +79,25 @@
   background-color: #ffffff;
 }
 
+.flexRow--home__modal__icon-close{
+  margin-left: auto;
+  border: none;
+}
+
+.flexCol--row-modal-middle{
+  padding: 0 35px;
+}
+
+.flexCol--col-green-modal-bottom{
+  padding: 8px;
+}
+
+.flexColChild--col-green-modal-bottom{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .flexRowContent--mobile-container-section-2 {
     width: 100vw;
