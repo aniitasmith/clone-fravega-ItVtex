@@ -1,5 +1,6 @@
 {
   "flex-layout.row#home-mobile__section-9": {
+    "title": "Section 9 MOBILE",
     "children": [
       "info-card#mobile-section-9-oferta-1",
       "info-card#mobile-section-9-oferta-2"

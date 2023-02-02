@@ -1,5 +1,6 @@
 {
   "flex-layout.row#home__section-7": {
+    "title": "Section 7 Info card",
     "children": [
       "link#section-7-fitness",
       "link#section-7-electrodomesticos",
@@ -10,6 +11,7 @@
     }
   },
   "link#section-7-fitness": {
+    "title": "Link Fitness",
     "children": [
       "flex-layout.col#section-7-fitness"
     ],
@@ -19,6 +21,8 @@
     }
   },
   "link#section-7-electrodomesticos": {
+    "title": "Link Electrodomesticos",
+
     "children": [
       "flex-layout.col#section-7-electrodomesticos"
     ],
@@ -28,6 +32,7 @@
     }
   },
   "link#section-7-electronicos": {
+    "title": "Link Electronicos",
     "children": [
       "flex-layout.col#section-7-electronicos"
     ],
@@ -37,7 +42,6 @@
     }
   },
   "flex-layout.col#section-7-fitness": {
-    "title": "Card: Fitness",
     "children": [
       "image#section-7-fitness",
       "rich-text#section-7-fitness"
@@ -61,7 +65,6 @@
     }
   },
   "flex-layout.col#section-7-electrodomesticos": {
-    "title": "Card: Electrodomesticos",
     "children": [
       "image#section-7-electrodomesticos",
       "rich-text#section-7-electrodomesticos"
@@ -86,7 +89,6 @@
   },
 
   "flex-layout.col#section-7-electronicos": {
-    "title": "Card: electronicos",
     "children": [
       "image#section-7-electronicos",
       "rich-text#section-7-electronicos"

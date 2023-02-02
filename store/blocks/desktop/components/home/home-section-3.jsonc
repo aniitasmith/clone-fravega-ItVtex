@@ -1,5 +1,6 @@
 {
   "flex-layout.row#home__section-3": {
+    "title": "Section 3 Categorias",
     "children": [
       "slider-layout#categorias"
     ],

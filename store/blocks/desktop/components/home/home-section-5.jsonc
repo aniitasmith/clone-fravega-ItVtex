@@ -1,5 +1,6 @@
 {
   "flex-layout.row#home__section-5": {
+    "title": "Section 5 Info Card",
     "children": [
       "info-card#section-5-oferta-1",
       "info-card#section-5-oferta-2"

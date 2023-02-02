@@ -1,5 +1,6 @@
 {
   "flex-layout.row#home-mobile__section-7": {
+    "title": "Section 7 MOBILE",
     "children": [
       "link#mobile-section-7-fitness",
       "link#mobile-section-7-electrodomesticos",
