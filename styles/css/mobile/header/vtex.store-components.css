@@ -1,0 +1,16 @@
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  border: 2px solid #654BB9;
+}
+
+.suffixWrapper {
+  background-color: #654BB9;
+}
+
+.searchIcon{
+  color: white;
+  padding: 18px;
+}
+
+.autoCompleteOuterContainer :global(.vtex-input__suffix) {
+  padding: 0px;
+}
