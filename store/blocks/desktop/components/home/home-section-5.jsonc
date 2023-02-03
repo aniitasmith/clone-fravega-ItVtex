@@ -19,7 +19,7 @@
       "callToActionText": "VER MAS",
       "callToActionUrl": "/novedades",
       "blockClass": "info-card-oferta",
-      "textAlignment": "rigth"
+      "textAlignment": "right"
     }
   },
   "info-card#section-5-oferta-2":{
@@ -32,7 +32,7 @@
       "callToActionText": "VER MAS",
       "callToActionUrl": "/novedades",
       "blockClass": "info-card-oferta",
-      "textAlignment": "rigth"
+      "textAlignment": "right"
     }
-  }  
-} 
+  }
+}

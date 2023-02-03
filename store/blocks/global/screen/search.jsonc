@@ -22,19 +22,9 @@
   "search-not-found-layout": {
     "title": "PLP not found",
     "children": [
-      "not-found"
-    ]
-  },
-  "search-result-layout.desktop": {
-    "title": "PLP Desktop",
-    "children": [
-      "rich-text#desktop-response"
-    ]
-  },
-  "search-result-layout.mobile": {
-    "title": "PLP Desktop",
-    "children": [
-      "rich-text#mobile-response"
+      "flex-layout.row#text-not-found",
+      "rich-text#text-avaliable",
+      "flex-layout.row#products-avaliable"
     ]
   },
   "filter-navigator.v3": {
