@@ -1,0 +1,10 @@
+{
+  "store.product": {
+    "title": "PDP fravega",
+    "blocks": [
+      "responsive-layout.desktop#product__desktop",
+      "responsive-layout.tablet#product__tablet",
+      "responsive-layout.phone#phone__product" 
+       ]
+  }
+}

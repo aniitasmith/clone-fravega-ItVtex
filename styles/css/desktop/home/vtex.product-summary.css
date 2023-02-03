@@ -1,29 +1,30 @@
 .imageStackContainer {
-  display: flex;
-  align-items: flex-end;
+  display        : flex;
+  align-items    : flex-end;
   justify-content: space-between;
-  width: auto;
-  height: 250px;
+  width          : auto;
+  height         : 250px;
 }
 
 .brandName {
-  font-weight: 400;
-  font-size: 18px !important;
-  color: #000;
+  font-weight   : 400;
+  font-size     : 18px !important;
+  color         : #000;
   text-transform: capitalize;
 }
 
-.currencyContainer{
-  font-size: 22px;
+.currencyContainer {
+  font-size  : 22px;
   font-weight: 600;
 }
 
-.element--product-summary-shelf-section-6, .element--product-summary-shelf-section-8 {
-  margin: 10px;
+.element--product-summary-shelf-section-6,
+.element--product-summary-shelf-section-8 {
+  margin          : 10px;
   background-color: #ffffff;
-  box-shadow: rgb(0 0 0 / 8%) 0px 2px 4px 0px;
+  box-shadow      : rgb(0 0 0 / 8%) 0px 2px 4px 0px;
 }
 
-.containerNormal--container-product-summary-self-department-list-desktop{
-  min-width: 100% ;
+.containerNormal--container-product-summary-self-department-list-desktop {
+  min-width: 100%;
 }

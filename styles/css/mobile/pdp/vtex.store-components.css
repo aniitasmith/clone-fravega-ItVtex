@@ -1,0 +1,30 @@
+.productBrandContainer {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-family: "work-sans";
+}
+
+.productNameContainer{
+  font-size: 34px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  font-family: "work-sans";
+}
+
+.price_sellingPrice--product-price{
+  font-size: 34px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  font-family: "work-sans";
+}
+
+.shippingContainer{
+  font-size: 12px;
+}
+
+.shareContainer{
+  display: flex;
+  justify-content:center;
+}

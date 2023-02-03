@@ -1,0 +1,148 @@
+{
+  "flex-layout.row#product__section-3": {
+    "title": "Section 3 PDP",
+    "children": [
+      "tab-layout#product__tabs"
+    ],
+    "props": {
+      "blockClass": "container-product-section-3"
+    }
+  },
+  "tab-layout#product__tabs": {
+    "children": [
+      "tab-list#product__tabs-list",
+      "tab-content#product__tabs-content"
+    ],
+    "props": {
+      "blockClass":"container-tabs"
+    }
+  },
+  "tab-list#product__tabs-list": {
+    "title": "Container List tabs",
+    "children": [
+      "tab-list.item#tabs__list-product-specifications",
+      "tab-list.item#tabs__list-description",
+      "tab-list.item#tabs__list-comentarios",
+      "tab-list.item#tabs__list-compare",
+      "tab-list.item#tabs__list-questions"
+    ],
+    "props": {
+      "blockClass":"container-tabs-items"
+    }
+  },
+  "tab-list.item#tabs__list-product-specifications": {
+    "title": "List tabs Especificiones del producto",
+    "props": {
+      "tabId": "product-specifications",
+      "label": "Especificiones del producto",
+      "defaultActiveTab": true,
+      "blockClass":"tab-list"
+    }
+  },
+  "tab-list.item#tabs__list-description": {
+    "title": "List tabs Descripcion",
+    "props": {
+      "tabId": "description",
+      "label": "Descripcion",
+      "defaultActiveTab": true,
+      "blockClass":"tab-list"
+    }
+  },
+  "tab-list.item#tabs__list-comentarios": {
+    "title": "List tabs comentarios",
+    "props": {
+      "tabId": "comentarios",
+      "label": "comentarios",
+      "defaultActiveTab": true,
+      "blockClass":"tab-list"
+    }
+  },
+  "tab-list.item#tabs__list-compare": {
+    "title": "List tabs Comparar",
+    "props": {
+      "tabId": "compare",
+      "label": "Comparar",
+      "defaultActiveTab": true,
+      "blockClass":"tab-list"
+    }
+  },
+  "tab-list.item#tabs__list-questions": {
+    "title": "List tabs Preguntas y respuestas",
+    "props": {
+      "tabId": "list-questions",
+      "label": "Preguntas y respuestas",
+      "defaultActiveTab": true,
+      "blockClass":"tab-list"
+    }
+  },
+
+  "tab-content#product__tabs-content": {
+    "title": "Container tabs content",
+    "children": [
+      "tab-content.item#tabs__content-product-specifications",
+      "tab-content.item#tabs__content-description",
+      "tab-content.item#tabs__content-comentarios",
+      "tab-content.item#tabs__content-compare",
+      "tab-content.item#tabs__content-questions"   
+    ],
+    "props": {
+      "blockClass":"container-tab-content"
+    }
+  },
+  "tab-content.item#tabs__content-product-specifications":{ 
+    "title": "tabs content Especificiones del Producto",
+    "props": {
+      "tabId": "product-specifications",
+      "blockClass":"tab-content"
+    },
+    "children": [
+      "product-specifications#product"
+    ]
+  },
+  "product-specifications#product": {
+    "props": {
+      "shoudCollapseOnTabChange": true,
+      "collapsible": "desktopOnly"
+    }
+  },
+  "tab-content.item#tabs__content-description":{ 
+    "title": "tabs content descriptions",
+    "props": {
+      "tabId": "description",
+      "blockClass":"tab-content"
+    },
+    "children": [
+      "product-description"
+    ] 
+  },
+  "tab-content.item#tabs__content-comentarios":{
+    "title": "tabs content comentarios",
+    "props": {
+      "tabId": "comentarios",
+      "blockClass":"tab-content"
+    },
+    "children": [
+      "product-reviews"
+    ]    
+  },
+  "tab-content.item#tabs__content-compare":{
+    "title": "tabs content compare",
+    "props": {
+      "tabId": "compare",
+      "blockClass":"tab-content"
+    },
+    "children": [
+      "product-comparison-drawer"
+    ]    
+  },
+  "tab-content.item#tabs__content-questions" :{
+    "title": "tabs content Preguntas y respuestas",
+    "props": {
+      "tabId": "list-questions",
+      "blockClass":"tab-content"
+    },
+    "children": [
+      "questions-and-answers"
+    ]    
+  }
+}

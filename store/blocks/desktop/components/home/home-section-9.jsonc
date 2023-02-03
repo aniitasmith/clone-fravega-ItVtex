@@ -1,5 +1,6 @@
 {
   "flex-layout.row#home__section-9": {
+    "title": "Section 9 Info card",
     "children": [
       "info-card#section-9-oferta-1",
       "info-card#section-9-oferta-2"
@@ -9,27 +10,29 @@
     }
   },
   "info-card#section-9-oferta-1":{
+    "title": "Info card: Herramientas",
     "props":{
       "textPosition": "right",
       "imageUrl": "assets/img/electro-sale-tools.png",
       "headline": "FRAVEGA HERRAMIENTAS",
       "subhead": "Hasta 3 sin interes y envio gratis en Capital y GBA en seleccionados.",
       "callToActionText": "VER MAS",
-      "callToActionUrl": "/sale-3",
+      "callToActionUrl": "/novedades",
       "blockClass": "info-card-oferta-section-9",
-      "textAlignment": "rigth"
+      "textAlignment": "right"
     }
   },
   "info-card#section-9-oferta-2":{
+    "title": "Info card: Tienda SDA",
     "props":{
       "textPosition": "right",
       "imageUrl": "assets/img/electro-sale-pillow.png",
       "headline": "TIENDA SDA",
       "subhead": "Hasta 60% off y envio gratis en Capital y GBA en seleccionados.",
       "callToActionText": "VER MAS",
-      "callToActionUrl": "/sale-2",
+      "callToActionUrl": "/novedades",
       "blockClass": "info-card-oferta-section-9",
-      "textAlignment": "rigth"
+      "textAlignment": "right"
     }
-  }  
-} 
+  }
+}

@@ -2,7 +2,7 @@
   "responsive-layout.desktop#desktop__home": {
     "title": "Home Desktop",
     "children": [
-      // "modal-trigger#codigo-postal",
+      "modal-trigger#codigo-postal",
       "flex-layout.row#home__section-1",
       "flex-layout.row#home__section-2",
       "flex-layout.row#home__section-3",

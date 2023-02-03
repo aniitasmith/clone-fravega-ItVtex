@@ -1,12 +1,40 @@
 {
   "flex-layout.row#home-mobile__section-7": {
+    "title": "Section 7 MOBILE",
     "children": [
-      "flex-layout.col#mobile-section-7-fitness",
-      "flex-layout.col#mobile-section-7-electrodomesticos",
-      "flex-layout.col#mobile-section-7-electronicos"
+      "link#mobile-section-7-fitness",
+      "link#mobile-section-7-electrodomesticos",
+      "link#mobile-section-7-electronicos"
     ],
     "props": {
       "blockClass": "mobile-container-section-7"
+    }
+  },
+  "link#mobile-section-7-fitness":{
+    "children": [
+      "flex-layout.col#mobile-section-7-fitness"
+    ],
+    "props": {
+      "blockClass":"card-section-7",
+      "href": "/novedades"
+    }
+  },
+  "link#mobile-section-7-electrodomesticos":{
+    "children": [
+      "flex-layout.col#mobile-section-7-electrodomesticos"
+    ],
+    "props": {
+      "blockClass":"card-section-7",
+      "href": "/novedades"
+    }
+  },
+  "link#mobile-section-7-electronicos":{
+    "children": [
+      "flex-layout.col#mobile-section-7-electronicos"
+    ],
+    "props": {
+      "blockClass":"card-section-7",
+      "href": "/novedades"
     }
   },
   "flex-layout.col#mobile-section-7-fitness": {

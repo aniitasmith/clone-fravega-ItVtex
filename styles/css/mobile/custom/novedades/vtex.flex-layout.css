@@ -1,0 +1,50 @@
+.flexRow--phone__container-row-banner {
+  background     : url(assets/img/banner-novedades-mobile.png);
+  width          : 100%;
+  background-size: cover;
+  height         : 220px;
+}
+
+.flexRow--novedades__phone--main-offers {
+  border-radius: 2px;
+  width        : 100%;
+  margin-bottom: 40px;
+  margin-top   : 40px;
+}
+
+.flexRow--novedades__phone--offer {
+  background-color: rgb(242, 242, 242);
+  padding         : 30px;
+  border-bottom   : 10px white solid;
+  border-top      : 10px white solid;
+
+}
+
+.flexRow--contaner-buy-button-phone {
+  width           : 100%;
+  position        : fixed;
+  z-index         : 5;
+  bottom          : 0;
+  background-color: white;
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .flexRowContent--desktop__offers-section-novedades {
+    display        : flex;
+    justify-content: space-between;
+    margin         : 20px auto 30px;
+  }
+
+  .flexCol--desktop__container-col-offers-section {
+    background-color: rgb(242, 242, 242);
+    border-radius   : 2px;
+    width           : 150px;
+    height          : 600px;
+    padding         : 17px;
+    align-items     : center;
+    text-align      : center;
+  }
+}

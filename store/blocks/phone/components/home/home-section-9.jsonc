@@ -1,5 +1,6 @@
 {
   "flex-layout.row#home-mobile__section-9": {
+    "title": "Section 9 MOBILE",
     "children": [
       "info-card#mobile-section-9-oferta-1",
       "info-card#mobile-section-9-oferta-2"
@@ -17,7 +18,7 @@
       "callToActionText": "VER MAS",
       "callToActionUrl": "/sale-3",
       "blockClass": "mobile-info-card-oferta-section-9",
-      "textAlignment": "rigth"
+      "textAlignment": "right"
     }
   },
   "info-card#mobile-section-9-oferta-2":{
@@ -29,7 +30,7 @@
       "callToActionText": "VER MAS",
       "callToActionUrl": "/sale-2",
       "blockClass": "mobile-info-card-oferta-section-9",
-      "textAlignment": "rigth"
+      "textAlignment": "right"
     }
-  }  
-} 
+  }
+}

@@ -1,5 +1,6 @@
 {
   "search-result-layout.desktop#category": {
+    "title": "PLP category page",
     "children": [
       "flex-layout.row#department-breadcrumb",
       "flex-layout.row#department-category-results-desktop"

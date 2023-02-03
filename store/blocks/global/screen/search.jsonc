@@ -1,5 +1,6 @@
 {
   "store.search": {
+    "title": "PLP",
     "blocks": [
       "search-result-layout"
     ],
@@ -11,31 +12,20 @@
     }
   },
   "search-result-layout": {
+    "title": "PLP",
     "blocks": [
       "search-result-layout.desktop",
       "search-result-layout.mobile",
       "search-not-found-layout"
     ]
   },
-  "search-result-layout.desktop": {
+  "search-not-found-layout": {
+    "title": "PLP not found",
     "children": [
-      "rich-text#desktop-response"
+      "flex-layout.row#text-not-found",
+      "rich-text#text-avaliable",
+      "flex-layout.row#products-avaliable"
     ]
-  },
-  "search-result-layout.mobile": {
-    "children": [
-      "rich-text#mobile-response"
-    ]
-  },
-  "rich-text#desktop-response": {
-    "props": {
-      "text": "Desktop response"
-    }
-  },
-  "rich-text#mobile-response": {
-    "props": {
-      "text": "Mobile response"
-    }
   },
   "filter-navigator.v3": {
     "props": {
@@ -50,16 +40,18 @@
     ]
   },
   "gallery-layout-option#grid": {
+    "title": "Switcher Grid",
     "props": {
       "name": "grid",
       "blockClass": "grid__selector-grid"
     },
     "children": [
-      "icon-single-grid",
+      "icon-grid",
       "rich-text#option-grid"
     ]
   },
   "gallery-layout-option#list": {
+    "title": "Switcher List",
     "props": {
       "name": "list",
       "blockClass": "grid__selector-list"
@@ -70,13 +62,17 @@
     ]
   },
   "rich-text#option-grid": {
+    "title": "Text Grid",
     "props": {
-      "text": "grid"
+      "text": "grid",
+      "blockClass": "option-grid"
     }
   },
   "rich-text#option-list": {
+    "title": "Text List",
     "props": {
-      "text": "list"
+      "text": "list",
+      "blockClass": "option-list"
     }
   }
 }

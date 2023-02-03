@@ -1,0 +1,23 @@
+{
+  "flex-layout.row#product__section-2-phone":{
+    "children": [
+      "flex-layout.row#product-info"
+    ]
+  },
+  "flex-layout.row#product-info":{
+    "children": [
+      "vtex.store-components:product-brand",
+      "vtex.store-components:product-name",
+      "product-rating-summary",
+      "product-price#product-details",
+      "product-quantity",
+      "sku-selector",
+      "product-separator",
+      "flex-layout.row#bank-promotions",
+      "product-separator",
+      "shipping-simulator",
+      "product-separator",
+      "share#default"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "flex-layout.row#product__section-2": {
+    "title": "Section 2 PDP",
+    "children": [
+      "flex-layout.col#product__section-2"
+    ],
+    "props": {
+      "blockClass": "container-row-section-2"
+    }
+  },
+  "flex-layout.col#product__section-2":{
+    "children": [
+      "rich-text#more-offers",      
+      "list-context.product-list#section-6"
+    ],
+    "props": {
+      "blockClass": "container-col-section-2"
+    }
+  },
+  "rich-text#more-offers": {
+    "title":"Text more offers",
+    "props": {
+      "text": " **Personas interesadas en este producto tambien vieron**",
+      "blockClass": "text-more-offers"
+    }
+  }
+}

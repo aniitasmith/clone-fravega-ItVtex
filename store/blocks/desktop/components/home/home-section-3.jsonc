@@ -1,6 +1,6 @@
 {
   "flex-layout.row#home__section-3": {
-    "title": "categorias",
+    "title": "Section 3 Categorias",
     "children": [
       "slider-layout#categorias"
     ],
@@ -8,7 +8,7 @@
       "blockClass": "container-section-3"
     }
   },
-"slider-layout#categorias": {
+  "slider-layout#categorias": {
     "title": "Slider categorias",
     "props": {
       "itemsPerPage": {
@@ -36,13 +36,14 @@
   },
   "flex-layout.row#categoria-1": {
     "children": [
-      "flex-layout.col#categoria-1"      
+      "flex-layout.col#categoria-1"
     ],
     "props": {
-      "blockClass":"contenedor-categoria"
+      "blockClass": "contenedor-categoria"
     }
   },
-  "flex-layout.col#categoria-1":{
+  "flex-layout.col#categoria-1": {
+    "title": "Categoria 1",
     "children": [
       "image#categoria-1",
       "rich-text#categoria-1"
@@ -50,13 +51,14 @@
   },
   "flex-layout.row#categoria-2": {
     "children": [
-      "flex-layout.col#categoria-2"      
+      "flex-layout.col#categoria-2"
     ],
     "props": {
-      "blockClass":"contenedor-categoria"
+      "blockClass": "contenedor-categoria"
     }
   },
-  "flex-layout.col#categoria-2":{
+  "flex-layout.col#categoria-2": {
+    "title": "Categoria 2",
     "children": [
       "image#categoria-2",
       "rich-text#categoria-2"
@@ -64,13 +66,14 @@
   },
   "flex-layout.row#categoria-3": {
     "children": [
-      "flex-layout.col#categoria-3"      
+      "flex-layout.col#categoria-3"
     ],
     "props": {
-      "blockClass":"contenedor-categoria"
+      "blockClass": "contenedor-categoria"
     }
   },
-  "flex-layout.col#categoria-3":{
+  "flex-layout.col#categoria-3": {
+    "title": "Categoria 3",
     "children": [
       "image#categoria-3",
       "rich-text#categoria-3"
@@ -78,13 +81,14 @@
   },
   "flex-layout.row#categoria-4": {
     "children": [
-      "flex-layout.col#categoria-4"      
+      "flex-layout.col#categoria-4"
     ],
     "props": {
-      "blockClass":"contenedor-categoria"
+      "blockClass": "contenedor-categoria"
     }
   },
-  "flex-layout.col#categoria-4":{
+  "flex-layout.col#categoria-4": {
+    "title": "Categoria 4",
     "children": [
       "image#categoria-4",
       "rich-text#categoria-4"
@@ -92,13 +96,14 @@
   },
   "flex-layout.row#categoria-5": {
     "children": [
-      "flex-layout.col#categoria-5"      
+      "flex-layout.col#categoria-5"
     ],
     "props": {
-      "blockClass":"contenedor-categoria"
+      "blockClass": "contenedor-categoria"
     }
   },
-  "flex-layout.col#categoria-5":{
+  "flex-layout.col#categoria-5": {
+    "title": "Categoria 5",
     "children": [
       "image#categoria-5",
       "rich-text#categoria-5"
@@ -106,13 +111,14 @@
   },
   "flex-layout.row#categoria-6": {
     "children": [
-      "flex-layout.col#categoria-6"      
+      "flex-layout.col#categoria-6"
     ],
     "props": {
-      "blockClass":"contenedor-categoria"
+      "blockClass": "contenedor-categoria"
     }
   },
-  "flex-layout.col#categoria-6":{
+  "flex-layout.col#categoria-6": {
+    "title": "Categoria 6",
     "children": [
       "image#categoria-6",
       "rich-text#categoria-6"
@@ -120,13 +126,14 @@
   },
   "flex-layout.row#categoria-7": {
     "children": [
-      "flex-layout.col#categoria-7"      
+      "flex-layout.col#categoria-7"
     ],
     "props": {
-      "blockClass":"contenedor-categoria"
+      "blockClass": "contenedor-categoria"
     }
   },
-  "flex-layout.col#categoria-7":{
+  "flex-layout.col#categoria-7": {
+    "title": "Categoria 7",
     "children": [
       "image#categoria-7",
       "rich-text#categoria-7"
@@ -134,13 +141,14 @@
   },
   "flex-layout.row#categoria-8": {
     "children": [
-      "flex-layout.col#categoria-8"      
+      "flex-layout.col#categoria-8"
     ],
     "props": {
-      "blockClass":"contenedor-categoria"
+      "blockClass": "contenedor-categoria"
     }
   },
-  "flex-layout.col#categoria-8":{
+  "flex-layout.col#categoria-8": {
+    "title": "Categoria 8",
     "children": [
       "image#categoria-8",
       "rich-text#categoria-8"
@@ -148,13 +156,14 @@
   },
   "flex-layout.row#categoria-9": {
     "children": [
-      "flex-layout.col#categoria-9"      
+      "flex-layout.col#categoria-9"
     ],
     "props": {
-      "blockClass":"contenedor-categoria"
+      "blockClass": "contenedor-categoria"
     }
   },
-  "flex-layout.col#categoria-9":{
+  "flex-layout.col#categoria-9": {
+    "title": "Categoria 9",
     "children": [
       "image#categoria-9",
       "rich-text#categoria-9"
@@ -162,13 +171,14 @@
   },
   "flex-layout.row#categoria-10": {
     "children": [
-      "flex-layout.col#categoria-10"      
+      "flex-layout.col#categoria-10"
     ],
     "props": {
-      "blockClass":"contenedor-categoria"
+      "blockClass": "contenedor-categoria"
     }
   },
-  "flex-layout.col#categoria-10":{
+  "flex-layout.col#categoria-10": {
+    "title": "Categoria 10",
     "children": [
       "image#categoria-10",
       "rich-text#categoria-10"
@@ -176,13 +186,14 @@
   },
   "flex-layout.row#categoria-11": {
     "children": [
-      "flex-layout.col#categoria-11"      
+      "flex-layout.col#categoria-11"
     ],
     "props": {
-      "blockClass":"contenedor-categoria"
+      "blockClass": "contenedor-categoria"
     }
   },
-  "flex-layout.col#categoria-11":{
+  "flex-layout.col#categoria-11": {
+    "title": "Categoria 11",
     "children": [
       "image#categoria-11",
       "rich-text#categoria-11"
@@ -190,185 +201,209 @@
   },
   "flex-layout.row#categoria-12": {
     "children": [
-      "flex-layout.col#categoria-12"      
+      "flex-layout.col#categoria-12"
     ],
     "props": {
-      "blockClass":"contenedor-categoria"
+      "blockClass": "contenedor-categoria"
     }
   },
-  "flex-layout.col#categoria-12":{
+  "flex-layout.col#categoria-12": {
+    "title": "Categoria 12",
     "children": [
       "image#categoria-12",
       "rich-text#categoria-12"
     ]
   },
-  
   "image#categoria-1": {
+    "title": "Imagen Categoria 1",
     "props": {
-    "src": "assets/img/tv.png",
-    "blockClass":"img-categoria"
+      "src": "assets/img/tv.png",
+      "blockClass": "img-categoria"
     }
   },
   "image#categoria-2": {
+    "title": "Imagen Categoria 2",
     "props": {
       "src": "assets/img/phone.png",
-    "blockClass":"img-categoria"
+      "blockClass": "img-categoria"
     }
   },
   "image#categoria-3": {
+    "title": "Imagen Categoria 3",
     "props": {
       "src": "assets/img/ac.png",
-      "blockClass":"img-categoria"
+      "blockClass": "img-categoria"
     }
   },
   "image#categoria-4": {
+    "title": "Imagen Categoria 4",
     "props": {
       "src": "assets/img/mattress.png",
-      "blockClass":"img-categoria"
+      "blockClass": "img-categoria"
     }
   },
   "image#categoria-5": {
+    "title": "Imagen Categoria 5",
     "props": {
       "src": "assets/img/fridge.png",
-      "blockClass":"img-categoria"
+      "blockClass": "img-categoria"
     }
   },
   "image#categoria-6": {
+    "title": "Imagen Categoria 6",
     "props": {
       "src": "assets/img/laptop.png",
-      "blockClass":"img-categoria"
+      "blockClass": "img-categoria"
     }
   },
   "image#categoria-7": {
+    "title": "Imagen Categoria 7",
     "props": {
       "src": "assets/img/washer.png",
-      "blockClass":"img-categoria"
+      "blockClass": "img-categoria"
     }
   },
   "image#categoria-8": {
+    "title": "Imagen Categoria 8",
     "props": {
       "src": "assets/img/drill.png",
-      "blockClass":"img-categoria"
+      "blockClass": "img-categoria"
     }
   },
   "image#categoria-9": {
+    "title": "Imagen Categoria 9",
     "props": {
       "src": "assets/img/kettle.png",
-      "blockClass":"img-categoria"
+      "blockClass": "img-categoria"
     }
   },
   "image#categoria-10": {
+    "title": "Imagen Categoria 10",
     "props": {
       "src": "assets/img/oven.png",
-      "blockClass":"img-categoria"
+      "blockClass": "img-categoria"
     }
   },
   "image#categoria-11": {
+    "title": "Imagen Categoria 11",
     "props": {
       "src": "assets/img/mixer.png",
-      "blockClass":"img-categoria"
+      "blockClass": "img-categoria"
     }
   },
   "image#categoria-12": {
+    "title": "Imagen Categoria 12",
     "props": {
       "src": "assets/img/ipl.png",
-      "blockClass":"img-categoria"
+      "blockClass": "img-categoria"
     }
   },
   "rich-text#categoria-1": {
+    "title": "Text Categoria 1",
     "props": {
       "blockClass": "txt-categoria",
-      "text": "[**Televisores**](/televisores)",
-      "textPosition":"CENTER",
+      "text": "[**Televisores**](/electrodomesticos)",
+      "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
-   },
-   "rich-text#categoria-2": {
+  },
+  "rich-text#categoria-2": {
+    "title": "Text Categoria 2",
     "props": {
       "blockClass": "txt-categoria",
       "text": "[**Celulares**](/celulares)",
-      "textPosition":"CENTER",
+      "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
-   },
-   "rich-text#categoria-3": {
+  },
+  "rich-text#categoria-3": {
+    "title": "Text Categoria 3",
     "props": {
       "blockClass": "txt-categoria",
-      "text": "[**Climatizacion**](/climatizacion)",
-      "textPosition":"CENTER",
+      "text": "[**Climatizacion**](/madera)",
+      "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
-   },
-   "rich-text#categoria-4": {
+  },
+  "rich-text#categoria-4": {
+    "title": "Text Categoria 4",
     "props": {
       "blockClass": "txt-categoria",
-      "text": "[**Colchones y Sommiers**](/Colchones-sommiers)",
-      "textPosition":"CENTER",
+      "text": "[**Colchones y Sommiers**](/mujer)",
+      "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
-   },
-   "rich-text#categoria-5": {
+  },
+  "rich-text#categoria-5": {
+    "title": "Text Categoria 5",
     "props": {
       "blockClass": "txt-categoria",
-      "text": "[**Heladeras, Freezers y Cavas**](/heladeras)",
-      "textPosition":"CENTER",
+      "text": "[**Heladeras, Freezers y Cavas**](/queso)",
+      "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
-   },
-   "rich-text#categoria-6": {
+  },
+  "rich-text#categoria-6": {
+    "title": "Text Categoria 6",
     "props": {
       "blockClass": "txt-categoria",
-      "text": "[**Notebooks**](/notebooks)",
-      "textPosition":"CENTER",
+      "text": "[**Notebooks**](/notebook)",
+      "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
-   },
-   "rich-text#categoria-7": {
+  },
+  "rich-text#categoria-7": {
+    "title": "Text Categoria 7",
     "props": {
       "blockClass": "txt-categoria",
-      "text": "[**Lavarropas y Lavavajillas**](/lavarropas-lavavajillas)",
-      "textPosition":"CENTER",
+      "text": "[**Lavarropas y Lavavajillas**](/techo)",
+      "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
-   },
-   "rich-text#categoria-8": {
+  },
+  "rich-text#categoria-8": {
+    "title": "Text Categoria 8",
     "props": {
       "blockClass": "txt-categoria",
       "text": "[**Herramientas Electricas**](/h-electricas)",
-      "textPosition":"CENTER",
+      "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
-   },
-   "rich-text#categoria-9": {
+  },
+  "rich-text#categoria-9": {
+    "title": "Text Categoria 9",
     "props": {
       "blockClass": "txt-categoria",
       "text": "[**Agua Caliente**](/a-caliente)",
-      "textPosition":"CENTER",
+      "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
-   },
-   "rich-text#categoria-10": {
+  },
+  "rich-text#categoria-10": {
+    "title": "Text Categoria 10",
     "props": {
       "blockClass": "txt-categoria",
       "text": "[**Cocinas y Hornos**](/cocinas)",
-      "textPosition":"CENTER",
+      "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
-   },
-   "rich-text#categoria-11": {
+  },
+  "rich-text#categoria-11": {
+    "title": "Text Categoria 11",
     "props": {
       "blockClass": "txt-categoria",
       "text": "[**Pequenos Electrodomesticos**](/p-electrodomesticos)",
-      "textPosition":"CENTER",
+      "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
-   },
-   "rich-text#categoria-12": {
+  },
+  "rich-text#categoria-12": {
+    "title": "Text Categoria 12",
     "props": {
       "blockClass": "txt-categoria",
       "text": "[**Cuidado Personal**](/cuidado-personal)",
-      "textPosition":"CENTER",
+      "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
-   }
+  }
 }

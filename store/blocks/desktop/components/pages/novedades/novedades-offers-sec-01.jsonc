@@ -1,0 +1,242 @@
+{
+  "flex-layout.row#novedades__offers-sec-1": {
+    "title": "Banner Novedades offers 1",
+    "children": [
+      "link#section-1-offer-1",
+      "link#section-1-offer-2",
+      "link#section-1-offer-3",
+      "link#section-1-offer-4"
+    ],
+    "props": {
+      "blockClass": "desktop__offers-section-novedades"
+    }
+  },
+  "link#section-1-offer-1": {
+    "title": "Link section 1",
+    "children": [
+      "flex-layout.col#offer-1"
+    ],
+    "props": {
+      "href": "/celulares",
+      "blockClass": "desktop__link-col-offers-section"
+    }
+  },
+  "flex-layout.col#offer-1": {
+    "children": [
+      "image#image-offer-1",
+      "rich-text#text-month-1",
+      "rich-text#text-title-offer-1",
+      "rich-text#description-offer-1",
+      "link#offer-1"
+    ],
+    "props": {
+      "blockClass": "desktop__container-col-offers-section"
+    }
+  },
+  "image#image-offer-1": {
+    "title": "img offer 1",
+    "props": {
+      "src": "assets/img/info-novedades-1.png",
+      "blockClass": "desktop__img-offers-section"
+    }
+  },
+  "rich-text#text-month-1": {
+    "title": "month offer 1",
+    "props": {
+      "text": "Noviembre",
+      "blockClass": "desktop__month-offers-section"
+    }
+  },
+  "rich-text#text-title-offer-1": {
+    "title": "title offer 1",
+    "props": {
+      "text": "**Disfrutá las ofertas especiales para el Cyber Monday.**",
+      "blockClass": "desktop__title-offers-section"
+    }
+  },
+  "rich-text#description-offer-1": {
+    "title": "text offer 1",
+    "props": {
+      "text": "Encontrá descuentos exclusivos y aprovechá la opción de retiro gratuito por sucursal en productos seleccionados.",
+      "blockClass": "desktop__description-offers-section"
+    }
+  },
+  "link#offer-1": {
+    "props": {
+      "href": "/celulares",
+      "label": "Ver ofertas Cyber Monday",
+      "blockClass": "desktop-link-offers"
+    }
+  },
+  "link#section-1-offer-2": {
+    "title": "Link section 2",
+    "children": [
+      "flex-layout.col#offer-2"
+    ],
+    "props": {
+      "href": "/celulares",
+      "blockClass": "desktop__link-col-offers-section"
+    }
+  },
+  "flex-layout.col#offer-2": {
+    "children": [
+      "image#image-offer-2",
+      "rich-text#text-month-2",
+      "rich-text#text-title-offer-2",
+      "rich-text#description-offer-2",
+      "link#offer-2"
+    ],
+    "props": {
+      "blockClass": "desktop__container-col-offers-section"
+    }
+  },
+  "image#image-offer-2": {
+    "title": "img offer 2",
+    "props": {
+      "src": "assets/img/info-novedades-2.png",
+      "blockClass": "desktop__img-offers-section"
+    }
+  },
+  "rich-text#text-month-2": {
+    "title": "month offer 2",
+    "props": {
+      "text": "Octubre",
+      "blockClass": "desktop__month-offers-section"
+    }
+  },
+  "rich-text#text-title-offer-2": {
+    "title": "title offer 2",
+    "props": {
+      "text": "**Promociones especiales para el Día de la Madre.**",
+      "blockClass": "desktop__title-offers-section"
+    }
+  },
+  "rich-text#description-offer-2": {
+    "title": "text offer 2",
+    "props": {
+      "text": "Comprá con los mejores precios, pagá en cuotas con todos los bancos y retirá gratis por tu sucursal más cercana.",
+      "blockClass": "desktop__description-offers-section"
+    }
+  },
+  "link#offer-2": {
+    "props": {
+      "href": "/celulares",
+      "label": "Ver ofertas Día de la Madre",
+      "blockClass": "desktop-link-offers"
+    }
+  },
+  "link#section-1-offer-3": {
+    "title": "Link section 3",
+    "children": [
+      "flex-layout.col#offer-3"
+    ],
+    "props": {
+      "href": "/celulares",
+      "blockClass": "desktop__link-col-offers-section"
+    }
+  },
+  "flex-layout.col#offer-3": {
+    "children": [
+      "image#image-offer-3",
+      "rich-text#text-month-3",
+      "rich-text#text-title-offer-3",
+      "rich-text#description-offer-3",
+      "link#offer-3"
+    ],
+    "props": {
+      "blockClass": "desktop__container-col-offers-section"
+    }
+  },
+  "image#image-offer-3": {
+    "title": "img offer 3",
+    "props": {
+      "src": "assets/img/info-novedades-3.png",
+      "blockClass": "desktop__img-offers-section"
+    }
+  },
+  "rich-text#text-month-3": {
+    "title": "month offer 3",
+    "props": {
+      "text": "Agosto",
+      "blockClass": "desktop__month-offers-section"
+    }
+  },
+  "rich-text#text-title-offer-3": {
+    "title": "title offer 3",
+    "props": {
+      "text": "**Encontrá regalos para el Día del Niño.**",
+      "blockClass": "desktop__title-offers-section"
+    }
+  },
+  "rich-text#description-offer-3": {
+    "title": "text offer 3",
+    "props": {
+      "text": "Conseguí ofertas en juguetes, tablets, celulares, notebooks y muchos regalos más para el Día del Niño.",
+      "blockClass": "desktop__description-offers-section"
+    }
+  },
+  "link#offer-3": {
+    "props": {
+      "href": "/celulares",
+      "label": "Mirá las ofertas del Día del Niño",
+      "blockClass": "desktop-link-offers"
+    }
+  },
+  "link#section-1-offer-4": {
+    "title": "Link section 4",
+    "children": [
+      "flex-layout.col#offer-4"
+    ],
+    "props": {
+      "href": "/celulares",
+      "blockClass": "desktop__link-col-offers-section"
+    }
+  },
+  "flex-layout.col#offer-4": {
+    "children": [
+      "image#image-offer-4",
+      "rich-text#text-month-4",
+      "rich-text#text-title-offer-4",
+      "rich-text#description-offer-4",
+      "link#offer-4"
+    ],
+    "props": {
+      "blockClass": "desktop__container-col-offers-section"
+    }
+  },
+  "image#image-offer-4": {
+    "title": "img offer 4",
+    "props": {
+      "src": "assets/img/info-novedades-4.png",
+      "blockClass": "desktop__img-offers-section"
+    }
+  },
+  "rich-text#text-month-4": {
+    "title": "month offer 4",
+    "props": {
+      "text": "Julio",
+      "blockClass": "desktop__month-offers-section"
+    }
+  },
+  "rich-text#text-title-offer-4": {
+    "title": "title offer 4",
+    "props": {
+      "text": "**¡Celebremos nuestra amistad!**",
+      "blockClass": "desktop__title-offers-section"
+    }
+  },
+  "rich-text#description-offer-4": {
+    "title": "text offer 4",
+    "props": {
+      "text": "Aprovechá nuestros descuentos en productos seleccionados para celebrar nuestra amistad.",
+      "blockClass": "desktop__description-offers-section"
+    }
+  },
+  "link#offer-4": {
+    "props": {
+      "href": "",
+      "label": "Ver ofertas Día del Amigo",
+      "blockClass": "desktop-link-offers"
+    }
+  }
+}

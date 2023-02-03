@@ -1,5 +1,6 @@
 {
   "flex-layout.row#home__section-8":{
+    "title": "Section 8 Slider",
     "children": [
       "flex-layout.col#home-container-section-8"
     ],
@@ -17,6 +18,7 @@
     }
   },
   "rich-text#home__section-8": {
+    "title": "Text Slider",
     "props":{
       "text":"**Todo lo Nuevo en Frávega**",
       "blockClass": "text-section-8"
@@ -34,6 +36,7 @@
     }      
   },
   "product-summary.shelf#home__section-8":{
+    "title": "Product Card",
     "children": [
       "stack-layout#summary-image",
       "product-summary-name",

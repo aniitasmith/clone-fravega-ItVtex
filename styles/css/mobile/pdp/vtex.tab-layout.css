@@ -1,0 +1,20 @@
+/* .listItemActive--tab-list{
+  text-decoration: solid;
+  border: white 5px solid;
+  border-color:  #7E47CC;
+} */
+
+.contentContainer--container-tab-content{
+  padding: 40px 90px;
+  font-family: "work-sans";
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+.contentContainer--container-tab-content{
+    padding: 0;
+    font-family: "work-sans";
+    margin-bottom: 30px;
+  }
+}
+

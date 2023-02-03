@@ -1,6 +1,6 @@
 {
   "header-layout.desktop#desktop__header":{
-    "title": "comp Header desktop",
+    "title": "Header desktop",
     "children": [
       "header-row#header__top",
       "header-row#header__middle",

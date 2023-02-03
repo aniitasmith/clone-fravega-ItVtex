@@ -1,0 +1,63 @@
+.flexRow--container-breadcrumb{
+  font-family: "work-sans";
+  font-weight: 400;
+  font-size: 13px;
+  color: #4a4a4a;
+}
+
+.flexCol--container-col-images{
+  max-width: 500px;
+  max-height: auto;
+}
+
+.flexRow--product__row-section-1{
+  border-top: 1px #afafaf solid;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0));
+}
+
+.flexCol--col-product-details{
+  max-width: 460px;
+  border: 1px solid rgb(218, 218, 218);
+  padding: 32px 24px 24px;
+  background-color: #ffffff;
+  border-radius: 2%;
+
+}
+
+.flexCol--container-col-bank-promotions{
+  margin: 10px 0;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "work-sans";
+}
+
+.flexRowContent--contaner-buy-button{
+  width: 250px;
+}
+
+.flexRow--contaner-buy-button{
+    display: flex;
+    justify-content:center;
+}
+
+.flexRow--container-row-section-2{
+  background-color: #f9f9f9;
+  padding-bottom: 30px;
+}
+
+.flexRowContent--contaner-buy-button :global(.vtex-button) {
+  background-color: #440099;
+  color: white;
+  font-weight: 700;
+  border: #440099;
+}
+
+@media only screen and (max-width: 767px) {
+  .flexRowContent--contaner-buy-button-phone :global(.vtex-button) {
+    background-color: #440099;
+    color: white;
+    font-weight: 700;
+    border: #440099;
+  }
+  
+}

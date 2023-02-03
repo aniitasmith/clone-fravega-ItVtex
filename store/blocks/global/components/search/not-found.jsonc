@@ -1,5 +1,6 @@
 {
   "store.not-found": {
+    "title": "not found",
     "children": [
       "flex-layout.row#text-not-found",
       "rich-text#text-avaliable",
@@ -12,6 +13,7 @@
     }
   },
   "flex-layout.row#text-not-found": {
+    "title": "Container Row 1",
     "children": [
       "rich-text#text-not-found",
       "image#not-found"
@@ -21,6 +23,7 @@
     }
   },
   "rich-text#text-not-found": {
+    "title": "Text Not found",
     "props": {
       "text": "**No se han encontrado resultados**",
       "textAlignment": "LEFT",
@@ -28,12 +31,14 @@
     }
   },
   "image#not-found": {
+    "title": "Image Not found",
     "props": {
       "src": "assets/img/not-found.png",
       "blockClass": "img-not-found"
     }
   },
   "rich-text#text-avaliable": {
+    "title": "Text otras ofertas",
     "props": {
       "text": "**Tal vez te interesen los siguientes productos**",
       "textAlignment": "CENTER",
@@ -41,10 +46,10 @@
     }
   },
   "flex-layout.row#products-avaliable":{
+    "title": "Container products avaliable",
     "children": ["list-context.product-list#section-6"],
     "props": {
       "blockClass": "container-section-6"
     }
-  }
-  
+  }  
 }

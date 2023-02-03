@@ -1,0 +1,12 @@
+{
+  "flex-layout.row#product__section-3-phone":{
+    "children": [
+      "flex-layout.col#product__tabs-phone"
+    ]
+  },
+  "flex-layout.col#product__tabs-phone":{
+    "children": [
+      "tab-layout#product__tabs"      
+    ]
+  }
+}

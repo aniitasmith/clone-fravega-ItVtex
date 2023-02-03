@@ -1,0 +1,34 @@
+{
+  "flex-layout.row#novedades__banner": {
+    "children": [
+      "flex-layout.col#novedades__banner"
+    ],
+    "props": {
+      "blockClass": "desktop__container-row-banner"
+    }
+  },
+  "flex-layout.col#novedades__banner": {
+    "title": "Banner Novedades",
+    "children": [
+      "rich-text#breadcrumb",
+      "rich-text#title-recommended"
+    ],
+    "props": {
+      "blockClass": "desktop__container-col-banner"
+    }
+  },
+  "rich-text#breadcrumb": {
+    "title": "Text Banner Breadcrumbs Novedades",
+    "props": {
+      "text": "Frávega > Novedades",
+      "blockClass": "desktop__breadcrumb-novedades"
+    }
+  },
+  "rich-text#title-recommended": {
+    "title": "Text Banner Novedades",
+    "props": {
+      "text": "**Nuestros Recomendados**",
+      "blockClass": "desktop__text-banner"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "flex-layout.row#home-mobile__section-3": {
-    "title": "categorias",
+    "title": "Section 3 MOBILE",
     "children": [
       "flex-layout.col#mobile__categoria-1",
       "flex-layout.col#mobile__categoria-2",

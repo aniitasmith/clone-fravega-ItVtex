@@ -1,12 +1,44 @@
 {
   "flex-layout.row#home__section-7": {
+    "title": "Section 7 Info card",
     "children": [
-      "flex-layout.col#section-7-fitness",
-      "flex-layout.col#section-7-electrodomesticos",
-      "flex-layout.col#section-7-electronicos"
+      "link#section-7-fitness",
+      "link#section-7-electrodomesticos",
+      "link#section-7-electronicos"
     ],
     "props": {
       "blockClass": "container-section-7"
+    }
+  },
+  "link#section-7-fitness": {
+    "title": "Link Fitness",
+    "children": [
+      "flex-layout.col#section-7-fitness"
+    ],
+    "props": {
+      "href": "/novedades",
+      "blockClass": "card-section-7"
+    }
+  },
+  "link#section-7-electrodomesticos": {
+    "title": "Link Electrodomesticos",
+
+    "children": [
+      "flex-layout.col#section-7-electrodomesticos"
+    ],
+    "props": {
+      "href": "/novedades",
+      "blockClass": "card-section-7"
+    }
+  },
+  "link#section-7-electronicos": {
+    "title": "Link Electronicos",
+    "children": [
+      "flex-layout.col#section-7-electronicos"
+    ],
+    "props": {
+      "href": "/novedades",
+      "blockClass": "card-section-7"
     }
   },
   "flex-layout.col#section-7-fitness": {
@@ -16,16 +48,17 @@
     ],
     "props": {
       "blockClass": "sale-section-7-fitness"
-
     }
   },
   "image#section-7-fitness": {
+    "title": "Img: Fitness",
     "props": {
       "src": "assets/img/electro-sale-50.png",
-      "blockClass":"img-section-7"
+      "blockClass": "img-section-7"
     }
   },
   "rich-text#section-7-fitness": {
+    "title": "Text: Fitness",
     "props": {
       "blockClass": "text-section-7",
       "text": "**Hasta 6 sin intereses y envio gratis en seleccionados de fitness.**"
@@ -41,12 +74,14 @@
     }
   },
   "image#section-7-electrodomesticos": {
+    "title": "Image: Electrodomesticos",
     "props": {
       "src": "assets/img/electro-sale-30.png",
-      "blockClass":"img-section-7"
+      "blockClass": "img-section-7"
     }
   },
   "rich-text#section-7-electrodomesticos": {
+    "title": "Text: electrodomesticos",
     "props": {
       "blockClass": "text-section-7",
       "text": "**Heladeras y pequenos electrodomesticos en hasta 6 sin interes.**"
@@ -63,12 +98,14 @@
     }
   },
   "image#section-7-electronicos": {
+    "title": "Image: electronicos",
     "props": {
       "src": "assets/img/electro-sale-20.png",
-      "blockClass":"img-section-7"
+      "blockClass": "img-section-7"
     }
   },
   "rich-text#section-7-electronicos": {
+    "title": "Text: electronicos",
     "props": {
       "blockClass": "text-section-7",
       "text": "**Notebooks,tablets,smartwatches y mucho mas en hasta 6 sin interes.**"

@@ -1,5 +1,6 @@
 {
   "flex-layout.row#home-mobile__section-5": {
+    "title": "Section 5 MOBILE",
     "children": [
       "info-card#mobile-section-5-oferta-1",
       "info-card#mobile-section-5-oferta-2"
@@ -15,7 +16,7 @@
       "headline": "DESCUBRILAS",
       "subhead": "No te pierdas las mejores ofertas al precio mas bajo.",
       "callToActionText": "VER MAS",
-      "callToActionUrl": "/sale-1",
+      "callToActionUrl": "/novedades",
       "blockClass": "mobile-info-card-oferta",
       "textAlignment": "right"
     }
@@ -27,7 +28,7 @@
       "headline": "FRAVEGA CASA",
       "subhead": "Hasta 40% off en colchones, muebles y articulos de decoracion seleccionados.",
       "callToActionText": "VER MAS",
-      "callToActionUrl": "/sale-2",
+      "callToActionUrl": "/novedades",
       "blockClass": "mobile-info-card-oferta",
       "textAlignment": "right"
     }

@@ -18,6 +18,7 @@
     }
   },
   "flex-layout.row#mobile__footer-top":{
+    "title": "Footer top mobile",
     "children": [
       "flex-layout.col#logo-and-social-media-mobile",
       "flex-layout.row#footer-info"
@@ -28,6 +29,7 @@
     }
   },
   "flex-layout.col#logo-and-social-media-mobile": {
+    "title": "Container Imagenes footer mobile",
     "children": [
       "logo#footer__mobile--logo",
       "flex-layout.col#social-media-mobile"
@@ -67,6 +69,7 @@
     }
   },
   "flex-layout.col#customer-support-mobile": {
+    "title": "Container cutumer support mobile",
     "children": [
       "rich-text#customer-support-line-1-mobile",
       "rich-text#customer-support-line-2-mobile",
@@ -81,48 +84,56 @@
     }
   },
   "rich-text#customer-support-line-1-mobile":{
+    "title": "Text customer support Line 1",
     "props":{
       "text":"Atencion al cliente",
       "blockClass": "text-footer-top"
     }
   },
    "rich-text#customer-support-line-2-mobile":{
+    "title": "Text customer support Line 2",
     "props":{
       "text":"**0800 122 0338**",
       "blockClass": "text-footer-top"
     }
   },
   "rich-text#customer-support-line-3-mobile":{
+    "title": "Text customer support Line 3",
     "props":{
       "text":"**0810 999 3728**",
       "blockClass": "text-footer-top"
     }
   },
   "rich-text#customer-support-line-4-mobile":{
+    "title": "Text customer support Line 4",
     "props":{
       "text":"LU-VI de 09:00 a 18:00",
       "blockClass": "text-footer-top-small"
     }
   },
   "rich-text#customer-support-line-5-mobile":{
+    "title": "Text customer support Line 5",
     "props":{
       "text":"SA de 9:00 a 13:00",
       "blockClass": "text-footer-top-small"
     }
   },
   "rich-text#customer-support-line-6-mobile":{
+    "title": "Text customer support Line 6",
     "props":{
       "text":"**Servicio a empresas**",
       "blockClass": "text-footer-top"
     }
   },
   "rich-text#customer-support-line-7-mobile":{
+    "title": "Text customer support Line 7",
     "props":{
       "text":"Venta corporativas",
       "blockClass": "text-footer-top"
     }
   },
   "flex-layout.col#credits-support-mobile":{
+    "title": "Container credits support",
     "children": [
       "rich-text#credits-support-line-1-mobile",
       "rich-text#credits-support-line-2-mobile"      
@@ -132,18 +143,21 @@
     }
   },
   "rich-text#credits-support-line-1-mobile":{
+    "title": "Text credits support Line 1",
     "props":{
       "text":"Cobranza de créditos:",
       "blockClass": "text-footer-top"
     }
   },
   "rich-text#credits-support-line-2-mobile":{
+    "title": "Text credits support Line 2",
     "props":{
       "text":"**cobranzas@fravega.com.ar**",
       "blockClass": "text-footer-top"
     }
   },
   "flex-layout.col#sales-support-mobile":{
+    "title": "Container sales support",
     "children": [
       "rich-text#sales-support-line-1-mobile",
       "rich-text#sales-support-line-2-mobile",
@@ -155,24 +169,28 @@
     }
   },
   "rich-text#sales-support-line-1-mobile":{
+    "title": "Text sales support Line 1",
     "props":{
       "text":"Venta telefónica:",
       "blockClass": "text-footer-top"
     }
   },
   "rich-text#sales-support-line-2-mobile":{
+    "title": "Text sales support Line 2",
     "props":{
       "text":"**0810 333 8700**",
       "blockClass": "text-footer-top"
     }
   },
   "rich-text#sales-support-line-3-mobile":{
+    "title": "Text sales support Line 3",
     "props":{
       "text":"LU-VI de 8:00 a 20:00",
       "blockClass": "text-footer-top-small"
     }
   },
   "rich-text#sales-support-line-4-mobile":{
+    "title": "Text sales support Line 4",
     "props":{
       "text":"SA-DO-Feriados 9:00 a 21:00",
       "blockClass": "text-footer-top-small"
@@ -183,11 +201,11 @@
     "props": {
       "url":"assets/img/fravega-logo.svg",
       "width": 150,
-      "href": "/",
       "blockClass": "logo-mobile"
   }
 },
   "flex-layout.row#mobile__footer-middle":{
+    "title": "Footer middle mobile",
     "children": [
       "flex-layout.col#mobile__promotions",
       "flex-layout.col#mobile__basic-menu",
@@ -202,6 +220,7 @@
     }
   },
   "flex-layout.col#mobile__promotions":{
+    "title": "Container promociones",
     "children":[
       "rich-text#mobile__promotions",
       "newsletter-form"
@@ -211,12 +230,14 @@
     }
   },
   "rich-text#mobile__promotions":{
+    "title": "text promociones",
     "props":{
       "text":"Recibi ofertas y promociones",
       "blockClass": "text-footer-middle"
     }
   },
   "newsletter-form": {
+    "title": "newsletter mobile",
     "children": [
       "newsletter-input-email",
       "newsletter-submit"
@@ -238,6 +259,7 @@
     }
   },
   "flex-layout.col#mobile__basic-menu":{
+    "title": "Container basic menu",
     "children": [
       "rich-text#mobile__basic-menu",
       "link#mobile__footer__middle--bm1",
@@ -250,12 +272,14 @@
     }
   },
   "rich-text#mobile__basic-menu":{
+    "title": "text Donde comprar",
     "props":{
       "text":"**Comprar en Fravega.com**",
       "blockClass": "text-footer-middle"
     }
   },
   "link#mobile__footer__middle--bm1": {
+    "title": "text servicio tecnico",
     "props": {
       "label": "servicio tecnico",
       "href": "/",
@@ -263,6 +287,7 @@
     }
   },
   "link#mobile__footer__middle--bm2": {
+    "title": "text Informacion Legal",
     "props": {
       "label": "Informacion legal",
       "href": "/",
@@ -270,6 +295,7 @@
     }
   },
   "link#mobile__footer__middle--bm3": {
+    "title": "text Boton de arrepentimiento",
     "props": {
       "label": "Boton de arrepentimiento",
       "href": "/",
@@ -277,6 +303,7 @@
     }
   },
   "link#mobile__footer__middle--bm4": {
+    "title": "text Proteccion de Usuarios Financieros",
     "props": {
       "label": "Proteccion de Usuarios Financieros",
       "href": "/",
@@ -284,6 +311,7 @@
     }
   },
   "flex-layout.col#mobile__credit-menu":{
+    "title": "Container credit menu",
     "children":[
       "rich-text#mobile__credit-menu",
       "link#mobile__footer__middle--cm1",
@@ -295,12 +323,14 @@
     }
   },
   "rich-text#mobile__credit-menu":{
+    "title": "text Fravega Creditos",
     "props":{
       "text":"**Fravega Creditos**",
       "blockClass": "text-footer-middle"
     }
   },
   "link#mobile__footer__middle--cm1": {
+    "title": "Link Paga online",
     "props": {
       "label": "Paga Online",
       "href": "/",      
@@ -308,13 +338,15 @@
     }
   },
   "link#mobile__footer__middle--cm2": {
+    "title": "Link Catalogo exclusivo",
     "props": {
       "label": "Catalogo exclusivo",
-      "href": "/",
+      "href": "/novedades",
       "blockClass":"link-footer-middle-mobile"
     }
   },
   "link#mobile__footer__middle--cm3": {
+    "title": "Link Condiciones",
     "props": {
       "label": "Condiciones",
       "href": "/",
@@ -322,6 +354,7 @@
     }
   },
   "flex-layout.col#mobile__recomendations":{
+    "title": "Container Recomendados",
     "children": [
       "rich-text#mobile__recomendations",
       "link#mobile__footer__middle--rec1",
@@ -335,47 +368,54 @@
     }
   },
   "rich-text#mobile__recomendations":{
+    "title": "Text Recomendados",
     "props":{
       "text":"**Recomendados**",
       "blockClass": "text-footer-middle"
     }
   },
   "link#mobile__footer__middle--rec1": {
+    "title": "Link 1",
     "props": {
       "label": "Smart TV",
-      "href": "/",
+      "href": "/electrodomesticos",
       "blockClass":"link-footer-middle-mobile"
     }
   },
   "link#mobile__footer__middle--rec2": {
+    "title": "Link 2",
     "props": {
       "label": "Celulares",
-      "href": "/",
+      "href": "/celulares",
       "blockClass":"link-footer-middle-mobile"
     }
   },
   "link#mobile__footer__middle--rec3": {
+    "title": "Link 3",
     "props": {
       "label": "Aire acondicionado",
-      "href": "/",
+      "href": "/electrodomesticos",
       "blockClass":"link-footer-middle-mobile"
     }
   },
   "link#mobile__footer__middle--rec4": {
+    "title": "Link 4",
     "props": {
       "label": "Novedades",
-      "href": "/",
+      "href": "/novedades",
       "blockClass":"link-footer-middle-mobile"
     }
   },
   "link#mobile__footer__middle--rec5": {
+    "title": "Link 5",
     "props": {
       "label": "Mas vendidos Marketplace",
-      "href": "/",
+      "href": "/novedades",
       "blockClass":"link-footer-middle-mobile"
     }
   },
   "flex-layout.col#mobile__help":{
+    "title": "Container mobile help",
     "children": [
       "rich-text#mobile__help",
       "link#mobile__footer__middle--h1",
@@ -389,12 +429,14 @@
     }
   },
   "rich-text#mobile__help":{
+    "title": "text Ayuda",
     "props":{
       "text":"**Ayuda**",
       "blockClass": "text-footer-middle"
     }
   },
   "link#mobile__footer__middle--h1": {
+    "title": "link centro de Ayuda",
     "props": {
       "label": "Centro de ayuda",
       "href": "/",
@@ -402,6 +444,7 @@
     }
   },
   "link#mobile__footer__middle--h2": {
+    "title": "link Contactanos",
     "props": {
       "label": "Contactanos",
       "href": "/",
@@ -409,6 +452,7 @@
     }
   },
   "link#mobile__footer__middle--h3": {
+    "title": "link Sucursales",
     "props": {
       "label": "Sucursales",
       "href": "/",
@@ -416,6 +460,7 @@
     }
   },
   "link#mobile__footer__middle--h4": {
+    "title": "link Vende en Fravega",
     "props": {
       "label": "Vende en Fravega",
       "href": "/",
@@ -423,6 +468,7 @@
     }
   },
   "link#mobile__footer__middle--h5": {
+    "title": "link Trabaja con nosotros",
     "props": {
       "label": "Trabaja con nosotros",
       "href": "/",
@@ -430,6 +476,7 @@
     }
   },
   "flex-layout.col#mobile__benefits":{
+    "title": "Container beneficios",
     "children": [
       "rich-text#mobile__benefits",
       "link#mobile__footer__middle--b1",
@@ -442,12 +489,14 @@
     }
   },
   "rich-text#mobile__benefits":{
+    "title": "text beneficios",
     "props":{
       "text":"**Beneficios**",
       "blockClass": "text-footer-middle"
     }
   },
   "link#mobile__footer__middle--b1": {
+    "title": "Link 1",
     "props": {
       "label": "Club Personal",
       "href": "/",      
@@ -455,6 +504,7 @@
     }
   },
   "link#mobile__footer__middle--b2": {
+    "title": "Link 2",
     "props": {
       "label": "YPF",
       "href": "/",
@@ -462,6 +512,7 @@
     }
   },
   "link#mobile__footer__middle--b3": {
+    "title": "Link 3",
     "props": {
       "label": "365",
       "href": "/",
@@ -469,6 +520,7 @@
     }
   },
   "link#mobile__footer__middle--b4": {
+    "title": "Link 4",
     "props": {
       "label": "Club Movistar",
       "href": "/",
@@ -476,6 +528,7 @@
     }
   },
   "flex-layout.row#footer-bottom":{
+    "title": "Footer bottom mobile",
     "children": [
       "rich-text#copyright-mobile"
     ],
@@ -484,6 +537,7 @@
     }
   },
   "rich-text#copyright-mobile":{
+    "title": "Text Copyright",
     "props": {
       "text": "Copyright 2021 | Todos los derechos reservados Fravega.com.",
       "blockClass": "text-footer-mobile"
