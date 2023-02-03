@@ -25,18 +25,18 @@
       "not-found"
     ]
   },
-  "search-result-layout.desktop": {
-    "title": "PLP Desktop",
-    "children": [
-      "rich-text#desktop-response"
-    ]
-  },
-  "search-result-layout.mobile": {
-    "title": "PLP Desktop",
-    "children": [
-      "rich-text#mobile-response"
-    ]
-  },
+  // "search-result-layout.desktop": {
+  //   "title": "PLP Desktop",
+  //   "children": [
+  //     "rich-text#desktop-response"
+  //   ]
+  // },
+  // "search-result-layout.mobile": {
+  //   "title": "PLP Desktop",
+  //   "children": [
+  //     "rich-text#mobile-response"
+  //   ]
+  // },
   "filter-navigator.v3": {
     "props": {
       "navigationTypeOnMobile": "collapsible"
