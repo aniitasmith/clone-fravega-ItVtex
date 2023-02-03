@@ -55,7 +55,8 @@
     "vtex.add-to-cart-button": "0.x",
     "vtex.product-price": "1.x",
     "vtex.product-specifications": "1.x",
-    "vtex.product-comparison": "0.x"
+    "vtex.product-comparison": "0.x",
+    "itgloberspartnercl.whatsapp-button": "0.x"
   },
   "peerDependencies": {
     "vtex.mega-menu": "2.x",

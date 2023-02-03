@@ -2,9 +2,17 @@
   "store.home": {
     "title": "Home",
     "blocks": [
+      "whatsapp-button",
       "responsive-layout.desktop#desktop__home",
       "responsive-layout.tablet#tablet__home",
       "responsive-layout.phone#phone__home"
     ]
+  },
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/img/whatsapp-logo.png",
+      "phone": "77777777",
+      "message": "prueba prueba"
+    }
   }
 }
