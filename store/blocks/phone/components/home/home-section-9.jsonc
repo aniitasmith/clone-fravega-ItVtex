@@ -18,7 +18,7 @@
       "callToActionText": "VER MAS",
       "callToActionUrl": "/sale-3",
       "blockClass": "mobile-info-card-oferta-section-9",
-      "textAlignment": "rigth"
+      "textAlignment": "right"
     }
   },
   "info-card#mobile-section-9-oferta-2":{
@@ -30,7 +30,7 @@
       "callToActionText": "VER MAS",
       "callToActionUrl": "/sale-2",
       "blockClass": "mobile-info-card-oferta-section-9",
-      "textAlignment": "rigth"
+      "textAlignment": "right"
     }
-  }  
-} 
+  }
+}
