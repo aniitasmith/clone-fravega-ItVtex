@@ -9,14 +9,107 @@
       "list-context.bullet-group"
     ]
   },
-  "list-context.bullet-group": {
+   "list-context.bullet-group": {
+    "title": "Bullet Group Component",
+    "children": ["slider-layout#bullet-group"],
     "props": {
-      "bullets": {
-        "image":"image.png",
-        "titleBullet":"Computadoras",
-        "link":{
-          "url": "/"}
-      }
+      "bullets": [
+        {
+          "image":"assets/img/tv.png",
+          "titleBullet":"Televisores",
+          "link":{
+            "url": "/electrodomesticos"
+          }
+        },
+        {
+          "image":"assets/img/phone.png",
+          "titleBullet":"Celulares",
+          "link":{
+            "url": "/celulares"
+          }
+        },
+        {
+          "image":"assets/img/ac.png",
+          "titleBullet":"Climatizacion",
+          "link":{
+            "url": "/madera"
+          }
+        },
+        {
+          "image":"assets/img/mattress.png",
+          "titleBullet":"Colchones y Sommiers",
+          "link":{
+            "url": "/mujer"
+          }
+        },
+        {
+          "image":"assets/img/fridge.png",
+          "titleBullet":"Heladeras, Freezers y Cavas",
+          "link":{
+            "url": "/queso"
+          }
+        },
+        {
+          "image":"assets/img/laptop.png",
+          "titleBullet":"Notebooks",
+          "link":{
+            "url": "/notebook"
+          }
+        },
+        {
+          "image":"assets/img/washer.png",
+          "titleBullet":"Lavarropas y Lavavajillas",
+          "link":{
+            "url": "/techo"
+          }
+        },
+        {
+          "image":"assets/img/drill.png",
+          "titleBullet":"Herramientas Electricas",
+          "link":{
+            "url": "/h-electricas"
+          }
+        },
+        {
+          "image":"assets/img/kettle.png",
+          "titleBullet":"Agua Caliente",
+          "link":{
+            "url": "/a-caliente"
+          }
+        },
+        {
+          "image":"assets/img/oven.png",
+          "titleBullet":"Cocinas y Hornos",
+          "link":{
+            "url": "/cocinas"
+          }
+        },
+        {
+          "image":"assets/img/mixer.png",
+          "titleBullet":"Pequenos Electrodomesticos",
+          "link":{
+            "url": "/p-electrodomestico"
+          }
+        },
+        {
+          "image":"assets/img/ipl.png",
+          "titleBullet":"Cuidado Personal",
+          "link":{
+            "url": "/cuidado-personal"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullet-group":{
+    "title": "Slider de bullets",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 4
+      },
+      "infinite": true,
+      "showPaginationDots": "never"
     }
   }
 }
