@@ -4,7 +4,22 @@
     "children": [
       "flex-layout.row#product__section-1",
       "flex-layout.row#product__section-2",
-      "flex-layout.row#product__section-3" 
+      "flex-layout.row#product__section-3",
+      "modal-trigger#add-to-cart-info"
       ]
-  } 
+  },
+  "modal-trigger#add-to-cart-info":{
+    "children": [
+      "modal-layout#add-to-cart-info"
+    ],
+    "props": {
+      "trigger": "load-session",
+      "customPixelEventName": "addToCart"
+    }
+  },
+  "modal-layout#add-to-cart-info":{
+    "children": [
+      "add-to-cart-info"
+    ]
+  }
 }
