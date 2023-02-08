@@ -4,7 +4,8 @@
     "children": [
       "flex-layout.row#novedades__phone--banner",
       "flex-layout.row#novedades__title-offers",
-      "flex-layout.row#novedades__phone--offers"
+      "flex-layout.row#novedades__phone--offers",
+      "flex-layout.row#bullet-group"
     ]
   }
 }
