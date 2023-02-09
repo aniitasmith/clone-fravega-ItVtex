@@ -5,7 +5,8 @@
       "flex-layout.row#novedades__phone--banner",
       "flex-layout.row#novedades__title-offers",
       "flex-layout.row#novedades__phone--offers",
-      "flex-layout.row#bullet-group"
+      "flex-layout.row#home-mobile__section-3"
+      // "flex-layout.row#bullet-group"
     ]
   }
 }
