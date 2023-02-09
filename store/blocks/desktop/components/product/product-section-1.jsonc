@@ -84,8 +84,7 @@
       "shipping-simulator",
       "product-separator",
       "flex-layout.row#buy-button-pdp",
-      "share#default",
-      "add-to-cart-info"
+      "share#default"
     ]
   },
   "product-price#product-details": {
