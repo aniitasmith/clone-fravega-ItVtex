@@ -4,7 +4,8 @@
       "flex-layout.row#product__section-1-phone",
       "flex-layout.row#product__section-2-phone",
       "flex-layout.row#product__section-3-phone",
-      "flex-layout.row#product__buy-button-pdp-phone"
+      "flex-layout.row#product__buy-button-pdp-phone",
+      "modal-trigger#add-to-cart-info"
       ]
   } ,
   "flex-layout.row#product__buy-button-pdp-phone":{

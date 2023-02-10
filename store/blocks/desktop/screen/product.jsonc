@@ -9,6 +9,7 @@
       ]
   },
   "modal-trigger#add-to-cart-info":{
+    "title": "Modal Trigger Product",
     "children": [
       "modal-layout#add-to-cart-info"
     ],
@@ -18,15 +19,26 @@
     }
   },
   "modal-layout#add-to-cart-info":{
+    "title": "Modal layout Product",
+    "props": {
+      "blockClass":"product__modal-layout"
+    },
     "children": [
       "modal-header#add-to-cart-info",
+      "rich-text#modal-add-to-car-info",
       "add-to-cart-info"
     ]
   },
   "modal-header#add-to-cart-info":{
     "props": {
       "showCloseButton": true
-
+    }
+  },
+  "rich-text#modal-add-to-car-info":{
+    "props": {
+      "text": "Tu carrito actualmente tiene...",
+      "textAlignment": "LEFT",
+      "blockClass": "modal_title-add-to-cart"
     }
   }
 }
