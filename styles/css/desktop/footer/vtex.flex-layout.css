@@ -41,8 +41,8 @@
   justify-content: space-around;
 }
 
-.flexCol--container-text-footer-middle {
-  min-width: 15rem;
+.flexRowContent--container-footer-middle-desktop {
+  justify-content: space-between;
 }
 
 .flexCol--bigger {
