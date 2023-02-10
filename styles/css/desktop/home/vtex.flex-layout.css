@@ -1,6 +1,10 @@
 .flexRow--container-section-2 {
-  width : 70%;
+  min-width : 1090px;
   margin: 8px auto;
+}
+
+.flexRowContent--container-section-2 {
+  min-width : 1000px;
 }
 
 .flexCol--container-metodos-pago {
