@@ -1,0 +1,14 @@
+.headerContainer {
+  margin-left: auto;
+  border: none;
+}
+
+.paperScrollContent {
+  width: 500px;
+}
+
+@media (min-width: 768px) {
+ .paperScrollContent {
+  height: 400px;
+ }
+}
