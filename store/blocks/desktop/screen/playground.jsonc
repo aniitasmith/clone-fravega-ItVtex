@@ -1,0 +1,57 @@
+{
+  "responsive-layout.desktop#desktop__playground":{
+    "children": [
+      "flex-layout.row#component--department-search-custom",
+      "flex-layout.row#component--first-list-context",
+      "flex-layout.row#component--bullet-group-context"
+    ]
+  },
+  "flex-layout.row#component--department-search-custom":{
+    "children": [
+      "flex-layout.col#component--department-search-custom"
+    ]
+  },
+  "flex-layout.row#component--first-list-context":{
+    "children": [
+      "flex-layout.col#component--first-list-context"
+    ]
+  },
+  "flex-layout.row#component--bullet-group-context":{
+    "children": [
+      "flex-layout.col#component--bullet-group-context"
+    ]
+  },
+  "flex-layout.col#component--department-search-custom":{
+    "children": [
+      "rich-text#cmponent01",
+      "department-search"
+    ]
+  },
+  "flex-layout.col#component--first-list-context":{
+    "children": [
+      "rich-text#cmponent02",
+      "flex-layout.row#home__section-3"
+    ]
+  },
+  "flex-layout.col#component--bullet-group-context":{
+    "children": [
+      "rich-text#cmponent03",
+      "flex-layout.row#bullet-group"
+    ]
+  },
+  "rich-text#cmponent01":{
+    "props": {
+      "text": "Department Search Custom Component"
+    }
+  },
+  "rich-text#cmponent02":{
+    "props": {
+      "text": "Original List Contex to home"
+    }
+  },
+  "rich-text#cmponent03":{
+    "props": {
+      "text": "List Context created with Bullet group"
+    }
+  }
+}
