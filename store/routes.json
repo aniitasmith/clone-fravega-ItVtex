@@ -1,5 +1,8 @@
 {
   "store.custom#novedades":{
     "path": "/novedades"
-  }
+  },
+  "store.custom#playground":{
+    "path": "/playground"
+}
 }
