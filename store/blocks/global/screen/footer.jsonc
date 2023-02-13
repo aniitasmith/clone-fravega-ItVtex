@@ -7,10 +7,17 @@
   },
   "footer-layout.desktop": {
     "title": "Footer desktop",
-    "children": ["flex-layout.row#footer-desktop"]
+    "children": ["flex-layout.row#footer-desktop","whatsapp-button" ]
   },
   "footer-layout.mobile": {
     "title": "Footer Mobile",
-    "children": ["flex-layout.row#footer-mobile"]
+    "children": ["flex-layout.row#footer-mobile", "whatsapp-button"]
+  },
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/img/whatsapp-logo.png",
+      "phone": "641",
+      "message": "Me interasa consultar sobre el producto: "
+    }
   }
 }

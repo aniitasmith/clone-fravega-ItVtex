@@ -3,7 +3,8 @@
     "children": [
       "flex-layout.row#product__section-1",
       "flex-layout.row#product__section-2",
-      "flex-layout.row#product__section-3" 
+      "flex-layout.row#product__section-3",
+      "modal-trigger#add-to-cart-info"
       ]
   }
 }

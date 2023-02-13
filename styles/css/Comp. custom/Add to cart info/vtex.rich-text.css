@@ -1,0 +1,18 @@
+.paragraph--modal_title-add-to-cart{
+  color: rgb(0,106,253);
+  font-weight: bold;
+  font-size: 1.6em;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .paragraph--modal_title-add-to-cart {
+  color: rgb(0,106,253);
+  font-weight: bold;
+  font-size: 1.4em;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  }
+
+}
