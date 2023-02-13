@@ -3,7 +3,8 @@
     "children": [
       "flex-layout.row#component--department-search-custom",
       "flex-layout.row#component--first-list-context",
-      "flex-layout.row#component--bullet-group-context"
+      "flex-layout.row#component--bullet-group-context",
+      "flex-layout.row#component--pdf-reader"
     ]
   },
   "flex-layout.row#component--department-search-custom":{
@@ -19,6 +20,11 @@
   "flex-layout.row#component--bullet-group-context":{
     "children": [
       "flex-layout.col#component--bullet-group-context"
+    ]
+  },
+  "flex-layout.row#component--pdf-reader":{
+    "children": [
+      "flex-layout.col#component--pdf-reader"
     ]
   },
   "flex-layout.col#component--department-search-custom":{
@@ -39,6 +45,12 @@
       "flex-layout.row#bullet-group"
     ]
   },
+  "flex-layout.col#component--pdf-reader":{
+    "children": [
+      "rich-text#cmponent04",
+      "pdf-reader"
+    ]
+  },
   "rich-text#cmponent01":{
     "props": {
       "text": "Department Search Custom Component"
@@ -52,6 +64,18 @@
   "rich-text#cmponent03":{
     "props": {
       "text": "List Context created with Bullet group"
+    }
+  },
+  "rich-text#cmponent04":{
+    "props": {
+      "text": "PDF Reader Component"
+    }
+  },
+  "pdf-reader":{
+    "props": {
+      "pdfURL":"assets/documents/sample.pdf" ,
+      "width": 500,
+      "height":800
     }
   }
 }
