@@ -1,5 +1,6 @@
 {
   "responsive-layout.tablet#tablet_novedades": {
+    "title": "Novedades page tablet",
     "children": [
       "flex-layout.row#novedades__banner",
       "flex-layout.row#novedades__title-offers",

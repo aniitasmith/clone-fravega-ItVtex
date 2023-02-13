@@ -1,13 +1,11 @@
 {
   "responsive-layout.desktop#desktop__novedades": {
-    "title": "Custom Desktop",
+    "title": "Novedades Desktop",
     "children": [
       "flex-layout.row#novedades__banner",
       "flex-layout.row#novedades__title-offers",
       "flex-layout.row#novedades__offers-sec-1",
-      "flex-layout.row#novedades__offers-sec-2",
-      "flex-layout.row#home__section-3"
-      // "flex-layout.row#bullet-group"
+      "flex-layout.row#novedades__offers-sec-2"
     ]
   }
 }
