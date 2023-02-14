@@ -4,7 +4,8 @@
       "flex-layout.row#component--department-search-custom",
       "flex-layout.row#component--first-list-context",
       "flex-layout.row#component--bullet-group-context",
-      "flex-layout.row#component--pdf-reader"
+      "flex-layout.row#component--pdf-reader",
+      "flex-layout.row#component--quick-order"
     ]
   },
   "flex-layout.row#component--department-search-custom":{
@@ -25,6 +26,11 @@
   "flex-layout.row#component--pdf-reader":{
     "children": [
       "flex-layout.col#component--pdf-reader"
+    ]
+  },
+  "flex-layout.row#component--quick-order":{
+    "children": [
+      "flex-layout.col#component--quick-order"
     ]
   },
   "flex-layout.col#component--department-search-custom":{
@@ -51,6 +57,12 @@
       "pdf-reader"
     ]
   },
+  "flex-layout.col#component--quick-order":{
+    "children": [
+      "rich-text#cmponent05",
+      "quick-order"
+    ]
+  },
   "rich-text#cmponent01":{
     "props": {
       "text": "Department Search Custom Component"
@@ -69,6 +81,11 @@
   "rich-text#cmponent04":{
     "props": {
       "text": "PDF Reader Component"
+    }
+  },
+  "rich-text#cmponent05": {
+    "props": {
+      "text": "Quick Order Component"
     }
   },
   "pdf-reader":{
