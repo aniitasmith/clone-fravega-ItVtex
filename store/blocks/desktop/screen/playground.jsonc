@@ -59,8 +59,8 @@
   },
   "flex-layout.col#component--quick-order":{
     "children": [
-      "rich-text#cmponent05",
-      "quick-order"
+      "rich-text#cmponent05"
+      // "quick-order"
     ]
   },
   "rich-text#cmponent01":{
