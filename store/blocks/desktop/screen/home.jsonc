@@ -12,7 +12,15 @@
       "flex-layout.row#home__section-6",
       "flex-layout.row#home__section-7",
       "flex-layout.row#home__section-8",
-      "flex-layout.row#home__section-9"
+      "flex-layout.row#home__section-9",
+      "whatsapp-button"
     ]
+  },
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/img/whatsapp-logo.png",
+      "phone": "641",
+      "message": "Me interasa consultar sobre el producto: "
+    }
   }
 }

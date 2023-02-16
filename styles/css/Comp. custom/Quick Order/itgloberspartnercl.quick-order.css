@@ -1,0 +1,41 @@
+.contaner_quick-order{
+  padding-left: 15px;
+}
+
+.text_quick-order{
+  font-family: "work-sans";
+}
+
+.container_input-form {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.input-form{
+  width: 50%;
+  border: 2px solid #654BB9;
+  border-radius: 4px;
+  height: 40px;
+}
+
+.text_input-form{
+  width: 100%;
+  font-family: 'work-sans';
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.button_submit{
+  border-radius: 5px;
+  background-color: #440099;
+  border: #440099;
+  color: white;
+  font-family: 'work-sans';
+  font-weight: 700;
+  font-size: 16px;
+  height: 45px;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
