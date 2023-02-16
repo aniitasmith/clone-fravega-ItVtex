@@ -4,5 +4,8 @@
   },
   "store.custom#playground":{
     "path": "/playground"
-}
+},
+  "store.custom#pdf-reader":{
+    "path": "/pdf-reader"
+  }
 }
