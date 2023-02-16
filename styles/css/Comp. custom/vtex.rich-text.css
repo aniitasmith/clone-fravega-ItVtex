@@ -1,0 +1,14 @@
+.paragraph--text-components-custom {
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  font-family: "work-sans";
+  color: rgb(0,0,0);
+  border-bottom: 2px solid rgb(181, 176, 176);
+}
+
+.container--text-components-custom {
+  padding-top: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
