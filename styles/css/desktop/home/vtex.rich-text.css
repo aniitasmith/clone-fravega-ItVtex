@@ -53,6 +53,9 @@
   margin     : 10px 10px;
 }
 
+.container--text-section-7{
+  height: 50px;
+}
 .strong--text-section-7 {
   font-size     : 16px;
   line-height   : 1.44;
