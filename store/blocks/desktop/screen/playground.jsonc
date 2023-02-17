@@ -96,36 +96,46 @@
   },
    "custom-grid":{
     "children": [
-      "rich-text#custom-grid-1",
-      "rich-text#custom-grid-2",
-      "rich-text#custom-grid-3",
-      "rich-text#custom-grid-4",
-      "rich-text#custom-grid-5"
+      "image#custom-grid-1",
+      "image#custom-grid-2",
+      "image#custom-grid-3",
+      "image#custom-grid-4",
+      "image#custom-grid-5"
     ]
   },
-  "rich-text#custom-grid-1":{
+  "image#custom-grid-1":{
     "props": {
-      "text": "Grilla 1"
+      "src": "assets/img/Esis-Headers_M58.png",
+      "blockClass":"img_grid_1",
+      "title": "Img_grid-1"
     }
   },
-  "rich-text#custom-grid-2":{
+  "image#custom-grid-2":{
     "props": {
-      "text": "Grilla 2"
+      "src": "assets/img/Esis-Tablets.png",
+      "blockClass":"img_grid_1",
+      "title": "Img_grid-2"
     }
   },
-  "rich-text#custom-grid-3":{
+  "image#custom-grid-3":{
     "props": {
-      "text": "Grilla 3"
+      "src": "assets/img/Esis-Hogar.png",
+      "blockClass":"img_grid_1",
+      "title": "Img_grid-3"
     }
   },
-  "rich-text#custom-grid-4":{
+  "image#custom-grid-4":{
     "props": {
-      "text": "Grilla 4"
+      "src": "assets/img/Esis-Smartphones3.png",
+      "blockClass":"img_grid_1",
+      "title": "Img_grid-4"
     }
   },
-  "rich-text#custom-grid-5":{
+  "image#custom-grid-5":{
     "props": {
-      "text": "Grilla 5"
+      "src": "assets/img/Esis-TV.png",
+      "blockClass":"img_grid_1",
+      "title": "Img_grid-5"
     }
   }
 }

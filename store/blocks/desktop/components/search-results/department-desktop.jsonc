@@ -37,7 +37,9 @@
     "title": "Container-Filter-navigator",
     "children": [
       "filter-navigator.v3",
-      "quick-order"
+      "quick-order",
+      "department-search"
+
     ],
     "props": {
       "blockClass": "container-category-filter"

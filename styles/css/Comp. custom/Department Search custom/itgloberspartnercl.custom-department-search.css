@@ -1,6 +1,6 @@
 .container-department-search-custom {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-content: center;
   justify-content: flex-start;
   align-items: center;
@@ -12,9 +12,10 @@
   border-top: 2px solid #654BB9;
   border-bottom: 2px solid #654BB9;
   border-left: 2px solid #654BB9;
+  border-radius: 4px;
   height: 38px;
-  width:10%;
+  width:40%;
 }
 .autoCompleteOuterContainer{
-  width: 40%;
+  width: 80%;
 }
