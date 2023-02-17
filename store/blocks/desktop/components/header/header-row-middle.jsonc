@@ -93,7 +93,8 @@
       "showPasswordVerificationIntoTooltip": true,
       "showIconProfile": true,
       "iconLabel": " Mi cuenta",
-      "blockClass": "header-login"
+      "blockClass": "header-login",
+      "hideIconLabel": true
     }
   },
   "minicart.v2#home": {
