@@ -2,38 +2,9 @@
   "store.custom#pdf-reader": {
     "title": "PDF Reader Page",
     "blocks": [
-      "responsive-layout.desktop#pdf-reader__desktop"
-      // "responsive-layout.mobile#pdf-reader__tablet"
+      "responsive-layout.desktop#pdf-reader__desktop",
+      "responsive-layout.mobile#pdf-reader__mobile"
+
     ]
-  },
-  "responsive-layout.desktop#pdf-reader__desktop":{
-    "children":[
-      "flex-layout.row#component--pdf-reader"
-    ]
-  },
-  "flex-layout.row#component--pdf-reader":{
-    "children": [
-      "flex-layout.col#component--pdf-reader"
-    ]
-  },
-  "flex-layout.col#component--pdf-reader":{
-    "children": [
-      "rich-text#cmponent04",
-      "pdf-reader"
-    ]
-  },
-  "rich-text#cmponent04":{
-    "title":" Title PDF Reader Page",
-    "props": {
-      "text": "PDF Reader Component",
-      "blockClass": "text-components-custom"
-    }
-  },
-  "pdf-reader":{
-    "props": {
-      "pdfURL":"assets/documents/sample.pdf" ,
-      "width": "100%",
-      "height":"800"
-    }
-}
+  }
 }
