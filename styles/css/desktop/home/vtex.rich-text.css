@@ -59,3 +59,10 @@
   letter-spacing: -0.5px;
   color         : black;
 }
+
+@media screen and (max-width: 1024px) {
+  .paragraph--text-section-7 {
+    padding: 0 0.5em;
+    line-height: 1;
+  }
+}

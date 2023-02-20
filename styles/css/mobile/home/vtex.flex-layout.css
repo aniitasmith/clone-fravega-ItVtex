@@ -138,6 +138,7 @@
     width      : auto;
     padding-top: 30px;
     margin     : 0px auto;
+    justify-content: space-between;
   }
 
   .flexRow--container-section-7 {
