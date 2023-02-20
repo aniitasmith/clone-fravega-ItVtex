@@ -1,0 +1,10 @@
+{
+  "store.custom#pdf-reader": {
+    "title": "PDF Reader Page",
+    "blocks": [
+      "responsive-layout.desktop#pdf-reader__desktop",
+      "responsive-layout.mobile#pdf-reader__mobile"
+
+    ]
+  }
+}

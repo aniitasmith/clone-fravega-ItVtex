@@ -34,15 +34,17 @@
     display        : flex;
     justify-content: space-between;
     margin         : 20px auto 30px;
+    gap             : 1%;
   }
 
   .flexCol--desktop__container-col-offers-section {
     background-color: rgb(242, 242, 242);
     border-radius   : 2px;
-    width           : 150px;
+    width           : 100%;
     height          : 600px;
     padding         : 17px;
     align-items     : center;
     text-align      : center;
+    margin          : 0;
   }
 }

@@ -1,6 +1,6 @@
 {
   "responsive-layout.phone#phone_novedades": {
-    "title": "Custom Phone",
+    "title": "novedades page Phone",
     "children": [
       "flex-layout.row#novedades__phone--banner",
       "flex-layout.row#novedades__title-offers",

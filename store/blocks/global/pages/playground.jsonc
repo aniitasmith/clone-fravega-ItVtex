@@ -1,0 +1,9 @@
+{
+  "store.custom#playground": {
+    "title": "Playground page fravega",
+    "blocks": [
+      "responsive-layout.desktop#desktop__playground",
+      "responsive-layout.mobile#mobile__playground"
+    ]
+  }
+}

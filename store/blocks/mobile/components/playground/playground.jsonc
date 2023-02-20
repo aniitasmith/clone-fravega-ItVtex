@@ -1,0 +1,12 @@
+{
+  "responsive-layout.mobile#mobile__playground":{
+    "children": [
+      "flex-layout.row#component--department-search-custom",
+      "flex-layout.row#component--first-list-context",
+      "flex-layout.row#component--bullet-group-context",
+      "flex-layout.row#component--quick-order",
+      "flex-layout.row#component--special-diagramation",
+      "whatsapp-button"
+    ]
+  }
+}

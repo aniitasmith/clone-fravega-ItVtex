@@ -1,0 +1,42 @@
+{
+  "responsive-layout.desktop#pdf-reader__desktop":{
+    "children":[
+
+      "flex-layout.row#component--custom-grid",
+      "flex-layout.row#component--pdf-reader"
+    ]
+  },
+  "flex-layout.row#component--custom-grid":{
+    "children": [
+      "custom-grid"
+    ],
+    "props": {
+      "blockClass": "component--custom-grid"
+    }
+  },
+  "flex-layout.row#component--pdf-reader":{
+    "children": [
+      "flex-layout.col#component--pdf-reader"
+    ]
+  },
+  "flex-layout.col#component--pdf-reader":{
+    "children": [
+      "rich-text#cmponent04",
+      "pdf-reader"
+    ]
+  },
+  "rich-text#cmponent04":{
+    "title": " Title PDF Reader Page",
+    "props": {
+      "text": "Catalogo Exclusivo Fravega",
+      "blockClass": "text-components-custom"
+    }
+  },
+  "pdf-reader":{
+    "props": {
+      "pdfURL":"assets/documents/sample.pdf" ,
+      "width": "100%",
+      "height":"800"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "responsive-layout.mobile#pdf-reader__mobile":{
+    "children":[
+      "flex-layout.row#component--pdf-reader"
+    ]
+  }
+}

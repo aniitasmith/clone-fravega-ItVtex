@@ -6,8 +6,12 @@
       "link#header__bottom-1",
       "link#header__bottom--2",
       "link#header__bottom--3",
+      "link#header__bottom--4",
+      "link#header__bottom--5",
+
+
       "header-spacer",
-      "link#header__bottom--4"
+      "link#header__bottom--6"
     ],
     "props":{
       "blockClass":"header__bottom"
@@ -80,6 +84,22 @@
     }
   },
   "link#header__bottom--4": {
+    "title": "Catalogo PDF",
+    "props": {
+      "label": "Catalogo PDF",
+      "href": "/pdf-reader",
+      "blockClass":"categoria-menu"
+    }
+  },
+  "link#header__bottom--5": {
+    "title": "Playground",
+    "props": {
+      "label": "Playground",
+      "href": "/playground",
+      "blockClass":"categoria-menu"
+    }
+  },
+  "link#header__bottom--6": {
     "title": "Link: Tienda samsung",
     "props": {
       "label": "tienda samsung",

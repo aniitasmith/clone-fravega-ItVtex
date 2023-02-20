@@ -1,6 +1,6 @@
 {
   "store.custom#novedades": {
-    "title": "Custom page fravega",
+    "title": "Novedades page fravega",
     "blocks": [
       "responsive-layout.desktop#desktop__novedades",
       "responsive-layout.tablet#tablet_novedades",

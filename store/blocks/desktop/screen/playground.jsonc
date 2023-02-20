@@ -1,0 +1,141 @@
+{
+  "responsive-layout.desktop#desktop__playground":{
+    "children": [
+      "flex-layout.row#component--department-search-custom",
+      "flex-layout.row#component--first-list-context",
+      "flex-layout.row#component--bullet-group-context",
+      "flex-layout.row#component--quick-order",
+      "flex-layout.row#component--special-diagramation",
+      "whatsapp-button"
+    ]
+  },
+  "flex-layout.row#component--department-search-custom":{
+    "children": [
+      "flex-layout.col#component--department-search-custom"
+    ]
+  },
+  "flex-layout.row#component--first-list-context":{
+    "children": [
+      "flex-layout.col#component--first-list-context"
+    ]
+  },
+  "flex-layout.row#component--bullet-group-context":{
+    "children": [
+      "flex-layout.col#component--bullet-group-context"
+    ]
+  },
+  "flex-layout.row#component--quick-order":{
+    "children": [
+      "flex-layout.col#component--quick-order"
+    ]
+  },
+  "flex-layout.row#component--special-diagramation":{
+    "children": [
+      "flex-layout.col#component--special-diagramation"
+    ]
+  },
+  "flex-layout.col#component--department-search-custom":{
+    "children": [
+      "rich-text#cmponent01",
+      "department-search"
+    ]
+  },
+  "flex-layout.col#component--first-list-context":{
+    "children": [
+      "rich-text#cmponent02",
+      "flex-layout.row#home__section-3"
+    ]
+  },
+  "flex-layout.col#component--bullet-group-context":{
+    "children": [
+      "rich-text#cmponent03",
+      "flex-layout.row#bullet-group"
+    ]
+  },
+  "flex-layout.col#component--quick-order":{
+    "children": [
+      "rich-text#cmponent05",
+      "quick-order"
+    ]
+  },
+  "flex-layout.col#component--special-diagramation":{
+    "children": [
+      "rich-text#cmponent06",
+      "custom-grid"
+    ]
+  },
+  "rich-text#cmponent01":{
+    "props": {
+      "text": "Department Search Custom Component",
+      "blockClass": "text-components-custom"
+    }
+  },
+  "rich-text#cmponent02":{
+    "props": {
+      "text": "Original List Context to home",
+      "blockClass": "text-components-custom"
+    }
+  },
+  "rich-text#cmponent03":{
+    "props": {
+      "text": "List Context created with Bullet group",
+      "blockClass": "text-components-custom"
+    }
+  },
+  "rich-text#cmponent05": {
+    "props": {
+      "text": "Quick Order Component",
+      "blockClass": "text-components-custom"
+    }
+  },
+  "rich-text#cmponent06": {
+    "props": {
+      "text": "Special diagramation Component",
+      "blockClass": "text-components-custom"
+    }
+  },
+   "custom-grid":{
+    "children": [
+      "image#custom-grid-1",
+      "image#custom-grid-2",
+      "image#custom-grid-3",
+      "image#custom-grid-4",
+      "image#custom-grid-5"
+    ]
+  },
+  "image#custom-grid-1":{
+    "props": {
+      "src": "assets/img/Esis-Headers_M58.png",
+      "blockClass":"img_grid_1",
+      "title": "Img_grid-1"
+    }
+  },
+  "image#custom-grid-2":{
+    "props": {
+      "src": "assets/img/Esis-Tablets.png",
+      "blockClass":"img_grid_2",
+      "title": "Img_grid-2"
+    }
+  },
+  "image#custom-grid-3":{
+    "props": {
+      "src": "assets/img/Esis-Hogar.png",
+      "blockClass":"img_grid_3",
+      "title": "Img_grid-3"
+    }
+  },
+  "image#custom-grid-4":{
+    "props": {
+      "src": "assets/img/Esis-Smartphones3.png",
+      "blockClass":"img_grid_4",
+      "title": "Img_grid-4"
+    }
+  },
+  "image#custom-grid-5":{
+    "props": {
+      "src": "assets/img/Esis-TV.png",
+      "blockClass":"img_grid_5",
+      "title": "Img_grid-5"
+    }
+  }
+}

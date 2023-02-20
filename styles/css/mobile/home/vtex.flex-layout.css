@@ -20,11 +20,13 @@
 }
 
 .flexRowContent--mobile-container-section-5 {
-  width: 374px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .flexRowContent--mobile-container-section-9 {
-  width: 374px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .flexRow--mobile-container-section-5 {
@@ -92,6 +94,11 @@
   padding: 8px;
 }
 
+.flexRowContent--row-modal-bottom{
+  display: flex;
+  flex-direction: row;
+}
+
 .flexColChild--col-green-modal-bottom{
   align-items: center;
   display: flex;
@@ -100,7 +107,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .flexRowContent--mobile-container-section-2 {
-    width: 100vw;
+    width: 100%;
   }
 
   .flexColChild--mobile-metodos-pago {
@@ -124,7 +131,6 @@
   }
 
   .flexRowContent--container-section-5 {
-    width : auto;
     margin: 0px auto;
   }
 
@@ -137,6 +143,7 @@
     width      : auto;
     padding-top: 30px;
     margin     : 0px auto;
+    justify-content: space-between;
   }
 
   .flexRow--container-section-7 {
@@ -145,7 +152,6 @@
   }
 
   .flexRowContent--container-section-9 {
-    width : auto;
     margin: 0px auto;
   }
 }
