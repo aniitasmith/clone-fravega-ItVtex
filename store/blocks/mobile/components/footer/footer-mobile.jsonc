@@ -8,7 +8,7 @@
     }
   },
   "flex-layout.col#container__footer-mobile":{
-    "children": [ 
+    "children": [
       "flex-layout.row#mobile__footer-top",
       "flex-layout.row#mobile__footer-middle",
       "flex-layout.row#footer-bottom"
@@ -75,9 +75,9 @@
       "rich-text#customer-support-line-2-mobile",
       "rich-text#customer-support-line-3-mobile",
       "rich-text#customer-support-line-4-mobile",
-      "rich-text#customer-support-line-5-mobile",    
-      "rich-text#customer-support-line-6-mobile",     
-      "rich-text#customer-support-line-7-mobile"     
+      "rich-text#customer-support-line-5-mobile",
+      "rich-text#customer-support-line-6-mobile",
+      "rich-text#customer-support-line-7-mobile"
     ],
     "props": {
       "blockClass":"container-text-footer-top-mobile"
@@ -136,7 +136,7 @@
     "title": "Container credits support",
     "children": [
       "rich-text#credits-support-line-1-mobile",
-      "rich-text#credits-support-line-2-mobile"      
+      "rich-text#credits-support-line-2-mobile"
     ],
     "props": {
       "blockClass":"container-text-footer-top-mobile"
@@ -152,7 +152,7 @@
   "rich-text#credits-support-line-2-mobile":{
     "title": "Text credits support Line 2",
     "props":{
-      "text":"**cobranzas@fravega.com.ar**",
+      "text":"**cobros@fravega.com.ar**",
       "blockClass": "text-footer-top"
     }
   },
@@ -162,7 +162,7 @@
       "rich-text#sales-support-line-1-mobile",
       "rich-text#sales-support-line-2-mobile",
       "rich-text#sales-support-line-3-mobile",
-      "rich-text#sales-support-line-4-mobile"        
+      "rich-text#sales-support-line-4-mobile"
     ],
     "props": {
       "blockClass":"container-text-footer-top-mobile"
@@ -333,7 +333,7 @@
     "title": "Link Paga online",
     "props": {
       "label": "Paga Online",
-      "href": "/",      
+      "href": "/",
       "blockClass":"link-footer-middle-mobile"
     }
   },
@@ -499,7 +499,7 @@
     "title": "Link 1",
     "props": {
       "label": "Club Personal",
-      "href": "/",      
+      "href": "/",
       "blockClass":"link-footer-middle-mobile"
     }
   },

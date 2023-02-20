@@ -23,3 +23,7 @@
 .minicartTitle--minicart-base-content {
   color: rgb(0, 106, 253);
 }
+
+.minicartProductListContainer{
+  max-height: 300px;
+}

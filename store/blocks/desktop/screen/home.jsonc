@@ -19,8 +19,10 @@
   "whatsapp-button": {
     "props": {
       "logo": "assets/img/whatsapp-logo.png",
-      "phone": "641",
-      "message": "Me interasa consultar sobre el producto: "
+      "phone": "64112312345",
+      "message": "Me interasa consultar sobre el producto:",
+      "width":"100px",
+      "height":"100px"
     }
   }
 }

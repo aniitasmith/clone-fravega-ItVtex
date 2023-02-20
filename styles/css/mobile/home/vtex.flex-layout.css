@@ -92,6 +92,11 @@
   padding: 8px;
 }
 
+.flexRowContent--row-modal-bottom{
+  display: flex;
+  flex-direction: row;
+}
+
 .flexColChild--col-green-modal-bottom{
   align-items: center;
   display: flex;
