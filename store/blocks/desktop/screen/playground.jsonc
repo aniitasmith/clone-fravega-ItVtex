@@ -113,28 +113,28 @@
   "image#custom-grid-2":{
     "props": {
       "src": "assets/img/Esis-Tablets.png",
-      "blockClass":"img_grid_1",
+      "blockClass":"img_grid_2",
       "title": "Img_grid-2"
     }
   },
   "image#custom-grid-3":{
     "props": {
       "src": "assets/img/Esis-Hogar.png",
-      "blockClass":"img_grid_1",
+      "blockClass":"img_grid_3",
       "title": "Img_grid-3"
     }
   },
   "image#custom-grid-4":{
     "props": {
       "src": "assets/img/Esis-Smartphones3.png",
-      "blockClass":"img_grid_1",
+      "blockClass":"img_grid_4",
       "title": "Img_grid-4"
     }
   },
   "image#custom-grid-5":{
     "props": {
       "src": "assets/img/Esis-TV.png",
-      "blockClass":"img_grid_1",
+      "blockClass":"img_grid_5",
       "title": "Img_grid-5"
     }
   }
