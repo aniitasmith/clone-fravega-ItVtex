@@ -2,6 +2,8 @@
   height     : auto;
   align-items: center;
   align-self : center;
+  max-width: 160px !important;
+
 }
 
 .imageElement--img-coin-section-2 {

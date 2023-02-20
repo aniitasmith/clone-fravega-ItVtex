@@ -21,7 +21,7 @@
 }
 
 .flexRowContent--container-section-3 {
-  width         : 90%;
+  width         : 95%;
   margin        : 0 auto;
   padding-top   : 60px;
   padding-bottom: 30px;
@@ -33,7 +33,7 @@
 }
 
 .flexRowContent--container-section-4 {
-  width         : 90%;
+  width         : 95%;
   margin        : 0 auto;
   padding-top   : 30px;
   padding-bottom: 30px;
@@ -46,7 +46,6 @@
 
 .flexRow--container-section-5 {
   background-color: #f5f5f5;
-  padding         : auto 164px;
   margin          : 0px auto;
 }
 
@@ -65,7 +64,7 @@
 
 .flexRowContent--container-section-6,
 .flexRowContent--container-section-8 {
-  width         : 90%;
+  width         : 95%;
   margin        : 0 auto;
   padding-top   : 30px;
   padding-bottom: 30px;
@@ -73,12 +72,11 @@
 
 .flexRow--container-section-7 {
   background-color: #f5f5f5;
-  padding         : auto 164px;
   margin          : 0px auto;
 }
 
 .flexRowContent--container-section-7 {
-  width      : 90%;
+  width      : 95%;
   padding-top: 30px;
   margin     : 0px auto;
 }
@@ -94,7 +92,7 @@
 }
 
 .flexRowContent--container-section-8 {
-  width         : 90%;
+  width         : 95%;
   margin        : 0 auto;
   padding-top   : 30px;
   padding-bottom: 30px;
