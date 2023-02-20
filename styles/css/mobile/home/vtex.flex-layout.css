@@ -20,11 +20,13 @@
 }
 
 .flexRowContent--mobile-container-section-5 {
-  width: 374px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .flexRowContent--mobile-container-section-9 {
-  width: 374px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .flexRow--mobile-container-section-5 {
@@ -129,7 +131,6 @@
   }
 
   .flexRowContent--container-section-5 {
-    width : auto;
     margin: 0px auto;
   }
 
@@ -142,6 +143,7 @@
     width      : auto;
     padding-top: 30px;
     margin     : 0px auto;
+    justify-content: space-between;
   }
 
   .flexRow--container-section-7 {
@@ -150,7 +152,6 @@
   }
 
   .flexRowContent--container-section-9 {
-    width : auto;
     margin: 0px auto;
   }
 }

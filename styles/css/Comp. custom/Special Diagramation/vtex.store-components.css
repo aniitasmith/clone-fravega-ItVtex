@@ -1,0 +1,9 @@
+@media screen and (max-width: 1024px) {
+  .imageElement--img_grid_2,
+  .imageElement--img_grid_3,
+  .imageElement--img_grid_4,
+  .imageElement--img_grid_5 {
+    height: auto;
+    width: 50%;
+  }
+}

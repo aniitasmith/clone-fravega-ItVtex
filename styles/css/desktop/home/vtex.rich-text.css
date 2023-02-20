@@ -3,7 +3,7 @@
   padding    : 10px;
   color      : #000000;
   font-weight: 400;
-  font-size  : 14px;
+  font-size  : 13px;
 }
 
 .link--text-section-2{
@@ -61,4 +61,11 @@
   line-height   : 1.44;
   letter-spacing: -0.5px;
   color         : black;
+}
+
+@media screen and (max-width: 1024px) {
+  .paragraph--text-section-7 {
+    padding: 0 0.5em;
+    line-height: 1;
+  }
 }

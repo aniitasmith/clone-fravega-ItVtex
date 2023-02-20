@@ -49,11 +49,11 @@
   margin          : 0px auto;
 }
 
-.flexRowContent--container-section-5 {
-  width : 95%;
+.flexRowContent--container-section-5,
+.flexRowContent--container-section-9 {
+  width : 90%;
   margin: 0px auto;
-  display: flex;
-  gap: 5%;
+  gap: 2%;
 }
 
 .flexRow--container-section-6,
@@ -100,19 +100,16 @@
 
 .flexColChild--sale-section-7-fitness {
   box-shadow      : rgb(0 0 0 / 8%) 0px 2px 4px 0px;
-  margin          : 0 14px 0 0;
   background-color: #ffffff;
 }
 
 .flexColChild--sale-section-7-electrodomesticos {
   box-shadow      : rgb(0 0 0 / 8%) 0px 2px 4px 0px;
-  margin          : 0 14px;
   background-color: #ffffff;
 }
 
 .flexColChild--sale-section-7-electronicos {
   box-shadow      : rgb(0 0 0 / 8%) 0px 2px 4px 0px;
-  margin          : 0 0 0 14px;
   background-color: #ffffff;
 }
 
@@ -127,7 +124,9 @@
   min-width: 346.85px;
 }
 
-.flexRowContent--container-section-9 {
-  width : 95%;
-  margin: 0px auto;
+@media screen and (max-width: 1024px) {
+  .flexRowContent--container-section-5,
+  .flexRowContent--container-section-9 {
+    gap: 1%;
+  }
 }

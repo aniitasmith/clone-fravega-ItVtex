@@ -1,3 +1,8 @@
-.link--card-section-7{
+.link--card-section-7 {
   text-decoration: none;  
+}
+
+.childrenContainer--card-section-7 {
+  width: 95%;
+  min-height: 190px;
 }

@@ -3,7 +3,7 @@
   padding: 10px;
   color: #000000;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .text-creditos-section-2{
@@ -51,13 +51,13 @@
 
 /* tablet */
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .container--mobile-text-metodo-pago {
     border-right: none
   }
   
   .strong--text-section-7 {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .container--text-section-4 {
