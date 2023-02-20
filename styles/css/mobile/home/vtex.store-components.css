@@ -59,10 +59,10 @@
 }
 
 .infoCardContainer--mobile-info-card-oferta {
-  margin    : 0 0 25px 25px;
-  padding   : 20px;
-  display   : flex;
-  box-shadow: rgb(0 0 0 / 8%) 0px 2px 4px 0px;
+  margin-bottom : 25px;
+  padding       : 20px;
+  display       : flex;
+  box-shadow    : rgb(0 0 0 / 8%) 0px 2px 4px 0px;
 }
 
 .infoCardImageContainer--mobile-info-card-oferta-section-9 {
@@ -110,18 +110,15 @@
 }
 
 .infoCardContainer--mobile-info-card-oferta-section-9 {
-  margin    : 0 0 25px 0;
-  padding   : 20px;
-  display   : flex;
-  box-shadow: rgb(0 0 0 / 8%) 0px 2px 4px 0px;
+  margin-bottom : 25px;
+  padding       : 20px;
+  display       : flex;
+  box-shadow    : rgb(0 0 0 / 8%) 0px 2px 4px 0px;
 }
 
-.infoCardTextContainer--mobile-info-card-oferta {
-  width: 40vw;
-}
-
+.infoCardTextContainer--mobile-info-card-oferta,
 .infoCardTextContainer--mobile-info-card-oferta-section-9 {
-  width: 60vw;
+  width: 40vw;
 }
 
 .imageElement--mobile-img-section-7 {
@@ -129,11 +126,12 @@
   height: auto;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
   .infoCardTextContainer--info-card-oferta,
   .infoCardTextContainer--info-card-oferta-section-9 {
     width: 60%;
+    height: 238px;
   }
 
   .infoCardHeadline--info-card-oferta,
@@ -156,5 +154,6 @@
   .infoCardImage--info-card-oferta-section-9 {
     width : auto;
     height: auto;
+    object-fit: contain !important;
   }
 }

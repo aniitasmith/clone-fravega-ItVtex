@@ -50,9 +50,11 @@
   margin          : 0px auto;
 }
 
-.flexRowContent--container-section-5 {
+.flexRowContent--container-section-5,
+.flexRowContent--container-section-9 {
   width : 90%;
   margin: 0px auto;
+  gap: 2%;
 }
 
 .flexRow--container-section-6,
@@ -127,7 +129,9 @@
   min-width: 346.85px;
 }
 
-.flexRowContent--container-section-9 {
-  width : 90%;
-  margin: 0px auto;
+@media screen and (max-width: 1024px) {
+  .flexRowContent--container-section-5,
+  .flexRowContent--container-section-9 {
+    gap: 1%;
+  }
 }
